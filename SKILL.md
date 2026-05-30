@@ -12,7 +12,7 @@ Philosophy: 获取官方第一手信息，不要第三方解读信息。
 ## 数据来源
 
 数据随仓库分发，`git pull` 即可获取最新预抓取数据。数据包含：
-- **X/Twitter**（25 位 AI builder 的推文）
+- **X/Twitter**（24 位 AI builder 的推文）
 - **官方博客**（OpenAI, Google AI Blog, Google DeepMind, Meta Engineering, Cohere, Hugging Face, Anthropic）
 - **播客节目**（Latent Space, No Priors, Practical AI, The AI Breakdown, Lex Fridman）
 
