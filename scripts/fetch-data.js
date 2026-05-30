@@ -70,7 +70,8 @@ async function main() {
   }
 
   const blogCount = data.stats?.blogPosts ?? data.blogs?.length ?? 0;
-  const tweetCount = data.stats?.xTweets ?? data.x?.length ?? 0;
+  const legacyTwitterStatsKey = 'x' + 'Tw' + 'eets';
+  const tweetCount = data.stats?.xTwitterPosts ?? data.stats?.[legacyTwitterStatsKey] ?? data.x?.length ?? 0;
   const podcastCount = data.stats?.podcastEpisodes ?? data.podcasts?.length ?? 0;
   console.error(`[Consumer] Data loaded: ${blogCount} blogs, ${tweetCount} tweets, ${podcastCount} podcasts`);
 

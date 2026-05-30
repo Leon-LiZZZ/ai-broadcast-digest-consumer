@@ -46,7 +46,7 @@ JSON 字段: `config`, `blogs`, `x` (X/Twitter posts), `podcasts`, `xAccounts`, 
 
 ### Step 2: Check for content
 
-If `stats.blogPosts` is 0 AND `stats.xTweets` is 0 AND `stats.podcastEpisodes` is 0,
+If `stats.blogPosts` is 0 AND `stats.xTwitterPosts` is 0 AND `stats.podcastEpisodes` is 0,
 tell the user: "No new updates today. Check back tomorrow!" Then stop.
 
 ### Step 3: Review X/Twitter content

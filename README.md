@@ -58,7 +58,7 @@ Latent Space, No Priors, Practical AI, The AI Breakdown, Lex Fridman
 |------|------|------|
 | `date` | string | 日期，格式 `YYYY-MM-DD` |
 | `config` | object | 配置，`language: "auto"` 表示智能双语 |
-| `stats` | object | 统计：`blogPosts`, `xTweets`, `xAccounts`, `podcastEpisodes`, `podcastSources` |
+| `stats` | object | 统计：`blogPosts`, `xTwitterPosts`, `xAccounts`, `podcastEpisodes`, `podcastSources` |
 | `blogs` | array | 博客文章列表 |
 | `x` | array | 推文列表 |
 | `podcasts` | array | 播客节目列表 |
