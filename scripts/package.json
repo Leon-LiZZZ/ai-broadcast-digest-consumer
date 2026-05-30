@@ -1,0 +1,10 @@
+{
+  "name": "ai-broadcast-digest-consumer",
+  "version": "1.0.0",
+  "description": "AI Broadcast Digest Consumer — generate HTML reports from pre-fetched AI news data",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-data.js",
+    "report": "node generate-html.js"
+  }
+}
