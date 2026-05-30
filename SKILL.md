@@ -41,7 +41,7 @@ cd ${SKILL_DIR}/scripts
 node fetch-data.js "--output=${DIGEST_DIR}/fb-feed.json"
 ```
 
-JSON 字段: `config`, `blogs`, `x` (tweets), `xAccounts`, `stats`, `prompts`, `errors`
+JSON 字段: `config`, `blogs`, `x` (X/Twitter posts), `xAccounts`, `stats`, `prompts`, `errors`
 
 ### Step 2: Check for content
 
@@ -50,13 +50,13 @@ tell the user: "No new updates today. Check back tomorrow!" Then stop.
 
 ### Step 3: Review X/Twitter content
 
-The tweets are in the `x` field of the JSON output. Review for substantive content (original opinions, insights, product announcements, technical discussions). **Skip**: mundane personal tweets, retweets without commentary, promotional content.
+The X/Twitter posts are in the `x` field of the JSON output. Review for substantive content (original opinions, insights, product announcements, technical discussions). **Skip**: mundane personal posts, retweets without commentary, promotional content.
 
 ### Step 4: Remix content
 
 Read the prompts from the `prompts` field:
 - `prompts.digest_intro` — overall framing rules
-- `prompts.summarize_twitter` — how to remix tweets
+- `prompts.summarize_twitter` — how to remix X/Twitter posts
 - `prompts.summarize_blogs` — how to remix blog posts
 - `prompts.translate` — how to translate to Chinese
 

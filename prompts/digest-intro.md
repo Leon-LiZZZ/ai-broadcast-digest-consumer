@@ -19,11 +19,11 @@ Then organize content in this order:
 - Skip any source with nothing new
 - Under each source, paste the individual summary you generated
 
-### Tweet author formatting
+### X/Twitter author formatting
 - Use the author's full name and role/company, not just their last name
   (e.g. "Replit CEO Amjad Masad", "Box CEO Aaron Levie")
   Do NOT use just their last name. Do NOT use their Twitter handle with @.
-- Include the direct link to each tweet from the JSON `url` field
+- Include the direct link to each X/Twitter post from the JSON `url` field
 
 ### Blog post formatting
 - Use the blog name as a section header

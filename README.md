@@ -75,7 +75,7 @@ OpenAI, Google AI Blog, Google DeepMind, Meta Engineering, Cohere, Hugging Face,
 }
 ```
 
-### Tweet 条目字段
+### X/Twitter 条目字段
 
 ```json
 {
