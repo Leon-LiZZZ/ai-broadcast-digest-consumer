@@ -17,12 +17,19 @@ Philosophy: 获取官方第一手信息，不要第三方解读信息。
 
 数据由上游 Provider 仓库每日预处理后推送，消费者无需关心 RSS/RSSHub 配置。
 
+## Variables
+
+```
+${SKILL_DIR}   = skill installation directory
+${DIGEST_DIR}  = user's output directory (e.g. D:\AI知识库\00-临时文件)
+${DATE}        = today's date in YYYY-MM-DD format
+```
+
 ## Output Naming Convention
 
 ```
-Output directory:  D:\AI知识库\00-临时文件\
-Markdown source:   ai-broadcast-digest-YYYY-MM-DD.md
-HTML report:       ai-broadcast-digest-YYYY-MM-DD.html
+Markdown source:   ${DIGEST_DIR}/ai-broadcast-digest-${DATE}.md
+HTML report:       ${DIGEST_DIR}/ai-broadcast-digest-${DATE}.html
 ```
 
 ## Content Delivery — Digest Run
@@ -31,7 +38,7 @@ HTML report:       ai-broadcast-digest-YYYY-MM-DD.html
 
 ```powershell
 cd ${SKILL_DIR}/scripts
-node fetch-data.js "--output=D:\AI知识库\00-临时文件\fb-feed.json"
+node fetch-data.js "--output=${DIGEST_DIR}/fb-feed.json"
 ```
 
 JSON 字段: `config`, `blogs`, `x` (tweets), `xAccounts`, `stats`, `prompts`, `errors`
@@ -76,10 +83,9 @@ Output the digest directly to the user.
 
 ```powershell
 $DATE = Get-Date -Format 'yyyy-MM-dd'
-$DIR  = 'D:\AI知识库\00-临时文件'
-$MD   = "$DIR\ai-broadcast-digest-$DATE.md"
-$HTML = "$DIR\ai-broadcast-digest-$DATE.html"
-$FEED = "$DIR\fb-feed.json"
+$MD   = "${DIGEST_DIR}/ai-broadcast-digest-$DATE.md"
+$HTML = "${DIGEST_DIR}/ai-broadcast-digest-$DATE.html"
+$FEED = "${DIGEST_DIR}/fb-feed.json"
 
 # Generate HTML report
 cd ${SKILL_DIR}/scripts
@@ -95,7 +101,7 @@ Invoke-Item "$HTML"
 After generation, tell the user:
 
 "AI 前沿广播报告已生成：
-- 路径: `D:\AI知识库\00-临时文件\ai-broadcast-digest-YYYY-MM-DD.html`
+- 路径: `${DIGEST_DIR}/ai-broadcast-digest-${DATE}.html`
 - 点击顶部「下载本报告」按钮另存为独立 HTML 文件
 - 左侧目录可快速跳转到感兴趣的人物/内容"
 
