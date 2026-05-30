@@ -71,7 +71,8 @@ async function main() {
 
   const blogCount = data.stats?.blogPosts ?? data.blogs?.length ?? 0;
   const tweetCount = data.stats?.xTweets ?? data.x?.length ?? 0;
-  console.error(`[Consumer] Data loaded: ${blogCount} blogs, ${tweetCount} tweets`);
+  const podcastCount = data.stats?.podcastEpisodes ?? data.podcasts?.length ?? 0;
+  console.error(`[Consumer] Data loaded: ${blogCount} blogs, ${tweetCount} tweets, ${podcastCount} podcasts`);
 
   // 4. Output
   const json = JSON.stringify(data, null, 2);

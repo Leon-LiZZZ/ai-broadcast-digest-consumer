@@ -1,6 +1,6 @@
 # AI Broadcast Digest Consumer
 
-追踪 AI 领域真正在构建产品、运营公司、做研究的人 — 来自 X/Twitter 和官方博客的第一手内容。
+追踪 AI 领域真正在构建产品、运营公司、做研究的人 — 来自 X/Twitter、官方博客和播客的第一手内容。
 
 本仓库是 **消费端分发版**：数据已预抓取并随仓库分发，`git pull` 即可获取最新内容。你可以自由修改 HTML 报告风格和添加自定义数据源。
 
@@ -46,6 +46,10 @@ Andrej Karpathy, Swyx, Josh Woodward, Kevin Weil, Peter Yang, Nan Yu, Madhu Guru
 
 OpenAI, Google AI Blog, Google DeepMind, Meta Engineering, Cohere, Hugging Face, Anthropic
 
+### 播客节目（5 源）
+
+Latent Space, No Priors, Practical AI, The AI Breakdown, Lex Fridman
+
 ## JSON 数据 Schema
 
 `data/YYYY-MM-DD.json` 的核心字段：
@@ -54,9 +58,10 @@ OpenAI, Google AI Blog, Google DeepMind, Meta Engineering, Cohere, Hugging Face,
 |------|------|------|
 | `date` | string | 日期，格式 `YYYY-MM-DD` |
 | `config` | object | 配置，`language: "auto"` 表示智能双语 |
-| `stats` | object | 统计：`blogPosts`, `xTweets`, `xAccounts` |
+| `stats` | object | 统计：`blogPosts`, `xTweets`, `xAccounts`, `podcastEpisodes`, `podcastSources` |
 | `blogs` | array | 博客文章列表 |
 | `x` | array | 推文列表 |
+| `podcasts` | array | 播客节目列表 |
 | `prompts` | object | AI 摘要提示词模板 |
 | `errors` | array | 抓取错误记录（可选） |
 
@@ -90,6 +95,22 @@ OpenAI, Google AI Blog, Google DeepMind, Meta Engineering, Cohere, Hugging Face,
 }
 ```
 
+### Podcast 条目字段
+
+```json
+{
+  "source": "podcast",
+  "name": "Latent Space",
+  "title": "节目标题",
+  "url": "https://...",
+  "audioUrl": "https://...mp3",
+  "duration": "01:23:45",
+  "publishedAt": "2026-05-25T12:00:00.000Z",
+  "description": "节目简介（≤800字）",
+  "content": "完整 show notes"
+}
+```
+
 ## Customization
 
 ### 修改 HTML 报告风格
@@ -108,9 +129,10 @@ OpenAI, Google AI Blog, Google DeepMind, Meta Engineering, Cohere, Hugging Face,
 3. 放入 `data/YYYY-MM-DD.json`
 4. 运行 `fetch-data.js` + `generate-html.js`
 
-`prompts/` 目录提供了 4 个提示词模板，可用于指导 AI 生成摘要：
+`prompts/` 目录提供了 5 个提示词模板，可用于指导 AI 生成摘要：
 - `summarize-twitter.md` — 推文摘要规则
 - `summarize-blogs.md` — 博客摘要规则
+- `summarize-podcasts.md` — 播客摘要规则
 - `digest-intro.md` — 整体编排规则
 - `translate.md` — 中英双语翻译规则
 
