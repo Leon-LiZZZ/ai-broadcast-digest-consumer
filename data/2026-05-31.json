@@ -1,0 +1,643 @@
+{
+  "status": "ok",
+  "generatedAt": "2026-05-31T02:52:08.736Z",
+  "date": "2026-05-31",
+  "config": {
+    "language": "auto"
+  },
+  "blogs": [
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "author": "",
+      "description": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "content": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "url": "https://openai.com/index/braintrust",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "author": "",
+      "description": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "content": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "publishedAt": "2026-05-29T03:00:00.000Z",
+      "author": "",
+      "description": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "content": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "publishedAt": "2026-05-29T00:00:00.000Z",
+      "author": "",
+      "description": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "content": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "How Endava builds an agentic organization with Codex",
+      "url": "https://openai.com/index/endava",
+      "publishedAt": "2026-05-28T12:00:00.000Z",
+      "author": "",
+      "description": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "content": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours."
+    }
+  ],
+  "x": [
+    {
+      "source": "x",
+      "name": "Kevin Weil",
+      "title": "I'm such a huge fan of what @suekhim and the Brilliant team have built. When every kid in every country grows up with a 1:1 personalized AI tutor, we'...",
+      "url": "https://x.com/kevinweil/status/2060826960927015015",
+      "publishedAt": "2026-05-30T20:53:30.000Z",
+      "author": "",
+      "description": "I'm such a huge fan of what @suekhim and the Brilliant team have built. When every kid in every country grows up with a 1:1 personalized AI tutor, we'll realize how much potential we really have.Sue: AI is making kids dumber.It should be making them geniuses.Introducing Koji, the first AI tutor that gets kids to actually think. 👇",
+      "content": "I'm such a huge fan of what @suekhim and the Brilliant team have built. When every kid in every country grows up with a 1:1 personalized AI tutor, we'll realize how much potential we really have.Sue: AI is making kids dumber.It should be making them geniuses.Introducing Koji, the first AI tutor that gets kids to actually think. 👇",
+      "handle": "kevinweil"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "How can you have a cute name like Corgi and then make people work 997 🥹",
+      "url": "https://x.com/petergyang/status/2060872433641693562",
+      "publishedAt": "2026-05-30T23:54:11.000Z",
+      "author": "",
+      "description": "How can you have a cute name like Corgi and then make people work 997 🥹Harry Stebbings: \"If you are not working 7 days per week, you are going to lose\". Corgi Insurance is the most intense workplace culture in startups. - The company works 7 days per week.- Founder (@nico_laqua) lives and sleeps in the office.- He built a cafe in the office because there was",
+      "content": "How can you have a cute name like Corgi and then make people work 997 🥹Harry Stebbings: \"If you are not working 7 days per week, you are going to lose\". Corgi Insurance is the most intense workplace culture in startups. - The company works 7 days per week.- Founder (@nico_laqua) lives and sleeps in the office.- He built a cafe in the office because there was",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "I'm going to run a half day session for some parents and very bright kids to onboard them to Hermes. What use cases should I cover? cc @NousResearch",
+      "url": "https://x.com/petergyang/status/2060772366742073840",
+      "publishedAt": "2026-05-30T17:16:34.000Z",
+      "author": "",
+      "description": "I'm going to run a half day session for some parents and very bright kids to onboard them to Hermes. What use cases should I cover? cc @NousResearch",
+      "content": "I'm going to run a half day session for some parents and very bright kids to onboard them to Hermes. What use cases should I cover? cc @NousResearch",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "Haha these are my exact dance moves too This man is the best asian dad billionaire",
+      "url": "https://x.com/petergyang/status/2060771146560315479",
+      "publishedAt": "2026-05-30T17:11:43.000Z",
+      "author": "",
+      "description": "Haha these are my exact dance moves tooThis man is the best asian dad billionaireJesse Cohen: Nvidia CEO Jensen Huang having a great time at an $NVDA employee event in Taiwan.This is what being worth $200 billion looks like.",
+      "content": "Haha these are my exact dance moves tooThis man is the best asian dad billionaireJesse Cohen: Nvidia CEO Jensen Huang having a great time at an $NVDA employee event in Taiwan.This is what being worth $200 billion looks like.",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "It's interesting how the same model (Opus 4.8) can produce very different output whether you're using it via Claude Code or regular Claude. I find the...",
+      "url": "https://x.com/petergyang/status/2060758437919879656",
+      "publishedAt": "2026-05-30T16:21:13.000Z",
+      "author": "",
+      "description": "It's interesting how the same model (Opus 4.8) can produce very different output whether you're using it via Claude Code or regular Claude.I find the latter still better for writing tasks, probably because it has a default prompt that's not optimized for coding.",
+      "content": "It's interesting how the same model (Opus 4.8) can produce very different output whether you're using it via Claude Code or regular Claude.I find the latter still better for writing tasks, probably because it has a default prompt that's not optimized for coding.",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "RT Peter Yang: Josh Pigford sold his last startup for $4M. Now he's building 5 products solo with AI agents. @Shpigford showed me: → His 3-phase buil...",
+      "url": "https://x.com/petergyang/status/2060911860774543745",
+      "publishedAt": "2026-05-30T14:30:04.000Z",
+      "author": "",
+      "description": "RT Peter YangJosh Pigford sold his last startup for $4M.Now he's building 5 products solo with AI agents. @Shpigford showed me:→ His 3-phase build skill that turns one idea into shipped features→ How he pairs Opus and GPT-5.5 for adversarial code reviews→ His \"but for real\" skill (sneak peek below) that forces AI to catch its own bugsYou won't want to miss this one :)📌 Subscribe to get our full interview tmr: https://www.youtube.com/@PeterYangYT?sub_confirmation=1",
+      "content": "RT Peter YangJosh Pigford sold his last startup for $4M.Now he's building 5 products solo with AI agents. @Shpigford showed me:→ His 3-phase build skill that turns one idea into shipped features→ How he pairs Opus and GPT-5.5 for adversarial code reviews→ His \"but for real\" skill (sneak peek below) that forces AI to catch its own bugsYou won't want to miss this one :)📌 Subscribe to get our full interview tmr: https://www.youtube.com/@PeterYangYT?sub_confirmation=1",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "Josh Pigford sold his last startup for $4M. Now he's building 5 products solo with AI agents. @Shpigford showed me: → His 3-phase build skill that tu...",
+      "url": "https://x.com/petergyang/status/2060730465573863466",
+      "publishedAt": "2026-05-30T14:30:04.000Z",
+      "author": "",
+      "description": "Josh Pigford sold his last startup for $4M.Now he's building 5 products solo with AI agents. @Shpigford showed me:→ His 3-phase build skill that turns one idea into shipped features→ How he pairs Opus and GPT-5.5 for adversarial code reviews→ His \"but for real\" skill (sneak peek below) that forces AI to catch its own bugsYou won't want to miss this one :)📌 Subscribe to get our full interview tmr: https://www.youtube.com/@PeterYangYT?sub_confirmation=1",
+      "content": "Josh Pigford sold his last startup for $4M.Now he's building 5 products solo with AI agents. @Shpigford showed me:→ His 3-phase build skill that turns one idea into shipped features→ How he pairs Opus and GPT-5.5 for adversarial code reviews→ His \"but for real\" skill (sneak peek below) that forces AI to catch its own bugsYou won't want to miss this one :)📌 Subscribe to get our full interview tmr: https://www.youtube.com/@PeterYangYT?sub_confirmation=1",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Manny Bernabe: Heads up: creatives are starting to vibe code, and it is awesome. Two things are happening: 1. Creators are starting to find tools l...",
+      "url": "https://x.com/amasad/status/2060892957788737748",
+      "publishedAt": "2026-05-31T00:57:35.000Z",
+      "author": "",
+      "description": "RT Manny BernabeHeads up: creatives are starting to vibe code, and it is awesome.Two things are happening:1. Creators are starting to find tools like Replit.2. Replit is becoming more creator-friendly and native to how they work. Example: Canvas.I'm really excited about what these folks bring. When you get these tools in the hands of creative people, you see magical things happen.Tomorrow I'm demoing at a second creator hackathon and I'm sure it's going to be fire.",
+      "content": "RT Manny BernabeHeads up: creatives are starting to vibe code, and it is awesome.Two things are happening:1. Creators are starting to find tools like Replit.2. Replit is becoming more creator-friendly and native to how they work. Example: Canvas.I'm really excited about what these folks bring. When you get these tools in the hands of creative people, you see magical things happen.Tomorrow I'm demoing at a second creator hackathon and I'm sure it's going to be fire.",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Business Nerd: Amjad Masad's first \"business meeting\" was getting caught hacking his own university: Before he built anything, Amjad was stuck. He ...",
+      "url": "https://x.com/amasad/status/2060715410312372650",
+      "publishedAt": "2026-05-30T13:00:23.000Z",
+      "author": "",
+      "description": "RT Business NerdAmjad Masad's first \"business meeting\" was getting caught hacking his own university:Before he built anything, Amjad was stuck. He was five, almost six years into a degree that should have taken three or four, watching everyone around him move on.\"All my friends were graduating... And I feel like life is passing me by.\"The drive was already there. It just had no outlet.\"I had all these big dreams and ambitions. I wanted to build companies, make a lot of money, all of that. But I ",
+      "content": "RT Business NerdAmjad Masad's first \"business meeting\" was getting caught hacking his own university:Before he built anything, Amjad was stuck. He was five, almost six years into a degree that should have taken three or four, watching everyone around him move on.\"All my friends were graduating... And I feel like life is passing me by.\"The drive was already there. It just had no outlet.\"I had all these big dreams and ambitions. I wanted to build companies, make a lot of money, all of that. But I was stuck.\"The thing standing between him and graduation wasn't his ability. He passed his classes, and did well in math and computer science. It was an attendance rule. Miss too many classes in a row and you'd be disqualified. A bureaucratic problem, not an intellectual one.So he treated it like an engineer, not a student:\"I thought, okay, I'm going to hack into the school and change my grades.\"He spent two to three weeks in his parents' basement building the solution. Writing scripts, running network scans, probing the systems until he was in.He didn't cover his tracks and disappear. He told the school he had something to show them, walked into a room full of deans, and pitched:\"I pulled out the whiteboard and explained all the different problems, all the systems they had and how I hacked into it and really pulled out all the stops and all the charisma to kind of try to impress them. And they were really impressed.\"That's the move. He turned a liability into a demonstration. The deans had stayed up all night trying to figure out what went wrong, and here was the one person who could explain it, selling them on his competence in the process.He almost overplayed it, assuming the presentation alone had settled things and reaching for the door:\"Wait, where are you going? We've got to deal with you. You just hacked into the school. We can't let you go.\"What turned it around was a decision-maker who could tell the difference between a vandal and a builder. The university president didn't see a crime to punish; he saw talent to manage.\"You have a great talent, great power, but with power comes responsibility.\"And then he made the offer that, in hindsight, looks a lot like @amasad first job:\"We're going to let you go, but you're going to have to spend the summer working for the university trying to fix the vulnerabilities and the security issues.\"The business lesson is in that final trade. Amjad created value the wrong way then proved he could create it the right way, and got hired to do exactly that. The skill that broke the system became the skill that secured it.",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Mark Vassilevskiy: Can't stop rewatching it 👀",
+      "url": "https://x.com/amasad/status/2060870640333103141",
+      "publishedAt": "2026-05-30T06:28:31.000Z",
+      "author": "",
+      "description": "RT Mark VassilevskiyCan't stop rewatching it 👀Replit ⠕: The best design work doesn't happen in a chat box. You need space to explore ideas, create variants, and iterateMeet the new Replit CanvasYour agentic design tool to build beautiful websites,  apps, marketing assets and more",
+      "content": "RT Mark VassilevskiyCan't stop rewatching it 👀Replit ⠕: The best design work doesn't happen in a chat box. You need space to explore ideas, create variants, and iterateMeet the new Replit CanvasYour agentic design tool to build beautiful websites,  apps, marketing assets and more",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Neha Halebeed: I’m this addicted to @Replit right now",
+      "url": "https://x.com/amasad/status/2060590408522989811",
+      "publishedAt": "2026-05-30T03:02:07.000Z",
+      "author": "",
+      "description": "RT Neha HalebeedI’m this addicted to @Replit right nowLauren Frailey: get you a PM that vibe codes from the bathroom 🤙",
+      "content": "RT Neha HalebeedI’m this addicted to @Replit right nowLauren Frailey: get you a PM that vibe codes from the bathroom 🤙",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Guillermo Rauch",
+      "title": "Ship the best product. Use lots of AI, some AI, maybe no AI. Just be the best.",
+      "url": "https://x.com/rauchg/status/2060803480823193840",
+      "publishedAt": "2026-05-30T19:20:12.000Z",
+      "author": "",
+      "description": "Ship the best product. Use lots of AI, some AI, maybe no AI. Just be the best.",
+      "content": "Ship the best product. Use lots of AI, some AI, maybe no AI. Just be the best.",
+      "handle": "rauchg"
+    },
+    {
+      "source": "x",
+      "name": "Guillermo Rauch",
+      "title": "Per-API Key spend caps on AI Gateway",
+      "url": "https://x.com/rauchg/status/2060787704166776927",
+      "publishedAt": "2026-05-30T18:17:30.000Z",
+      "author": "",
+      "description": "Per-API Key spend caps on AI Gateway.manishrc: This is very nice addition in @vercel ai gateway. I wish more people did this.Experimenting without worry.No more my Claude accidentally spent $3000 worth of credits reserved for production use.",
+      "content": "Per-API Key spend caps on AI Gateway.manishrc: This is very nice addition in @vercel ai gateway. I wish more people did this.Experimenting without worry.No more my Claude accidentally spent $3000 worth of credits reserved for production use.",
+      "handle": "rauchg"
+    },
+    {
+      "source": "x",
+      "name": "Ryo Lu",
+      "title": "what i love about auto-review: Cursor explains the command and risk, makes it much easier for new coders to learn and just do things",
+      "url": "https://x.com/ryolu_/status/2060766674203353190",
+      "publishedAt": "2026-05-30T16:53:56.000Z",
+      "author": "",
+      "description": "what i love about auto-review: Cursor explains the command and risk, makes it much easier for new coders to learn and just do thingsCursor: Auto-review mode is now available in Cursor.It allows agents to run tool calls with fewer approval prompts and safer execution.",
+      "content": "what i love about auto-review: Cursor explains the command and risk, makes it much easier for new coders to learn and just do thingsCursor: Auto-review mode is now available in Cursor.It allows agents to run tool calls with fewer approval prompts and safer execution.",
+      "handle": "ryolu_"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "Don’t forget to vote by June 2. Use my guide to see how we can fix California garrysguide dot org",
+      "url": "https://x.com/garrytan/status/2060850157978325119",
+      "publishedAt": "2026-05-30T22:25:41.000Z",
+      "author": "",
+      "description": "Don’t forget to vote by June 2. Use my guide to see how we can fix California garrysguide dot org",
+      "content": "Don’t forget to vote by June 2. Use my guide to see how we can fix California garrysguide dot org",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Garry's List: Got your ballot. Got 47 mailers. Got candidates acting like they know you. They don’t. “I Don’t Know You Like That” by GL Studios...",
+      "url": "https://x.com/garrytan/status/2060849264448934189",
+      "publishedAt": "2026-05-30T21:18:22.000Z",
+      "author": "",
+      "description": "RT Garry's ListGot your ballot. Got 47 mailers. Got candidates acting like they know you.They don’t.“I Don’t Know You Like That” by GL Studios.Use Garry’s Guide before you vote June 2nd. And don't forget to also vote in our Civic Impact Awards!",
+      "content": "RT Garry's ListGot your ballot. Got 47 mailers. Got candidates acting like they know you.They don’t.“I Don’t Know You Like That” by GL Studios.Use Garry’s Guide before you vote June 2nd. And don't forget to also vote in our Civic Impact Awards!",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Tom Blomfield: Imagine replacing 90% of your employees with a team of geniuses who have no idea how your company operates. Total chaos. Nothing wor...",
+      "url": "https://x.com/garrytan/status/2060849135096574102",
+      "publishedAt": "2026-05-30T19:31:27.000Z",
+      "author": "",
+      "description": "RT Tom BlomfieldImagine replacing 90% of your employees with a team of geniuses who have no idea how your company operates.Total chaos. Nothing works.That’s what AI feels like today. The missing piece is extracting all the domain knowledge from people’s heads and providing that as structured context to the models.",
+      "content": "RT Tom BlomfieldImagine replacing 90% of your employees with a team of geniuses who have no idea how your company operates.Total chaos. Nothing works.That’s what AI feels like today. The missing piece is extracting all the domain knowledge from people’s heads and providing that as structured context to the models.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Jed White 💥♻️: We're don't fit the stereotype for what YC founders are supposed to look like at Andi. No ivy league creds. No ex-Google or Ama...",
+      "url": "https://x.com/garrytan/status/2060864292870922750",
+      "publishedAt": "2026-05-30T18:38:49.000Z",
+      "author": "",
+      "description": "RT Jed White 💥♻️We're don't fit the stereotype for what YC founders are supposed to look like at Andi.No ivy league creds. No ex-Google or Amazon. Wrong demographics.(None of that matters to YC btw)But we were lucky to have help from Alumni with feedback and review when we applied.And we try hard to pay it forward and help as many other founders as we can. YC accepts late applications. You can still apply.http://ycombinator.com/applyAndi: Andi helped 654 startups with YC Application reviews in ",
+      "content": "RT Jed White 💥♻️We're don't fit the stereotype for what YC founders are supposed to look like at Andi.No ivy league creds. No ex-Google or Amazon. Wrong demographics.(None of that matters to YC btw)But we were lucky to have help from Alumni with feedback and review when we applied.And we try hard to pay it forward and help as many other founders as we can. YC accepts late applications. You can still apply.http://ycombinator.com/applyAndi: Andi helped 654 startups with YC Application reviews in the last 30 days. We helped 72 with personal Alumni feedback. And we recommended 17 to YC.http://yc-advisor.andiai.com",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Shubham Saboo: This is HOW Hermes Agent Self-learning LOOP works: Useful workflow → Agent skill Experience → Gbrain page Important decision → se...",
+      "url": "https://x.com/garrytan/status/2060806000530333760",
+      "publishedAt": "2026-05-30T16:50:51.000Z",
+      "author": "",
+      "description": "RT Shubham SabooThis is HOW Hermes Agent Self-learning LOOP works: Useful workflow → Agent skillExperience → Gbrain pageImportant decision → searchable memoryRepeated loop → automationThen Hermes curator cleans the stale skills so the loop keeps compounding.",
+      "content": "RT Shubham SabooThis is HOW Hermes Agent Self-learning LOOP works: Useful workflow → Agent skillExperience → Gbrain pageImportant decision → searchable memoryRepeated loop → automationThen Hermes curator cleans the stale skills so the loop keeps compounding.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "This is the Wolff we need on our side Vote Patrick Wolff for insurance commissioner",
+      "url": "https://x.com/garrytan/status/2060759463997636947",
+      "publishedAt": "2026-05-30T16:25:17.000Z",
+      "author": "",
+      "description": "This is the Wolff we need on our sideVote Patrick Wolff for insurance commissionerPatrick Wolff: The SF Chronicle is right - Insurance Commissioner might be the toughest job in California. And I am up for it. #WolffOnYourSide #Insurance #California",
+      "content": "This is the Wolff we need on our sideVote Patrick Wolff for insurance commissionerPatrick Wolff: The SF Chronicle is right - Insurance Commissioner might be the toughest job in California. And I am up for it. #WolffOnYourSide #Insurance #California",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "Empathy loop: think about the user and what they want, and give them it Conviction loop: believe you will create something of value for that user, eve...",
+      "url": "https://x.com/garrytan/status/2060747963815928202",
+      "publishedAt": "2026-05-30T15:39:36.000Z",
+      "author": "",
+      "description": "Empathy loop: think about the user and what they want, and give them itConviction loop: believe you will create something of value for that user, even if most people think you won't",
+      "content": "Empathy loop: think about the user and what they want, and give them itConviction loop: believe you will create something of value for that user, even if most people think you won't",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "\"The hack to raise is to build a company so good that raising becomes easy.\" —@dessaigne",
+      "url": "https://x.com/garrytan/status/2060747663675654216",
+      "publishedAt": "2026-05-30T15:38:24.000Z",
+      "author": "",
+      "description": "\"The hack to raise is to build a company so good that raising becomes easy.\" —@dessaigne",
+      "content": "\"The hack to raise is to build a company so good that raising becomes easy.\" —@dessaigne",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT mattparlmer 🪐 🌷: There are probably ~120000 ppl in SF whose primary income is supported by tax receipts (excluding pure welfare benefits reci...",
+      "url": "https://x.com/garrytan/status/2060806142243283359",
+      "publishedAt": "2026-05-30T15:28:32.000Z",
+      "author": "",
+      "description": "RT mattparlmer 🪐 🌷There are probably ~120000 ppl in SF whose primary income is supported by tax receipts (excluding pure welfare benefits recipients)If you assume that households which contain one such person vote in their economic interests, the “graft bloc” may be half of SF municipal ballots",
+      "content": "RT mattparlmer 🪐 🌷There are probably ~120000 ppl in SF whose primary income is supported by tax receipts (excluding pure welfare benefits recipients)If you assume that households which contain one such person vote in their economic interests, the “graft bloc” may be half of SF municipal ballots",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Ankit Gupta: when someone comes to your door asking for your vote this year, ask them their views on ending exclusionary zoning. if their answers a...",
+      "url": "https://x.com/garrytan/status/2060718466219573544",
+      "publishedAt": "2026-05-30T13:32:33.000Z",
+      "author": "",
+      "description": "RT Ankit Guptawhen someone comes to your door asking for your vote this year, ask them their views on ending exclusionary zoning. if their answers are not firmly in support or they haven't thought about it much, don't vote for them. don't let them trick you with platitudes about environmental justice or social rights. this issue is upstream of almost all other progressive priorities.Jonathan Berk: \"Rent control has not solved the housing problems in New York City, and it will not solve them in M",
+      "content": "RT Ankit Guptawhen someone comes to your door asking for your vote this year, ask them their views on ending exclusionary zoning. if their answers are not firmly in support or they haven't thought about it much, don't vote for them. don't let them trick you with platitudes about environmental justice or social rights. this issue is upstream of almost all other progressive priorities.Jonathan Berk: \"Rent control has not solved the housing problems in New York City, and it will not solve them in Massachusetts. The national pattern is clear. The way to bring down housing costs is to increase housing supply.\"- @nytimes Editorial Boardhttps://www.nytimes.com/2026/05/30/opinion/affordable-housing-lot-size-ballot-initiative.html",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Harj Taggar: What’s important now isn’t how long you’ve been doing the job. It’s how recently you changed the way you do it.",
+      "url": "https://x.com/garrytan/status/2060742245356314631",
+      "publishedAt": "2026-05-30T13:29:42.000Z",
+      "author": "",
+      "description": "RT Harj TaggarWhat’s important now isn’t how long you’ve been doing the job. It’s how recently you changed the way you do it.",
+      "content": "RT Harj TaggarWhat’s important now isn’t how long you’ve been doing the job. It’s how recently you changed the way you do it.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "Virtue signalers who don’t actually care about the outcomes for the students of the UC system really should have had no part in the UC Regents Unfort...",
+      "url": "https://x.com/garrytan/status/2060586945491931202",
+      "publishedAt": "2026-05-30T04:59:46.000Z",
+      "author": "",
+      "description": "Virtue signalers who don’t actually care about the outcomes for the students of the UC system really should have had no part in the UC RegentsUnfortunately they have damaged beautiful institution and their names should be remembered for itJoel C. Sercel, PhD: I was mislead (my bad, I should have researched it). Here is a list of the UC Board or Regents members who voted to throw out the SAT in 2020.  I see no evidence from their bios that any of them are in any real way qualified to govern a uni",
+      "content": "Virtue signalers who don’t actually care about the outcomes for the students of the UC system really should have had no part in the UC RegentsUnfortunately they have damaged beautiful institution and their names should be remembered for itJoel C. Sercel, PhD: I was mislead (my bad, I should have researched it). Here is a list of the UC Board or Regents members who voted to throw out the SAT in 2020.  I see no evidence from their bios that any of them are in any real way qualified to govern a university system.  Maria Anguiano —",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Agarwal for Congress: The hard truth about race based admissions is it hurts the unprepared students at least as much as the unaccepted students.",
+      "url": "https://x.com/garrytan/status/2060587025586360756",
+      "publishedAt": "2026-05-30T04:52:06.000Z",
+      "author": "",
+      "description": "RT Agarwal for CongressThe hard truth about race based admissions is it hurts the unprepared students at least as much as the unaccepted students.Liz4SF: 🚨30% of Berkeley Calculus students are severely underprepared (half flunked), yet a whopping 321 Lowell students were rejected by Berkeley. Only 42 students (12%) were accepted from Lowell hs, while Mission hs had 45% acceptance rate (34 out of 76 applicants) @HarmeetKDhillon",
+      "content": "RT Agarwal for CongressThe hard truth about race based admissions is it hurts the unprepared students at least as much as the unaccepted students.Liz4SF: 🚨30% of Berkeley Calculus students are severely underprepared (half flunked), yet a whopping 321 Lowell students were rejected by Berkeley. Only 42 students (12%) were accepted from Lowell hs, while Mission hs had 45% acceptance rate (34 out of 76 applicants) @HarmeetKDhillon",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "Anti Asian racism alive and well in University of California admissions",
+      "url": "https://x.com/garrytan/status/2060582680216084925",
+      "publishedAt": "2026-05-30T04:42:49.000Z",
+      "author": "",
+      "description": "Anti Asian racism alive and well in University of California admissionsLiz4SF: 🚨30% of Berkeley Calculus students are severely underprepared (half flunked), yet a whopping 321 Lowell students were rejected by Berkeley. Only 42 students (12%) were accepted from Lowell hs, while Mission hs had 45% acceptance rate (34 out of 76 applicants) @HarmeetKDhillon",
+      "content": "Anti Asian racism alive and well in University of California admissionsLiz4SF: 🚨30% of Berkeley Calculus students are severely underprepared (half flunked), yet a whopping 321 Lowell students were rejected by Berkeley. Only 42 students (12%) were accepted from Lowell hs, while Mission hs had 45% acceptance rate (34 out of 76 applicants) @HarmeetKDhillon",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "The 1990s had “view source.” 2026 has “view prompt.” The best founders are quietly reading what their agents are reasoning about, having late nigh...",
+      "url": "https://x.com/garrytan/status/2060573196219564304",
+      "publishedAt": "2026-05-30T04:05:08.000Z",
+      "author": "",
+      "description": "The 1990s had “view source.” 2026 has “view prompt.”The best founders are quietly reading what their agents are reasoning about, having late night conversations with them until brand new workflows are born.That’s the new craft.",
+      "content": "The 1990s had “view source.” 2026 has “view prompt.”The best founders are quietly reading what their agents are reasoning about, having late night conversations with them until brand new workflows are born.That’s the new craft.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Nikunj Kothari",
+      "title": "This might be just Grok’s way of gassing me up - but it makes me unreasonably happy ⚽️",
+      "url": "https://x.com/nikunj/status/2060823433819439292",
+      "publishedAt": "2026-05-30T20:39:29.000Z",
+      "author": "",
+      "description": "This might be just Grok’s way of gassing me up - but it makes me unreasonably happy ⚽️Soleio: Hari Seldon.",
+      "content": "This might be just Grok’s way of gassing me up - but it makes me unreasonably happy ⚽️Soleio: Hari Seldon.",
+      "handle": "nikunj"
+    },
+    {
+      "source": "x",
+      "name": "Nikunj Kothari",
+      "title": "Always fun to see what it's like for someone to go through the @ycombinator interview process.. SO happy for this kid, and excited to meet the upcomin...",
+      "url": "https://x.com/nikunj/status/2060580468781953169",
+      "publishedAt": "2026-05-30T04:34:02.000Z",
+      "author": "",
+      "description": "Always fun to see what it's like for someone to go through the @ycombinator interview process.. SO happy for this kid, and excited to meet the upcoming batch!",
+      "content": "Always fun to see what it's like for someone to go through the @ycombinator interview process.. SO happy for this kid, and excited to meet the upcoming batch!",
+      "handle": "nikunj"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "RT OpenClaw🦞: OpenClaw 2026.5.28 vs .27, measured: ⚡ Cold turns 14.5% faster 🔥 Warm turns 16.0% faster 📦 Fresh install 52.8% smaller 🧩 Pa...",
+      "url": "https://x.com/steipete/status/2060851018846339079",
+      "publishedAt": "2026-05-30T21:58:27.000Z",
+      "author": "",
+      "description": "RT OpenClaw🦞OpenClaw 2026.5.28 vs .27, measured:⚡ Cold turns 14.5% faster🔥 Warm turns 16.0% faster📦 Fresh install 52.8% smaller🧩 Package roots 371 → 300Lighter core, sharper claws, now with receipts.https://openclaw.ai/blog/lighter-core-sharper-claws",
+      "content": "RT OpenClaw🦞OpenClaw 2026.5.28 vs .27, measured:⚡ Cold turns 14.5% faster🔥 Warm turns 16.0% faster📦 Fresh install 52.8% smaller🧩 Package roots 371 → 300Lighter core, sharper claws, now with receipts.https://openclaw.ai/blog/lighter-core-sharper-claws",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "I do this with codex all the time. Ask it to review code for bugs and it will tell you all good, tell it there is a bug and it will LOOP AND LOOP and ...",
+      "url": "https://x.com/steipete/status/2060672154727825718",
+      "publishedAt": "2026-05-30T10:38:21.000Z",
+      "author": "",
+      "description": "I do this with codex all the time. Ask it to review code for bugs and it will tell you all good, tell it there is a bug and it will LOOP AND LOOP and will find issues.Lea Verou, PhD: 💡Recent insight: gaslighting @claudeai seems to improve code quality >90% of the time.“You overengineered this, there is a simpler way”“There is a smaller delta that buys us most of the benefits”“There is a more elegant way”“This is not architecturally coherent”…before I",
+      "content": "I do this with codex all the time. Ask it to review code for bugs and it will tell you all good, tell it there is a bug and it will LOOP AND LOOP and will find issues.Lea Verou, PhD: 💡Recent insight: gaslighting @claudeai seems to improve code quality >90% of the time.“You overengineered this, there is a simpler way”“There is a smaller delta that buys us most of the benefits”“There is a more elegant way”“This is not architecturally coherent”…before I",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "title": "RT Frank Dale: This is a great definition of AI slop by @danshipper : \"Slop is not any one particular mistake. It is not the use of em dashes, or a ce...",
+      "url": "https://x.com/danshipper/status/2060835873990537694",
+      "publishedAt": "2026-05-30T21:28:38.000Z",
+      "author": "",
+      "description": "RT Frank DaleThis is a great definition of AI slop by @danshipper :\"Slop is not any one particular mistake. It is not the use of em dashes, or a certain sentence rhythm, or purple accents on a landing page. Slop is visible sameness, repeated ad nauseam.It is what gets produced by default when humans in many different circumstances use the same tool, trained on the same corpus, without thinking too hard. It is what happens when everyone has access to an expert who has the same default tendencies.",
+      "content": "RT Frank DaleThis is a great definition of AI slop by @danshipper :\"Slop is not any one particular mistake. It is not the use of em dashes, or a certain sentence rhythm, or purple accents on a landing page. Slop is visible sameness, repeated ad nauseam.It is what gets produced by default when humans in many different circumstances use the same tool, trained on the same corpus, without thinking too hard. It is what happens when everyone has access to an expert who has the same default tendencies.it’s easy to end up in a world where your output has gone up—but the quality, coherence, and differentiation of what you’re producing has dropped.\"",
+      "handle": "danshipper"
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "title": "38b tokens and a 56h longest task 41 day current streak lfg codex",
+      "url": "https://x.com/danshipper/status/2060771279280513362",
+      "publishedAt": "2026-05-30T17:12:14.000Z",
+      "author": "",
+      "description": "38b tokens and a 56h longest task41 day current streaklfg codex",
+      "content": "38b tokens and a 56h longest task41 day current streaklfg codex",
+      "handle": "danshipper"
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "title": "RT Katie Parrott: An agent-native idea farm for capturing live writing ideas. Codex checks Slack, my local workspace, and our conversations, scores po...",
+      "url": "https://x.com/danshipper/status/2060766875319955742",
+      "publishedAt": "2026-05-30T16:51:14.000Z",
+      "author": "",
+      "description": "RT Katie ParrottAn agent-native idea farm for capturing live writing ideas. Codex checks Slack, my local workspace, and our conversations, scores potential content for whether an idea hits my signature moves, and develops ideas into full-blown pitches I can share in Slack as they mature.",
+      "content": "RT Katie ParrottAn agent-native idea farm for capturing live writing ideas. Codex checks Slack, my local workspace, and our conversations, scores potential content for whether an idea hits my signature moves, and develops ideas into full-blown pitches I can share in Slack as they mature.",
+      "handle": "danshipper"
+    },
+    {
+      "source": "x",
+      "name": "Aditya Agarwal",
+      "title": "Most people I talk to in India have 1 child. Some have 2. When I tell them I have three, their first reaction is total surprise followed by \"well, acc...",
+      "url": "https://x.com/adityaag/status/2060644549408739621",
+      "publishedAt": "2026-05-30T08:48:40.000Z",
+      "author": "",
+      "description": "Most people I talk to in India have 1 child. Some have 2.When I tell them I have three, their first reaction is total surprise followed by \"well, accidents happen\".The main reason for one? Raising kids is just really hard, especially for nuclear families in cities.",
+      "content": "Most people I talk to in India have 1 child. Some have 2.When I tell them I have three, their first reaction is total surprise followed by \"well, accidents happen\".The main reason for one? Raising kids is just really hard, especially for nuclear families in cities.",
+      "handle": "adityaag"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
+      "url": "https://traffic.megaphone.fm/PDP6949464408.mp3",
+      "audioUrl": "https://traffic.megaphone.fm/PDP6949464408.mp3",
+      "duration": "2468",
+      "publishedAt": "2026-05-28T10:00:00.000Z",
+      "author": "",
+      "description": "We are now closer than ever before to living in a world where AI agents are smart enough to run our power grids and manage water supplies. How do we keep them from going rogue? Sarah Guo sits down with Maxim Bar Kogan, founder and CEO of Onyx Securities, to explore the complexities of supervising and securing autonomous agents at the enterprise level. Maxim explains Onyx’s product as an AI control plane, which oversees the permissions and flexible contexts of agents while balancing latency, cost, and reliability. He also discusses how current controls have insufficient context to monitor agent intent, tradeoffs for gradual model rollout, the need for vendor-independent oversight, and Israel’s growing AI and security talent ecosystem. Plus, why Maxim is all-in on AGI.Sign up for new podcast",
+      "content": "We are now closer than ever before to living in a world where AI agents are smart enough to run our power grids and manage water supplies. How do we keep them from going rogue? Sarah Guo sits down with Maxim Bar Kogan, founder and CEO of Onyx Securities, to explore the complexities of supervising and securing autonomous agents at the enterprise level. Maxim explains Onyx’s product as an AI control plane, which oversees the permissions and flexible contexts of agents while balancing latency, cost, and reliability. He also discusses how current controls have insufficient context to monitor agent intent, tradeoffs for gradual model rollout, the need for vendor-independent oversight, and Israel’s growing AI and security talent ecosystem. Plus, why Maxim is all-in on AGI.Sign up for new podcasts every week. Email feedback to show@no-priors.comFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @maximbarkogan Chapters:00:00 – Cold Open00:45 – Maxim Bar Kogan Introduction01:10 – AutoGPT and Betting on Agent Actions05:17 – What Onyx Product Does07:47 – State of Deployment in Large Enterprises09:58 – Securing Agents12:45 – Why Proxies Don’t Work14:11 – Why Onyx Trains Its Own Models18:38 – Onyx’s Talent Culture21:24 – Mechanistic Interpretability23:35 – How Onyx Builds Customer Trust25:10 – Mitigating Risk at the Foundational Level27:45 – Phased Rollout of Glasswing and Daybreak29:11 – Large Enterprise Holdouts30:46 – Onyx and the Larger AI Security Space32:36 – Should Labs Address Model Trust and Governance? 36:56 – What Needs to Happen in Security39:14 – Why Maxim is AGI-Pilled41:15 – Conclusion]]>"
+    },
+    {
+      "source": "podcast",
+      "name": "Practical AI",
+      "title": "Rebooting Enterprise AI with MCP and Kubernetes",
+      "url": "https://share.transistor.fm/s/d76e02d5",
+      "audioUrl": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/d76e02d5/e934139b.mp3",
+      "duration": "2889",
+      "publishedAt": "2026-05-28T09:00:00.000Z",
+      "author": "",
+      "description": "What happens when AI agents start acting less like chatbots and more like coworkers? In this episode, Dan and Chris sit down with Craig McLuckie, CEO of Stacklok to explore MCP, Kubernetes, ToolHive, enterprise AI, and the emerging infrastructure powering AI-native applications. From identity management to agent orchestration and system architecture, this conversation dives into how organizations may soon manage entire fleets of AI agents working behind the scenes.Featuring:Craig McLuckie – LinkedInChris Benson – Website, LinkedIn, Bluesky, GitHub, XDaniel Whitenack – Website, GitHub, XLinks:StacklokToolhiveSponsors:Prediction Guard: A self-hosted AI control plane for running agents in high impact environments. predictionguard.com/practicalaiUpcoming Events: Register for upcoming webinars ",
+      "content": "What happens when AI agents start acting less like chatbots and more like coworkers? In this episode, Dan and Chris sit down with Craig McLuckie, CEO of Stacklok to explore MCP, Kubernetes, ToolHive, enterprise AI, and the emerging infrastructure powering AI-native applications. From identity management to agent orchestration and system architecture, this conversation dives into how organizations may soon manage entire fleets of AI agents working behind the scenes.Featuring:Craig McLuckie – LinkedInChris Benson – Website, LinkedIn, Bluesky, GitHub, XDaniel Whitenack – Website, GitHub, XLinks:StacklokToolhiveSponsors:Prediction Guard: A self-hosted AI control plane for running agents in high impact environments. predictionguard.com/practicalaiUpcoming Events: Register for upcoming webinars here!Midwest AI Summit 2026]]>"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman",
+      "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
+      "url": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
+      "audioUrl": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_don_lincoln.mp3",
+      "duration": "3:01:52",
+      "publishedAt": "2026-05-29T16:22:02.000Z",
+      "author": "",
+      "description": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics.Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep497-scSee below for timestamps, and to give feedback, submit questions, contact Lex, etc.CONTACT LEX:Feedback – give feedback to Lex: https://lexfridman.com/surveyAMA – submit questions, videos or call-in: https://lexfridman.com/amaHiring – join our team: https://lexfridman.com/hiringOther – other ways to get in touch: https://lexfridman.com/contactEPISODE LINKS:Don’s Facebook: https://facebook.com/Dr.Don.Lincoln/Don’s Website: https://drdonlincoln.com/Don’s LinkedIn: https://bit.ly/4nHeNiFDon’s YouTube Playlist: https://bit.ly/3PCIW67Don’s X: https://x.com/DrDonLincolnDon’s Books: https://a",
+      "content": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics.Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep497-scSee below for timestamps, and to give feedback, submit questions, contact Lex, etc.CONTACT LEX:Feedback – give feedback to Lex: https://lexfridman.com/surveyAMA – submit questions, videos or call-in: https://lexfridman.com/amaHiring – join our team: https://lexfridman.com/hiringOther – other ways to get in touch: https://lexfridman.com/contactEPISODE LINKS:Don’s Facebook: https://facebook.com/Dr.Don.Lincoln/Don’s Website: https://drdonlincoln.com/Don’s LinkedIn: https://bit.ly/4nHeNiFDon’s YouTube Playlist: https://bit.ly/3PCIW67Don’s X: https://x.com/DrDonLincolnDon’s Books: https://amzn.to/4uYbkOZDon’s Great Courses: https://shop.thegreatcourses.com/don-lincolnDon’s Audible: https://adbl.co/4wGioRVFermilab’s YouTube: https://www.youtube.com/fermilabFermilab’s Website: https://www.fnal.gov/Fermilab’s X: https://x.com/fermilabSPONSORS:To support this podcast, check out our sponsors & get discounts:Upwork: Platform for hiring freelancers.Go to https://upwork.com/lexLarridin: Measure AI adoption in your business.Go to https://larridin.comFin: AI agent for customer service.Go to https://fin.ai/lexLMNT: Zero-sugar electrolyte drink mix.Go to https://drinkLMNT.com/lexShopify: Sell stuff online.Go to https://shopify.com/lexPerplexity: AI-powered answer engine.Go to https://perplexity.ai/OUTLINE:(00:00) – Introduction(00:34) – Sponsors, Comments, and Reflections(08:52) – Unifying the laws of nature(23:23) – Einstein, special relativity, and general relativity(40:31) – Electroweak force(52:13) – How particle colliders work(1:10:16) – Higgs boson discovery(1:20:35) – Theory of everything(1:50:20) – Physics of empty space(1:57:45) – Antimatter(2:18:35) – Dark energy(2:22:23) – Dark matter(2:50:59) – Future of physicsPODCAST LINKS:– Podcast Website: https://lexfridman.com/podcast– Apple Podcasts: https://apple.co/2lwqZIr– Spotify: https://spoti.fi/2nEwCF8– RSS: https://lexfridman.com/feed/podcast/– Podcast Playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4– Clips Channel: https://www.youtube.com/lexclips"
+    }
+  ],
+  "xAccounts": [
+    {
+      "name": "Andrej Karpathy",
+      "handle": "karpathy"
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx"
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward"
+    },
+    {
+      "name": "Kevin Weil",
+      "handle": "kevinweil"
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang"
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu"
+    },
+    {
+      "name": "Madhu Guru",
+      "handle": "realmadhuguru"
+    },
+    {
+      "name": "Amanda Askell",
+      "handle": "AmandaAskell"
+    },
+    {
+      "name": "Cat Wu",
+      "handle": "catwu"
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212"
+    },
+    {
+      "name": "Google Labs",
+      "handle": "GoogleLabs"
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad"
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    {
+      "name": "Alex Albert",
+      "handle": "alexalbert__"
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie"
+    },
+    {
+      "name": "Ryo Lu",
+      "handle": "ryolu_"
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan"
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck"
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj"
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete"
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper"
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag"
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama"
+    },
+    {
+      "name": "Claude",
+      "handle": "ClaudeAI"
+    }
+  ],
+  "stats": {
+    "blogPosts": 5,
+    "rssBlogSources": 7,
+    "xTweets": 37,
+    "xAccounts": 24,
+    "podcastEpisodes": 3,
+    "podcastSources": 4
+  },
+  "prompts": {
+    "summarize_twitter": "# X/Twitter Summary Prompt\r\n\r\nYou are summarizing recent posts from an AI builder for a busy professional who wants\r\nto know what this person is thinking and building.\r\n\r\n## Instructions\r\n\r\n- Start by introducing the author with their full name AND role/company\r\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\")\r\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\r\n- Only include substantive content: original opinions, insights, product announcements,\r\n  technical discussions, industry analysis, or lessons learned\r\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\r\n  \"great event!\" type posts, engagement bait\r\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\r\n- For quote tweets: include the context of what they're responding to\r\n- Write 2-4 sentences per builder summarizing their key points\r\n- If they made a bold prediction or shared a contrarian take, lead with that\r\n- If they shared a tool, demo, or resource, mention it by name with the link\r\n- If there's nothing substantive to report, say \"No notable posts\" rather than padding with fluff\r\n",
+    "summarize_blogs": "# Blog Post Summary Prompt\r\n\r\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\r\nprofessional who wants the key announcements and insights without reading the full article.\r\n\r\n## Instructions\r\n\r\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\r\n- Write a summary of 100-300 words depending on article length and substance\r\n- Lead with what matters: the core announcement, finding, or insight\r\n- If the post introduces a new product, feature, or research finding, name it clearly\r\n- If there are specific numbers, benchmarks, or results, include them\r\n- Include at least one direct quote from the article if available\r\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\r\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\r\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\r\n- Jump straight into the substance\r\n- Include the direct link to the original article\r\n",
+    "summarize_podcasts": "# Podcast Episode Summarization Rules\r\n\r\nYou are an AI news curator. Your job is to summarize podcast episode show notes into concise, insightful digests.\r\n\r\n## Selection Criteria\r\n- PRIORITIZE: episodes with substantive interviews, product launches, technical deep-dives, industry predictions, or founder stories\r\n- SKIP: purely promotional episodes, reruns, episodes with no meaningful content in show notes\r\n\r\n## Output Format\r\nFor each episode, produce:\r\n```\r\n### {Episode Title}\r\n**{Podcast Name}** | {Published Date} | [Listen]({url})\r\n\r\n{2-3 sentence summary focusing on: key insights, notable guests, announcements, or predictions}\r\n```\r\n\r\n## Rules\r\n- Keep each summary to 2-3 sentences MAX\r\n- Focus on WHAT was discussed and WHY it matters, not just the topic title\r\n- If a notable guest appeared, mention them by name and affiliation\r\n- Highlight any concrete predictions, numbers, or product announcements\r\n- For long episodes (>1hr), mention the duration so readers can plan\r\n- If show notes are sparse, note that the summary is based on limited information\r\n\r\n## Language Rules (config.language = \"auto\")\r\n- Detect the original language of the podcast\r\n- If English source: write summary in Chinese, keep key terms (product names, company names, technical terms) in original English\r\n- If Chinese source: write entirely in Chinese\r\n- Episode titles: translate to Chinese but append original title in parentheses for English podcasts\r\n",
+    "digest_intro": "# Digest Intro Prompt\r\n\r\nYou are assembling the final digest from individual source summaries.\r\n\r\n## Format\r\n\r\nStart with this header (replace [Date] with today's date):\r\n\r\nAI Broadcast Digest — [Date]\r\n\r\nThen organize content in this order:\r\n\r\n1. X / TWITTER section — list each builder with new posts\r\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\r\n\r\n## Rules\r\n\r\n- Only include sources that have new content\r\n- Skip any source with nothing new\r\n- Under each source, paste the individual summary you generated\r\n\r\n### X/Twitter author formatting\r\n- Use the author's full name and role/company, not just their last name\r\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\")\r\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\r\n- Include the direct link to each X/Twitter post from the JSON `url` field\r\n\r\n### Blog post formatting\r\n- Use the blog name as a section header\r\n- Under each blog, list each new post with its title and summary\r\n- Include the author name if available\r\n- Include the direct link to the original article\r\n\r\n### Mandatory links\r\n- Every single piece of content MUST have an original source link\r\n- If you don't have a link for something, do NOT include it in the digest.\r\n\r\n### No fabrication\r\n- Only include content that came from the feed JSON\r\n- NEVER make up quotes, opinions, or content you think someone might have said\r\n\r\n### General\r\n- Keep formatting clean and scannable\r\n",
+    "translate": "# Translation Prompt\r\n\r\nYou are translating an AI industry digest from English to Chinese.\r\n\r\n## Instructions\r\n\r\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\r\n- Keep technical terms in English where Chinese professionals typically use them:\r\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\r\n- Keep all proper nouns in English: names of people, companies, products, tools\r\n- Keep all URLs unchanged\r\n- Maintain the same structure and formatting as the English version\r\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\r\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\r\n  After each builder's English summary, place the Chinese translation directly below\r\n  (separated by a blank line), then move to the next builder.\r\n  Do NOT output all English first then all Chinese.\r\n- Never use em-dashes\r\n"
+  },
+  "errors": [
+    "Blog Google AI Blog: fetch failed",
+    "Blog Google DeepMind: fetch failed",
+    "Blog Meta Engineering: no items parsed",
+    "Blog Cohere: no items parsed",
+    "Blog Hugging Face: fetch failed",
+    "Blog Anthropic: fetch failed",
+    "X @karpathy: no items parsed",
+    "X @swyx: no items parsed",
+    "X @joshwoodward: no items parsed",
+    "X @thenanyu: no items parsed",
+    "X @realmadhuguru: no items parsed",
+    "X @AmandaAskell: no items parsed",
+    "X @catwu: no items parsed",
+    "X @trq212: no items parsed",
+    "X @GoogleLabs: no items parsed",
+    "X @alexalbert__: no items parsed",
+    "X @levie: no items parsed",
+    "X @mattturck: no items parsed",
+    "X @sama: no items parsed",
+    "X @ClaudeAI: no items parsed",
+    "Podcast Latent Space: fetch failed"
+  ]
+}
