@@ -103,6 +103,15 @@ function parseDigest(text) {
     if (sec.type.includes('twitter') || sec.type.includes('tweets') || sec.type.includes('𝕏') || sec.type.includes('x /')) {
       sec.totalTweets = sec.items.reduce((sum, item) => sum + (item.tweetCount || 0), 0);
     }
+    // For podcast sections, count unique sources from subtitle (format: "**Source Name** | ...")
+    if (sec.type.includes('podcast') || sec.type.includes('播客')) {
+      const sources = new Set();
+      for (const item of sec.items) {
+        const match = item.content.match(/\*\*([^*]+)\*\*/);
+        if (match) sources.add(match[1]);
+      }
+      sec.totalSources = sources.size;
+    }
   }
 
   return { date, sections };
@@ -671,13 +680,13 @@ body {
   <div class="stats">
     ${sections.map(s => {
       const isTwitter = s.totalTweets > 0;
-      const label = isTwitter
-        ? `${s.items.length} 位作者 · ${s.totalTweets} 条推文`
-        : s.title;
-      const num = isTwitter ? '' : s.items.length;
-      return isTwitter
-        ? `<div class="stat"><div class="stat-num">${s.items.length} / ${s.totalTweets}</div><div class="stat-label">作者 / 推文</div></div>`
-        : `<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">${esc(s.title)}</div></div>`;
+      const isPodcast = s.totalSources > 0;
+      if (isTwitter) {
+        return `<div class="stat"><div class="stat-num">${s.items.length} / ${s.totalTweets}</div><div class="stat-label">作者 / 推文</div></div>`;
+      } else if (isPodcast) {
+        return `<div class="stat"><div class="stat-num">${s.totalSources} / ${s.items.length}</div><div class="stat-label">源 / 期</div></div>`;
+      }
+      return `<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">${esc(s.title)}</div></div>`;
     }).join('\n    ')}
   </div>
   <div class="actions">
