@@ -226,7 +226,28 @@ function esc(s) {
 
 // -- Generate the full HTML report -------------------------------------------
 function generateReport({ date, sections }) {
-  // Build TOC
+  // Build stats HTML
+  function buildStats(sections) {
+    const cards = [];
+    for (const s of sections) {
+      const isTwitter = s.totalTweets > 0;
+      const isPodcast = s.totalSources > 0;
+      const isBlog = s.type.includes('blog') || s.type.includes('博客');
+
+      if (isTwitter) {
+        cards.push(`<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">位作者</div><div class="stat-sub">X / Twitter</div></div>`);
+        cards.push(`<div class="stat"><div class="stat-num">${s.totalTweets}</div><div class="stat-label">条推文</div><div class="stat-sub">X / Twitter</div></div>`);
+      } else if (isPodcast) {
+        cards.push(`<div class="stat"><div class="stat-num">${s.totalSources}</div><div class="stat-label">个播客</div><div class="stat-sub">Podcast</div></div>`);
+        cards.push(`<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">期节目</div><div class="stat-sub">Podcast</div></div>`);
+      } else if (isBlog) {
+        cards.push(`<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">篇文章</div><div class="stat-sub">Blog</div></div>`);
+      } else {
+        cards.push(`<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">${esc(s.title)}</div></div>`);
+      }
+    }
+    return cards.join('\n    ');
+  }
   const tocItems = sections.map((s, si) => {
     const sub = s.items.map((item, ii) => {
       const id = `s${si}-i${ii}`;
@@ -389,6 +410,7 @@ body {
   border-radius: 10px;
   padding: 12px 20px;
   text-align: center;
+  min-width: 80px;
 }
 .hero .stat-num {
   font-size: 24px;
@@ -396,10 +418,16 @@ body {
   color: var(--accent);
 }
 .hero .stat-label {
-  font-size: 12px;
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 2px;
+}
+.hero .stat-sub {
+  font-size: 10px;
   color: var(--text-dim);
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-top: 4px;
 }
 
 /* ── Layout ───────────────────────────────── */
@@ -678,16 +706,7 @@ body {
   <h1>获取官方第一手信息，不要第三方解读信息</h1>
   <p class="date">${esc(date)}</p>
   <div class="stats">
-    ${sections.map(s => {
-      const isTwitter = s.totalTweets > 0;
-      const isPodcast = s.totalSources > 0;
-      if (isTwitter) {
-        return `<div class="stat"><div class="stat-num">${s.items.length} / ${s.totalTweets}</div><div class="stat-label">作者 / 推文</div></div>`;
-      } else if (isPodcast) {
-        return `<div class="stat"><div class="stat-num">${s.totalSources} / ${s.items.length}</div><div class="stat-label">源 / 期</div></div>`;
-      }
-      return `<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">${esc(s.title)}</div></div>`;
-    }).join('\n    ')}
+    ${buildStats(sections)}
   </div>
   <div class="actions">
     <button class="btn-download" onclick="downloadReport()">
