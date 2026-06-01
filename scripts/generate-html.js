@@ -100,7 +100,7 @@ function parseDigest(text) {
 
   // For twitter sections, compute total tweet count
   for (const sec of sections) {
-    if (sec.type.includes('twitter') || sec.type.includes('tweets') || sec.type.includes('𝕏')) {
+    if (sec.type.includes('twitter') || sec.type.includes('tweets') || sec.type.includes('𝕏') || sec.type.includes('x /')) {
       sec.totalTweets = sec.items.reduce((sum, item) => sum + (item.tweetCount || 0), 0);
     }
   }
@@ -232,15 +232,16 @@ function generateReport({ date, sections }) {
 
   // Build content cards
   const contentSections = sections.map((s, si) => {
+    const typeClass = getTypeClass(s.type);
     const cards = s.items.map((item, ii) => {
       const id = `s${si}-i${ii}`;
       const badge = getBadge(s.type);
       const sourceLink = item.url ? `<a href="${esc(item.url)}" target="_blank" rel="noopener" class="source-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg> Original</a>` : '';
 
       return `
-        <article class="card ${s.type}" id="${id}">
+        <article class="card ${typeClass}" id="${id}">
           <div class="card-header">
-            <span class="badge ${s.type}">${badge}</span>
+            <span class="badge ${typeClass}">${badge}</span>
             <h3>${esc(item.name)}</h3>
             ${item.subtitle ? `<p class="card-subtitle">${esc(item.subtitle)}</p>` : ''}
           </div>
@@ -250,7 +251,7 @@ function generateReport({ date, sections }) {
     }).join('\n');
 
     return `
-      <section class="report-section" id="section-${s.type}">
+      <section class="report-section" id="section-${typeClass}">
         <div class="section-header">
           <span class="section-icon">${getSectionIcon(s.type)}</span>
           <h2>${esc(s.title)}</h2>
@@ -871,21 +872,24 @@ function downloadReport() {
 }
 
 function getBadge(type) {
-  switch(type) {
-    case 'tweets': return 'X / Twitter';
-    case 'blogs': return 'Blog';
-    case 'podcasts': return 'Podcast';
-    default: return 'Update';
-  }
+  if (type.includes('twitter') || type.includes('tweets') || type.includes('𝕏') || type.includes('x /')) return 'X / Twitter';
+  if (type.includes('blog') || type.includes('博客')) return 'Blog';
+  if (type.includes('podcast') || type.includes('播客')) return 'Podcast';
+  return 'Update';
+}
+
+function getTypeClass(type) {
+  if (type.includes('twitter') || type.includes('tweets') || type.includes('𝕏') || type.includes('x /')) return 'tweets';
+  if (type.includes('blog') || type.includes('博客')) return 'blogs';
+  if (type.includes('podcast') || type.includes('播客')) return 'podcasts';
+  return 'general';
 }
 
 function getSectionIcon(type) {
-  switch(type) {
-    case 'tweets': return '&#x1D54F;';
-    case 'blogs': return '&#x1F4DD;';
-    case 'podcasts': return '&#x1F3A7;';
-    default: return '&#x1F4E6;';
-  }
+  if (type.includes('twitter') || type.includes('tweets') || type.includes('𝕏') || type.includes('x /')) return '&#x1D54F;';
+  if (type.includes('blog') || type.includes('博客')) return '&#x1F4DD;';
+  if (type.includes('podcast') || type.includes('播客')) return '&#x1F3A7;';
+  return '&#x1F4E6;';
 }
 
 // -- Main --------------------------------------------------------------------
