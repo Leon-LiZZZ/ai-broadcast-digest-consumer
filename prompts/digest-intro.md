@@ -10,7 +10,7 @@ AI Broadcast Digest — [Date]
 
 Then organize content in this order:
 
-1. X / TWITTER section — list each builder with new posts
+1. TWITTER section — list each builder with new posts (use heading `## Twitter`, NOT `## X / Twitter`)
 2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)
 
 ## Rules

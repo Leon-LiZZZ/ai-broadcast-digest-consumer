@@ -226,27 +226,59 @@ function esc(s) {
 
 // -- Generate the full HTML report -------------------------------------------
 function generateReport({ date, sections }) {
-  // Build stats HTML
+  // Build stats HTML — grouped by category
   function buildStats(sections) {
-    const cards = [];
+    const groups = [];
+
     for (const s of sections) {
       const isTwitter = s.totalTweets > 0;
       const isPodcast = s.totalSources > 0;
       const isBlog = s.type.includes('blog') || s.type.includes('博客');
 
+      // Count blog sources from item names (each ### heading is a source)
+      let blogSources = 0, blogArticles = 0;
+      if (isBlog) {
+        blogSources = s.items.length;
+        // Count individual articles: look for **Title** or 🔗 links in content
+        blogArticles = s.items.reduce((sum, item) => {
+          const links = (item.content.match(/\[查看原文\]/g) || []);
+          return sum + Math.max(links.length, 1);
+        }, 0);
+      }
+
       if (isTwitter) {
-        cards.push(`<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">位作者</div><div class="stat-sub">X / Twitter</div></div>`);
-        cards.push(`<div class="stat"><div class="stat-num">${s.totalTweets}</div><div class="stat-label">条推文</div><div class="stat-sub">X / Twitter</div></div>`);
-      } else if (isPodcast) {
-        cards.push(`<div class="stat"><div class="stat-num">${s.totalSources}</div><div class="stat-label">个播客</div><div class="stat-sub">Podcast</div></div>`);
-        cards.push(`<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">期节目</div><div class="stat-sub">Podcast</div></div>`);
+        groups.push(`
+          <div class="stat-group">
+            <div class="stat-group-title">X / Twitter</div>
+            <div class="stat-group-window">过去 24 小时</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">位作者</div></div>
+              <div class="stat"><div class="stat-num">${s.totalTweets}</div><div class="stat-label">条推文</div></div>
+            </div>
+          </div>`);
       } else if (isBlog) {
-        cards.push(`<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">篇文章</div><div class="stat-sub">Blog</div></div>`);
-      } else {
-        cards.push(`<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">${esc(s.title)}</div></div>`);
+        groups.push(`
+          <div class="stat-group">
+            <div class="stat-group-title">Blog</div>
+            <div class="stat-group-window">过去 3 天</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">${blogSources}</div><div class="stat-label">个来源</div></div>
+              <div class="stat"><div class="stat-num">${blogArticles}</div><div class="stat-label">篇文章</div></div>
+            </div>
+          </div>`);
+      } else if (isPodcast) {
+        groups.push(`
+          <div class="stat-group">
+            <div class="stat-group-title">Podcast</div>
+            <div class="stat-group-window">过去 7 天</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">${s.totalSources}</div><div class="stat-label">个播客</div></div>
+              <div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">期节目</div></div>
+            </div>
+          </div>`);
       }
     }
-    return cards.join('\n    ');
+    return groups.join('\n');
   }
   const tocItems = sections.map((s, si) => {
     const sub = s.items.map((item, ii) => {
@@ -400,34 +432,50 @@ body {
 .hero .stats {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   margin-top: 24px;
   flex-wrap: wrap;
 }
-.hero .stat {
+.stat-group {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 12px 20px;
+  border-radius: 14px;
+  padding: 16px 20px 14px;
   text-align: center;
-  min-width: 80px;
+  min-width: 160px;
 }
-.hero .stat-num {
-  font-size: 24px;
+.stat-group-title {
+  font-size: 11px;
   font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
   color: var(--accent);
 }
-.hero .stat-label {
-  font-size: 13px;
-  color: var(--text);
-  margin-top: 2px;
-}
-.hero .stat-sub {
+.stat-group-window {
   font-size: 10px;
   color: var(--text-dim);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 4px;
+  margin-top: 2px;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.stat-group-items {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.hero .stat {
+  text-align: center;
+}
+.hero .stat-num {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-bright);
+}
+.hero .stat-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 2px;
 }
 
 /* ── Layout ───────────────────────────────── */

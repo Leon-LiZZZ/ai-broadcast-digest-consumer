@@ -35,7 +35,31 @@ HTML report:       ${DIGEST_DIR}/ai-broadcast-digest-${DATE}.html
 
 ## Content Delivery — Digest Run
 
-### Step 1: Fetch data
+### Step 1: Try pre-generated report from repo (fast path)
+
+```powershell
+cd ${SKILL_DIR}/scripts
+node fetch-report.js "--date=${DATE}" "--output=${DIGEST_DIR}"
+```
+
+If exit code is **0**, report is ready. Open the HTML:
+
+```powershell
+Invoke-Item "${DIGEST_DIR}/ai-broadcast-digest-${DATE}.html"
+```
+
+Tell the user:
+
+"AI 前沿广播报告已生成：
+- 路径: `${DIGEST_DIR}/ai-broadcast-digest-${DATE}.html`
+- 点击顶部「下载本报告」按钮另存为独立 HTML 文件
+- 左侧目录可快速跳转到感兴趣的人物/内容"
+
+**If exit code is 1** (report not available), fall back to Steps 2-8 below.
+
+---
+
+### Step 2 (fallback): Fetch raw data
 
 ```powershell
 cd ${SKILL_DIR}/scripts
@@ -44,16 +68,16 @@ node fetch-data.js "--output=${DIGEST_DIR}/fb-feed.json"
 
 JSON 字段: `config`, `blogs`, `x` (X/Twitter posts), `podcasts`, `xAccounts`, `stats`, `prompts`, `errors`
 
-### Step 2: Check for content
+### Step 3: Check for content
 
 If `stats.blogPosts` is 0 AND `stats.xTwitterPosts` is 0 AND `stats.podcastEpisodes` is 0,
 tell the user: "No new updates today. Check back tomorrow!" Then stop.
 
-### Step 3: Review X/Twitter content
+### Step 4: Review X/Twitter content
 
 The X/Twitter posts are in the `x` field of the JSON output. Review for substantive content (original opinions, insights, product announcements, technical discussions). **Skip**: mundane personal posts, retweets without commentary, promotional content.
 
-### Step 4: Remix content
+### Step 5: Remix content
 
 Read the prompts from the `prompts` field:
 - `prompts.digest_intro` — overall framing rules
@@ -72,17 +96,17 @@ Read the prompts from the `prompts` field:
 - Every piece of content MUST have its URL. No URL = do not include.
 - For blogs: only summarize posts with real content (skip items with empty `content` and `description`).
 
-### Step 5: Apply language (smart bilingual)
+### Step 6: Apply language (smart bilingual)
 
 When `config.language` is `"auto"`:
 - **English sources**: Write the summary/headings in Chinese, keep original English text in blockquotes (`> ...`)
 - **Chinese sources**: Write everything in Chinese, use blockquotes for key original Chinese passages
 
-### Step 6: Deliver text digest
+### Step 7: Deliver text digest
 
 Output the digest directly to the user.
 
-### Step 7: Generate HTML Report (always run)
+### Step 8: Generate HTML Report (always run in fallback)
 
 ```powershell
 $DATE = Get-Date -Format 'yyyy-MM-dd'
@@ -135,9 +159,21 @@ JSON 核心字段说明见 README.md。
 
 ```
 scripts/
-├── fetch-data.js       # 从本地 data/ 读取 JSON（~80行，零依赖）
-├── generate-html.js    # 从摘要 markdown 生成长页 HTML 报告
+├── fetch-report.js     # 优先从仓库拉取预生成 MD+HTML（零依赖）
+├── fetch-data.js       # 回退：从 data/ 读取原始 JSON（零依赖）
+├── generate-html.js    # 回退：从摘要 markdown 生成长页 HTML 报告
+├── validate-digest.js  # 可选：验证生成内容 URL 无幻觉
 └── package.json        # Node.js 配置（零外部依赖）
+```
+
+## Repo Structure
+
+```
+data/                   # 原始 JSON 数据（Provider 推送）
+  └── YYYY-MM-DD.json
+output/                 # 预生成报告（Provider 推送）
+  ├── YYYY-MM-DD.md
+  └── YYYY-MM-DD.html
 ```
 
 ## Manual Trigger

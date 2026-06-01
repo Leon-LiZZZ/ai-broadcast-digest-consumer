@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Broadcast Digest — 2026年6月1日</title>
+<style>
+:root {
+  --bg: #0c0c10;
+  --surface: #15151c;
+  --card: #1a1a24;
+  --card-hover: #1e1e2a;
+  --border: #2a2a3a;
+  --border-light: #333346;
+  --accent: #818cf8;
+  --accent-dim: #6366f1;
+  --green: #34d399;
+  --amber: #fbbf24;
+  --text: #d4d4d8;
+  --text-dim: #71717a;
+  --text-bright: #fafafa;
+  --text-body: #b4b4bc;
+  --radius: 12px;
+  --max-w: 780px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Sci-fi Background ────────────────────── */
+#sci-fi-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero, .layout, .report-footer, .to-top {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Hero ─────────────────────────────────── */
+.hero {
+  padding: 80px 24px 48px;
+  text-align: center;
+  background: linear-gradient(180deg, #13131a 0%, var(--bg) 100%);
+  border-bottom: 1px solid var(--border);
+}
+.hero-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(129,140,248,0.1);
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.hero h1 {
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 800;
+  color: var(--text-bright);
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.hero .date {
+  font-size: 16px;
+  color: var(--text-dim);
+}
+.hero .actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 22px;
+  background: var(--accent-dim);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  box-shadow: 0 2px 12px rgba(99,102,241,0.25);
+}
+.btn-download:hover {
+  background: var(--accent);
+  box-shadow: 0 4px 20px rgba(99,102,241,0.4);
+  transform: translateY(-1px);
+}
+.btn-download svg { flex-shrink: 0; }
+.hero .stats {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.stat-group {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 20px 14px;
+  text-align: center;
+  min-width: 160px;
+}
+.stat-group-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.stat-group-window {
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 2px;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.stat-group-items {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.hero .stat {
+  text-align: center;
+}
+.hero .stat-num {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-bright);
+}
+.hero .stat-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+/* ── Layout ───────────────────────────────── */
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  padding: 40px 24px 120px;
+}
+
+/* ── Sidebar TOC ──────────────────────────── */
+.sidebar {
+  position: sticky;
+  top: 24px;
+  width: 240px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar { width: 3px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+.toc-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+.toc { list-style: none; }
+.toc-section { margin-bottom: 16px; }
+.toc-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  display: block;
+  padding: 4px 12px;
+  margin-bottom: 4px;
+}
+.toc ul { list-style: none; padding-left: 0; }
+.toc ul li a {
+  display: block;
+  font-size: 12px;
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 3px 12px 3px 24px;
+  border-left: 2px solid transparent;
+  transition: all 0.2s;
+  line-height: 1.5;
+}
+.toc ul li a:hover, .toc ul li a.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  background: rgba(129,140,248,0.05);
+}
+
+/* ── Main Content ─────────────────────────── */
+.main { flex: 1; min-width: 0; max-width: var(--max-w); }
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 48px 0 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.section-header:first-child { margin-top: 0; }
+.section-icon { font-size: 20px; }
+.section-header h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-bright);
+  flex: 1;
+}
+.section-count {
+  font-size: 12px;
+  color: var(--text-dim);
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+/* ── Cards ────────────────────────────────── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: border-color 0.2s, background 0.2s;
+}
+.card:hover {
+  border-color: var(--border-light);
+  background: var(--card-hover);
+}
+.card-header {
+  padding: 24px 28px 0;
+}
+.badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.badge.tweets { background: rgba(129,140,248,0.12); color: var(--accent); }
+.badge.blogs { background: rgba(251,191,36,0.12); color: var(--amber); }
+.badge.podcasts { background: rgba(52,211,153,0.12); color: var(--green); }
+
+.card-header h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text-bright);
+  line-height: 1.4;
+  margin-bottom: 2px;
+}
+.card-subtitle {
+  font-size: 14px;
+  color: var(--accent);
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.card-body {
+  padding: 12px 28px 20px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text-body);
+}
+.card-body p { margin: 8px 0; }
+.card-body p:first-child { margin-top: 0; }
+
+.card-body blockquote {
+  border-left: 3px solid var(--accent-dim);
+  padding: 10px 16px;
+  margin: 14px 0;
+  background: rgba(129,140,248,0.04);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: var(--text);
+  font-size: 14.5px;
+  line-height: 1.7;
+}
+.card-body ul, .card-body ol {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+.card-body li {
+  margin: 5px 0;
+  line-height: 1.7;
+}
+.card-body strong {
+  color: var(--text-bright);
+  font-weight: 600;
+}
+.card-body em { color: var(--text-dim); }
+.card-body a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(129,140,248,0.25);
+  transition: border-color 0.15s;
+}
+.card-body a:hover { border-bottom-color: var(--accent); }
+.card-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.card-body th {
+  background: rgba(129,140,248,0.1);
+  color: var(--text-bright);
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid var(--border);
+}
+.card-body td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.card-body tr:hover td {
+  background: rgba(129,140,248,0.04);
+}
+.card-body code {
+  background: rgba(255,255,255,0.06);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.card-footer {
+  padding: 12px 28px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.source-link:hover { opacity: 1; }
+
+/* ── Back to Top ──────────────────────────── */
+.to-top {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 44px;
+  height: 44px;
+  background: var(--accent-dim);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s;
+  z-index: 50;
+  box-shadow: 0 4px 16px rgba(99,102,241,0.3);
+}
+.to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Footer ───────────────────────────────── */
+.report-footer {
+  text-align: center;
+  padding: 40px 24px;
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.report-footer a { color: var(--accent); text-decoration: none; }
+
+/* ── Mobile ───────────────────────────────── */
+@media (max-width: 860px) {
+  .layout { flex-direction: column; gap: 0; }
+  .sidebar { display: none; }
+  .main { max-width: 100%; }
+  .card-header { padding: 20px 20px 0; }
+  .card-body { padding: 10px 20px 16px; }
+  .card-footer { padding: 10px 20px; }
+  .hero { padding: 60px 20px 36px; }
+}
+</style>
+</head>
+<body>
+
+<canvas id="sci-fi-bg"></canvas>
+
+<header class="hero">
+  <div class="hero-badge">AI Broadcast Digest</div>
+  <h1>获取官方第一手信息，不要第三方解读信息</h1>
+  <p class="date">2026年6月1日</p>
+  <div class="stats">
+    
+          <div class="stat-group">
+            <div class="stat-group-title">X / Twitter</div>
+            <div class="stat-group-window">过去 24 小时</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">10</div><div class="stat-label">位作者</div></div>
+              <div class="stat"><div class="stat-num">25</div><div class="stat-label">条推文</div></div>
+            </div>
+          </div>
+
+          <div class="stat-group">
+            <div class="stat-group-title">Blog</div>
+            <div class="stat-group-window">过去 3 天</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">2</div><div class="stat-label">个来源</div></div>
+              <div class="stat"><div class="stat-num">5</div><div class="stat-label">篇文章</div></div>
+            </div>
+          </div>
+
+          <div class="stat-group">
+            <div class="stat-group-title">Podcast</div>
+            <div class="stat-group-window">过去 7 天</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">4</div><div class="stat-label">个播客</div></div>
+              <div class="stat"><div class="stat-num">5</div><div class="stat-label">期节目</div></div>
+            </div>
+          </div>
+  </div>
+  <div class="actions">
+    <button class="btn-download" onclick="downloadReport()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      下载本报告
+    </button>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="toc-title">Contents</div>
+    <ul class="toc">
+      <li class="toc-section">
+        <span class="toc-label">&#x1D54F; Twitter</span>
+        <ul><li><a href="#s0-i0">Sam Altman (OpenAI CEO)</a></li>
+<li><a href="#s0-i1">Guillermo Rauch (Vercel CEO)</a></li>
+<li><a href="#s0-i2">Aaron Levie (Box CEO)</a></li>
+<li><a href="#s0-i3">Garry Tan (Y Combinator CEO)</a></li>
+<li><a href="#s0-i4">Peter Steinberger (OpenClaw Creator)</a></li>
+<li><a href="#s0-i5">Dan Shipper (Every CEO)</a></li>
+<li><a href="#s0-i6">Swyx (Latent Space)</a></li>
+<li><a href="#s0-i7">Peter Yang (Creator Newsletter)</a></li>
+<li><a href="#s0-i8">Amjad Masad (Replit CEO)</a></li>
+<li><a href="#s0-i9">Nikunj Kothari</a></li></ul>
+      </li>
+
+      <li class="toc-section">
+        <span class="toc-label">&#x1F4DD; 官方博客</span>
+        <ul><li><a href="#s1-i0">OpenAI</a></li>
+<li><a href="#s1-i1">Google AI Blog</a></li></ul>
+      </li>
+
+      <li class="toc-section">
+        <span class="toc-label">&#x1F3A7; 播客</span>
+        <ul><li><a href="#s2-i0">异步 Agent 时代 (The Age of Async Agents)</a></li>
+<li><a href="#s2-i1">ESM：Bitter Lesson 正在降临蛋白质领域 (The Bitter Lesson is Coming for Proteins)</a></li>
+<li><a href="#s2-i2">用 Onyx Security 为企业构建 AI Guardian</a></li>
+<li><a href="#s2-i3">用 MCP 和 Kubernetes 重启企业 AI</a></li>
+<li><a href="#s2-i4">物理学最大谜团：反物质、暗能量与万物理论</a></li></ul>
+      </li></ul>
+  </nav>
+  <main class="main">
+      <section class="report-section" id="section-tweets">
+        <div class="section-header">
+          <span class="section-icon">&#x1D54F;</span>
+          <h2>Twitter</h2>
+          <span class="section-count">10 items</span>
+        </div>
+        
+        <article class="card tweets" id="s0-i0">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Sam Altman (OpenAI CEO)</h3>
+            
+          </div>
+          <div class="card-body"><p>Sam Altman 发布三条推文：1) <strong>OpenAI Robotics 正在大力招聘</strong>，寻找全栈硬件、运维、系统和 ML 工程师，目标是制造对社会有用的机器人——世界模拟研究项目（由 Aditya Ramesh 领导）已演化为 OpenAI Robotics，短期聚焦于辅助技术工人建设未来基础设施，长期愿景是人人拥有个人机器人；2) 分享 OpenAI 推出的 <strong>Rosalind Biodefense</strong> 生物防御计划，帮助世界提前应对生物威胁；3) 转推 Tibo 庆祝 <strong>Codex 用户突破 500 万</strong>，并重置使用限额以示庆祝。</p>
+<p>🔗 <a href="https://x.com/sama/status/2061117302528188712" target="_blank" rel="noopener">推文1</a> | <a href="https://x.com/sama/status/2061101875303530871" target="_blank" rel="noopener">推文2</a> | <a href="https://x.com/sama/status/2061097558819356732" target="_blank" rel="noopener">推文3</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i1">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Guillermo Rauch (Vercel CEO)</h3>
+            
+          </div>
+          <div class="card-body"><p>Vercel CEO Guillermo Rauch 观察到一个值得关注的趋势：<strong>CEO 和 CTO 们正在疯狂回归编码</strong>，归功于 coding agents。上市公司 CEO 纷纷私信告诉他，因为 Claude Code 和 Vercel 重新爱上了发布软件。他认为 <strong>coding agents 是企业级 PLG（产品驱动增长）的终极形态</strong>——糟糕的遗留软件再也无处藏身，从实习生到 CEO 整个组织都能直观判断哪个技术栈真正好用。</p>
+<p>🔗 <a href="https://x.com/rauchg/status/2061135404942974982" target="_blank" rel="noopener">查看推文</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i2">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Aaron Levie (Box CEO)</h3>
+            
+          </div>
+          <div class="card-body"><p>Box CEO Aaron Levie 深度分析了 <strong>企业 AI agent 的 #1 问题：上下文（context）</strong>。从 agentic coding（上下文在代码库中，用户足够技术化）到知识工作 agent，上下文问题变得更加尖锐。Box 客户每天面临的问题：知识碎片化在遗留系统中、访问控制不映射真实工作流、关键决策和流程只存在于员工脑中。他认为这是 <strong>应用 AI 公司最大的杠杆点</strong>——专注于为 agent 提供特定领域信息和专业知识，也是 FDE 和新型系统集成商的机会所在。</p>
+<p>另一条推文中，Levie 反驳 AI 取代就业的担忧：大多数企业 CIO/CTO/CEO 对话中，<strong>AI 正在创造新岗位（FDE、工程等）或至少将效率提升节省的资金重新投入业务</strong>（销售、营销等）。引用高盛 CEO David Solomon 在纽约时报的专栏：AI 热潮既在创造全新就业岗位，也在释放资金投入此前受限的领域。</p>
+<p>🔗 <a href="https://x.com/levie/status/2061247380897579500" target="_blank" rel="noopener">推文1</a> | <a href="https://x.com/levie/status/2060923684295221390" target="_blank" rel="noopener">推文2</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i3">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Garry Tan (Y Combinator CEO)</h3>
+            
+          </div>
+          <div class="card-body"><p>Y Combinator CEO Garry Tan 密集输出多条观点：</p>
+<ul>
+<li><strong>AI harness 战争</strong>：转评 Simon Willison 对 OpenAI Codex Desktop 移除 "Copy as Markdown" 功能的不满，Tan 认为平台必须保持开放，"AI harness 战争正在到来……别人的 harness 只会让你在别人的 AI 生态里做佃农"。他预言 <strong>2027 年浏览器战争的核心将是 AI 记忆所有权</strong>——"你应该控制和托管自己的记忆，这是唯一能带到任何平台的东西"</li>
+<li><strong>GStack 开源项目</strong>进入 GitHub 历史 Top 100（排名第 100）</li>
+<li><strong>旧金山住房危机</strong>：YC 16 位合伙人每年资助 40-60 家公司，每位合伙人每年带来 50-200 名新旧金山居民——而旧金山今年仅完成了 377 套住房</li>
+<li>转推 Elad Gil："过去 6 个月的技术事件堪称人类历史上最重要的事件之一，模型和 agent 递归自我改进的工具现已存在"</li>
+</ul>
+<p>🔗 <a href="https://x.com/garrytan/status/2061176075288453333" target="_blank" rel="noopener">推文1</a> | <a href="https://x.com/garrytan/status/2061174413513678941" target="_blank" rel="noopener">推文2</a> | <a href="https://x.com/garrytan/status/2061114261867548715" target="_blank" rel="noopener">推文3</a> | <a href="https://x.com/garrytan/status/2061251376802599397" target="_blank" rel="noopener">推文4</a> | <a href="https://x.com/garrytan/status/2061159488300912661" target="_blank" rel="noopener">推文5</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i4">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Peter Steinberger (OpenClaw Creator)</h3>
+            
+          </div>
+          <div class="card-body"><p>OpenClaw 创建者 Peter Steinberger 展示了多个技术亮点：</p>
+<ul>
+<li><strong>用 Codex 做 QA agent</strong>：为每个 commit 自动生成用户测试场景，使用 webVNC（crabbox）和浏览器自动化（peekaboo/mcporter）像真实用户/QA 一样测试 OpenClaw，后台运行并自动提交修复 PR</li>
+<li><strong>Codex 写 ad-hoc codemods</strong>：在一次大型 TypeScript 迁移中，Codex 自动生成了临时 codemod，令他印象深刻</li>
+<li>转推 Codex 5M 用户分析：仅占 ChatGPT 约 9 亿用户的 <strong>0.6%</strong>，"我们还非常非常早期"</li>
+<li><strong>OpenClaw 理念</strong>：模块化、精简，只添加所需内容——更少的 skills 和 tools 意味着 agent 更高效</li>
+<li>签证搞定，<strong>即将搬至旧金山</strong>，赶上 MS Build 和 OpenClaw 活动</li>
+</ul>
+<p>🔗 <a href="https://x.com/steipete/status/2061208638027395490" target="_blank" rel="noopener">推文1</a> | <a href="https://x.com/steipete/status/2061115471760441692" target="_blank" rel="noopener">推文2</a> | <a href="https://x.com/steipete/status/2061175739483930877" target="_blank" rel="noopener">推文3</a> | <a href="https://x.com/steipete/status/2061072753998856696" target="_blank" rel="noopener">推文4</a> | <a href="https://x.com/steipete/status/2061031509088231640" target="_blank" rel="noopener">推文5</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i5">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Dan Shipper (Every CEO)</h3>
+            
+          </div>
+          <div class="card-body"><p>Every CEO Dan Shipper 分享了两条内容：1) 调侃那些把自己创业公司比作曼哈顿计划的人——"如果你不是每天这样拼，那就别比了"；2) 转推 Ari Weinstein 对自己文章的认可，重申 <strong>AI 自动化悖论</strong>：尽管用 AI 自动化了一切，<strong>人类工作量反而增加了</strong>，Every 从 GPT-3 以来的 4 人团队已扩展到 30 人。</p>
+<p>🔗 <a href="https://x.com/danshipper/status/2061234578610585677" target="_blank" rel="noopener">推文1</a> | <a href="https://x.com/danshipper/status/2061148424066453828" target="_blank" rel="noopener">推文2</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i6">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Swyx (Latent Space)</h3>
+            
+          </div>
+          <div class="card-body"><p>Latent Space 播客主持人 Swyx 发表两条观察：1) <strong>每个 evals/analytics 创业公司</strong>在 2026 年都在经历一次代际升级，转型为 continual learning platform——"很多会失败，但一如既往，有品味的那些会赢"；2) 转引新加坡部长 Dr. Vivian Bal 的 AI 治理挑战："你不能治理一种只听过简报的技术"——这一观点已成为全球号召，日本团队领袖引用此言推动立法者亲自动手使用 AI。</p>
+<p>🔗 <a href="https://x.com/swyx/status/2061206120233054327" target="_blank" rel="noopener">推文1</a> | <a href="https://x.com/swyx/status/2061167448163013013" target="_blank" rel="noopener">推文2</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i7">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Peter Yang (Creator Newsletter)</h3>
+            
+          </div>
+          <div class="card-body"><p>Peter Yang 发布多条内容：1) 询问社区 <strong>Codex automations 和 Claude Code routines 有什么区别</strong>，想整合 cron jobs；2) 讽刺当前创业 996 文化——"Tokenmax：如果你的 token 支出没超过公司人力预算，你还算 AI native 吗？"；3) 分享与 Josh（Baremetrics 创始人，$4M 出售）的新播客，讨论用 AI agents 同时运营 5 个产品的实战技巧，包括 <code>/build</code>、<code>/adversarial-code-review</code>、<code>/but-for-real</code> 等 skill。</p>
+<p>🔗 <a href="https://x.com/petergyang/status/2061277577785000203" target="_blank" rel="noopener">推文1</a> | <a href="https://x.com/petergyang/status/2061175114184736792" target="_blank" rel="noopener">推文2</a> | <a href="https://x.com/petergyang/status/2061274348598808928" target="_blank" rel="noopener">推文3</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i8">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Amjad Masad (Replit CEO)</h3>
+            
+          </div>
+          <div class="card-body"><p>Replit CEO Amjad Masad 转推了关于 Replit 与飞行员文化共鸣的内容。</p>
+<p>🔗 <a href="https://x.com/amasad/status/2061235273925800217" target="_blank" rel="noopener">查看推文</a></p></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i9">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Nikunj Kothari</h3>
+            
+          </div>
+          <div class="card-body"><p>Nikunj Kothari 寻找关于 <strong>AI 究竟取代了哪些工作</strong>的严肃研究——要求包含历史数据统计、当前岗位空缺和前瞻性分析。他认为"永久底层阶级"的风险被严重夸大了。</p>
+<p>🔗 <a href="https://x.com/nikunj/status/2061115431528943775" target="_blank" rel="noopener">查看推文</a></p></div>
+          
+        </article>
+      </section>
+
+      <section class="report-section" id="section-blogs">
+        <div class="section-header">
+          <span class="section-icon">&#x1F4DD;</span>
+          <h2>官方博客</h2>
+          <span class="section-count">2 items</span>
+        </div>
+        
+        <article class="card blogs" id="s1-i0">
+          <div class="card-header">
+            <span class="badge blogs">Blog</span>
+            <h3>OpenAI</h3>
+            
+          </div>
+          <div class="card-body"><p><strong>Boston Children's Hospital 用 AI 解锁新诊断</strong></p>
+<p>Boston Children's Hospital 使用 OpenAI 技术改善患者护理、减轻运营负担，并帮助诊断超过 40 例罕见病病例。这是 AI 在医疗领域的又一实际应用案例，展示了大语言模型在辅助诊断中的潜力。</p>
+<p>🔗 <a href="https://openai.com/index/boston-childrens-hospital" target="_blank" rel="noopener">查看原文</a></p>
+<p><strong>Braintrust 如何用 Codex 将客户需求转化为代码</strong></p>
+<p>Braintrust 工程师使用 Codex + GPT-5.5 运行实验并加速编码。展示了 Codex 在实际产品开发中的工作流整合，从客户需求到代码实现的端到端加速。</p>
+<p>🔗 <a href="https://openai.com/index/braintrust" target="_blank" rel="noopener">查看原文</a></p></div>
+          
+        </article>
+
+        <article class="card blogs" id="s1-i1">
+          <div class="card-header">
+            <span class="badge blogs">Blog</span>
+            <h3>Google AI Blog</h3>
+            
+          </div>
+          <div class="card-body"><p><strong>9 个 Gemini Omni 和 Gemini 3.5 实战演示</strong></p>
+<p>Google 在 I/O 2026 后发布了 9 段视频，展示 Gemini Omni 和 Gemini 3.5 的实际能力。这是 Google 在 I/O 2026 上发布的多模态模型的实际应用演示。</p>
+<p>🔗 <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/" target="_blank" rel="noopener">查看原文</a></p>
+<p><strong>I/O 2026 Quiz — 用 Google AI Studio Vibe Code 制作</strong></p>
+<p>Google 用 AI Studio vibe code 了一个关于 I/O 2026 重大公告的互动测验，本身就是 AI Studio 能力的一次展示。</p>
+<p>🔗 <a href="https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/" target="_blank" rel="noopener">查看原文</a></p>
+<p><strong>University of Waterloo Futures Lab 的 AI 原型</strong></p>
+<p>University of Waterloo 学生开发了包括手语导师在内的 AI 原型，旨在重塑教育和工作的未来。</p>
+<p>🔗 <a href="https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/" target="_blank" rel="noopener">查看原文</a></p></div>
+          
+        </article>
+      </section>
+
+      <section class="report-section" id="section-podcasts">
+        <div class="section-header">
+          <span class="section-icon">&#x1F3A7;</span>
+          <h2>播客</h2>
+          <span class="section-count">5 items</span>
+        </div>
+        
+        <article class="card podcasts" id="s2-i0">
+          <div class="card-header">
+            <span class="badge podcasts">Podcast</span>
+            <h3>异步 Agent 时代 (The Age of Async Agents)</h3>
+            
+          </div>
+          <div class="card-body"><p><strong>Latent Space</strong> | 2026-05-28 | <a href="https://www.latent.space/p/cognition" target="_blank" rel="noopener">收听</a></p>
+<p>Cognition 的 Walden Yan 和 OpenInspect 的 Cole Murray 讨论异步 agent 的兴起。核心张力：即使 Sierra、Decagon、Notion、Cursor 等 decacorn agent lab 正在崛起，DIY agent 也从未如此简单（LangGraph、Pydantic、Flue 等框架 + Anthropic/Gemini/Amazon 托管 agent）。Shopify、Stripe、Paradigm、Razorpay 等公司都在自建 background agents。</p></div>
+          
+        </article>
+
+        <article class="card podcasts" id="s2-i1">
+          <div class="card-header">
+            <span class="badge podcasts">Podcast</span>
+            <h3>ESM：Bitter Lesson 正在降临蛋白质领域 (The Bitter Lesson is Coming for Proteins)</h3>
+            
+          </div>
+          <div class="card-body"><p><strong>Latent Space</strong> | 2026-05-27 | <a href="https://www.latent.space/p/esmfold2" target="_blank" rel="noopener">收听</a></p>
+<p>BioHub 的 Alex Rives 讨论 ESM（Evolutionary Scale Modeling）在蛋白质领域的 Bitter Lesson——规模化模型正在改变蛋白质科学，类似于深度学习在其他领域的颠覆效应。</p></div>
+          
+        </article>
+
+        <article class="card podcasts" id="s2-i2">
+          <div class="card-header">
+            <span class="badge podcasts">Podcast</span>
+            <h3>用 Onyx Security 为企业构建 AI Guardian</h3>
+            
+          </div>
+          <div class="card-body"><p><strong>No Priors</strong> | 2026-05-28 | <a href="https://traffic.megaphone.fm/PDP6949464408.mp3" target="_blank" rel="noopener">收听</a></p>
+<p>Onyx Security CEO Maxim Bar Kogan 讨论如何为企业构建 AI 安全守护者。在 AI agent 大规模进入企业的背景下，安全和合规成为关键基础设施。</p></div>
+          
+        </article>
+
+        <article class="card podcasts" id="s2-i3">
+          <div class="card-header">
+            <span class="badge podcasts">Podcast</span>
+            <h3>用 MCP 和 Kubernetes 重启企业 AI</h3>
+            
+          </div>
+          <div class="card-body"><p><strong>Practical AI</strong> | 2026-05-28 | <a href="https://share.transistor.fm/s/d76e02d5" target="_blank" rel="noopener">收听</a></p>
+<p>讨论 MCP（Model Context Protocol）与 Kubernetes 结合如何重新定义企业 AI 部署——agent 的上下文管理在容器化基础设施中的实践。</p></div>
+          
+        </article>
+
+        <article class="card podcasts" id="s2-i4">
+          <div class="card-header">
+            <span class="badge podcasts">Podcast</span>
+            <h3>物理学最大谜团：反物质、暗能量与万物理论</h3>
+            
+          </div>
+          <div class="card-body"><p><strong>Lex Fridman</strong> | 2026-05-29 | 时长 3:01:52 | <a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln" target="_blank" rel="noopener">收听</a></p>
+<p>Fermilab 粒子物理学家 Don Lincoln 深度讨论：自然法则的统一、爱因斯坦相对论、电弱力、粒子对撞机原理、Higgs 玻色子发现、万物理论、真空物理、反物质、暗能量和暗物质。</p></div>
+          
+        </article>
+      </section></main>
+</div>
+
+<footer class="report-footer">
+  AI 前沿广播 — 追踪实干家，不追流量网红
+</footer>
+
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr;</button>
+
+<script>
+// Back to top visibility
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => {
+  toTop.classList.toggle('visible', window.scrollY > 400);
+});
+
+// TOC active state
+const tocLinks = document.querySelectorAll('.toc ul li a');
+const articles = document.querySelectorAll('.card[id]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      tocLinks.forEach(l => l.classList.remove('active'));
+      const link = document.querySelector('.toc a[href="#' + e.target.id + '"]');
+      if (link) link.classList.add('active');
+    }
+  });
+}, { rootMargin: '-20% 0px -60% 0px' });
+articles.forEach(a => observer.observe(a));
+
+// Sci-fi particle network background
+(function() {
+  const canvas = document.getElementById('sci-fi-bg');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles = [], mouse = { x: -9999, y: -9999 };
+  const PARTICLE_COUNT = 80;
+  const MAX_DIST = 150;
+  const COLORS = ['#818cf8','#6366f1','#34d399','#fbbf24','#a78bfa'];
+
+  function resize() {
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  // Track mouse for interactive glow
+  document.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+  document.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
+
+  class Particle {
+    constructor() { this.reset(); }
+    reset() {
+      this.x = Math.random() * W;
+      this.y = Math.random() * H;
+      this.vx = (Math.random() - 0.5) * 0.4;
+      this.vy = (Math.random() - 0.5) * 0.4;
+      this.r = Math.random() * 2 + 0.5;
+      this.color = COLORS[Math.floor(Math.random() * COLORS.length)];
+      this.pulse = Math.random() * Math.PI * 2;
+      this.pulseSpeed = 0.01 + Math.random() * 0.02;
+    }
+    update() {
+      this.x += this.vx;
+      this.y += this.vy;
+      this.pulse += this.pulseSpeed;
+      // Subtle mouse repulsion
+      const dx = this.x - mouse.x, dy = this.y - mouse.y;
+      const dist = Math.sqrt(dx*dx + dy*dy);
+      if (dist < 120) {
+        const force = (120 - dist) / 120 * 0.5;
+        this.vx += (dx / dist) * force;
+        this.vy += (dy / dist) * force;
+      }
+      // Damping
+      this.vx *= 0.99;
+      this.vy *= 0.99;
+      // Wrap around
+      if (this.x < -20) this.x = W + 20;
+      if (this.x > W + 20) this.x = -20;
+      if (this.y < -20) this.y = H + 20;
+      if (this.y > H + 20) this.y = -20;
+    }
+    draw() {
+      const glow = Math.sin(this.pulse) * 0.3 + 0.7;
+      const r = this.r * glow;
+      // Outer glow
+      const grad = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, r * 4);
+      grad.addColorStop(0, this.color + '40');
+      grad.addColorStop(1, this.color + '00');
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, r * 4, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+      // Core
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.fill();
+    }
+  }
+
+  for (let i = 0; i < PARTICLE_COUNT; i++) particles.push(new Particle());
+
+  function drawLines() {
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist < MAX_DIST) {
+          const alpha = (1 - dist / MAX_DIST) * 0.15;
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = 'rgba(129,140,248,' + alpha + ')';
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+        }
+      }
+    }
+    // Mouse connection lines
+    if (mouse.x > 0) {
+      for (const p of particles) {
+        const dx = p.x - mouse.x, dy = p.y - mouse.y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist < 200) {
+          const alpha = (1 - dist / 200) * 0.3;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(mouse.x, mouse.y);
+          ctx.strokeStyle = 'rgba(129,140,248,' + alpha + ')';
+          ctx.lineWidth = 0.8;
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  // Subtle scanning line
+  let scanY = 0;
+  function drawScanLine() {
+    scanY += 0.5;
+    if (scanY > H) scanY = 0;
+    const grad = ctx.createLinearGradient(0, scanY - 30, 0, scanY + 30);
+    grad.addColorStop(0, 'rgba(129,140,248,0)');
+    grad.addColorStop(0.5, 'rgba(129,140,248,0.03)');
+    grad.addColorStop(1, 'rgba(129,140,248,0)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, scanY - 30, W, 60);
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, W, H);
+    drawScanLine();
+    particles.forEach(p => { p.update(); p.draw(); });
+    drawLines();
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
+
+// Download report as HTML file
+function downloadReport() {
+  const html = '<!DOCTYPE html>' + document.documentElement.innerHTML;
+  const blob = new Blob([html], {type: 'text/html;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  const d = document.querySelector('.hero .date');
+  a.download = 'AI-Builders-Digest-' + (d ? d.textContent.trim().replace(/[^a-zA-Z0-9一-鿿]/g, '-') : 'report') + '.html';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+</script>
+</body>
+</html>
