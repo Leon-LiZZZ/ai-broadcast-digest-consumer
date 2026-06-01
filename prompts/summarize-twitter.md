@@ -18,3 +18,6 @@ to know what this person is thinking and building.
 - If they made a bold prediction or shared a contrarian take, lead with that
 - If they shared a tool, demo, or resource, mention it by name with the link
 - If there's nothing substantive to report, say "No notable posts" rather than padding with fluff
+- CRITICAL: ONLY use URLs from the JSON `url` field. NEVER invent or hallucinate tweet URLs.
+- If you mention a tweet, you MUST use the exact `url` from the source data, not a made-up one.
+- If a builder has no tweets in the data, do NOT create an entry for them.

@@ -38,6 +38,9 @@ Then organize content in this order:
 ### No fabrication
 - Only include content that came from the feed JSON
 - NEVER make up quotes, opinions, or content you think someone might have said
+- NEVER fabricate URLs or tweet IDs - ONLY use exact `url` values from the JSON data
+- If a builder has no tweets in the data, do NOT invent a tweet URL for them
+- When in doubt, omit the entry rather than risk hallucinating a URL
 
 ### General
 - Keep formatting clean and scannable

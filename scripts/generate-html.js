@@ -90,8 +90,18 @@ function parseDigest(text) {
     if (currentItem && currentSection) {
       currentItem.content = currentItem.content.trim();
       if (currentItem.content || currentItem.url) {
+        // Count tweet links within each item's content
+        const tweetLinks = (currentItem.content.match(/\[[^\]]*\]\(https?:\/\/x\.com\/[^)]+\)/g) || []).length;
+        currentItem.tweetCount = tweetLinks;
         currentSection.items.push(currentItem);
       }
+    }
+  }
+
+  // For twitter sections, compute total tweet count
+  for (const sec of sections) {
+    if (sec.type.includes('twitter') || sec.type.includes('tweets') || sec.type.includes('𝕏')) {
+      sec.totalTweets = sec.items.reduce((sum, item) => sum + (item.tweetCount || 0), 0);
     }
   }
 
@@ -209,21 +219,19 @@ function esc(s) {
 function generateReport({ date, sections }) {
   // Build TOC
   const tocItems = sections.map((s, si) => {
-    const sectionTitle = getSectionTitle(s);
     const sub = s.items.map((item, ii) => {
       const id = `s${si}-i${ii}`;
       return `<li><a href="#${id}">${esc(item.name)}</a></li>`;
     }).join('\n');
     return `
       <li class="toc-section">
-        <span class="toc-label">${getSectionIcon(s.type)} ${esc(sectionTitle)}</span>
+        <span class="toc-label">${getSectionIcon(s.type)} ${esc(s.title)}</span>
         <ul>${sub}</ul>
       </li>`;
   }).join('\n');
 
   // Build content cards
   const contentSections = sections.map((s, si) => {
-    const sectionTitle = getSectionTitle(s);
     const cards = s.items.map((item, ii) => {
       const id = `s${si}-i${ii}`;
       const badge = getBadge(s.type);
@@ -245,7 +253,7 @@ function generateReport({ date, sections }) {
       <section class="report-section" id="section-${s.type}">
         <div class="section-header">
           <span class="section-icon">${getSectionIcon(s.type)}</span>
-          <h2>${esc(sectionTitle)}</h2>
+          <h2>${esc(s.title)}</h2>
           <span class="section-count">${s.items.length} items</span>
         </div>
         ${cards}
@@ -660,7 +668,16 @@ body {
   <h1>获取官方第一手信息，不要第三方解读信息</h1>
   <p class="date">${esc(date)}</p>
   <div class="stats">
-    ${sections.map(s => `<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">${esc(getSectionTitle(s))}</div></div>`).join('\n    ')}
+    ${sections.map(s => {
+      const isTwitter = s.totalTweets > 0;
+      const label = isTwitter
+        ? `${s.items.length} 位作者 · ${s.totalTweets} 条推文`
+        : s.title;
+      const num = isTwitter ? '' : s.items.length;
+      return isTwitter
+        ? `<div class="stat"><div class="stat-num">${s.items.length} / ${s.totalTweets}</div><div class="stat-label">作者 / 推文</div></div>`
+        : `<div class="stat"><div class="stat-num">${s.items.length}</div><div class="stat-label">${esc(s.title)}</div></div>`;
+    }).join('\n    ')}
   </div>
   <div class="actions">
     <button class="btn-download" onclick="downloadReport()">
@@ -860,10 +877,6 @@ function getBadge(type) {
     case 'podcasts': return 'Podcast';
     default: return 'Update';
   }
-}
-
-function getSectionTitle(section) {
-  return section.type === 'tweets' ? 'Twitter' : section.title;
 }
 
 function getSectionIcon(type) {
