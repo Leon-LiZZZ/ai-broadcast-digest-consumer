@@ -44,3 +44,5 @@ Then organize content in this order:
 
 ### General
 - Keep formatting clean and scannable
+- Do NOT add emojis to section headers (e.g. use `## X / Twitter`, NOT `## 🐦 X / Twitter`)
+- Icons are handled automatically by the HTML renderer
