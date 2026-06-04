@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Broadcast Digest — 2026年6月4日</title>
+<style>
+:root {
+  --bg: #0c0c10;
+  --surface: #15151c;
+  --card: #1a1a24;
+  --card-hover: #1e1e2a;
+  --border: #2a2a3a;
+  --border-light: #333346;
+  --accent: #818cf8;
+  --accent-dim: #6366f1;
+  --green: #34d399;
+  --amber: #fbbf24;
+  --text: #d4d4d8;
+  --text-dim: #71717a;
+  --text-bright: #fafafa;
+  --text-body: #b4b4bc;
+  --radius: 12px;
+  --max-w: 780px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Sci-fi Background ────────────────────── */
+#sci-fi-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero, .layout, .report-footer, .to-top {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Hero ─────────────────────────────────── */
+.hero {
+  padding: 80px 24px 48px;
+  text-align: center;
+  background: linear-gradient(180deg, #13131a 0%, var(--bg) 100%);
+  border-bottom: 1px solid var(--border);
+}
+.hero-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(129,140,248,0.1);
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.hero h1 {
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 800;
+  color: var(--text-bright);
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+.hero .date {
+  font-size: 16px;
+  color: var(--text-dim);
+}
+.hero .actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 22px;
+  background: var(--accent-dim);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  box-shadow: 0 2px 12px rgba(99,102,241,0.25);
+}
+.btn-download:hover {
+  background: var(--accent);
+  box-shadow: 0 4px 20px rgba(99,102,241,0.4);
+  transform: translateY(-1px);
+}
+.btn-download svg { flex-shrink: 0; }
+.hero .stats {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.stat-group {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 20px 14px;
+  text-align: center;
+  min-width: 160px;
+}
+.stat-group-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.stat-group-window {
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 2px;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.stat-group-items {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.hero .stat {
+  text-align: center;
+}
+.hero .stat-num {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-bright);
+}
+.hero .stat-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+/* ── Layout ───────────────────────────────── */
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  padding: 40px 24px 120px;
+}
+
+/* ── Sidebar TOC ──────────────────────────── */
+.sidebar {
+  position: sticky;
+  top: 24px;
+  width: 240px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar { width: 3px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+.toc-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+.toc { list-style: none; }
+.toc-section { margin-bottom: 16px; }
+.toc-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  display: block;
+  padding: 4px 12px;
+  margin-bottom: 4px;
+}
+.toc ul { list-style: none; padding-left: 0; }
+.toc ul li a {
+  display: block;
+  font-size: 12px;
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 3px 12px 3px 24px;
+  border-left: 2px solid transparent;
+  transition: all 0.2s;
+  line-height: 1.5;
+}
+.toc ul li a:hover, .toc ul li a.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  background: rgba(129,140,248,0.05);
+}
+
+/* ── Main Content ─────────────────────────── */
+.main { flex: 1; min-width: 0; max-width: var(--max-w); }
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 48px 0 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.section-header:first-child { margin-top: 0; }
+.section-icon { font-size: 20px; }
+.section-header h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-bright);
+  flex: 1;
+}
+.section-count {
+  font-size: 12px;
+  color: var(--text-dim);
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+/* ── Cards ────────────────────────────────── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: border-color 0.2s, background 0.2s;
+}
+.card:hover {
+  border-color: var(--border-light);
+  background: var(--card-hover);
+}
+.card-header {
+  padding: 24px 28px 0;
+}
+.badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.badge.tweets { background: rgba(129,140,248,0.12); color: var(--accent); }
+.badge.blogs { background: rgba(251,191,36,0.12); color: var(--amber); }
+.badge.podcasts { background: rgba(52,211,153,0.12); color: var(--green); }
+
+.card-header h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text-bright);
+  line-height: 1.4;
+  margin-bottom: 2px;
+}
+.card-subtitle {
+  font-size: 14px;
+  color: var(--accent);
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.card-body {
+  padding: 12px 28px 20px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text-body);
+}
+.card-body p { margin: 8px 0; }
+.card-body p:first-child { margin-top: 0; }
+
+.card-body blockquote {
+  border-left: 3px solid var(--accent-dim);
+  padding: 10px 16px;
+  margin: 14px 0;
+  background: rgba(129,140,248,0.04);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: var(--text);
+  font-size: 14.5px;
+  line-height: 1.7;
+}
+.card-body ul, .card-body ol {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+.card-body li {
+  margin: 5px 0;
+  line-height: 1.7;
+}
+.card-body strong {
+  color: var(--text-bright);
+  font-weight: 600;
+}
+.card-body em { color: var(--text-dim); }
+.card-body a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(129,140,248,0.25);
+  transition: border-color 0.15s;
+}
+.card-body a:hover { border-bottom-color: var(--accent); }
+.card-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.card-body th {
+  background: rgba(129,140,248,0.1);
+  color: var(--text-bright);
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid var(--border);
+}
+.card-body td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.card-body tr:hover td {
+  background: rgba(129,140,248,0.04);
+}
+.card-body code {
+  background: rgba(255,255,255,0.06);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.card-footer {
+  padding: 12px 28px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.source-link:hover { opacity: 1; }
+
+/* ── Back to Top ──────────────────────────── */
+.to-top {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 44px;
+  height: 44px;
+  background: var(--accent-dim);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s;
+  z-index: 50;
+  box-shadow: 0 4px 16px rgba(99,102,241,0.3);
+}
+.to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Footer ───────────────────────────────── */
+.report-footer {
+  text-align: center;
+  padding: 40px 24px;
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.report-footer a { color: var(--accent); text-decoration: none; }
+
+/* ── Mobile ───────────────────────────────── */
+@media (max-width: 860px) {
+  .layout { flex-direction: column; gap: 0; }
+  .sidebar { display: none; }
+  .main { max-width: 100%; }
+  .card-header { padding: 20px 20px 0; }
+  .card-body { padding: 10px 20px 16px; }
+  .card-footer { padding: 10px 20px; }
+  .hero { padding: 60px 20px 36px; }
+}
+</style>
+</head>
+<body>
+
+<canvas id="sci-fi-bg"></canvas>
+
+<header class="hero">
+  <div class="hero-badge">AI Broadcast Digest</div>
+  <h1>获取官方第一手信息，不要第三方解读信息</h1>
+  <p class="date">2026年6月4日</p>
+  <div class="stats">
+    
+          <div class="stat-group">
+            <div class="stat-group-title">X / Twitter</div>
+            <div class="stat-group-window">过去 24 小时</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">12</div><div class="stat-label">位作者</div></div>
+              <div class="stat"><div class="stat-num">23</div><div class="stat-label">条推文</div></div>
+            </div>
+          </div>
+
+          <div class="stat-group">
+            <div class="stat-group-title">Blog</div>
+            <div class="stat-group-window">过去 3 天</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">4</div><div class="stat-label">个来源</div></div>
+              <div class="stat"><div class="stat-num">4</div><div class="stat-label">篇文章</div></div>
+            </div>
+          </div>
+
+          <div class="stat-group">
+            <div class="stat-group-title">Podcast</div>
+            <div class="stat-group-window">过去 7 天</div>
+            <div class="stat-group-items">
+              <div class="stat"><div class="stat-num">2</div><div class="stat-label">个播客</div></div>
+              <div class="stat"><div class="stat-num">3</div><div class="stat-label">期节目</div></div>
+            </div>
+          </div>
+  </div>
+  <div class="actions">
+    <button class="btn-download" onclick="downloadReport()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      下载本报告
+    </button>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="toc-title">Contents</div>
+    <ul class="toc">
+      <li class="toc-section">
+        <span class="toc-label">&#x1D54F; 🐦 X/Twitter 动态</span>
+        <ul><li><a href="#s0-i0">Swyx · AI Engineer 社区核心人物</a></li>
+<li><a href="#s0-i1">Josh Woodward · Google Labs 负责人</a></li>
+<li><a href="#s0-i2">Amjad Masad · Replit CEO</a></li>
+<li><a href="#s0-i3">Guillermo Rauch · Vercel CEO</a></li>
+<li><a href="#s0-i4">Aaron Levie · Box CEO</a></li>
+<li><a href="#s0-i5">Garry Tan · Y Combinator CEO</a></li>
+<li><a href="#s0-i6">Peter Steinberger · OpenClaw 创始人</a></li>
+<li><a href="#s0-i7">Dan Shipper · Every CEO</a></li>
+<li><a href="#s0-i8">Peter Yang · Growth Design 创始人</a></li>
+<li><a href="#s0-i9">Matt Turck · AI 投资人/分析师</a></li>
+<li><a href="#s0-i10">Aditya Agarwal · Dropbox 前 CTO</a></li>
+<li><a href="#s0-i11">Nikunj Kothari · 投资人</a></li></ul>
+      </li>
+
+      <li class="toc-section">
+        <span class="toc-label">&#x1F4DD; 📝 博客文章</span>
+        <ul><li><a href="#s1-i0">OpenAI · Codex 全面扩展</a></li>
+<li><a href="#s1-i1">OpenAI · 政策与安全议程</a></li>
+<li><a href="#s1-i2">NVIDIA · COMPUTEX 2026 全栈物理 AI 发布</a></li>
+<li><a href="#s1-i3">Google · Gemini 驱动 I/O 2026</a></li></ul>
+      </li>
+
+      <li class="toc-section">
+        <span class="toc-label">&#x1F3A7; 🎙 播客节目</span>
+        <ul><li><a href="#s2-i0">No Priors · 企业 AI 守护者</a></li>
+<li><a href="#s2-i1">Latent Space · MCP + Kubernetes 重启企业 AI</a></li>
+<li><a href="#s2-i2">Lex Fridman · 物理学最大谜团</a></li></ul>
+      </li>
+
+      <li class="toc-section">
+        <span class="toc-label">&#x1F4E6; 🔥 今日焦点</span>
+        <ul></ul>
+      </li></ul>
+  </nav>
+  <main class="main">
+      <section class="report-section" id="section-tweets">
+        <div class="section-header">
+          <span class="section-icon">&#x1D54F;</span>
+          <h2>🐦 X/Twitter 动态</h2>
+          <span class="section-count">12 items</span>
+        </div>
+        
+        <article class="card tweets" id="s0-i0">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Swyx · AI Engineer 社区核心人物</h3>
+            
+          </div>
+          <div class="card-body"><p>Swyx 正在与 Mada Seghete 共同策划 6 月 30 日 AI Engineer 大会的「AI in GTM」赛道，提出一个关键观点：<strong>GTM 已经变成工程问题</strong>——外呼 = Agent 设计，数据富化 = 检索 + 数据质量，归因 = 知识图谱问题，预测 = 评估。同时他关注了推理效率的奖励函数设计，认为 length penalty 方案"非常优雅简洁"。</p>
+<ul>
+<li><a href="https://x.com/swyx/status/2062250212069142881" target="_blank" rel="noopener">AI in GTM 赛道</a></li>
+<li><a href="https://x.com/swyx/status/2062060142489973010" target="_blank" rel="noopener">推理效率奖励函数</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i1">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Josh Woodward · Google Labs 负责人</h3>
+            
+          </div>
+          <div class="card-body"><p>Google Labs 发布了一款实验性移动应用 <strong>Dreambeans</strong>，定位为"希望滚动，而非末日滚动"——利用个人智能（Personal Intelligence）连接 Google 应用，每天推送个性化故事和发现。面向美国 Google AI Ultra 用户开放。此外，Woodward 还宣布 <strong>Gemini Thinking Levels</strong> 已在 Web/iOS/Android 全平台上线，以及 Gemini Omni 视频创作趋势。</p>
+<ul>
+<li><a href="https://x.com/joshwoodward/status/2062217728824651848" target="_blank" rel="noopener">Dreambeans 发布</a></li>
+<li><a href="https://x.com/joshwoodward/status/2062025667852812583" target="_blank" rel="noopener">Thinking Levels 上线</a></li>
+<li><a href="https://x.com/joshwoodward/status/2062341366999601185" target="_blank" rel="noopener">Gemini Omni 视频趋势</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i2">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Amjad Masad · Replit CEO</h3>
+            
+          </div>
+          <div class="card-body"><p>Masad 密集发布多项 Replit 动态：</p>
+<ul class="numbered">
+<li><strong>ViBench 基准测试</strong>发布——首个基于真实任务的应用创建基准，结果显示 <strong>Opus 4.8 在 vibe coding 的价格性能比上继续领先 GPT 5.5</strong>；</li>
+<li>推出 <strong>SEO Agent</strong>，自动扫描应用并建议优化，帮助应用在 Web 和 AI 搜索中被发现；</li>
+<li>Lenny's Newsletter × Replit 编程马拉松冠军项目 <strong>Operators</strong>——一个以播客嘉宾为格斗角色的街霸风格游戏。</li>
+<li><a href="https://x.com/amasad/status/2062346207226442188" target="_blank" rel="noopener">ViBench 基准</a></li>
+<li><a href="https://x.com/amasad/status/2062220467751322033" target="_blank" rel="noopener">SEO Agent</a></li>
+<li><a href="https://x.com/amasad/status/2062292349464748526" target="_blank" rel="noopener">Operators 冠军项目</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i3">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Guillermo Rauch · Vercel CEO</h3>
+            
+          </div>
+          <div class="card-body"><p>Rauch 宣布 <strong>Grok Imagine Video 1.5</strong> 已上线 Vercel AI Gateway，支持一次生成带同步音频的视频——这是 arena.ai 上排名最高的图生视频模型。同时，<strong>v0 的 Snowflake 集成</strong>进入公开预览，用户可直接用自然语言在 v0 中生成基于 Snowflake 数据的仪表板。Rauch 认为："在业务数据上生成前端是编码 AI 的杀手级应用之一，永远不会回到笨拙僵化的仪表板了。"</p>
+<ul>
+<li><a href="https://x.com/rauchg/status/2062332963636060313" target="_blank" rel="noopener">Grok Imagine Video</a></li>
+<li><a href="https://x.com/rauchg/status/2062199585322529108" target="_blank" rel="noopener">v0 + Snowflake</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i4">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Aaron Levie · Box CEO</h3>
+            
+          </div>
+          <div class="card-body"><p>Levie 分享了对 AI 对就业影响的深度观察：就业数据持续显示与人们预期相反的趋势——以工程领域为例，<strong>由于 AI 带来了更多软件项目，工程师的需求反而增加了</strong>。虽然非技术人员可以暂时用 AI 构建软件，但最终仍需要工程师理解底层逻辑。同时他指出，<strong>企业在 AI token 上的花费已大幅超过历史上任何软件支出</strong>——从每月每人 10-50 美元的软件许可，跃升到数百甚至数千美元的 token 费用，揭示了企业智能市场的巨大 TAM。</p>
+<ul>
+<li><a href="https://x.com/levie/status/2062335852379066698" target="_blank" rel="noopener">工程就业数据</a></li>
+<li><a href="https://x.com/levie/status/2062280745889222937" target="_blank" rel="noopener">AI token 支出</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i5">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Garry Tan · Y Combinator CEO</h3>
+            
+          </div>
+          <div class="card-body"><p>Tan 做出了一个大胆预测：<strong>2027 年将是 AI Harness 之战（Codex Sites vs Lovable 等），2028 年则是前沿实验室 vs 所有软件公司之战</strong>。他同时分享了 GBBrain SkillOpt 的 4 个端到端评估，以及关于 Bain/McKinsey 发现企业 AI 投资回报令人失望的评论——"令人震惊的是 Bain 和 McKinsey 竟然没发现 AI 的价值"。</p>
+<ul>
+<li><a href="https://x.com/garrytan/status/2062188458366648702" target="_blank" rel="noopener">AI Harness 之战预测</a></li>
+<li><a href="https://x.com/garrytan/status/2062163263383802320" target="_blank" rel="noopener">GBrain SkillOpt 评估</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i6">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Peter Steinberger · OpenClaw 创始人</h3>
+            
+          </div>
+          <div class="card-body"><p>OpenClaw 本周 npm 下载量创新高，加上 Docker、GitHub 等渠道，实际周下载量估计在 <strong>1000-2000 万次</strong>。今日 OpenClaw 活动有超过 1300 人排队等候。重要发布：<strong>Skill Workshop</strong>——将 Agent 的可复用经验转化为可审查、可修改、可接受或拒绝的提案，而非默默重写未来运行。</p>
+<ul>
+<li><a href="https://x.com/steipete/status/2062294145147043930" target="_blank" rel="noopener">Skill Workshop</a></li>
+<li><a href="https://x.com/steipete/status/2062276065448669627" target="_blank" rel="noopener">npm 下载量创新高</a></li>
+<li><a href="https://x.com/steipete/status/2062307384018829768" target="_blank" rel="noopener">OpenClaw 活动</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i7">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Dan Shipper · Every CEO</h3>
+            
+          </div>
+          <div class="card-body"><p>Shipper 提出了<strong>"自动化悖论"（Automation Paradox）</strong>——虽然 AI 正在自动化我们的工作，但我们反而比以往更忙。当前两种前沿工作模式：<strong>委托（Delegation）</strong>——调用 Agent 端到端完成任务；<strong>编排（Orchestration）</strong>——在 Claude Code 或 Codex 中与 AI 协作。两者看似自动化，但都悄悄依赖人类。</p>
+<ul>
+<li><a href="https://x.com/danshipper/status/2062189751323508959" target="_blank" rel="noopener">自动化悖论</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i8">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Peter Yang · Growth Design 创始人</h3>
+            
+          </div>
+          <div class="card-body"><p>Yang 对 <strong>Codex 的表现赞不绝口</strong>——"Codex 今天下午帮我编辑电子表格，简直太强了"，并希望将 Codex 设为 ChatGPT 默认标签页。</p>
+<ul>
+<li><a href="https://x.com/petergyang/status/2062283525542531194" target="_blank" rel="noopener">Codex 使用体验</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i9">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Matt Turck · AI 投资人/分析师</h3>
+            
+          </div>
+          <div class="card-body"><p>Turck 关注到 <strong>Google 发布 Gemma 4 12B</strong>（Apache 2.0 开源，可在 LM Studio 本地运行），以及 SurrealDB 团队发布的 <strong>Spectron</strong>——基于多模型数据库的 AI Agent 记忆层，支持图、向量、文档等多种记录类型的 ACID 事务。</p>
+<ul>
+<li><a href="https://x.com/mattturck/status/2062328704349716546" target="_blank" rel="noopener">Gemma 4 12B</a></li>
+<li><a href="https://x.com/mattturck/status/2062310137830986006" target="_blank" rel="noopener">Spectron 记忆层</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i10">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Aditya Agarwal · Dropbox 前 CTO</h3>
+            
+          </div>
+          <div class="card-body"><p>Agarwal 指出：<strong>AI 正在将市场从销售 SaaS 转向销售成果（outcomes）</strong>，这扩大了可解决的问题范围，需要一种新型工程师。</p>
+<ul>
+<li><a href="https://x.com/adityaag/status/2062300963046875545" target="_blank" rel="noopener">从 SaaS 到 Outcomes</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card tweets" id="s0-i11">
+          <div class="card-header">
+            <span class="badge tweets">X / Twitter</span>
+            <h3>Nikunj Kothari · 投资人</h3>
+            
+          </div>
+          <div class="card-body"><p>Kothari 提醒创业者：最好的创始人将 AI/时机、融资、分发、市场、产品、收入视为必要组件但<strong>不是全部</strong>。"我见过太多 pitch 只强调其中一个作为核心投资理由，门槛从未如此之高。"</p>
+<ul>
+<li><a href="https://x.com/nikunj/status/2062033620773306763" target="_blank" rel="noopener">创始人投资标准</a></li>
+</ul></div>
+          
+        </article>
+      </section>
+
+      <section class="report-section" id="section-blogs">
+        <div class="section-header">
+          <span class="section-icon">&#x1F4DD;</span>
+          <h2>📝 博客文章</h2>
+          <span class="section-count">4 items</span>
+        </div>
+        
+        <article class="card blogs" id="s1-i0">
+          <div class="card-header">
+            <span class="badge blogs">Blog</span>
+            <h3>OpenAI · Codex 全面扩展</h3>
+            
+          </div>
+          <div class="card-body"><p>OpenAI 本周围绕 <strong>Codex</strong> 密集发布，将其从编程工具升级为<strong>全角色生产力平台</strong>：</p>
+<ul>
+<li><strong>Codex for Every Role</strong>：新增插件、Sites 和 Annotations，支持分析师、营销人员、设计师、投资者等各类角色</li>
+<li><strong>Codex 成为知识工作者的生产力工具</strong>：发布《Next Era of Knowledge Work》报告，展示 Codex 在研究、数据分析、流程自动化和内容创作方面的能力</li>
+<li><strong>OpenAI 前沿模型 + Codex 登陆 AWS</strong>：正式在 AWS 上 GA，企业可通过已有 AWS 环境和采购流程使用</li>
+<li><strong>Wasmer 用 Codex 构建边缘 Node.js 运行时</strong>：使用 GPT-5.5 加速开发 10-20 倍，数周完成原本数月的工作</li>
+<li><strong>GPT-Rosalind 新能力</strong>：增强生物推理、药物化学、基因组分析和实验工作流能力</li>
+<li><strong>Stargate 密歇根数据中心</strong>：1GW 规模的数据中心项目破土动工</li>
+</ul>
+<blockquote>"Codex is becoming a productivity tool for everyone."<br>— <a href="https://openai.com/index/codex-for-knowledge-work" target="_blank" rel="noopener">Codex for Knowledge Work</a></blockquote>
+<p>相关链接：</p>
+<p><a href="https://openai.com/index/codex-for-every-role-tool-workflow" target="_blank" rel="noopener">Codex for Every Role</a> ·</p>
+<p><a href="https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws" target="_blank" rel="noopener">Codex on AWS</a> ·</p>
+<p><a href="https://openai.com/index/wasmer" target="_blank" rel="noopener">Wasmer Case</a> ·</p>
+<p><a href="https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind" target="_blank" rel="noopener">GPT-Rosalind</a> ·</p>
+<p><a href="https://openai.com/index/stargate-michigan-data-center" target="_blank" rel="noopener">Stargate Michigan</a></p></div>
+          
+        </article>
+
+        <article class="card blogs" id="s1-i1">
+          <div class="card-header">
+            <span class="badge blogs">Blog</span>
+            <h3>OpenAI · 政策与安全议程</h3>
+            
+          </div>
+          <div class="card-body"><p>OpenAI 发布多项政策声明：</p>
+<ul>
+<li><strong>公共政策议程</strong>：涵盖安全、青年保护、劳动力转型和全球标准</li>
+<li><strong>前沿安全蓝图</strong>：提出美国前沿 AI 治理联邦框架</li>
+<li><strong>青年安全</strong>：呼吁建立国际机构加强 AI 青年安全保护</li>
+<li><strong>政治立场声明</strong>：明确 AI 政策主张，强调无外部政治团体代表公司发言</li>
+</ul>
+<p>相关链接：</p>
+<p><a href="https://openai.com/index/public-policy-agenda" target="_blank" rel="noopener">Public Policy</a> ·</p>
+<p><a href="https://openai.com/index/frontier-safety-blueprint" target="_blank" rel="noopener">Safety Blueprint</a> ·</p>
+<p><a href="https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership" target="_blank" rel="noopener">Youth Safety</a></p></div>
+          
+        </article>
+
+        <article class="card blogs" id="s1-i2">
+          <div class="card-header">
+            <span class="badge blogs">Blog</span>
+            <h3>NVIDIA · COMPUTEX 2026 全栈物理 AI 发布</h3>
+            
+          </div>
+          <div class="card-body"><p>NVIDIA 在 COMPUTEX/GTC Taipei 集中发布了一系列 Physical AI 和 Agentic AI 产品：</p>
+<ul>
+<li><strong>JetPack 7.2 + NemoClaw on Jetson</strong>：将 Agentic AI 带入物理世界，支持 CUDA 13 和 MIG</li>
+<li><strong>RTX Spark</strong>：专为个人 AI Agent 设计的新型 Windows PC</li>
+<li><strong>FOX Blueprint</strong>：自主工厂管理 Agent 参考设计</li>
+<li><strong>NemoClaw 工业应用</strong>：与十余家工程软件厂商合作，实现仿真全流程自动化</li>
+<li><strong>NVIDIA × Microsoft 统一堆栈</strong>：从 Windows 设备到 Azure 云再到本地部署的 Agentic AI 全栈</li>
+<li><strong>金融交易基础模型</strong>：解决金融机构 AI 孤岛问题</li>
+<li><strong>AI Cloud 全球扩展</strong>：满足企业、初创、国家 AI 实验室的算力需求</li>
+<li><strong>台湾生态</strong>：500+ 生态伙伴，100 万+ MGX 组件产自台湾 25 个工厂</li>
+</ul>
+<blockquote>"The agentic AI moment has arrived."<br>— <a href="https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/" target="_blank" rel="noopener">NVIDIA × Microsoft</a></blockquote>
+<p>相关链接：</p>
+<p><a href="https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/" target="_blank" rel="noopener">Jetson Agentic AI</a> ·</p>
+<p><a href="https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/" target="_blank" rel="noopener">RTX Spark</a> ·</p>
+<p><a href="https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/" target="_blank" rel="noopener">FOX Blueprint</a> ·</p>
+<p><a href="https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/" target="_blank" rel="noopener">NemoClaw</a> ·</p>
+<p><a href="https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/" target="_blank" rel="noopener">Physical AI Skills</a></p></div>
+          
+        </article>
+
+        <article class="card blogs" id="s1-i3">
+          <div class="card-header">
+            <span class="badge blogs">Blog</span>
+            <h3>Google · Gemini 驱动 I/O 2026</h3>
+            
+          </div>
+          <div class="card-body"><p>Google 分享了如何使用 Gemini 来制作 Google I/O 2026 大会，展示了 AI 在大型活动制作中的实际应用。</p>
+<ul>
+<li><a href="https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/" target="_blank" rel="noopener">How Gemini Built I/O 2026</a></li>
+</ul></div>
+          
+        </article>
+      </section>
+
+      <section class="report-section" id="section-podcasts">
+        <div class="section-header">
+          <span class="section-icon">&#x1F3A7;</span>
+          <h2>🎙 播客节目</h2>
+          <span class="section-count">3 items</span>
+        </div>
+        
+        <article class="card podcasts" id="s2-i0">
+          <div class="card-header">
+            <span class="badge podcasts">Podcast</span>
+            <h3>No Priors · 企业 AI 守护者</h3>
+            
+          </div>
+          <div class="card-body"><p>No Priors 播客邀请 Onyx Security CEO Maxim Bar Kogan 探讨<strong>如何监督和保护企业级自主 Agent</strong>。Onyx 的产品定位为 AI 控制平面（control plane），负责管理 Agent 的权限和上下文，在延迟、成本和安全之间取得平衡。当 AI Agent 足以管理电网和水务系统时，如何防止它们"失控"成为关键问题。</p>
+<ul>
+<li><a href="https://traffic.megaphone.fm/PDP6949464408.mp3" target="_blank" rel="noopener">收听</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card podcasts" id="s2-i1">
+          <div class="card-header">
+            <span class="badge podcasts">Podcast</span>
+            <h3>Latent Space · MCP + Kubernetes 重启企业 AI</h3>
+            
+          </div>
+          <div class="card-body"><p>Craig McLuckie（Stacklok CEO，Kubernetes 联合创始人）讨论 <strong>MCP、Kubernetes、ToolHive</strong> 如何支撑 AI 原生应用基础设施。核心议题：当 Agent 从聊天机器人变成"同事"，组织将如何管理整个 Agent 舰队？从身份管理到 Agent 编排，这一集深入探讨了企业 AI 的系统架构。</p>
+<ul>
+<li><a href="https://share.transistor.fm/s/d76e02d5" target="_blank" rel="noopener">收听</a></li>
+</ul></div>
+          
+        </article>
+
+        <article class="card podcasts" id="s2-i2">
+          <div class="card-header">
+            <span class="badge podcasts">Podcast</span>
+            <h3>Lex Fridman · 物理学最大谜团</h3>
+            
+          </div>
+          <div class="card-body"><p>Fermilab 粒子物理学家 Don Lincoln 探讨反物质、暗能量和万物理论（Theory of Everything）——虽然不直接相关 AI，但对理解计算本质和宇宙基本规律有深层启发。</p>
+<ul>
+<li><a href="https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln" target="_blank" rel="noopener">收听</a></li>
+</ul></div>
+          
+        </article>
+      </section>
+
+      <section class="report-section" id="section-general">
+        <div class="section-header">
+          <span class="section-icon">&#x1F4E6;</span>
+          <h2>🔥 今日焦点</h2>
+          <span class="section-count">0 items</span>
+        </div>
+        
+      </section></main>
+</div>
+
+<footer class="report-footer">
+  AI 前沿广播 — 追踪实干家，不追流量网红
+</footer>
+
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr;</button>
+
+<script>
+// Back to top visibility
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => {
+  toTop.classList.toggle('visible', window.scrollY > 400);
+});
+
+// TOC active state
+const tocLinks = document.querySelectorAll('.toc ul li a');
+const articles = document.querySelectorAll('.card[id]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      tocLinks.forEach(l => l.classList.remove('active'));
+      const link = document.querySelector('.toc a[href="#' + e.target.id + '"]');
+      if (link) link.classList.add('active');
+    }
+  });
+}, { rootMargin: '-20% 0px -60% 0px' });
+articles.forEach(a => observer.observe(a));
+
+// Sci-fi particle network background
+(function() {
+  const canvas = document.getElementById('sci-fi-bg');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles = [], mouse = { x: -9999, y: -9999 };
+  const PARTICLE_COUNT = 80;
+  const MAX_DIST = 150;
+  const COLORS = ['#818cf8','#6366f1','#34d399','#fbbf24','#a78bfa'];
+
+  function resize() {
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  // Track mouse for interactive glow
+  document.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+  document.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
+
+  class Particle {
+    constructor() { this.reset(); }
+    reset() {
+      this.x = Math.random() * W;
+      this.y = Math.random() * H;
+      this.vx = (Math.random() - 0.5) * 0.4;
+      this.vy = (Math.random() - 0.5) * 0.4;
+      this.r = Math.random() * 2 + 0.5;
+      this.color = COLORS[Math.floor(Math.random() * COLORS.length)];
+      this.pulse = Math.random() * Math.PI * 2;
+      this.pulseSpeed = 0.01 + Math.random() * 0.02;
+    }
+    update() {
+      this.x += this.vx;
+      this.y += this.vy;
+      this.pulse += this.pulseSpeed;
+      // Subtle mouse repulsion
+      const dx = this.x - mouse.x, dy = this.y - mouse.y;
+      const dist = Math.sqrt(dx*dx + dy*dy);
+      if (dist < 120) {
+        const force = (120 - dist) / 120 * 0.5;
+        this.vx += (dx / dist) * force;
+        this.vy += (dy / dist) * force;
+      }
+      // Damping
+      this.vx *= 0.99;
+      this.vy *= 0.99;
+      // Wrap around
+      if (this.x < -20) this.x = W + 20;
+      if (this.x > W + 20) this.x = -20;
+      if (this.y < -20) this.y = H + 20;
+      if (this.y > H + 20) this.y = -20;
+    }
+    draw() {
+      const glow = Math.sin(this.pulse) * 0.3 + 0.7;
+      const r = this.r * glow;
+      // Outer glow
+      const grad = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, r * 4);
+      grad.addColorStop(0, this.color + '40');
+      grad.addColorStop(1, this.color + '00');
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, r * 4, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+      // Core
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.fill();
+    }
+  }
+
+  for (let i = 0; i < PARTICLE_COUNT; i++) particles.push(new Particle());
+
+  function drawLines() {
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist < MAX_DIST) {
+          const alpha = (1 - dist / MAX_DIST) * 0.15;
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = 'rgba(129,140,248,' + alpha + ')';
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+        }
+      }
+    }
+    // Mouse connection lines
+    if (mouse.x > 0) {
+      for (const p of particles) {
+        const dx = p.x - mouse.x, dy = p.y - mouse.y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist < 200) {
+          const alpha = (1 - dist / 200) * 0.3;
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(mouse.x, mouse.y);
+          ctx.strokeStyle = 'rgba(129,140,248,' + alpha + ')';
+          ctx.lineWidth = 0.8;
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  // Subtle scanning line
+  let scanY = 0;
+  function drawScanLine() {
+    scanY += 0.5;
+    if (scanY > H) scanY = 0;
+    const grad = ctx.createLinearGradient(0, scanY - 30, 0, scanY + 30);
+    grad.addColorStop(0, 'rgba(129,140,248,0)');
+    grad.addColorStop(0.5, 'rgba(129,140,248,0.03)');
+    grad.addColorStop(1, 'rgba(129,140,248,0)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, scanY - 30, W, 60);
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, W, H);
+    drawScanLine();
+    particles.forEach(p => { p.update(); p.draw(); });
+    drawLines();
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
+
+// Download report as HTML file
+function downloadReport() {
+  const html = '<!DOCTYPE html>' + document.documentElement.innerHTML;
+  const blob = new Blob([html], {type: 'text/html;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  const d = document.querySelector('.hero .date');
+  a.download = 'AI-Builders-Digest-' + (d ? d.textContent.trim().replace(/[^a-zA-Z0-9一-鿿]/g, '-') : 'report') + '.html';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1075 @@
+{
+  "status": "ok",
+  "generatedAt": "2026-06-04T02:06:06.216Z",
+  "date": "2026-06-04",
+  "config": {
+    "language": "auto"
+  },
+  "blogs": [
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "publishedAt": "2026-06-03T13:15:00.000Z",
+      "author": "",
+      "description": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "content": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "url": "https://openai.com/index/wasmer",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "author": "",
+      "description": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "content": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "publishedAt": "2026-06-03T10:00:00.000Z",
+      "author": "",
+      "description": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "content": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "publishedAt": "2026-06-03T10:00:00.000Z",
+      "author": "",
+      "description": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "content": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "url": "https://openai.com/index/travelers",
+      "publishedAt": "2026-06-02T12:00:00.000Z",
+      "author": "",
+      "description": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "content": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Codex for every role, tool, and workflow",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "publishedAt": "2026-06-02T09:00:00.000Z",
+      "author": "",
+      "description": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "content": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "publishedAt": "2026-06-02T07:00:00.000Z",
+      "author": "",
+      "description": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "content": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "publishedAt": "2026-06-02T02:00:00.000Z",
+      "author": "",
+      "description": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "content": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Our views on AI policy and political advocacy",
+      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "publishedAt": "2026-06-01T17:00:00.000Z",
+      "author": "",
+      "description": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
+      "content": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "publishedAt": "2026-06-01T12:00:00.000Z",
+      "author": "",
+      "description": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "content": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities."
+    },
+    {
+      "source": "blog",
+      "name": "OpenAI",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "publishedAt": "2026-06-01T10:00:00.000Z",
+      "author": "",
+      "description": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "content": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production."
+    },
+    {
+      "source": "blog",
+      "name": "Google AI Blog",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "publishedAt": "2026-06-03T13:00:00.000Z",
+      "author": "",
+      "description": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
+      "content": "Uncover second-hand scores with AI tools in Google Search and Shopping."
+    },
+    {
+      "source": "blog",
+      "name": "Google AI Blog",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "publishedAt": "2026-06-01T16:00:00.000Z",
+      "author": "",
+      "description": "Learn how Googlers used AI to produce Google I/O 2026.",
+      "content": "Learn how Googlers used AI to produce Google I/O 2026."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+      "publishedAt": "2026-06-03T15:00:57.000Z",
+      "author": "",
+      "description": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before.  What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that […]",
+      "content": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that it can do so quickly enough on the hardware actually installed in the car. What makes a virtual agent capable is exposure to as many different environments as possible before it faces the real world. At this year’s Computer Vision and Pattern Recognition (CVPR) conference, NVIDIA Research is presenting three papers that address each of these challenges — and share a common theme: training at scale creates systems that generalize across diverse applications.The three papers cover different challenges in physical AI research: GraspGen-X, the first foundation model for zero-shot grasping, was trained on billions of simulated grasps to work with any gripper it’s shown.LCDrive introduces a model that replaces expensive text-based reasoning with compact latent representations, letting autonomous vehicles think faster on embedded hardware.NitroGen is a generalized gameplay AI foundation model that harnesses the NVIDIA Isaac GR00T robot foundation model architecture to help train embodied agents in virtual environments across tens of thousands of hours of interaction.NVIDIA also unveiled at CVPR new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems.The First Foundation Model for GraspingMost AI systems for robotic grasping are specialists.A vision-language-action policy trained for a two-finger gripper only learns to grasp with those two fingers. Similarly, a policy for dextrous grasping will only work for the bespoke multi-fingered gripper it’s trained on. For every new embodiment, the process typically needs to be repeated — requiring new training data, fine-tuning and validation. This constraint means most robotics companies pick a gripper, train for it and stick with it.GraspGen-X is the first foundation model for grasping built to eliminate this bottleneck. Like a large language model that can apply its understanding of language to a new task without retraining, GraspGen-X applies its understanding of geometry and contact to any robotic gripper it encounters. Given the geometry of a new gripper and an unknown object it’s never seen before, the model generates reliable grasp pose proposals to enable the robot to grasp the object.https://blogs.nvidia.com/wp-content/uploads/2026/06/GraspGenX.mp4To get there, the researchers needed a dataset that’s impossible to collect in the real world at scale. They generated 2 billion simulated grasps across thousands of object shapes and synthetic gripper configurations, spanning the diversity of form factors a deployed robot might encounter. For robot developers, this foundation model eliminates the need for per-gripper training cycles and can be applied out of the box for several commonly used grippers. GraspGenX can be used in conjunction with curoboV2, a new CUDA-accelerated motion planning library, to achieve these grasp poses in unknown environments. Building on the GraspGen research foundation, another paper, Grasp-MPC — presented at ICRA 2026 — advances the next step in the pipeline: moving from grasp generation to closed-loop grasp execution.Teaching Autonomous Vehicles to Think FasterIn recent years, researchers have found that letting an AI reason — generating intermediate thinking steps before committing to an answer — reliably improves its decision-making. For autonomous vehicles, the challenge is doing that reasoning on the hardware inside an actual vehicle. Text-based chain-of-thought reasoning generates words, and every word is a token that takes time to produce. On the processor running inside a car, token count is a real constraint on how fast the system can respond.LCDrive tackles this problem by replacing words with compressed latent representations. Instead of generating human-readable reasoning steps, the system thinks in a compact latent space — states that capture spatial information rather than producing text. The architecture alternates between two kinds of thinking: proposing candidate actions, then predicting what the world will look like if those actions are taken. It uses that predicted world state to refine its next step. It’s the same reasoning loop — just in a more computationally efficient form than natural language.The result: comparable output trajectory quality to text-based reasoning, using roughly half the tokens. The model was built on NVIDIA Alpamayo and trained using supervision derived from existing vehicle data.Embodied Agents Trained in Virtual WorldsIsaac GR00T — NVIDIA’s open foundation model for humanoid robots — is built on a simple principle: expose a model to enough diverse situations, and it will generalize to ones it hasn’t seen. NitroGen extends that principle to virtual environments, using the GR00T architecture to train a foundation model for embodied agents across a breadth of virtual worlds.Video games offer something that’s hard to build from scratch: structured, varied worlds with defined goals and well-specified success conditions. They’re high-quality training environments, available at scale. NitroGen treats them that way — as a training ground for agents that will eventually be trained to handle novel real- or simulated-world situations, like powering a robot that helps with housework based on broad instructions such as, “Put these items away in the pantry.”  Trained across more than 1,000 games and 40,000 hours of interaction using a model based on GR00T, the resulting agents learn to generalize across environments. The model was evaluated across a range of action role-playing games, platformers, roguelikes and open-world games, demonstrating gameplay behaviors spanning combat, navigation and exploration. https://blogs.nvidia.com/wp-content/uploads/2026/06/NitroGen.mp4The same techniques could eventually help enable more adaptive nonplayable characters, AI companions and gameplay systems inside games, as well as broader testing of complex game environments.In low-data conditions — where an agent has seen only a handful of examples of a new environment — starting with NitroGen gives agents a huge head start, improving performance by up to 52% over previous state-of-the-art methods. The model is open source, available on GitHub and Hugging Face. Learn more about NVIDIA at CVPR and explore NVIDIA Research’s work in physical AI, computer vision and autonomous systems. Get started with Isaac GR00T and NVIDIA robotics tools."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+      "publishedAt": "2026-06-03T15:00:35.000Z",
+      "author": "",
+      "description": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems. The core challenge in physical AI research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, generating edge-case scenarios, training policies, evaluating […]",
+      "content": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems.The core challenge in physical AI research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, generating edge-case scenarios, training policies, evaluating behavior and rapidly iterating. Today, these steps are fragmented across separate tools, slowing the pace of experimentation as researchers struggle to piece them together.Earlier this week, NVIDIA announced NVIDIA Cosmos 3, the open frontier model for physical AI and the world’s first full omnimodel unifying vision reasoning, world and action generation. Leading across the open model public leaderboards central to physical AI, the world foundation model provides core capabilities for physical AI development. NVIDIA physical AI skills pair with Cosmos,  NVIDIA libraries and simulation frameworks to help researchers move from model capabilities to scalable end-to-end workflows faster than ever. Advancing Autonomous Vehicle Research Beyond Recorded MilesFor AV researchers, the problem is the “long tail” of driving — rare interactions, unusual road geometry, lighting changes and edge-case behaviors that are difficult to repeatedly collect, but critical for training and validation.https://blogs.nvidia.com/wp-content/uploads/2026/06/NeuralReconstructionDemo.mp4&nbsp;Neural Reconstruction skill demo in OpenClaw, showing a video re-rendered from an elevated virtual sensor viewpoint.With NVIDIA autonomous vehicle skills, researchers and developers can task AI agents to automate workflows for scene reconstruction from fleet data and generate synthetic scenarios. Neural Reconstruction skills help AI agents turn fleet-captured data into editable 3D scenes for simulation and synthetic data generation, while technologies including NVIDIA Omniverse NuRec, InstantNuRec, Harmonizer and HiGS accelerated renderer help accelerate reconstruction, improve scene realism and generate new views.https://blogs.nvidia.com/wp-content/uploads/2026/06/InstantNuRec.mp4&nbsp;InstantNuRec enables fast 3D Gaussian road-scene reconstruction from images without per-scene optimization.For AV researchers, repeatable simulation helps vary conditions, compare system responses and uncover failure modes across scenarios beyond what can be captured in real-world data. NVIDIA AlpaGym, an open source closed-loop reinforcement learning framework, extends that approach by connecting policy rollouts and high-fidelity simulation with agent skills, scaling across thousands of GPUs, to help researchers move through setup, rollout and evaluation. NVIDIA OmniDreams, an action-conditioned generative world model, adds photorealistic rendering to the simulation loop, generating camera frames that respond directly to policy actions in real time.NVIDIA is also advancing AV research with its most powerful open driving foundation model to date: NVIDIA Alpamayo 2 Super, an open 32-billion-parameter reasoning vision language action (VLA) model that reasons, plans and acts across the full driving stack for safer, scalable level 4 development and deployment. Advancing Vision AI Systems for the Real WorldFor vision AI research, the bottleneck is creating enough controlled examples to study how models behave when visual conditions, object states or temporal events change. Work in zero-shot anomaly detection, synthetic anomaly generation and few-shot defect recognition all run into the same data wall.https://blogs.nvidia.com/wp-content/uploads/2026/06/Delta-Defect-Image-Generation.mp4&nbsp;New skills for visual inspection generates multiple rare defects on different surfaces.New NVIDIA Metropolis skills are helping researchers and developers use AI agents to generate synthetic visual scenarios, including anomalies, augment data and support pseudo-labeling. These skills benefit from Cosmos 3’s mixture-of-transformers architecture, which uses a reasoning transformer to analyze observations and feed instructions to a generation tower, helping scale physically grounded virtual worlds.Researchers building high-accuracy visual inspection models can use the Defect Image Generation skill to create examples of different defects across different surfaces using real images. The workflow combines NVIDIA Isaac Sim for simulation, Cosmos 3 and NVIDIA OSMO for orchestration and vision language reasoning — letting researchers create rare visual cases and assess whether models respond correctly.https://blogs.nvidia.com/wp-content/uploads/2026/06/VSS3_Demo.mp4&nbsp;New NVIDIA Metropolis VSS Blueprint skills extract insights from massive volumes of video data.For video AI agents, the NVIDIA Metropolis Blueprint for video search and summarization (VSS), NVIDIA TAO and Video Augmentation skills help extract insights from massive volumes of video data, fine-tune models and automate the build-and-evaluate loop. This gives researchers a more repeatable way to develop reasoning vision AI agents that can detect events, reason over complex scenes, summarize activity and send alerts.Scaling Robot Learning With Agent-Ready Simulation WorkflowsTeaching robots skills like navigating or manipulating comes down to iteration. For researchers, the bottleneck is building enough controlled environments and policy rollouts to understand how robot behavior changes across tasks, settings and embodiments — work that typically means stitching together simulation environments, task variations, policy training and evaluation by hand.https://blogs.nvidia.com/wp-content/uploads/2026/06/Isaac-Sim.mp4&nbsp;NVIDIA Isaac Sim 6.0 includes agent-friendly skills and connectors to help automate workflows.With NVIDIA robotics skills, researchers can task AI agents to automate most common development steps across scene preparation, simulation and robot learning with NVIDIA Omniverse libraries, Isaac Sim and Isaac Lab frameworks. Agents can help launch simulation sessions, author scenes, control simulation, capture data and validate environments in Isaac Sim, while Isaac Lab skills support reinforcement learning setup, training, evaluation and custom environment development.https://blogs.nvidia.com/wp-content/uploads/2026/06/COMPASS-grid.mp4&nbsp;New NVIDIA Isaac mobility skills automate navigation workflows.Specialized skills extend that workflow to mobility and manipulation. Isaac mobility skills support navigation workflows spanning scene search, USD conversion, environment registration, residual reinforcement learning and policy evaluation, while specialized Isaac Lab agentic workflows help with sim-to-sim and sim-to-real tasks such as environment building, physics tuning, debugging and profiling.For healthcare robotics, Cosmos-H-Surgical-Simulator advances research by generating realistic surgical robotics data for policy training and evaluation. By learning directly from real surgical data rather than hand-engineered physics models, it helps reduce the sim-to-real gap, supporting the development of autonomous surgical tasks.Cosmos 3 can further help generate synthetic data and scene variations, then support post-training with embodiment-specific behavior and environment data for tasks ranging from pick-and-place to dexterous manipulation.NVIDIA Research at CVPRNVIDIA technologies — including GPUs, open models, simulation frameworks and CUDA-accelerated libraries — were referenced in the majority of accepted CVPR 2026 papers, with adoption across leading global research labs and institutions including Carnegie Mellon University, Stanford University, UC Berkeley, Tsinghua University and Peking University.NVIDIA researchers are presenting work across computer vision, physical AI, autonomous systems, neural rendering, generative AI and robotics at CVPR, running June 3-7 in Denver. NVIDIA’s CVPR presence also includes open research challenges that help benchmark progress in physical AI:The AI City Challenge, a premier computer vision competition for smart city applications  now in its tenth year.The PAI-AV Reasoning Challenge, a new open benchmark evaluating how well VLA models explain driving decisions using chain-of-causation labels.The AlpaSim Closed-Loop End-to-End Driving Challenge, a new open benchmark testing autonomous driving policies in closed-loop simulation on real-world reconstructed scenarios. https://blogs.nvidia.com/wp-content/uploads/2026/06/RoboSim-Grid.mp4&nbsp;Grid of samples videos from new Robot Sim Dataset as a part of Cosmos 3 dataset release.NVIDIA is also expanding the research infrastructure behind physical AI with datasets for training, fine-tuning and evaluation. The NVIDIA Physical AI Dataset has surpassed 15 million+ downloads on Hugging Face, while NVIDIA Isaac GR00T X Embodiment Sim has become one of the most-downloaded robotics datasets. New dataset releases include GRAIL, including roughly 50 hours of humanoid-object interaction data, and six synthetic video datasets used to train Cosmos 3 across robotics, physics, digital humans, autonomous driving, warehouse safety and spatial reasoning.AvailabilityNVIDIA physical AI agent tools and skills are now openly available through GitHub.Agent skills and tools for synthetic data generation — Neural Reconstruction, Video Augmentation, Defect Image Generation — are also available to try instantly on NVIDIA Brev as Physical AI Launchables, preconfigured environments that bundle agent skills and tools for faster synthetic data generation and evaluation. Launchables run on hosted NVIDIA H100 Tensor Core GPUs and include free trial credits for researchers.Learn more about NVIDIA at CVPR and explore NVIDIA Research’s work in physical AI, computer vision and autonomous systems. Get started with Isaac GR00T and NVIDIA robotics tools."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
+      "url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+      "publishedAt": "2026-06-02T22:00:58.000Z",
+      "author": "",
+      "description": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours.  Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes.  At GTC Taipei at COMPUTEX, NVIDIA and more than a dozen engineering software […]",
+      "content": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided design, meshing, simulation setup and debugging, as well as post-processing and generating summary reports of these processes. At GTC Taipei at COMPUTEX, NVIDIA and more than a dozen engineering software providers are showcasing how autonomous AI agents automate this entire workflow.These AI engineers are based on NVIDIA NemoClaw, an open blueprint for building specialized, long-running agents with a secure runtime and frontier models. NemoClaw includes a choice of harness — meaning it can be integrated with various orchestration frameworks enterprises use to deploy and coordinate agents, such as OpenClaw and Hermes — as well as a model router and NVIDIA NeMo libraries for customization. Users can easily deploy NemoClaw from NVIDIA DGX Spark personal AI supercomputers, as well as through enterprise data centers and cloud service providers. NVIDIA OpenShell — the open source runtime at its core — governs how each agent accesses files, networks and tools, enforcing policy-based security at every layer.Industrial Engineering Leaders Build AI Agents Across Design, Engineering, SimulationIndustrial software leaders are building AI engineers for computer-aided engineering (CAE) and electronic design automation (EDA) use cases across automotive, aerospace, semiconductors and manufacturing.Cadence is building an autonomous register-transfer level (RTL) engineer with NemoClaw that orchestrates Cadence Design Systems ChipStack for design and verification. The workflow was featured yesterday in a GTC Taipei keynote demo and is cutting time for RTL verification — a key step in digital circuit design — from weeks to hours.Dassault Systèmes is actively productizing the 3DEXPERIENCE Agentic Platform to operate long-running and autonomous agents for design, simulation and manufacturing operations, in a secured environment powered by NVIDIA NemoClaw and OpenShell.  Siemens is integrating NVIDIA NemoClaw and OpenShell into Fuse EDA AI Agent, a purpose-built autonomous agent that plans and orchestrates domain-scoped multi-tool workflows across semiconductor, 3D integrated circuit and printed circuit board system design.Synopsys is collaborating with NVIDIA to apply agents to end-to-end engineering workflows with NVIDIA NemoClaw. Ansys Icepak, part of the Synopsys portfolio, is being demoed on the COMPUTEX show floor this week, used within a NemoClaw-based autonomous AI engineer to mesh, simulate and optimize GPU electronics cooling designs.Image courtesy of Synopsys.Startups Extend the Reach of Agentic AIIn addition, cutting-edge startups are building AI engineers for their workflows — all using NVIDIA NemoClaw.Flexcompute is applying OpenShell to its Tidy3D and PhotonForge agents for multiphysics co-packaged optics design. Flexcompute’s autonomous AI workflow combines optical, electrical and thermal simulation to explore thousands of design variants overnight, producing higher-performing components with lower energy consumption. NVIDIA is using Flexcompute technology for the design and optimization of advanced optical and photonic devices.https://blogs.nvidia.com/wp-content/uploads/2026/06/flexcompute-video-cut-1.mp4&nbsp;Video courtesy of Flexcompute.Luminary is building a long-running AI engineer using NemoClaw to dramatically reduce the time and complexity of training AI physics models by autonomously orchestrating data generation, machine learning model selection, and training and re-training loops.https://blogs.nvidia.com/wp-content/uploads/2026/06/luminary-video-cut.mp4&nbsp;Video courtesy of Luminary.Neural Concept is deploying an agent for electric motor design. The workflow chains electromagnetic, structural and noise, vibration and harness simulations in a multistep engineering pipeline. Watch the full demo.https://blogs.nvidia.com/wp-content/uploads/2026/06/neural-concept-video-cut.mp4&nbsp;Video courtesy of Neural Concept.nTop, the geometry engine behind JetZero’s blended-wing-body aircraft program, is using NVIDIA NemoClaw to run autonomous design workflows that compress days of geometry iteration into hours.https://blogs.nvidia.com/wp-content/uploads/2026/06/ntop-video-cut.mp4&nbsp;Video courtesy of nTop.PhysicsX is partnering with the Microsoft Surface team to build an electronics thermal simulation agent that compresses weeks of manual CAE workflows into automated, AI-driven design cycles. Bringing together the PhysicsX platform, Microsoft Discovery and NVIDIA NemoClaw, the agent automates the full thermal simulation lifecycle for consumer devices such as Microsoft Surface laptops — from mesh sensitivity analysis and simulation data generation, through physics AI model training and optimization-loop execution, to continuous accuracy monitoring across the design exploration process.https://blogs.nvidia.com/wp-content/uploads/2026/06/physicx-video-cut.mp4&nbsp;Video courtesy of PhysicsX.P-1 AI is building Archie, an AI mechanical and electrical engineer that already works with data center cooling and critical power systems, and will soon work for automotive, aerospace and national security use cases. In a workflow representative of its work with Daikin Applied Americas, Archie synthesizes requirements, selects components, runs design trade studies and produces engineering artifacts to help industrial manufacturers scale engineering capacity.https://blogs.nvidia.com/wp-content/uploads/2026/06/p-1-ai-video-cut.mp4&nbsp;Video courtesy of P-1 AI.SimScale is adopting NVIDIA NemoClaw to build autonomous simulation agents for hundreds of cross-industry engineering use cases, including noise, vibration and harshness analysis, automating workflows that previously required multiple engineers working over several weeks. https://blogs.nvidia.com/wp-content/uploads/2026/06/simscale-video-cut.mp4&nbsp;Video courtesy of SimScale.Synera is building an engineering agent for injection molding — a manufacturing process used to efficiently mass-produce identical parts by injecting molten material, usually plastic, into a custom mold — with Autodesk Moldflow, NVIDIA OpenShell with OpenClaw, as well as Nemotron models. https://blogs.nvidia.com/wp-content/uploads/2026/06/synera-video-cut.mp4&nbsp;Video courtesy of Synera.Learn more about NVIDIA technologies for CAE and watch NVIDIA founder and CEO Jensen Huang’s GTC Taipei keynote in replay."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+      "url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+      "publishedAt": "2026-06-02T19:00:08.000Z",
+      "author": "",
+      "description": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments. At Microsoft Build, NVIDIA […]",
+      "content": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA and Microsoft are bringing that full stack to developers across Windows devices, Azure cloud and local deployments.At Microsoft Build, NVIDIA founder and CEO Jensen Huang joined Microsoft chairman and CEO Satya Nadella’s keynote via livestream from Taipei to discuss the expanded partnership: NVIDIA RTX Spark and DGX Station for Windows, NVIDIA GPU-accelerated Microsoft Fabric, NVIDIA open models on Microsoft Foundry, the NVIDIA OpenShell secure runtime in GitHub Copilot and the next generation of NVIDIA-powered AI factories.Reinventing Windows for Agents: From RTX Spark to DGX Station for WindowsNVIDIA and Microsoft are reimagining Windows PCs for the age of AI agents. With RTX Spark laptops and small desktops, and DGX Station for Windows deskside AI supercomputers, developers can build, tune and run agents natively on Windows.RTX Spark is a new beginning, powering the world’s first Windows PCs purpose-built for personal agents, with 1 petaflop of AI performance, up to 128GB of unified memory, all-day battery life, and full AI and graphics performance unplugged. Bringing over 30 years of NVIDIA innovation, including CUDA, RTX, DLSS and TensorRT, systems arrive this fall from Microsoft Surface, ASUS, Dell, HP, Lenovo and MSI.DGX Station for Windows is the most powerful deskside AI supercomputer for building and running agents on Windows enterprise applications and workflows. Powered by the NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip with up to 748GB of coherent memory and 20 petaflops of FP4 performance, it runs frontier models of up to 1 trillion parameters for always-on enterprise agents. Systems are expected from ASUS, Dell, GIGABYTE, HP, MSI and Supermicro in Q4. Both products run NVIDIA OpenShell, a secure-by-design runtime for autonomous agents.Read more in this Microsoft blog: “Introducing a powerful new chapter for Windows PCs, accelerated by NVIDIA RTX Spark”Powering Agentic Workflows at Enterprise Scale With NVIDIA Open Models on Microsoft FoundryAgentic AI runs on a system of models. With NVIDIA, Anthropic and OpenAI models — plus Hermes special agents — now on the hosted agents in Foundry Agent Service, enterprises can bring agentic systems to life on Azure with built-in identity and governance. Anthropic’s Claude models now run natively on NVIDIA GB300 Blackwell Ultra systems on Azure, with customer availability in the weeks ahead.NVIDIA Nemotron 3 Ultra, a new open frontier reasoning model for long-running agents across coding, research and enterprise workflows, is available this month on Foundry managed compute, alongside Nemotron 3.5 ASR for speech recognition and Nemotron 3.5 Content Safety. Developers can compose Nemotron alongside frontier and local models, optimizing cost and quality for each workflow.NVIDIA’s open model portfolio on Foundry now spans agentic, physical and scientific AI. NVIDIA Cosmos 3, the first fully open omnimodel for physical AI, brings vision reasoning, world simulation and action generation. NVIDIA Earth-2 AI weather models are available through Microsoft Planetary Computer Pro and Foundry for enterprise forecasting and risk analysis.NVIDIA Agent Toolkit and NVIDIA NemoClaw blueprints give developers an open source platform to build production agents on Foundry. NVIDIA CUDA-X libraries including cuDF, cuOpt, AI-Q and NeMo are now accessible to agents as domain-specific skills.Learn more in this Build breakout session: “Orchestrate Special Agents with NVIDIA Nemotron Models on Microsoft Foundry.”Accelerating Enterprise Data Warehouses for the AI EraData fuels agentic AI, and fast access to it is critical. NVIDIA accelerated computing is now built into Microsoft Fabric Data Warehouse, with Microsoft’s internal benchmarking delivering SQL execution up to 6x faster than the CPU-powered baseline and up to 7x faster than three other leading cloud data warehouse providers for high-concurrency workloads. The enterprise data layer can now keep pace with AI agents that continuously query and reason over data, the result of years of deep engineering collaboration between NVIDIA and Microsoft, from research to production.Read more in this Microsoft blog: “Microsoft Build 2026: Building agentic apps with Microsoft Fabric and Microsoft Databases”Advancing Physical AI and Autonomous SystemsPhysical AI is the next frontier for agents. Microsoft is integrating NVIDIA’s open source physical AI skills and tools with Azure and its Physical AI Toolchain. Developers get a unified platform, powered by Cosmos 3’s mixture-of-transformers architecture, to simulate, train and deploy autonomous systems, including robots, autonomous vehicles and industrial systems that can perceive, reason, plan and act in the physical world. Cosmos 3 ranks first among open models on key benchmarks for vision reasoning, world generation and action generation.Enhancing Azure Local and Foundry Local With NVIDIA RTX PRO 6000 Blackwell Server Edition and Nemotron ModelsAgentic AI is moving beyond the cloud. Microsoft is bringing Foundry Local on Azure Local to the NVIDIA RTX PRO 6000 Blackwell Server Edition platform. Paired with the NVIDIA Nemotron open model family, enterprises can run high-performance AI workloads where their data resides, whether in on-premises, hybrid or sovereign environments, without sacrificing performance or governance. Foundry Local on Azure Local now supports multinode deployments and the vLLM runtime, scaling inference for manufacturing, energy, sovereign data centers and other latency-sensitive scenarios.Learn more in these Microsoft blogs: “Unlocking the possibilities of physical AI with Foundry Local and Azure Local,” “Scale On-Prem AI with Foundry Local on Azure Local” Bringing Secure Agent Development to GitHub Copilot With NVIDIA OpenShellAs agents move from coding assistance to autonomous execution, they need real capability without real credentials. NVIDIA OpenShell, now integrated into GitHub Copilot, solves this: Each agent runs isolated in its own sandboxed container, and every outbound call is evaluated against policy before it can reach files, networks or credentials. Policies are written as code, versioned in the repository and updatable on the fly. OpenShell is open source under Apache 2.0, model-agnostic and spans on-premises, hybrid and cloud environments.Learn more in this Build lightning session: “Secure Agent Workflows with GitHub Copilot and NVIDIA OpenShell.”Fairwater Wisconsin Goes Live, Validated for NVIDIA Vera RubinMicrosoft’s Fairwater Wisconsin AI factory is now live, ahead of schedule, running hundreds of thousands of NVIDIA Grace Blackwell systems as a single AI factory, and connected with a similar AI factory in Georgia to deliver a scalable and distributed AI system for the most demanding frontier models. Through joint engineering on power, cooling, NVIDIA Spectrum-X Ethernet and the new Multipath Reliable Connection (MRC) transport protocol, Microsoft’s Fairwater AI data center designs are optimizing token economics.  In addition, Microsoft has already validated the NVIDIA Vera Rubin platform, now in full production, for deployment across Azure data centers. Vera Rubin slots in alongside Blackwell with no retrofits, delivering up to 10x inference throughput per megawatt and reducing cost per agentic token by an order of magnitude. Built-in NVIDIA Confidential Computing protects models and data as agents reason at scale. The NVIDIA Dynamo inference framework extends those gains into software, accelerating model cold starts on AKS and bringing Kubernetes-native distributed inference orchestration via NVIDIA Grove.Read more in this Microsoft blog: “Scaling multi-node LLM inference with NVIDIA Dynamo-Grove on AKS (Part 4)”Explore the full lineup of NVIDIA sessions, demos and hands-on labs at Microsoft Build."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
+      "url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
+      "publishedAt": "2026-06-02T06:00:36.000Z",
+      "author": "",
+      "description": "Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems.  Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what […]",
+      "content": "Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems. Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what institutions know and what their AI can reason over — creating a major opportunity for the industry to build intelligence using proprietary data.NVIDIA’s 2026 State of AI in Financial Services report shows 65% of institutions now use AI, with nearly 90% deploying or assessing it and almost all maintaining or increasing spend. But as AI scales, so does complexity, and fragmented model architectures become the limiting factor.Leading firms are tackling this challenge by rethinking the architecture itself. Where the industry once relied on statistical and machine learning algorithms purpose-built for each line of business, transformer-based transaction foundation models now make it possible to learn a single, unified representation of consumer behavior trained entirely on proprietary data.Transaction foundation models are large-scale AI systems trained on billions of financial events — such as payments, transfers, product interactions and behavioral signals — that transform raw data into intelligence, helping firms better serve their customers.The shift is structural. A traditional fraud model evaluates isolated signals. A foundation model interprets behavior in context where timing, device, location and prior activity shape meaning. More importantly, it brings the power of transformer architectures to tabular data, extracting signals previously invisible to traditional algorithms.A payment at midnight means something different when it’s the fourth in 10 minutes, on an unfamiliar device, in a city the customer’s never transacted from before. That contextual depth improves performance across tasks, not just within them.In collaboration with NVIDIA, Revolut built PRAGMA — a family of transformer-based foundation models trained on 24 billion events across 26 million user records spanning over 100 countries. Powered by NVIDIA’s full AI stack — including NVIDIA Hopper GPUs, the NVIDIA cuDF library and NVIDIA Nemotron open models — running on Nebius cloud, a single foundation model outperforms strong task-specific models across domains like credit scoring, fraud detection and product recommendations while reducing reliance on handcrafted features. “We move from weeks, or even in some cases months, in feature engineering to no time required for it at all,” said Tadas Kriščiūnas, head of group credit data science at Revolut.Any institution can now adopt this approach using NVIDIA’s new Build Your Own Transaction Foundation Model developer example, which enables teams to start building transformer embeddings on tabular transaction data — integrating into existing pipelines without rebuilding from scratch.The Cost of FragmentationThe problem isn’t today’s models, it’s the trajectory. Every new use case adds another model. Every new market needs retraining. Models that can’t share context leave value on the table.Mastercard is developing a proprietary large tabular foundation model for payments, trained on billions of anonymized transactions today and designed to scale to hundreds of billions across additional datasets including fraud, authorization, chargeback, merchant location and loyalty data.Built with capabilities from NVIDIA, AWS and Databricks — including the NVIDIA NeMo AutoModel open library, part of NVIDIA NeMo framework, and accelerated computing — the model is intended to reduce reliance on a multitude of AI models across markets, customers and use cases. Early testing shows it outperforming standard machine learning techniques, with promising applications in cybersecurity, fraud detection, loyalty, personalization, portfolio optimization and analytics. Adyen has also deployed transaction foundation models at scale, processing $1 trillion in payments. Using reinforcement learning, Adyen maximizes conversion and minimizes risk for merchants. “Even fractional improvements like a 0.1% uplift in authorization can translate to massive incremental gross merchandise value and substantial cost reductions,” said Dhruv Ghulati, principal AI product manager at Adyen.Semantic Layer for Agentic Commerce Forty-two percent of financial firms are already using or assessing agentic AI. As these systems begin to execute transactions — like managing subscriptions, routing payments and making purchases — the nature of financial behavior is changing.Stripe is using the NVIDIA and AWS platform to build foundation models that understand the full context of transactional behavior rather than reacting to individual signals — blocking close to $112 billion in fraud last year and delivering an average 38% reduction in fraud rates. Transaction data is the proprietary history that competitors can’t replicate. The data already exists. The architecture is proven. The infrastructure is ready.Scaling Through Ecosystem PartnersThe Build Your Own Transaction Foundation Model developer example is available for customers to run on Amazon Web Services (AWS), deployed with Amazon SageMaker HyperPod, as well as Nebius AI Cloud — powered by NVIDIA accelerated computing. Nebius AI Cloud supports the full transaction foundation model lifecycle — from deployment of the developer example through multi-node training to managed inference on Token Factory — powered by NVIDIA accelerated computing.Financial services firms can also work with services partners EXL, GFT IT Consulting and Thoughtworks to apply the developer example to their specific use cases.EXL is integrating transaction foundation models into its EXLerate.ai platform to unify siloed financial data into a scalable, enterprise intelligence layer powered by proprietary transaction data. In collaboration with NVIDIA, EXL is using this architecture to help financial institutions accelerate model development, enhance contextual decisioning and operationalize agentic AI at scale.Thoughtworks is helping financial institutions operationalize transaction foundation models within complex banking environments, integrating them into payment, servicing and risk while establishing the necessary governance and AI operating models. The company will be showcasing a demo and presentation on transaction foundation models at the upcoming AWS Summit in New York City on Wednesday, June 17.GFT IT Consulting is integrating transaction foundation models into its flagship solutions: Wynxx, an agentic AI platform used by over 100 financial institutions for secure AI adoption in areas like credit risk, and Smaragd, a compliance engine that reduces false positives by up to 75% for major banks.Join NVIDIA at Money20/20 Europe from June 2-4 to learn how transaction foundation models are powering the next generation of AI in financial services.Explore the Build Your Own Transaction Foundation Model developer example on build.nvidia.com."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "publishedAt": "2026-06-02T02:00:40.000Z",
+      "author": "",
+      "description": "Agentic AI is getting physical. At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on NVIDIA Jetson. JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jetson Orin, a substantial performance gain on Jetson AGX Orin 32GB module and Multi-Instance GPU (MIG) support on NVIDIA Jetson […]",
+      "content": "Agentic AI is getting physical.At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on NVIDIA Jetson.JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jetson Orin, a substantial performance gain on Jetson AGX Orin 32GB module and Multi-Instance GPU (MIG) support on NVIDIA Jetson Thor.NVIDIA’s Asier Arrnaz shows how Build-a-Claw brings AI to the edge, a personalized, always-on assistant running right on NVIDIA Jetson.The launch coincides with the GTC Taipei Build-a-Claw event, bringing the popular hands-on event from GTC San Jose to Taiwan, one of the world’s premier global technology hubs.The release lands NemoClaw, NVIDIA’s agentic AI framework, on the production-grade Jetson stack — taking agentic AI from servers and workstations into the physical world, across robotics, inspection and industrial automation.“Agentic AI is here, and Jetson’s programmability and high performance enable developers to instantly deploy physical AI agents in production at the edge,” said Deepu Talla, vice president of robotics and edge computing at NVIDIA. “With purpose-built skills for agentic development and workflows, developers can accelerate time to market, cut total cost of ownership and deploy at scale — all on a memory-optimized platform.”Jetson is already a multi-generation platform — Orin, Thor and beyond — powering edge AI in robotics, autonomous systems, industrial inspection and medical devices. JetPack 7.2 builds on that foundation; NemoClaw extends it.Three layers ship in this release. JetPack 7.2 at the base — operating system (OS), compute, deterministic performance. A new layer of agent skills in the middle, automating developer tasks. And NemoClaw at the top.JetPack 7.2 brings major upgrades to the Jetson software foundation. Yocto-based OS support gives industrial customers a leaner, more customizable Linux foundation — important for memory-bound deployments. CUDA 13 on Jetson Orin brings the latest compute stack to existing devices. MIG plus real-time kernel on Jetson Thor lets developers reserve dedicated GPU resources for deterministic workloads, like robot perception systems that can’t pause for unrelated AI inference. Jetson AGX Orin 32GB also gets a performance boost to 241 TOPS of AI compute, up 20% above its original spec.The middle layer — agent skills — accelerates the work of building a Jetson-based system itself. Jetson agent skills now include Linux customization, memory optimization, model benchmarking and similar developer tasks. These are now available as agent-deployable skills, developed from NVIDIA documentation and design guides. The result: a task that used to take weeks resolves in days.At the top, NemoClaw deploys to Jetson with a single command. The pairing lands agentic AI on a production-grade robotics and vision AI stack, accelerating task automation for industrial systems. Developers can go further with NVIDIA Metropolis VSS blueprint skills, adding visual reasoning agents that watch, interpret and act on what they see.Agentic AI already arriving with JetsonThe Jetson platform is already in deployment across fields such as robotics, industrial automation, drones, healthcare devices, agricultural machinery, humanoid systems and more.Solomon uses NemoClaw to coordinate AI agents on a humanoid robot.Solomon uses NVIDIA NemoClaw to coordinate AI agents on a humanoid robot, integrating reasoning, perception, sensor fusion, locomotion and manipulation into a single workflow. With Solomon’s active perception technology, powered by NVIDIA’s open source foundation model, the robot can understand tasks, optimize positioning for picking and adapt dynamically. All this enables reliable and autonomous operations in complex environments.Advantech is building and deploying an agentic factory brain within its own manufacturing facilities to enable AI-native operations using NVIDIA NemoClaw, NVIDIA Nemotron 3 and NVIDIA Jetson Thor. The platform automates robot fleet management, intelligent defect detection and autonomous decision-making to drive next-generation industrial operations. Across industries, the builds are already shipping.Rebotnix makes smart city cameras with agentic reasoning capabilities for faster city-level decision-making.Spingence builds manufacturing defect agents to identify root causes and process improvement recommendations through analytics and knowledge reasoning.And ANIWEAVE and Avalanche Computing are partnering to transform real estate spaces into immersive 3D touring experiences with AI-powered conversational agents.More AI, less memoryImage courtesy of SandStar.SandStar uses NVIDIA Jetson Orin NX and NemoClaw to power AI vending machines and smart retail operations with AI vision, LLM-driven interaction, standard operating procedure monitoring and store optimization across 30+ countries. By achieving nearly 40% memory optimization, SandStar reports it migrated from 16GB to 8GB devices, significantly reducing deployment costs while maintaining high performance.NoTraffic develops AI-powered Intelligent Traffic Management Systems that analyze real-time traffic conditions and dynamically optimize signal operations. NoTraffic reports it optimized CUDA library overhead through static compilation and targeted kernel pruning. These optimizations reduced memory usage by 29%, improving efficiency and streamlining the perception stack for faster real-time inference.GROOVE X, maker of the LOVOT companion robot, is using a variety of AI accelerators on Jetson modules to offload CPU and GPU workload and reduce memory footprint.Yocto-based JetPack 7.2 in productionHexagon Robotics integrates Jetson Thor for safer humanoid robots.Hexagon Robotics is integrating NVIDIA Jetson Thor to power safer and more autonomous humanoid robots with real-time AI, high-speed sensor processing and multimodal data fusion. Combined with Yocto-based OS customization for better reproducibility and safety, these humanoid robots operate more reliably in demanding environments such as manufacturing, logistics and construction.Zipline uses NVIDIA Jetson Orin NX in its autonomous delivery drones to enable real-time sensor fusion, environmental awareness and safe navigation for rapid medical, food and retail deliveries around the world. Zipline uses Yocto to build its custom operating system which is designed for high-performance onboard AI processing while optimizing for reliability, efficiency and a lower memory footprint.1X (maker of the Neo Humanoid) and Universal Robots are planning to adopt Yocto-based JetPack 7.2 in their production deployments.Yocto ecosystem partnersBalena, Konsulko Group, Neurealm, Peridio, RidgeRun and Wind River provide Linux distro products, engineering services and long-term support that help customers ship production-grade Yocto-based deployments faster.AAEON, ASUS, Avermedia, Connect Tech and YUAN have validated Yocto OS with their production edge computing systems to accelerate customer deployment.What’s nextNemoClaw started in the data center. Now it runs in a retail store, a humanoid robot on a factory floor, a traffic system at a busy intersection. The era of physical AI agents has just begun.Developers can start their agentic AI journey from the Jetson software page.Watch NVIDIA founder and CEO Jensen Huang’s keynote and learn more at NVIDIA GTC Taipei.See notice regarding software product information."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
+      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+      "publishedAt": "2026-06-01T05:00:56.000Z",
+      "author": "",
+      "description": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructure. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications.  NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. […]",
+      "content": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructure. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. These AI clouds have been co-designed with NVIDIA’s full-stack AI infrastructure to meet surging demand for AI from enterprises, startups and nations looking for new vendors and regional capacity. They combine NVIDIA accelerated computing, networking and AI software to help partners support training, fine-tuning, inference, agentic AI, physical AI and sovereign AI deployments. Specific configurations vary by partner and workload.AI cloud partners choose NVIDIA for the best economics — lowest token cost, best throughput per watt — to run frontier and open source AI. Built with NVIDIA accelerated computing, networking and AI software, these clouds bring AI factories closer to where data, developers, users and industries are, helping customers train, tune and run agentic AI applications at scale. The ecosystem spans nearly every geography, supporting regional and sovereign AI capacity for frontier model builders, enterprises, startups, software providers and national AI programs.“Every company and every country needs AI factory infrastructure to turn data into intelligence,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA AI Clouds bring full-stack AI factories closer to the regions, industries and developers building the next generation of AI, from model training to real-time inference and AI agents that will transform how people and organizations work.”Broad AI Cloud EcosystemAI cloud providers, telcos, sovereign AI builders and vertically integrated infrastructure providers are building AI factories with NVIDIA to serve customers across frontier AI, enterprise AI, telecommunications, developer clouds and national AI programs.Regional growth is accelerating across Southeast Asia, Australia and the Americas, with NVIDIA AI Clouds now reaching six continents following the addition of Cassava in Africa and Claro in South America.NVIDIA AI Clouds are pairing large-scale AI factory buildouts with demand from leading AI labs, enterprises, governments and digital service providers. Partners including CoreWeave, Firmus, IREN, Nebius and Nscale are expanding AI infrastructure to support frontier model development, enterprise AI, agentic applications and high-volume inference.Across regions, NVIDIA AI Clouds are bringing AI factories closer to local industries and sovereign AI ecosystems. Partners including Firebird, GMI Cloud, Indosat Ooredoo Hutchison, Lambda, Naver Cloud, Sharon AI, Yotta and YTL are supporting emerging AI companies, national AI initiatives, financial services, telecommunications, manufacturing, education, healthcare and developer ecosystems.For governments and regulated industries, regional AI clouds can support sovereign controls and local compliance requirements. For developers and enterprises, they can reduce friction in accessing accelerated infrastructure for AI agents, enterprise copilots, digital workers and other AI services that must run close to users and data.Firmus Expands AI Factory Footprint Across Australia and Asia-PacificFirmus Technologies is expanding its AI factory footprint across South Australia and Southeast Asia, building energy-efficient infrastructure to support growing demand for large-scale training, inference and agentic AI workloads.Through Project Southgate, Firmus is developing AI factories in Tasmania, Melbourne, South Australia and New South Wales, with an emphasis on renewable power, advanced cooling and modular infrastructure that can bring capacity online faster. The company has also deployed AI infrastructure in Singapore through a partnership with ST Telemedia Global Data Centres.Firmus is using NVIDIA’s accelerated computing and reference architecture as part of its buildout, with NVIDIA DSX helping streamline AI factory design, deployment and operations.Engineered in alignment with the NVIDIA DSX platform, the liquid-cooled Firmus HyperCube is designed to fast-track modular AI Factory builds and optimize for low cost per token. Firmus is innovating across the AI factory supply chain, including cooling and energy.“AI agents are creating a new class of industrial-scale demand for tokens, and Asia-Pacific needs AI factories that can be built faster, liquid-cooled more efficiently and operated at gigawatt scale,” said Tim Rosenfield, co-CEO of Firmus. “Together with NVIDIA, Firmus is building liquid-cooled, AI infrastructure designed to deliver AI tokens as efficiently and rapidly as possible for the region’s most important customers.”CoreWeave Advances Physical AI and Next-Generation AI FactoriesCoreWeave is expanding its NVIDIA AI Cloud platform to support the next wave of agentic AI, physical AI and frontier model workloads. An early adopter of NVIDIA Vera Rubin and the NVIDIA Vera CPU, CoreWeave is also among the first to adopt NVIDIA Spectrum-X Ethernet Photonics, helping provide the networking foundation for million-GPU AI factories. CoreWeave is extending its platform for robotics and physical AI workflows, including using NVIDIA Cosmos 3, the latest frontier world foundation model, to help teams generate synthetic data, fine-tune models and accelerate robotics data flywheels. Leading AI labs, including Anthropic, build on CoreWeave’s infrastructure to support frontier models at scale.“AI factories are becoming the foundation for the agentic era,” said Michael Intrator, cofounder, chairman and CEO of CoreWeave. “Together with NVIDIA, CoreWeave is building the full-stack cloud infrastructure that gives AI labs, enterprises and developers the performance, scale and reliability they need to turn frontier models, AI agents and physical AI systems into production applications.”Nebius Builds an Open Physical AI Workbench for Agentic WorkflowsNebius is expanding its NVIDIA AI Cloud with a full-stack platform for training, inference and physical AI development.An early adopter of NVIDIA Vera Rubin, Nebius is building integrated AI infrastructure from silicon to software, including its Nebius AI Cloud, Token Factory inference layer and new Physical AI Workbench. The workbench brings technologies including NVIDIA Cosmos 3, NVIDIA Isaac Sim and Isaac GR00T into composable workflows that can be assembled by AI agents, helping robotics and autonomous systems teams move faster from simulation and synthetic data to training and evaluation.“Developers should be able to build AI systems without spending weeks wiring together infrastructure,” said Arkady Volozh, founder and CEO of Nebius. “With NVIDIA, Nebius is creating an AI cloud where AI  agents can compose the tools, data and compute needed to accelerate AI workloads — from robotics and life sciences to the enterprise — from experimentation to production.”NVIDIA Exemplar Cloud MomentumSince NVIDIA introduced Exemplar Cloud last year, six NVIDIA Cloud Partners have achieved Exemplar Cloud status: CoreWeave, Crusoe, Lambda, Nebius, Vultr and YTL. The growing roster reflects increasing demand for AI cloud infrastructure that can deliver consistent performance, reliability and efficiency for production AI workloads.These providers are helping raise the performance bar across the AI cloud ecosystem, giving enterprises, developers and AI labs more validated options for scaling training, inference and agentic AI services.Engineered for AI Factory EconomicsAs AI shifts from model development to reasoning and high-volume inference, the measure of infrastructure is no longer just capacity announced but also the economics of token output driven by platform utilization, uptime, long asset life and the breadth and depth of useful AI agents people can put to work. Built on NVIDIA full-stack AI factory platforms, AI Clouds help partners optimize infrastructure for these measures.Cost per token is the total cost of ownership metric that directly accounts for hardware performance, software optimization, ecosystem support and real-world utilization. NVIDIA delivers the lowest cost per token in the industry, driven by delivered token throughput, software optimization and full-stack codesign across compute, networking, memory and storage.DSX Helps AI Clouds Bring Capacity Online FasterNVIDIA AI Clouds are adopting the NVIDIA DSX platform to design, build and operate AI factories.DSX brings together validated reference designs, simulation, software and ecosystem technologies to help cloud providers bring capacity online faster, operate more efficiently and maximize revenue.DSX Sim helps teams model and validate AI factories before deployment. DSX Flex helps AI factories dynamically adapt workloads to grid conditions. DSX MaxLPS helps power-constrained AI factories maximize compute within a fixed power budget, enabling up to 40% more GPUs. DSX OS helps automate lifecycle management and operations at scale.DSX helps AI Clouds reduce deployment risk, improve resiliency, deliver more tokens per watt and achieve the lowest cost token."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
+      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
+      "publishedAt": "2026-06-01T05:00:47.000Z",
+      "author": "",
+      "description": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decision layer.  Today at GTC Taipei at COMPUTEX, NVIDIA announced the NVIDIA Factory Operations Blueprint (FOX) — a reference design for building an autonomous factory manager […]",
+      "content": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decision layer. Today at GTC Taipei at COMPUTEX, NVIDIA announced the NVIDIA Factory Operations Blueprint (FOX) — a reference design for building an autonomous factory manager agent that continuously monitors and reasons across the real-time data and orchestrates a fleet of speciality agents and machines to quickly resolve issues at scale. FOX helps developers build secure, centralized factory manager agents for orchestrating and optimizing specialized industrial AI agents for quality control, material transport and worker safety. Built with NVIDIA NemoClaw, AI-Q Blueprint and NVIDIA Nemotron open models, the blueprint provides a customizable foundation for connecting factory systems, automating model development and running intelligent operations at scale.The blueprint is optimized to run on NVIDIA DGX Station, the ultimate deskside AI supercomputer companion for factory managers. DGX Station is powered by the NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip, featuring 20 petaflops of FP4 performance and 748GB of coherent memory, and is capable of running large AI models up to 1 trillion parameters, making it ideal for developing and running powerful AI agents locally. The superchip features the NVIDIA Blackwell Ultra GPU connected to a high-performance NVIDIA Grace CPU using the NVIDIA NVLink-C2C interconnect to deliver best-in-class system communication and performance, ideal for lightning-fast interactions between NemoClaw and AI models.Key capabilities of the FOX blueprint include:Connecting factory systems and agents: FOX integrates with industrial data sources, machines, applications and robot fleets, and can connect to specialized agents from leading software developers through standard application programming interfaces and agent skills.Automating AI model training: Using NVIDIA TAO skills, factory manager agents can automate the full model-training lifecycle — identifying accuracy gaps, sourcing or synthetically generating training data, fine-tuning models and redeploying them into production.Operating intelligent factory workflows: Visual inspection, process compliance and material transport agents can be managed with NVIDIA open models and blueprints, including the NVIDIA Metropolis Blueprint for video search and summarization (VSS). Real-time factory data can also be visualized in an operational twin built with NVIDIA Omniverse libraries.Taiwan manufacturers Advantech, Foxconn, Pegatron and Wistron  are the first to deploy autonomous factory manager agents using the NVIDIA FOX blueprint and NemoClaw.Foxconn, the world’s largest electronics manufacturer, is using the FOX blueprint and NemoClaw to build MoMClaw, a manufacturing operations multi-agent system. Running alongside a live production work, MoMClaw connects sensors, machine signals and other digital systems with hundreds of specialized agents in a single agentic layer — giving plant managers and operators real-time answers and action plans through a natural language interface with NVIDIA OpenShell privacy controls and safety guardrails. With MoMClaw, Foxconn projects an 80% improvement in root cause analysis time, a 15% increase in labor productivity and a 10% decrease in machine failure rates.https://blogs.nvidia.com/wp-content/uploads/2026/05/5172573_RoboticFactory_V27_BlogPost_Foxconn_Caption_v02.mp4Pegatron is using the FOX blueprint and NemoClaw to build a factory manager agent that orchestrates specialized agents for material transport, AI inspection, standard operating procedure guidance and machine-to-machine coordination. With the factory manager agent, Pegatron can orchestrate robot utilization more efficiently, eliminating the need for expensive standby equipment, with an estimated 15% reduction in asset redundancy costs.https://blogs.nvidia.com/wp-content/uploads/2026/05/5172573_RoboticFactory_V27_BlogPost_Pegatron_Caption_v02.mp4Advantech has introduced the AI Factory Brain, an intelligent multi-agent system led by a factory manager agent built with the FOX blueprint and NemoClaw. Advantech has deployed the factory manager agent in its own factories to autonomously manage energy across HVAC and lighting specialized agents and projects to cut energy consumption by 10%.Wistron is adopting the FOX blueprint and using NVIDIA Cosmos, NVIDIA Nemotron open models and the NVIDIA Metropolis VSS blueprint to build surface-mount technology agents that analyze and orchestrate production-line operations, enabling real-time root-cause analysis and quality control. To monitor manufacturing operations, improve quality, verify standard operating procedures and improve worker safety, companies including DeepHow, Overview AI, Roboflow and Spingence are building specialized agents powered by NVIDIA AI and the NVIDIA VSS blueprint:DeepHow is using the Metropolis VSS Blueprint and Cosmos 3 to develop a standard operating procedure agent for Foxconn that supports assembly of Bianca boards for NVIDIA GB300 servers. Running on NVIDIA RTX PRO Servers, the agent accurately understands complex assembly motions to help improve first-pass yield by 3%, minimizing rework and production waste.https://blogs.nvidia.com/wp-content/uploads/2026/05/Live-SOP-Verification-Green-Red-Bounded-Boxes-Trim.mp4Spingence is using the NVIDIA Defect Image Generation skill, NVIDIA Cosmos open vision language model and NVIDIA TAO Toolkit for fine-tuning to develop a factory manager agent for Cooler Master that connects automated optical inspection and model-building agents, achieving 99.6% defect recall, reducing defect escapes by 78% and increasing inspection capacity by 3x.Overview AI is using an NVIDIA agent skill for defect image generation and NVIDIA Cosmos to help Amphenol improve manufacturing efficiency with its Advanced GenAI Toolkit. The toolkit generates synthetic defect data and deploys visual inspection AI models 12x faster, reducing time to first inference to under 30 minutes across more than 300 products.  Roboflow is using NVIDIA Cosmos to develop a model-building agent for Corning Fiber Optics that generates synthetic defect images when training data is limited, delivering near-perfect detection rates and demonstrates the potential to reduce daily manual image review.https://blogs.nvidia.com/wp-content/uploads/2026/05/RF_NVIDIA_Visual_Intelligence_v3_compressed.mp4Sign up to be notified when the NVIDIA Factory Operations Blueprint is available.  Metropolis VSS blueprint 3 is now generally available, including skills that allow external agents — such as Claude Code, Codex, Hermes and NemoClaw — to access VSS components and rapidly build and operate video analytics AI agents. Watch NVIDIA founder and CEO Jensen Huang’s keynote and learn more at NVIDIA GTC Taipei."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+      "publishedAt": "2026-06-01T05:00:41.000Z",
+      "author": "",
+      "description": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than 1 million NVIDIA MGX rack components for NVIDIA Vera Rubin infrastructure come together in Taiwan, from across 25 factory sites. As Vera Rubin ramps into full production to power agentic AI factories worldwide, that ecosystem spans the full supply chain — from key […]",
+      "content": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than 1 million NVIDIA MGX rack components for NVIDIA Vera Rubin infrastructure come together in Taiwan, from across 25 factory sites.As Vera Rubin ramps into full production to power agentic AI factories worldwide, that ecosystem spans the full supply chain — from key wafer and chip partners such as TSMC, SPIL, Kinsus, KYEC and UMTC, to manufacturing and systems leaders including Foxconn, Pegatron, Quanta Cloud Technology (QCT), Wistron and Inventec.But these partners are doing more than building AI factories. They’re applying accelerated computing, simulation, AI agents and physical AI to their own operations, creating a model for how AI can make advanced manufacturing faster, more efficient and adaptive.Taiwan’s Manufacturing Leaders Build the Future of AI, With NVIDIA AIAcross chipmaking, server assembly and factory operations, Taiwan’s manufacturing leaders are applying NVIDIA technologies to reshape how AI infrastructure is designed, built, tested and scaled. Image courtesy of TSMCTSMC is applying NVIDIA CUDA-X libraries and AI models across computational lithography, transistor and process simulation, advanced process control, yield analysis, fab operations and inspection. NVIDIA cuLitho improves cost-effectiveness or cycle time by 20-50% over CPU-based computational lithography at the same cost of ownership, while the NVIDIA cuEST library improves semiconductor material simulation by 50x on average, cuML library, Metropolis platform and TAO Toolkit help accelerate material simulations, improve process control and strengthen rare-defect inspection.Foxconn is using the new NVIDIA Factory Operations Blueprint and NemoClaw blueprints to build MoMClaw, its manufacturing operations management agent, connecting sensor and machine signals with specialized agents that give plant managers and operators real-time answers and action plans through a natural language interface with NVIDIA OpenShell privacy controls and safety guardrails. Foxconn estimates an 80% speed up in root-cause analysis time, a 15% increase in labor productivity and a 10% decrease in machine failure rates.&nbsp;Foxconn also uses DeepHow’s SOP Verification vision AI system using NVIDIA Cosmos and the NVIDIA Metropolis Blueprint for video search and summarization (VSS) to gain greater visibility into complex manufacturing processes, resulting in improved manufacturing efficiency and boosting first pass yield by 3%. The company is also applying NVIDIA Isaac Teleop, Isaac Sim, Isaac Lab and ROS 2 to wheeled humanoid robots operating in its factories, supporting precision assembly tasks such as pick and place, dual-arm collaboration and force-controlled screw fastening.Foxconn’s $1.4 billion AI cloud supercomputing center in Taiwan — powered by 10,000 NVIDIA GPUs — is being built with the NVIDIA GB300 NVL72 hybrid cooling architecture.Quanta Cloud Technology (QCT) is using NVIDIA Omniverse-based digital twins to accelerate factory planning, giving engineering, operations and logistics teams shared access to design data for faster layout feedback, optimized workflows and improved space utilization.QCT is also working with its subsidiary Techman Robot on a physical AI developer kit that uses QuantaGrid systems for data generation and model training. Techman Robot is using NVIDIA Jetson Thor and the Isaac GR00T platform to support the development of its next-generation robots, including the TM Xplore I humanoid, for advanced industrial tasks such as server fan assembly.Wistron is using the NVIDIA Omniverse DSX Blueprint, the NVIDIA PhysicsNeMo framework and Cadence Reality DC Design to simulate burn-in environments for stress-testing across global manufacturing sites and to optimize AI server manufacturing. Running on Wistron’s NVIDIA AI infrastructure with NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, NVIDIA Omniverse and NVIDIA Metropolis libraries, these workflows speed layout analysis by as much as 70% and cut facility power demand by 20% through dynamic rack optimization.Pegatron is adopting the NVIDIA Omniverse DSX Blueprint, developing simulation-ready assets, and connecting design data, thermal simulation, digital twins and physical qualification — accelerating the design and deployment of AI factories. Pegatron is also using NVIDIA’s Defect Image Generation physical AI agent skill with NVIDIA Cosmos world foundation models and Isaac Sim to generate synthetic defect data, reducing AI visual inspection deployment time by 67% and operational effort by 10%.Inventec is using the Defect Image Generation agent skill in its Observation Agent to generate synthetic defect data for automated optical inspection. In notebook cosmetic inspection, internal validation produced more than 10,000 synthetic defect images and showed the potential to reduce real-world data collection and manual labeling by about 30%, shorten AI deployment time by about 25% and improve anomaly detection by about 10%.As NVIDIA Vera Rubin ramps into full production, Taiwan’s manufacturing leaders are showing how AI infrastructure becomes part of its own manufacturing engine — using accelerated computing, simulation, agents and physical AI to build the next generation of AI systems.Watch the GTC Taipei keynote from NVIDIA founder and CEO Jensen Huang and explore physical AI sessions."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
+      "publishedAt": "2026-06-01T04:30:11.000Z",
+      "author": "",
+      "description": "Personal agents are exploding in popularity, with open source projects like OpenClaw and Hermes seeing rapid adoption by AI developer communities on GitHub. Built to adapt to individual preferences and workflows, these agents can interact with applications, generate content, automate repetitive processes and manage multi-step tasks — all while running locally on device. Today at […]",
+      "content": "Personal agents are exploding in popularity, with open source projects like OpenClaw and Hermes seeing rapid adoption by AI developer communities on GitHub. Built to adapt to individual preferences and workflows, these agents can interact with applications, generate content, automate repetitive processes and manage multi-step tasks — all while running locally on device.Today at NVIDIA GTC Taipei at COMPUTEX, NVIDIA unveiled NVIDIA RTX Spark — a new class of Windows PCs purpose-built for personal agents — alongside a wave of updates that expand local agents across the broader NVIDIA RTX and DGX ecosystems. Running agents securely and privately requires hardware that’s up to the task. RTX Spark’s 1 petaflop of AI compute and 128GB of unified memory can meet the computing demand of on-device agents, offering a new class of computer that goes from tool to teammate. Designed for AI, creating and gaming, RTX Spark brings NVIDIA’s 30 years of technology innovation to slim Windows laptops with all-day battery life and ultraefficient desktop PCs.NVIDIA’s partnership with Windows scales from personal to enterprise solutions. Also introduced at the show was NVIDIA DGX Station for Windows, the ultimate AI deskside supercomputer for professionals, bringing a data-center-class GPU and CPU for inference in a desktop system equipped with Windows for manageability, security and compatibility. Other announcements include:The NVIDIA OpenShell runtime is coming to Windows, built on Microsoft’s new security primitives for agents — providing developers an easy-to-deploy package for secure, on-device agents. Hermes Agent and OpenClaw will also integrate OpenShell and the Microsoft security primitives into their new Windows applications.The NVIDIA NemoClaw blueprint is expanding across NVIDIA’s full local AI lineup — GeForce RTX, RTX PRO, RTX and DGX Spark, and DGX Station — with new streamlined installers and support for Hermes Agent.2x inference performance on top agentic models with multi-token prediction in llama.cpp and vLLM, as well as new multi-GPU optimizations for llama.cpp and ComfyUI.H Company is releasing computer-use tools — including new models and an upcoming desktop agent harness — optimized for RTX and DGX PCs.Adobe is rearchitecting its Photoshop and Premiere apps, Blender is adding NVIDIA DLSS 4.5 Ray Reconstruction, and NVIDIA unveiled RTX Video Frame Generation, which will be coming to ComfyUI. All these updates arrive this fall with RTX Spark.The NVIDIA Broadcast 2.2 update brings Studio Voice feature optimizations and Elgato Stream Deck support. NVIDIA Project G-Assist also adds Stream Deck integration.Local Agentic AI: Personal, Private and Fast on Windows RTX PCsBroad agent adoption has been limited by the inability to run agents securely and privately on users’ primary PCs.NVIDIA and Microsoft are partnering to address this challenge by delivering a robust, secure Windows platform for on-device agents.The collaboration begins with a strong foundation — new Windows security primitives and the NVIDIA OpenShell runtime — to ensure agents run safely and under full user control.The new Windows primitives deliver identity, containment, policy and end-to-end security capabilities to build and run agents natively. NVIDIA OpenShell provides additional policy capabilities for the user to define what agents can and cannot do, the ability to intelligently route queries to local models based on the user’s privacy policies, and the ability to disguise personal information in queries sent to cloud models.This robust security and privacy layer is being adopted by leading agent developers such as Hermes Agent and OpenClaw in their new Windows apps. These new apps will make it easy and secure for users to access powerful on-device agents that can execute tasks in Windows applications, reason through cross-app workflows, generate images and video, code plug-ins and apps, and semantically search local files.Powering agents on local devices requires both robust security and performant hardware. RTX Spark features up to 1 petaflop of AI compute and 128GB of unified memory to meet the processing demands of on-device agents.NVIDIA is also accelerating the local open model ecosystem these agents rely on. NVIDIA collaborated with the llama.cpp community to enable features and optimizations such as multi-token prediction (MTP) — a speculative decoding technique where a smaller draft model proposes multiple tokens at a time that the target model verifies in a single pass. This coupled with other optimizations such as programmatic dependent launch delivers 2x performance on Qwen 3.6 and 3.5 27B, and a 1.6x performance boost on Qwen 3.6 and 3.5 35B. These updates are available via the llama.cpp webUI and LM Studio.Performance gains shown with latest NVIDIA optimizations to llama.cpp: Qwen3.6-27B delivers up to 2x throughput and Qwen3.6-35B up to 1.6x on GeForce RTX 5090, accelerating local agentic AI workloads through open source community collaboration.For AI enthusiasts running multi-GPU rigs, NVIDIA collaborated with the open source community to enhance two of the most popular local AI tools:llama.cpp adds tensor parallelism for up to 2x memory and 1.8x compute on two equivalent GPUs.ComfyUI gains a new classifier-free guidance method for up to 2x performance on two equivalent GPUs, plus the option to split model chains across GPUs to take advantage of the combined memory.Shows token generation performance improvements for the Tensor Parallel Multi-GPU technique over pipeline parallel and single-GPU inferencing on llama.cpp.Shows generation time performance improvements for multi-GPU techniques on ComfyUI.NVIDIA is also expanding agent capabilities with H Company. H Company’s computer-use harness lets agents navigate a PC by seeing the screen and operating a mouse and keyboard just like a user, even in apps with no application programming interfaces, and is coming soon to RTX and DGX PCs with local model support. NVIDIA has collaborated with H Company to quantize its state-of-the-art Holo Computer Use models, as well as accelerate its harness — driving a 2x speedup on NVIDIA GPUs while reducing memory consumption by 35%. The models are available for download now, and the Holo Desktop app will be available soon. Agent Optimizations for LinuxFor developers who need always-accessible local agents, NVIDIA DGX Spark is the most capable personal agent AI computer for developers who need a Linux environment — unifying large memory, fast compute and compatibility with the NVIDIA CUDA ecosystem.This month’s DGX Spark OS release brings the most streamlined out-of-the-box experience with a streamlined NemoClaw installer, along with faster inference on the top agentic models. NemoClaw is now available for all NVIDIA RTX and DGX PCs on Linux and the Windows Subsystem for Linux. Safely deploy local agents on Linux with new streamlined installers, delivering automatic sandboxing and added support for Hermes Agent. NVIDIA has collaborated with vLLM to optimize inference for agents, with optimizations in vLLM and new optimized NVFP4 checkpoints for Qwen 3.6 35B. The updates deliver 2.6x performance on DGX Spark compared with the previously available NVFP4 checkpoints from Unsloth, and include kernel improvements as well as mixed precision, and CUDA Graph support for MTP.Read the vLLM blog for a full walkthrough of serving NVFP4 mixture-of-expers models on DGX Spark — from unified memory tuning to a working NVIDIA Nemotron 3 Super reference setup.Delivering Powerful Creative Experiences With AdobeNVIDIA is partnering with Adobe to rearchitect Adobe Premiere and Photoshop for RTX Spark. Firefly-powered Generative Fill in Photoshop and Generative Extend in Premiere are among the hundreds of accelerated tools that deliver creative power, precision and control. RTX Spark takes these capabilities further, delivering up to 2x faster AI, editing, coloring and effects across creative workflows.Adobe Premiere will feature a new video pipeline that taps into RTX Spark’s unified memory, Blackwell GPU and TensorRT software, delivering real-time performance for editing and color correction, GPU-accelerated AI performance and more efficient rendering of complex timelines. In addition, Adobe’s Substance 3D Painter and Stager will run natively on RTX Spark for smoother and more responsive 3D texturing and scene creation workflows.Adobe’s next-generation Photoshop engine will be optimized for GPU-accelerated compositing, enabling live filters, high dynamic range and modern natural brushing. The AI-native pipeline is built to harness the full power of RTX Spark, including TensorRT.Adobe will further extend Premiere and Photoshop to allow users to create, edit and design with Windows agents, providing creators with a collaborative teammate to accelerate their workflows.Updates to Adobe’s creative apps like Premiere, Photoshop and Substance are expected to start rolling out alongside RTX Spark availability.New Tools and App Updates for CreatorsNew NVIDIA platform updates and partner app optimizations are rolling out across the broader RTX ecosystem — some shipping today and others arriving with RTX Spark this fall.NVIDIA Broadcast 2.2 graduates Studio Voice — an AI feature that makes any microphone sound studio-quality — out of beta starting today. Studio Voice now runs on GeForce RTX 3060 GPUs and above with improved performance. The application also gets Elgato Stream Deck integration and configurable keyboard shortcuts. Project G-Assist also adds Stream Deck support via the Elgato MCP Server, letting users enable AI assistant capabilities for their stream setup.In addition, Blender Cycles is integrating DLSS 4.5 Ray Reconstruction as a new denoiser, turning the path-tracing viewport into an interactive, real-time viewer. This lets 3D artists navigate around a scene while seeing near-final render quality, transforming the lighting and look-development workflow. The update will be released with Blender 5.3 this fall, alongside RTX Spark.Also launching with RTX Spark, RTX Video Frame Generation is a new AI effect that doubles or quadruples video frame rate in real time — ideal for enhancing the 15-20 frames-per-second (fps) outputs that AI models typically generate. It arrives as a Python wheel and a ComfyUI node, letting AI artists generate videos faster at low fps and then interpolate up to smooth playback rates.#ICYMI: The Latest From RTX AI Garage Read the full NVIDIA RTX Spark announcement for details on the superchip, NVIDIA’s work with Windows on agents, and partner laptop and small desktops.ASUS ProArt creator laptops now ship with Black Forest Labs’ FLUX.2 Klein 4B — a distilled image model preinstalled through the MuseTree app, optimized with the NVFP4 format and NVIDIA TensorRT for RTX software development kit. Creators get an up to 2.5x speedup and 560% memory reduction, with the first-run experience going straight from unbox to generating images locally — no model downloads or ComfyUI setup required. The NVIDIA AI for Media software development kit is introducing updates, including new LipSync NVIDIA NIM microservices optimized for French, German and Spanish. The Active Speaker Detection NIM microservice also adds multi-camera support with cross-video speaker correlation. Check out the latest RTX AI Garage blog post on Hermes Agent and self-improving AI on RTX PCs and DGX Spark.Plug in to RTX Spark on Facebook, Instagram, TikTok and X — and stay informed by subscribing to the RTX Spark newsletter.See notice regarding software product information."
+    }
+  ],
+  "x": [
+    {
+      "source": "x",
+      "name": "Swyx",
+      "title": "RT Mada Seghete: Re @swyx and I are curating the AI in GTM track at @aiDotEngineer on June 30. The thing every AI engineer must realize: GTM just beca...",
+      "url": "https://x.com/swyx/status/2062250212069142881",
+      "publishedAt": "2026-06-03T18:57:44.000Z",
+      "author": "",
+      "description": "RT Mada SegheteRe @swyx and I are curating the AI in GTM track at @aiDotEngineer on June 30.The thing every AI engineer must realize: GTM just became an engineering problem.Outbound = agent design.Enrichment = retrieval + data quality.Attribution = a knowledge-graph problem.Forecasting = evals.",
+      "content": "RT Mada SegheteRe @swyx and I are curating the AI in GTM track at @aiDotEngineer on June 30.The thing every AI engineer must realize: GTM just became an engineering problem.Outbound = agent design.Enrichment = retrieval + data quality.Attribution = a knowledge-graph problem.Forecasting = evals.",
+      "handle": "swyx"
+    },
+    {
+      "source": "x",
+      "name": "Swyx",
+      "title": "RT Kyle Daigle: Chopped it up with @swyx on @latentspacepod and we ran the gamut on this one. We talked platform, how roles are evolving, the agentic ...",
+      "url": "https://x.com/swyx/status/2062349903402328301",
+      "publishedAt": "2026-06-03T16:58:06.000Z",
+      "author": "",
+      "description": "RT Kyle DaigleChopped it up with @swyx on @latentspacepod and we ran the gamut on this one. We talked platform, how roles are evolving, the agentic era, the future of open source, and what we’re building next. Spoiler: check out the @github  Copilot app. 😉Latent.Space: 🆕GitHub's Agent Era: 14x commits, 200M developers, Copilot’s next act https://latent.space/p/github@github COO @kdaigle explains why AI agents are forcing GitHub to evolve beyond code hosting, how Copilot is moving from autocomp",
+      "content": "RT Kyle DaigleChopped it up with @swyx on @latentspacepod and we ran the gamut on this one. We talked platform, how roles are evolving, the agentic era, the future of open source, and what we’re building next. Spoiler: check out the @github  Copilot app. 😉Latent.Space: 🆕GitHub's Agent Era: 14x commits, 200M developers, Copilot’s next act https://latent.space/p/github@github COO @kdaigle explains why AI agents are forcing GitHub to evolve beyond code hosting, how Copilot is moving from autocomplete to CLI, desktop, cloud agents, and ambient",
+      "handle": "swyx"
+    },
+    {
+      "source": "x",
+      "name": "Swyx",
+      "title": "probably the best reward function for reasoning efficiency i've seen",
+      "url": "https://x.com/swyx/status/2062060142489973010",
+      "publishedAt": "2026-06-03T06:33:43.000Z",
+      "author": "",
+      "description": "probably the best reward function for reasoning efficiency i've seenelie: length penalty is very elegant and simple tbh",
+      "content": "probably the best reward function for reasoning efficiency i've seenelie: length penalty is very elegant and simple tbh",
+      "handle": "swyx"
+    },
+    {
+      "source": "x",
+      "name": "Josh Woodward",
+      "title": "These are so fun!",
+      "url": "https://x.com/joshwoodward/status/2062341366999601185",
+      "publishedAt": "2026-06-04T01:11:12.000Z",
+      "author": "",
+      "description": "These are so fun!Google Flow: Our current favorite Gemini Omni trend: creating a surprising twist using real world footage. Try creating your own! 🧵",
+      "content": "These are so fun!Google Flow: Our current favorite Gemini Omni trend: creating a surprising twist using real world footage. Try creating your own! 🧵",
+      "handle": "joshwoodward"
+    },
+    {
+      "source": "x",
+      "name": "Josh Woodward",
+      "title": "A short backstory on this one: A small Google Labs team had an idea to make an app designed to connect you with what matters, without the endless scro...",
+      "url": "https://x.com/joshwoodward/status/2062217728824651848",
+      "publishedAt": "2026-06-03T16:59:55.000Z",
+      "author": "",
+      "description": "A short backstory on this one:A small Google Labs team had an idea to make an app designed to connect you with what matters, without the endless scroll. \"Hope scrolling, not doom scrolling\" was the hallway pitch. \"Go for it.\"And today, that little experiment is rolling out. Meet Dreambeans, a daily dose of inspiration, brewed fresh for you. We're excited to see what you think!Google Labs: 🚨 NEW EXPERIMENT 🚨Dreambeans is a new, experimental mobile app that uses Personal Intelligence to connect ",
+      "content": "A short backstory on this one:A small Google Labs team had an idea to make an app designed to connect you with what matters, without the endless scroll. \"Hope scrolling, not doom scrolling\" was the hallway pitch. \"Go for it.\"And today, that little experiment is rolling out. Meet Dreambeans, a daily dose of inspiration, brewed fresh for you. We're excited to see what you think!Google Labs: 🚨 NEW EXPERIMENT 🚨Dreambeans is a new, experimental mobile app that uses Personal Intelligence to connect to your Google apps. Every day, it delivers collections of personalized stories, surfacing things you might otherwise miss, alongside topics that are relevant to you, to",
+      "handle": "joshwoodward"
+    },
+    {
+      "source": "x",
+      "name": "Josh Woodward",
+      "title": "RT Luke Litowitz: #DreamBeans 💭🫘 by @GoogleLabs is the most tasteful generative AI experience I've used (Thanks for early access!) It's a genuin...",
+      "url": "https://x.com/joshwoodward/status/2062338340641440014",
+      "publishedAt": "2026-06-03T16:02:48.000Z",
+      "author": "",
+      "description": "RT Luke Litowitz#DreamBeans 💭🫘 by @GoogleLabs is the most tasteful generative AI experience I've used (Thanks for early access!)It's a genuinely new way to discover things that are truly relevant to you: news, restaurants, vinyls, and even highly specific things - outdoor furniture covers",
+      "content": "RT Luke Litowitz#DreamBeans 💭🫘 by @GoogleLabs is the most tasteful generative AI experience I've used (Thanks for early access!)It's a genuinely new way to discover things that are truly relevant to you: news, restaurants, vinyls, and even highly specific things - outdoor furniture covers",
+      "handle": "joshwoodward"
+    },
+    {
+      "source": "x",
+      "name": "Josh Woodward",
+      "title": "✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android.",
+      "url": "https://x.com/joshwoodward/status/2062025667852812583",
+      "publishedAt": "2026-06-03T04:16:44.000Z",
+      "author": "",
+      "description": "✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android.",
+      "content": "✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android.",
+      "handle": "joshwoodward"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "How do I make Codex the default tab when I open the ChatGPT app",
+      "url": "https://x.com/petergyang/status/2062327484499317124",
+      "publishedAt": "2026-06-04T00:16:03.000Z",
+      "author": "",
+      "description": "How do I make Codex the default tab when I open the ChatGPT app",
+      "content": "How do I make Codex the default tab when I open the ChatGPT app",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "Codex is absolutely killing it this afternoon for editing spreadsheets for me.",
+      "url": "https://x.com/petergyang/status/2062283525542531194",
+      "publishedAt": "2026-06-03T21:21:22.000Z",
+      "author": "",
+      "description": "Codex is absolutely killing it this afternoon for editing spreadsheets for me.",
+      "content": "Codex is absolutely killing it this afternoon for editing spreadsheets for me.",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "Matt's guide is great but this line is pretty funny: \"They're so lit up by being able to build anything that they don't do anything else. Then they la...",
+      "url": "https://x.com/petergyang/status/2062018242789670929",
+      "publishedAt": "2026-06-03T03:47:14.000Z",
+      "author": "",
+      "description": "Matt's guide is great but this line is pretty funny: \"They're so lit up by being able to build anything that they don't do anything else. Then they launch and there are no users.\" 😆Matt Van Horn: http://x.com/i/article/2061440101411102721",
+      "content": "Matt's guide is great but this line is pretty funny: \"They're so lit up by being able to build anything that they don't do anything else. Then they launch and there are no users.\" 😆Matt Van Horn: http://x.com/i/article/2061440101411102721",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Thariq",
+      "title": "If this prompt feels well written to you, it's because Suzanne is a writer in her little spare time! You can read her short story, Mall of America her...",
+      "url": "https://x.com/trq212/status/2062217018187923783",
+      "publishedAt": "2026-06-03T16:57:05.000Z",
+      "author": "",
+      "description": "If this prompt feels well written to you, it's because Suzanne is a writer in her little spare time! You can read her short story, Mall of America here: https://suzannewang.com/mall-of-americaIt's one of my favorite short stories about the human condition that happens to involve AI.Thariq: been asking others at Anthropic how they stay in the loop with Claude and fully understand the work being donethis is one of my favorites from Suzanne:",
+      "content": "If this prompt feels well written to you, it's because Suzanne is a writer in her little spare time! You can read her short story, Mall of America here: https://suzannewang.com/mall-of-americaIt's one of my favorite short stories about the human condition that happens to involve AI.Thariq: been asking others at Anthropic how they stay in the loop with Claude and fully understand the work being donethis is one of my favorites from Suzanne:",
+      "handle": "trq212"
+    },
+    {
+      "source": "x",
+      "name": "Google Labs",
+      "title": "🚨 NEW EXPERIMENT 🚨 Dreambeans is a new, experimental mobile app that uses Personal Intelligence to connect to your Google apps. Every day, it de...",
+      "url": "https://x.com/GoogleLabs/status/2062206479026069544",
+      "publishedAt": "2026-06-03T16:15:13.000Z",
+      "author": "",
+      "description": "🚨 NEW EXPERIMENT 🚨Dreambeans is a new, experimental mobile app that uses Personal Intelligence to connect to your Google apps. Every day, it delivers collections of personalized stories, surfacing things you might otherwise miss, alongside topics that are relevant to you, to help you dive deeper into the things you care about most.Available starting today for eligible US-based Google AI Ultra users (+18), with an open waitlist found on our website below!Learn more at http://labs.google/dreambe",
+      "content": "🚨 NEW EXPERIMENT 🚨Dreambeans is a new, experimental mobile app that uses Personal Intelligence to connect to your Google apps. Every day, it delivers collections of personalized stories, surfacing things you might otherwise miss, alongside topics that are relevant to you, to help you dive deeper into the things you care about most.Available starting today for eligible US-based Google AI Ultra users (+18), with an open waitlist found on our website below!Learn more at http://labs.google/dreambeans",
+      "handle": "GoogleLabs"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Lenny Rachitsky: We have a winner of the Lenny's Newsletter x @Replit buildathon 🏆 Congratulations @andrey_esipov on your mind-blowing project, ...",
+      "url": "https://x.com/amasad/status/2062292349464748526",
+      "publishedAt": "2026-06-03T18:45:40.000Z",
+      "author": "",
+      "description": "RT Lenny RachitskyWe have a winner of the Lenny's Newsletter x @Replit buildathon 🏆Congratulations @andrey_esipov on your mind-blowing project, Operators.Y'all need to check this out: https://operators--andreyyesipov.replit.appOperators is a Street Fighter II-inspired fighting game where every fighter is an operator from Lenny's Podcast. Every special move maps to a framework that the operator talks about on the show, linked to the episode and timestamp it came from.So much craft and personalit",
+      "content": "RT Lenny RachitskyWe have a winner of the Lenny's Newsletter x @Replit buildathon 🏆Congratulations @andrey_esipov on your mind-blowing project, Operators.Y'all need to check this out: https://operators--andreyyesipov.replit.appOperators is a Street Fighter II-inspired fighting game where every fighter is an operator from Lenny's Podcast. Every special move maps to a framework that the operator talks about on the show, linked to the episode and timestamp it came from.So much craft and personality went into this project. Our team was genuinely laughing while testing it. Congrats Andrey!And congrats to the 100+ of you who entered the contest. This was a tough choice!A special mention of a few more projects that came in close behind:+ Little Lenny's https://littlelennys.replit.app+ Lenny's Diner https://lennysdiner.replit.app+ LennyOS https://lennyos.replit.app+ Oracle of Lenny https://lenny-oracle.replit.app+ Pod-Squad https://pod-squad.replit.appThanks for playing! More fun excuses to build with AI to come.Lenny Rachitsky: Announcing the Lenny's Newsletter x @Replit BuildathonBuild something awesome with my podcast and newsletter data using Replit, and win fabulous prizes:🔸 1:1 career coaching session with @amasad 🔸 $5,000 in free Replit credits🔸 A free year of Lenny's NewsletterThis is",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "Don’t miss it!",
+      "url": "https://x.com/amasad/status/2062240846444110277",
+      "publishedAt": "2026-06-03T18:31:47.000Z",
+      "author": "",
+      "description": "Don’t miss it!tigris: speaking ++ showing emotion alchemy at @Replit vibecon on June 17-18 in NYC! code! tech! art! and spike jonze!",
+      "content": "Don’t miss it!tigris: speaking ++ showing emotion alchemy at @Replit vibecon on June 17-18 in NYC! code! tech! art! and spike jonze!",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "You can run but you can’t hide from B2B SaaS",
+      "url": "https://x.com/amasad/status/2062228935702921641",
+      "publishedAt": "2026-06-03T17:44:27.000Z",
+      "author": "",
+      "description": "You can run but you can’t hide from B2B SaaSMeghan Bobrowsky: New: Meta today launched an AI agent for businesses that can answer customer questions, book appts &amp; close salesEventually it will be able to run their entire business, Zuckerberg said during the launch announcementIt's part of Meta's broadening beyond its core ads biz",
+      "content": "You can run but you can’t hide from B2B SaaSMeghan Bobrowsky: New: Meta today launched an AI agent for businesses that can answer customer questions, book appts &amp; close salesEventually it will be able to run their entire business, Zuckerberg said during the launch announcementIt's part of Meta's broadening beyond its core ads biz",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Amjad Masad: Re Paper: https://dl.acm.org/doi/10.1145/3786335.3813162 Website: http://vibench.ai",
+      "url": "https://x.com/amasad/status/2062242742848434215",
+      "publishedAt": "2026-06-03T17:41:59.000Z",
+      "author": "",
+      "description": "RT Amjad MasadRe Paper: https://dl.acm.org/doi/10.1145/3786335.3813162Website: http://vibench.ai",
+      "content": "RT Amjad MasadRe Paper: https://dl.acm.org/doi/10.1145/3786335.3813162Website: http://vibench.ai",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Amjad Masad: Benchmarks place GPT 5.5 as the best model on SWE, but is it the best at making apps end-to-end? Turns out Opus 4.8 continues to be th...",
+      "url": "https://x.com/amasad/status/2062346207226442188",
+      "publishedAt": "2026-06-03T17:33:23.000Z",
+      "author": "",
+      "description": "RT Amjad MasadBenchmarks place GPT 5.5 as the best model on SWE, but is it the best at making apps end-to-end?Turns out Opus 4.8 continues to be the king of vibe coding on both price &amp; performance.Introducing ViBench: the first benchmark for app creation based on real world tasks",
+      "content": "RT Amjad MasadBenchmarks place GPT 5.5 as the best model on SWE, but is it the best at making apps end-to-end?Turns out Opus 4.8 continues to be the king of vibe coding on both price &amp; performance.Introducing ViBench: the first benchmark for app creation based on real world tasks",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "SEO Agent!",
+      "url": "https://x.com/amasad/status/2062220467751322033",
+      "publishedAt": "2026-06-03T17:10:48.000Z",
+      "author": "",
+      "description": "SEO Agent!Replit ⠕: You shipped your app. Now what?Your app may look great, but if no one can find it, it stays invisiblePublishing is only the beginningMeet SEO Agent. It runs a scan for you and suggests fixes to help your app get discovered in web &amp; AI search",
+      "content": "SEO Agent!Replit ⠕: You shipped your app. Now what?Your app may look great, but if no one can find it, it stays invisiblePublishing is only the beginningMeet SEO Agent. It runs a scan for you and suggests fixes to help your app get discovered in web &amp; AI search",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Replit ⠕: You shipped your app. Now what? Your app may look great, but if no one can find it, it stays invisible Publishing is only the beginning ...",
+      "url": "https://x.com/amasad/status/2062287031255150891",
+      "publishedAt": "2026-06-03T16:37:04.000Z",
+      "author": "",
+      "description": "RT Replit ⠕You shipped your app. Now what?Your app may look great, but if no one can find it, it stays invisiblePublishing is only the beginningMeet SEO Agent. It runs a scan for you and suggests fixes to help your app get discovered in web &amp; AI search",
+      "content": "RT Replit ⠕You shipped your app. Now what?Your app may look great, but if no one can find it, it stays invisiblePublishing is only the beginningMeet SEO Agent. It runs a scan for you and suggests fixes to help your app get discovered in web &amp; AI search",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Y Combinator: The next big social platform won't start with photos or videos. It will start with games. http://Playabl.ai is the TikTok for user-ge...",
+      "url": "https://x.com/amasad/status/2062203195783618600",
+      "publishedAt": "2026-06-03T13:10:03.000Z",
+      "author": "",
+      "description": "RT Y CombinatorThe next big social platform won't start with photos or videos. It will start with games.http://Playabl.ai is the TikTok for user-generated games: anyone can play, create, publish, and monetize.In 5 days, they hit 1M organic plays across 3,000 games.",
+      "content": "RT Y CombinatorThe next big social platform won't start with photos or videos. It will start with games.http://Playabl.ai is the TikTok for user-generated games: anyone can play, create, publish, and monetize.In 5 days, they hit 1M organic plays across 3,000 games.",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "Your whole business laid out on a canvas.",
+      "url": "https://x.com/amasad/status/2062048812345291259",
+      "publishedAt": "2026-06-03T05:48:42.000Z",
+      "author": "",
+      "description": "Your whole business laid out on a canvas.Manny Bernabe: Replit keeps blowing my mind. I'm working on something new, and in the same project I just keep coming up with new things to branch off and start building. It is crazy. I'm excited to show you what we have for you later on this week. Stay tuned. 🍿",
+      "content": "Your whole business laid out on a canvas.Manny Bernabe: Replit keeps blowing my mind. I'm working on something new, and in the same project I just keep coming up with new things to branch off and start building. It is crazy. I'm excited to show you what we have for you later on this week. Stay tuned. 🍿",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Guillermo Rauch",
+      "title": "Grok Imagine Video on @vercel AI Gateway – the top image-to-video model on http://arena.ai",
+      "url": "https://x.com/rauchg/status/2062332963636060313",
+      "publishedAt": "2026-06-04T00:37:49.000Z",
+      "author": "",
+      "description": "Grok Imagine Video on @vercel AI Gateway – the top image-to-video model on http://arena.aiVercel Developers: Grok Imagine Video 1.5 on AI Gateway.Image-to-video generation with synced audio in one pass.𝚊𝚠𝚊𝚒𝚝 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚅𝚒𝚍𝚎𝚘({  𝚖𝚘𝚍𝚎𝚕: '𝚡𝚊𝚒/𝚐𝚛𝚘𝚔-𝚒𝚖𝚊𝚐𝚒𝚗𝚎-𝚟𝚒𝚍𝚎𝚘-𝟷.𝟻-𝚙𝚛𝚎𝚟𝚒𝚎𝚠',  𝚙𝚛𝚘𝚖𝚙𝚝: '𝚊 𝚛𝚊𝚋𝚋𝚒𝚝 𝚜𝚙𝚛𝚒𝚗𝚝𝚒𝚗𝚐",
+      "content": "Grok Imagine Video on @vercel AI Gateway – the top image-to-video model on http://arena.aiVercel Developers: Grok Imagine Video 1.5 on AI Gateway.Image-to-video generation with synced audio in one pass.𝚊𝚠𝚊𝚒𝚝 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚅𝚒𝚍𝚎𝚘({  𝚖𝚘𝚍𝚎𝚕: '𝚡𝚊𝚒/𝚐𝚛𝚘𝚔-𝚒𝚖𝚊𝚐𝚒𝚗𝚎-𝚟𝚒𝚍𝚎𝚘-𝟷.𝟻-𝚙𝚛𝚎𝚟𝚒𝚎𝚠',  𝚙𝚛𝚘𝚖𝚙𝚝: '𝚊 𝚛𝚊𝚋𝚋𝚒𝚝 𝚜𝚙𝚛𝚒𝚗𝚝𝚒𝚗𝚐",
+      "handle": "rauchg"
+    },
+    {
+      "source": "x",
+      "name": "Guillermo Rauch",
+      "title": "RT Elon Musk: Grok Imagine on Vercel",
+      "url": "https://x.com/rauchg/status/2062333911209050137",
+      "publishedAt": "2026-06-04T00:36:35.000Z",
+      "author": "",
+      "description": "RT Elon MuskGrok Imagine on VercelVercel Developers: Grok Imagine Video 1.5 on AI Gateway.Image-to-video generation with synced audio in one pass.𝚊𝚠𝚊𝚒𝚝 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚅𝚒𝚍𝚎𝚘({  𝚖𝚘𝚍𝚎𝚕: '𝚡𝚊𝚒/𝚐𝚛𝚘𝚔-𝚒𝚖𝚊𝚐𝚒𝚗𝚎-𝚟𝚒𝚍𝚎𝚘-𝟷.𝟻-𝚙𝚛𝚎𝚟𝚒𝚎𝚠',  𝚙𝚛𝚘𝚖𝚙𝚝: '𝚊 𝚛𝚊𝚋𝚋𝚒𝚝 𝚜𝚙𝚛𝚒𝚗𝚝𝚒𝚗𝚐",
+      "content": "RT Elon MuskGrok Imagine on VercelVercel Developers: Grok Imagine Video 1.5 on AI Gateway.Image-to-video generation with synced audio in one pass.𝚊𝚠𝚊𝚒𝚝 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚅𝚒𝚍𝚎𝚘({  𝚖𝚘𝚍𝚎𝚕: '𝚡𝚊𝚒/𝚐𝚛𝚘𝚔-𝚒𝚖𝚊𝚐𝚒𝚗𝚎-𝚟𝚒𝚍𝚎𝚘-𝟷.𝟻-𝚙𝚛𝚎𝚟𝚒𝚎𝚠',  𝚙𝚛𝚘𝚖𝚙𝚝: '𝚊 𝚛𝚊𝚋𝚋𝚒𝚝 𝚜𝚙𝚛𝚒𝚗𝚝𝚒𝚗𝚐",
+      "handle": "rauchg"
+    },
+    {
+      "source": "x",
+      "name": "Guillermo Rauch",
+      "title": "▲ + ❄️ Generating frontends on top of your business data is one of the killer apps of coding AI. The genie is out of the bottle. Never going back t...",
+      "url": "https://x.com/rauchg/status/2062199585322529108",
+      "publishedAt": "2026-06-03T15:47:49.000Z",
+      "author": "",
+      "description": "▲ + ❄️ Generating frontends on top of your business data is one of the killer apps of coding AI. The genie is out of the bottle. Never going back to clunky and rigid dashboards.@vercel already ran on Snowflake. But with @v0 and @nextjs, we’re now getting 1000x the value.v0: v0’s Snowflake integration is now in public preview.Prompt v0 to use Snowflake, connect your account, and watch as it generates polished dashboards with your data.",
+      "content": "▲ + ❄️ Generating frontends on top of your business data is one of the killer apps of coding AI. The genie is out of the bottle. Never going back to clunky and rigid dashboards.@vercel already ran on Snowflake. But with @v0 and @nextjs, we’re now getting 1000x the value.v0: v0’s Snowflake integration is now in public preview.Prompt v0 to use Snowflake, connect your account, and watch as it generates polished dashboards with your data.",
+      "handle": "rauchg"
+    },
+    {
+      "source": "x",
+      "name": "Aaron Levie",
+      "title": "The jobs data coming out continues to suggest the opposite of what a lot of people had thought would happen. Just take engineering, as the prime examp...",
+      "url": "https://x.com/levie/status/2062335852379066698",
+      "publishedAt": "2026-06-04T00:49:18.000Z",
+      "author": "",
+      "description": "The jobs data coming out continues to suggest the opposite of what a lot of people had thought would happen. Just take engineering, as the prime example of the area with greatest AI impact (and perceived risk). Most companies now have far more software projects than ever before because of AI, and effectively only engineers are going to be the ones doing that work. You can get by for a while by being non-technical building software, but eventually someone has to understand what the thing is that ",
+      "content": "The jobs data coming out continues to suggest the opposite of what a lot of people had thought would happen. Just take engineering, as the prime example of the area with greatest AI impact (and perceived risk). Most companies now have far more software projects than ever before because of AI, and effectively only engineers are going to be the ones doing that work. You can get by for a while by being non-technical building software, but eventually someone has to understand what the thing is that got built, has to maintain it, has to fix security issues that come up, upgrade the systems beneath it, and so on. That’s all jobs.Now apply that to a number of other job functions. AI is going to cause companies to hire more in sales because agents can let them process more leads and do more customer research. AI will cause an explosion of new marketing roles because of how much more efficient it is to launch campaigns and target. The list goes on.AI is going to have the opposite effect that lots of people thought on jobs.The Kobeissi Letter: What if AI is actually creating more jobs than it is replacing?The latest JOLTs data showed that US job openings surged by a massive 731,000 jobs in April.Markets were expecting no change, resulting in the largest beat in JOLTs history. As a result, available employment hit",
+      "handle": "levie"
+    },
+    {
+      "source": "x",
+      "name": "Aaron Levie",
+      "title": "Even with employer caps, the spend on AI tokens dramatically exceeds any other historical spend on software. Typically, companies maybe would spend on...",
+      "url": "https://x.com/levie/status/2062280745889222937",
+      "publishedAt": "2026-06-03T21:10:19.000Z",
+      "author": "",
+      "description": "Even with employer caps, the spend on AI tokens dramatically exceeds any other historical spend on software.Typically, companies maybe would spend on the order of $10-50 for a software license per month per employee, but now will pay hundreds or thousands on tokens to augment their productivity.This shows you how big the TAM for intelligence is in the enterprise. The markets for AI are going to dramatically expand the size of the traditional software markets over time.Polymarket: NEW: Uber is re",
+      "content": "Even with employer caps, the spend on AI tokens dramatically exceeds any other historical spend on software.Typically, companies maybe would spend on the order of $10-50 for a software license per month per employee, but now will pay hundreds or thousands on tokens to augment their productivity.This shows you how big the TAM for intelligence is in the enterprise. The markets for AI are going to dramatically expand the size of the traditional software markets over time.Polymarket: NEW: Uber is reportedly capping employee use of AI vibe-coding tools at $1,500 per month after blowing through its AI budget.",
+      "handle": "levie"
+    },
+    {
+      "source": "x",
+      "name": "Ryo Lu",
+      "title": "Cursor is hiring design engineers. looking for people with taste, systems thinking, and deep care for fast, polished experiences – especially folks e...",
+      "url": "https://x.com/ryolu_/status/2062352329903665471",
+      "publishedAt": "2026-06-04T01:54:46.000Z",
+      "author": "",
+      "description": "Cursor is hiring design engineers.looking for people with taste, systems thinking, and deep care for fast, polished experiences – especially folks excited to build the tools that help designers, engineers, and agents ship quality code.know someone? tag them or DM me 📧",
+      "content": "Cursor is hiring design engineers.looking for people with taste, systems thinking, and deep care for fast, polished experiences – especially folks excited to build the tools that help designers, engineers, and agents ship quality code.know someone? tag them or DM me 📧",
+      "handle": "ryolu_"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "San Francisco is healing. We don't fall for this type of ridiculous gaslighting anymore.",
+      "url": "https://x.com/garrytan/status/2062285811366904091",
+      "publishedAt": "2026-06-03T21:30:27.000Z",
+      "author": "",
+      "description": "San Francisco is healing. We don't fall for this type of ridiculous gaslighting anymore.New York Post: Ex-AOC aide's $10M campaign ends in humiliation as he bombs in every precinct https://trib.al/c2FqPM0",
+      "content": "San Francisco is healing. We don't fall for this type of ridiculous gaslighting anymore.New York Post: Ex-AOC aide's $10M campaign ends in humiliation as he bombs in every precinct https://trib.al/c2FqPM0",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "SF is pro-growth pro-business, and we have to keep winning Keep voting, keep talking about the real issues, don't get distracted by culture war, keep ...",
+      "url": "https://x.com/garrytan/status/2062280103749689619",
+      "publishedAt": "2026-06-03T21:07:46.000Z",
+      "author": "",
+      "description": "SF is pro-growth pro-business, and we have to keep winningKeep voting, keep talking about the real issues, don't get distracted by culture war, keep buildingAndrew Jeffery: Pretty clear win for moderates in San Francisco's election yesterday.Most outsiders think this shift started with the Nov 2024 election of Mayor Lurie. But this movement started years prior.From our SF multifamily pitch deck printed in 2023:\"Political winds are shifting",
+      "content": "SF is pro-growth pro-business, and we have to keep winningKeep voting, keep talking about the real issues, don't get distracted by culture war, keep buildingAndrew Jeffery: Pretty clear win for moderates in San Francisco's election yesterday.Most outsiders think this shift started with the Nov 2024 election of Mayor Lurie. But this movement started years prior.From our SF multifamily pitch deck printed in 2023:\"Political winds are shifting",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "If you've got to shard postgres, accept no substitutes",
+      "url": "https://x.com/garrytan/status/2062279790519070731",
+      "publishedAt": "2026-06-03T21:06:32.000Z",
+      "author": "",
+      "description": "If you've got to shard postgres, accept no substitutesLev Kokotov: 1M PgDog downloads! 🚀🚀🚀",
+      "content": "If you've got to shard postgres, accept no substitutesLev Kokotov: 1M PgDog downloads! 🚀🚀🚀",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Dereck Paul, MD: The new frontier of AI for clinicians is understanding thin harness/fat skills and embracing agents for practicing medicine.",
+      "url": "https://x.com/garrytan/status/2062279737540833548",
+      "publishedAt": "2026-06-03T20:53:47.000Z",
+      "author": "",
+      "description": "RT Dereck Paul, MDThe new frontier of AI for clinicians is understanding thin harness/fat skills and embracing agents for practicing medicine.Dereck Paul, MD: http://x.com/i/article/2062191955589976064",
+      "content": "RT Dereck Paul, MDThe new frontier of AI for clinicians is understanding thin harness/fat skills and embracing agents for practicing medicine.Dereck Paul, MD: http://x.com/i/article/2062191955589976064",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Chris Elmendorf: Sign of YIMBY times: a well-connected candidate for the S.F. Board of Supervisors who ran on opposition to upzoning got trounced 7...",
+      "url": "https://x.com/garrytan/status/2062290106388799560",
+      "publishedAt": "2026-06-03T19:15:33.000Z",
+      "author": "",
+      "description": "RT Chris ElmendorfSign of YIMBY times: a well-connected candidate for the S.F. Board of Supervisors who ran on opposition to upzoning got trounced 70%-30% in the richest district in the city.I guess the neighborhood \"felt that [she] failed that test.\"",
+      "content": "RT Chris ElmendorfSign of YIMBY times: a well-connected candidate for the S.F. Board of Supervisors who ran on opposition to upzoning got trounced 70%-30% in the richest district in the city.I guess the neighborhood \"felt that [she] failed that test.\"",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Paul Graham: It's encouraging how the tech world has rallied round Ron Conway since he disclosed that he'd been diagnosed with cancer. So many peop...",
+      "url": "https://x.com/garrytan/status/2062279956504481862",
+      "publishedAt": "2026-06-03T18:30:00.000Z",
+      "author": "",
+      "description": "RT Paul GrahamIt's encouraging how the tech world has rallied round Ron Conway since he disclosed that he'd been diagnosed with cancer. So many people are helping him in so many different ways. It's really making a difference.",
+      "content": "RT Paul GrahamIt's encouraging how the tech world has rallied round Ron Conway since he disclosed that he'd been diagnosed with cancer. So many people are helping him in so many different ways. It's really making a difference.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Ankit Gupta: deeply shocking that Bain and McKinsey didn't find value in AI",
+      "url": "https://x.com/garrytan/status/2062235681859281200",
+      "publishedAt": "2026-06-03T17:26:31.000Z",
+      "author": "",
+      "description": "RT Ankit Guptadeeply shocking that Bain and McKinsey didn't find value in AIJohn Cassidy: First it was MIT and McKinsey. Now Bain finds that returns to corporate AI investments are disappointing.",
+      "content": "RT Ankit Guptadeeply shocking that Bain and McKinsey didn't find value in AIJohn Cassidy: First it was MIT and McKinsey. Now Bain finds that returns to corporate AI investments are disappointing.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Reed Schwartz: The map for Scott Wiener last night doesn't really track prog vs. mod, it tracks YIMBY vs. NIMBY. The bulk of precincts that went fo...",
+      "url": "https://x.com/garrytan/status/2062279939773350067",
+      "publishedAt": "2026-06-03T16:13:22.000Z",
+      "author": "",
+      "description": "RT Reed SchwartzThe map for Scott Wiener last night doesn't really track prog vs. mod, it tracks YIMBY vs. NIMBY. The bulk of precincts that went for Chan were conservative, high-homeownership, low-density areas on the West Side.",
+      "content": "RT Reed SchwartzThe map for Scott Wiener last night doesn't really track prog vs. mod, it tracks YIMBY vs. NIMBY. The bulk of precincts that went for Chan were conservative, high-homeownership, low-density areas on the West Side.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "Prop D was defeated even though the hard leftists spent more than $3M to try to stick it to businesses and working and middle class citizens by droppi...",
+      "url": "https://x.com/garrytan/status/2062205872412234196",
+      "publishedAt": "2026-06-03T16:12:48.000Z",
+      "author": "",
+      "description": "Prop D was defeated even though the hard leftists spent more than $3M to try to stick it to businesses and working and middle class citizens by dropping an 800% gross receipts taxVoters saw through the fake “overpaid CEO” marketing liesGarry's List: Politics isn't abstract. The same decisions that cost businesses billions shape what your family pays at the pharmacy, the grocery store, the gas pump.Every generation feels the choices we make now. Sitting out an election isn't neutral. It's a choic",
+      "content": "Prop D was defeated even though the hard leftists spent more than $3M to try to stick it to businesses and working and middle class citizens by dropping an 800% gross receipts taxVoters saw through the fake “overpaid CEO” marketing liesGarry's List: Politics isn't abstract. The same decisions that cost businesses billions shape what your family pays at the pharmacy, the grocery store, the gas pump.Every generation feels the choices we make now. Sitting out an election isn't neutral. It's a choice someone else makes for",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "So proud to say Phoebe Maffei won her election to Superior Court judge We have one more judge who will stand for rule of law in our city and this is a...",
+      "url": "https://x.com/garrytan/status/2062205455137673426",
+      "publishedAt": "2026-06-03T16:11:09.000Z",
+      "author": "",
+      "description": "So proud to say Phoebe Maffei won her election to Superior Court judgeWe have one more judge who will stand for rule of law in our city and this is an important win for common senseGarry's List: She bartended through law school. Spent 15 years prosecuting violent crime, elder abuse, and public corruption in SF. Now she's running for judge. \"Bar to Bar to Bar\" by GL Studios. Vote Phoebe Maffei for Judge. June 2nd.",
+      "content": "So proud to say Phoebe Maffei won her election to Superior Court judgeWe have one more judge who will stand for rule of law in our city and this is an important win for common senseGarry's List: She bartended through law school. Spent 15 years prosecuting violent crime, elder abuse, and public corruption in SF. Now she's running for judge. \"Bar to Bar to Bar\" by GL Studios. Vote Phoebe Maffei for Judge. June 2nd.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Charlie Warren: http://x.com/i/article/2062053874710810624",
+      "url": "https://x.com/garrytan/status/2062209097819455671",
+      "publishedAt": "2026-06-03T16:07:38.000Z",
+      "author": "",
+      "description": "RT Charlie Warrenhttp://x.com/i/article/2062053874710810624",
+      "content": "RT Charlie Warrenhttp://x.com/i/article/2062053874710810624",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Adish Jain ☕️: we’re launching Motion, the frontier agent for tasteful motion design. this launch video is made entirely with Motion. 👇🏽 Q...",
+      "url": "https://x.com/garrytan/status/2062288865059344575",
+      "publishedAt": "2026-06-03T16:04:23.000Z",
+      "author": "",
+      "description": "RT Adish Jain ☕️we’re launching Motion, the frontier agent for tasteful motion design.this launch video is made entirely with Motion. 👇🏽QT + comment \"MOTION\" to get 1,000 free credits.tag @motion_so in any X post for a surprise.now generally available at motion [dot] so.",
+      "content": "RT Adish Jain ☕️we’re launching Motion, the frontier agent for tasteful motion design.this launch video is made entirely with Motion. 👇🏽QT + comment \"MOTION\" to get 1,000 free credits.tag @motion_so in any X post for a surprise.now generally available at motion [dot] so.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Y Combinator: Some of the biggest companies of the next decade won't be software businesses. They'll be services companies like insurance carriers,...",
+      "url": "https://x.com/garrytan/status/2062280385036472515",
+      "publishedAt": "2026-06-03T16:01:00.000Z",
+      "author": "",
+      "description": "RT Y CombinatorSome of the biggest companies of the next decade won't be software businesses. They'll be services companies like insurance carriers, law firms, and tax practices rebuilt from scratch with AI doing most of the work.In this episode of Startup School, YC Visiting Partner @CharlieWarren walks through the playbook for building AI native services companies, covering how to pick a market with the right traits, why variance kills these businesses faster than anything else, and the P&amp;",
+      "content": "RT Y CombinatorSome of the biggest companies of the next decade won't be software businesses. They'll be services companies like insurance carriers, law firms, and tax practices rebuilt from scratch with AI doing most of the work.In this episode of Startup School, YC Visiting Partner @CharlieWarren walks through the playbook for building AI native services companies, covering how to pick a market with the right traits, why variance kills these businesses faster than anything else, and the P&amp;L math that’ll transform your business model.00:00 — Intro to AI Services Companies01:01 — Picking the Right Market02:55 — Markets YC Likes Right Now03:43 — The Sam Altman Test04:35 — The Right Founding Team05:28 — Building the Product06:19 — Variance Is the Existential Problem07:08 — The Early Demand Trap07:53 — How to Price AI Services08:41 — The P&amp;L Walkthrough09:33 — AI Operating Leverage10:27 — Don't Buy Your Way In",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "I have been thinking it's going to be the AI Harness Wars of 2027... But after that comes the Frontier Labs vs All Software Companies war of 2028",
+      "url": "https://x.com/garrytan/status/2062188458366648702",
+      "publishedAt": "2026-06-03T15:03:36.000Z",
+      "author": "",
+      "description": "I have been thinking it's going to be the AI Harness Wars of 2027...But after that comes the Frontier Labs vs All Software Companies war of 2028Ankit Gupta: so, now that Codex Sites is out, will lovable have a higher or lower ARR in 1 year?",
+      "content": "I have been thinking it's going to be the AI Harness Wars of 2027...But after that comes the Frontier Labs vs All Software Companies war of 2028Ankit Gupta: so, now that Codex Sites is out, will lovable have a higher or lower ARR in 1 year?",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "GBrain SkillOpt now has 4 E2E evals that verify it working https://github.com/garrytan/gbrain-evals/blob/main/docs/benchmarks/2026-06-03-skillopt.md",
+      "url": "https://x.com/garrytan/status/2062163263383802320",
+      "publishedAt": "2026-06-03T13:23:29.000Z",
+      "author": "",
+      "description": "GBrain SkillOpt now has 4 E2E evals that verify it workinghttps://github.com/garrytan/gbrain-evals/blob/main/docs/benchmarks/2026-06-03-skillopt.md",
+      "content": "GBrain SkillOpt now has 4 E2E evals that verify it workinghttps://github.com/garrytan/gbrain-evals/blob/main/docs/benchmarks/2026-06-03-skillopt.md",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Frank Smith: I still hold that @MattMahanSJ was the best candidate for CA Governor. Alas, he entered the race late, and most Californians keep voti...",
+      "url": "https://x.com/garrytan/status/2062285658631414203",
+      "publishedAt": "2026-06-03T06:10:48.000Z",
+      "author": "",
+      "description": "RT Frank SmithI still hold that @MattMahanSJ was the best candidate for CA Governor. Alas, he entered the race late, and most Californians keep voting along party lines regardless of results.As centrists, we need to keep pushing the movement behind Matt into the mainstream. These are winning ideas, and they point to a different way of doing politics:1. Zero ideology, outcomes first2. Get government out of the way where it’s a hindrance3.  Clear accountability for results4. Try innovative approac",
+      "content": "RT Frank SmithI still hold that @MattMahanSJ was the best candidate for CA Governor. Alas, he entered the race late, and most Californians keep voting along party lines regardless of results.As centrists, we need to keep pushing the movement behind Matt into the mainstream. These are winning ideas, and they point to a different way of doing politics:1. Zero ideology, outcomes first2. Get government out of the way where it’s a hindrance3.  Clear accountability for results4. Try innovative approaches, fail fast, iterateThis is how government should operate in the 21st century—and how we restore faith in it.Mayor Matt Mahan: Thank you, California!",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT 💥Susan Dyer Reynolds🗞️: “Was the role of a traditional journalist to be compassionate? That’s a little hazy, but I think [it is] the role ...",
+      "url": "https://x.com/garrytan/status/2062206089656160554",
+      "publishedAt": "2026-06-03T03:12:39.000Z",
+      "author": "",
+      "description": "RT 💥Susan Dyer Reynolds🗞️“Was the role of a traditional journalist to be compassionate? That’s a little hazy, but I think [it is] the role of a human, certainly.” https://thevoicesf.org/dion-lim-every-day-is-a-new-adventure/",
+      "content": "RT 💥Susan Dyer Reynolds🗞️“Was the role of a traditional journalist to be compassionate? That’s a little hazy, but I think [it is] the role of a human, certainly.” https://thevoicesf.org/dion-lim-every-day-is-a-new-adventure/",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Matt Turck",
+      "title": "RT Tobie Morgan Hitchcock: 1/ Spectron is live on Product Hunt. It is the memory layer for AI agents, built on @SurrealDB - graph, vector, document, s...",
+      "url": "https://x.com/mattturck/status/2062310137830986006",
+      "publishedAt": "2026-06-03T17:27:03.000Z",
+      "author": "",
+      "description": "RT Tobie Morgan Hitchcock1/ Spectron is live on Product Hunt.It is the memory layer for AI agents, built on @SurrealDB - graph, vector, document, structured, and geospatial records, in one engine, in one ACID transaction.A thread on what we built and why.",
+      "content": "RT Tobie Morgan Hitchcock1/ Spectron is live on Product Hunt.It is the memory layer for AI agents, built on @SurrealDB - graph, vector, document, structured, and geospatial records, in one engine, in one ACID transaction.A thread on what we built and why.",
+      "handle": "mattturck"
+    },
+    {
+      "source": "x",
+      "name": "Matt Turck",
+      "title": "RT LM Studio: Gemma 4 12B is here! Dense, mid-sized Gemma that fits right on your laptop - released by @google under Apache 2.0 Available now in LM St...",
+      "url": "https://x.com/mattturck/status/2062328704349716546",
+      "publishedAt": "2026-06-03T17:15:01.000Z",
+      "author": "",
+      "description": "RT LM StudioGemma 4 12B is here! Dense, mid-sized Gemma that fits right on your laptop - released by @google under Apache 2.0Available now in LM Studio https://lmstudio.ai/models/google/gemma-4-12b",
+      "content": "RT LM StudioGemma 4 12B is here! Dense, mid-sized Gemma that fits right on your laptop - released by @google under Apache 2.0Available now in LM Studio https://lmstudio.ai/models/google/gemma-4-12b",
+      "handle": "mattturck"
+    },
+    {
+      "source": "x",
+      "name": "Matt Turck",
+      "title": "RT Tobie Morgan Hitchcock: 1/ A few years ago we made a bet that the database should be multi-model in one engine, in one transaction. Most people tho...",
+      "url": "https://x.com/mattturck/status/2062150407246295155",
+      "publishedAt": "2026-06-03T07:32:38.000Z",
+      "author": "",
+      "description": "RT Tobie Morgan Hitchcock1/ A few years ago we made a bet that the database should be multi-model in one engine, in one transaction. Most people thought that was a niche idea. Agent memory is where that bet pays off.",
+      "content": "RT Tobie Morgan Hitchcock1/ A few years ago we made a bet that the database should be multi-model in one engine, in one transaction. Most people thought that was a niche idea. Agent memory is where that bet pays off.",
+      "handle": "mattturck"
+    },
+    {
+      "source": "x",
+      "name": "Nikunj Kothari",
+      "title": "Getting on this Fitbit Air hype train. Professional at the top, monitoring at the bottom.. Now just need Google Health API, write capabilities to Appl...",
+      "url": "https://x.com/nikunj/status/2062198451086221543",
+      "publishedAt": "2026-06-03T15:43:19.000Z",
+      "author": "",
+      "description": "Getting on this Fitbit Air hype train. Professional at the top, monitoring at the bottom.. Now just need Google Health API, write capabilities to Apple Health and a nice band and we’re all set!",
+      "content": "Getting on this Fitbit Air hype train. Professional at the top, monitoring at the bottom.. Now just need Google Health API, write capabilities to Apple Health and a nice band and we’re all set!",
+      "handle": "nikunj"
+    },
+    {
+      "source": "x",
+      "name": "Nikunj Kothari",
+      "title": "The best founders treat the following as a necessary component of their business but NOT the entire business.. > AI / timing / why now > Funding > Dis...",
+      "url": "https://x.com/nikunj/status/2062033620773306763",
+      "publishedAt": "2026-06-03T04:48:20.000Z",
+      "author": "",
+      "description": "The best founders treat the following as a necessary component of their business but NOT the entire business..> AI / timing / why now> Funding> Distribution / hype> Market> Product> RevenueI’m seeing too many pitches that are touting only one of these as the core reason to invest. The bar has frankly never been higher (see the seed - A gap) and you really need to be able to explain how you’re capturing at least multiple of these in a unique way that’ll be hard for others to copy. Especially in o",
+      "content": "The best founders treat the following as a necessary component of their business but NOT the entire business..> AI / timing / why now> Funding> Distribution / hype> Market> Product> RevenueI’m seeing too many pitches that are touting only one of these as the core reason to invest. The bar has frankly never been higher (see the seed - A gap) and you really need to be able to explain how you’re capturing at least multiple of these in a unique way that’ll be hard for others to copy. Especially in overcrowded categories. Otherwise, it gets very hard for the other side (aka VC) to make a case for their own partners to write the check. And, founders often get frustrated because their businesses are strong. Stronger than they have ever been in the past. Why can’t people just write the check? Like why do I need to waste time fundraising? It’s because like it or not the levels do keep going up. Narrative matters, ambition matters and try to understand the opportunity cost has also never been higher on the other side. If you’re profitable and don’t need capital, then who cares. And you don’t need to optimize for VCs but you DO need to give them a reason to believe. So, keep your bar high. Find a capital partner that still has conviction and deserves equity in your company. But, please take those ten extra minutes to communicate your long term ambition, because that might be the only small difference between you and the next round.",
+      "handle": "nikunj"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "RT David Rodecker: Re Fastest Growing OpenSource App of All Time - awarded by GitHub to Peter Steinberger for OpenClaw!🦞",
+      "url": "https://x.com/steipete/status/2062353998766837846",
+      "publishedAt": "2026-06-04T01:38:59.000Z",
+      "author": "",
+      "description": "RT David RodeckerRe Fastest Growing OpenSource App of All Time - awarded by GitHub to Peter Steinberger for OpenClaw!🦞",
+      "content": "RT David RodeckerRe Fastest Growing OpenSource App of All Time - awarded by GitHub to Peter Steinberger for OpenClaw!🦞",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "RT Dave Nielsen: Re “Damn, we’re getting very close to the Dark Factory” - @steipete",
+      "url": "https://x.com/steipete/status/2062354050574843916",
+      "publishedAt": "2026-06-04T01:32:50.000Z",
+      "author": "",
+      "description": "RT Dave NielsenRe “Damn, we’re getting very close to the Dark Factory” - @steipete",
+      "content": "RT Dave NielsenRe “Damn, we’re getting very close to the Dark Factory” - @steipete",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "RT Microsoft Developer: developers, developers, developers",
+      "url": "https://x.com/steipete/status/2062354164357927020",
+      "publishedAt": "2026-06-04T01:28:22.000Z",
+      "author": "",
+      "description": "RT Microsoft Developerdevelopers, developers, developers",
+      "content": "RT Microsoft Developerdevelopers, developers, developers",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "We have over 1300 people on the waitlist for today's OpenClaw event - will be livestreamed on Twitch and Discord tho! https://luma.com/OpenClaw-GitHub",
+      "url": "https://x.com/steipete/status/2062307384018829768",
+      "publishedAt": "2026-06-03T22:56:10.000Z",
+      "author": "",
+      "description": "We have over 1300 people on the waitlist for today's OpenClaw event - will be livestreamed on Twitch and Discord tho! https://luma.com/OpenClaw-GitHub",
+      "content": "We have over 1300 people on the waitlist for today's OpenClaw event - will be livestreamed on Twitch and Discord tho! https://luma.com/OpenClaw-GitHub",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "RT OpenClaw🦞: Agents should learn repeated work, but not by silently rewriting future runs. Skill Workshop turns reusable agent lessons into review...",
+      "url": "https://x.com/steipete/status/2062294145147043930",
+      "publishedAt": "2026-06-03T21:53:17.000Z",
+      "author": "",
+      "description": "RT OpenClaw🦞Agents should learn repeated work, but not by silently rewriting future runs.Skill Workshop turns reusable agent lessons into reviewable proposals you can tweak, apply, or reject before they become live skills. https://openclaw.ai/blog/openclaw-agent-skill-workshop",
+      "content": "RT OpenClaw🦞Agents should learn repeated work, but not by silently rewriting future runs.Skill Workshop turns reusable agent lessons into reviewable proposals you can tweak, apply, or reject before they become live skills. https://openclaw.ai/blog/openclaw-agent-skill-workshop",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal deployments and the numerous forks, real n...",
+      "url": "https://x.com/steipete/status/2062276065448669627",
+      "publishedAt": "2026-06-03T20:51:43.000Z",
+      "author": "",
+      "description": "We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week.",
+      "content": "We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week.",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "RT Ryan Lopopolo: This is pretty rad. coreutils on Windows, based on uutils",
+      "url": "https://x.com/steipete/status/2062145268490104862",
+      "publishedAt": "2026-06-03T11:13:45.000Z",
+      "author": "",
+      "description": "RT Ryan LopopoloThis is pretty rad. coreutils on Windows, based on uutilsABM Prottoy: @XenoPanther The repo is up now!https://github.com/microsoft/coreutils",
+      "content": "RT Ryan LopopoloThis is pretty rad. coreutils on Windows, based on uutilsABM Prottoy: @XenoPanther The repo is up now!https://github.com/microsoft/coreutils",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "RT Henry Sowell: I’ve got 4,000+ conversations buried in ChatGPT and Claude. I wanted to make them valuable for my day to day, so I built aicrawl. It...",
+      "url": "https://x.com/steipete/status/2062015637493297498",
+      "publishedAt": "2026-06-03T02:59:17.000Z",
+      "author": "",
+      "description": "RT Henry SowellI’ve got 4,000+ conversations buried in ChatGPT and Claude. I wanted to make them valuable for my day to day, so I built aicrawl. It’s a local-first archive that pulls those exports into a private, searchable store my OpenClaw agent can actually read. Been really valuable. Built on @OpenClaw’s crawlkit. @steipete if it’s useful to anyone else, I’d love to give it to OpenClaw. https://github.com/veteranbv/aicrawl",
+      "content": "RT Henry SowellI’ve got 4,000+ conversations buried in ChatGPT and Claude. I wanted to make them valuable for my day to day, so I built aicrawl. It’s a local-first archive that pulls those exports into a private, searchable store my OpenClaw agent can actually read. Been really valuable. Built on @OpenClaw’s crawlkit. @steipete if it’s useful to anyone else, I’d love to give it to OpenClaw. https://github.com/veteranbv/aicrawl",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "title": "RT Sachin Rekhi: .@danshipper's \"Automation Paradox\" perfectly explains the feeling we are all having - while AI is automating our work, we are still ...",
+      "url": "https://x.com/danshipper/status/2062189751323508959",
+      "publishedAt": "2026-06-03T15:00:04.000Z",
+      "author": "",
+      "description": "RT Sachin Rekhi.@danshipper's \"Automation Paradox\" perfectly explains the feeling we are all having - while AI is automating our work, we are still somehow busier than ever.Let's look at the two frontier ways of working with AI right now:Delegation — you invoke an agent to accomplish a task end-to-end.Orchestration — you work alongside AI in something like Claude Code or Codex, steering as you go.Both look automated. But both are quietly dependent on humans.Delegation only works when someone own",
+      "content": "RT Sachin Rekhi.@danshipper's \"Automation Paradox\" perfectly explains the feeling we are all having - while AI is automating our work, we are still somehow busier than ever.Let's look at the two frontier ways of working with AI right now:Delegation — you invoke an agent to accomplish a task end-to-end.Orchestration — you work alongside AI in something like Claude Code or Codex, steering as you go.Both look automated. But both are quietly dependent on humans.Delegation only works when someone owns the agent and keeps tuning it. Orchestration shines only when a human stays in the loop. Remove the human and you get volume, not value.Here's the paradox: AI makes yesterday's competence cheap. So cheap competence floods the market. Anyone can produce a \"decent start,\" so everyone does — and you get a glut of output that all looks the same.That's what slop really is. Not the em-dashes or the purple gradients. It's the sameness you feel after enough AI output.And when output goes up and sameness goes up, the demand for different skyrockets.Who produces different? Experts. They either build systems that reliably pull high-quality work from AI, or use AI for the draft and layer their expertise on top.So more automation doesn't mean less human work. It means more. Every agent needs a human to be good — and experts are the only thing standing between your work and the slop pile.",
+      "handle": "danshipper"
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "title": "Can you look the machine god in the face and keep your feet on the ground? Can you refuse to confuse your self with what can be measured, verbalized, ...",
+      "url": "https://x.com/danshipper/status/2062144269285023839",
+      "publishedAt": "2026-06-03T12:08:01.000Z",
+      "author": "",
+      "description": "Can you look the machine god in the face and keep your feet on the ground? Can you refuse to confuse your self with what can be measured, verbalized, or grasped? If so, you will go far.",
+      "content": "Can you look the machine god in the face and keep your feet on the ground? Can you refuse to confuse your self with what can be measured, verbalized, or grasped? If so, you will go far.",
+      "handle": "danshipper"
+    },
+    {
+      "source": "x",
+      "name": "Aditya Agarwal",
+      "title": "RT Finn Meeks: AI is shifting the market from selling SaaS to selling outcomes. This allows you to address a larger surface area of problems, which re...",
+      "url": "https://x.com/adityaag/status/2062300963046875545",
+      "publishedAt": "2026-06-03T22:29:47.000Z",
+      "author": "",
+      "description": "RT Finn MeeksAI is shifting the market from selling SaaS to selling outcomes.This allows you to address a larger surface area of problems, which requires a new type of engineer.@howard_zuo is one of the people leading the way here.",
+      "content": "RT Finn MeeksAI is shifting the market from selling SaaS to selling outcomes.This allows you to address a larger surface area of problems, which requires a new type of engineer.@howard_zuo is one of the people leading the way here.",
+      "handle": "adityaag"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "podcast",
+      "name": "No Priors",
+      "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
+      "url": "https://traffic.megaphone.fm/PDP6949464408.mp3",
+      "audioUrl": "https://traffic.megaphone.fm/PDP6949464408.mp3",
+      "duration": "2468",
+      "publishedAt": "2026-05-28T10:00:00.000Z",
+      "author": "",
+      "description": "We are now closer than ever before to living in a world where AI agents are smart enough to run our power grids and manage water supplies. How do we keep them from going rogue? Sarah Guo sits down with Maxim Bar Kogan, founder and CEO of Onyx Securities, to explore the complexities of supervising and securing autonomous agents at the enterprise level. Maxim explains Onyx’s product as an AI control plane, which oversees the permissions and flexible contexts of agents while balancing latency, cost, and reliability. He also discusses how current controls have insufficient context to monitor agent intent, tradeoffs for gradual model rollout, the need for vendor-independent oversight, and Israel’s growing AI and security talent ecosystem. Plus, why Maxim is all-in on AGI.Sign up for new podcast",
+      "content": "We are now closer than ever before to living in a world where AI agents are smart enough to run our power grids and manage water supplies. How do we keep them from going rogue? Sarah Guo sits down with Maxim Bar Kogan, founder and CEO of Onyx Securities, to explore the complexities of supervising and securing autonomous agents at the enterprise level. Maxim explains Onyx’s product as an AI control plane, which oversees the permissions and flexible contexts of agents while balancing latency, cost, and reliability. He also discusses how current controls have insufficient context to monitor agent intent, tradeoffs for gradual model rollout, the need for vendor-independent oversight, and Israel’s growing AI and security talent ecosystem. Plus, why Maxim is all-in on AGI.Sign up for new podcasts every week. Email feedback to show@no-priors.comFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @maximbarkogan Chapters:00:00 – Cold Open00:45 – Maxim Bar Kogan Introduction01:10 – AutoGPT and Betting on Agent Actions05:17 – What Onyx Product Does07:47 – State of Deployment in Large Enterprises09:58 – Securing Agents12:45 – Why Proxies Don’t Work14:11 – Why Onyx Trains Its Own Models18:38 – Onyx’s Talent Culture21:24 – Mechanistic Interpretability23:35 – How Onyx Builds Customer Trust25:10 – Mitigating Risk at the Foundational Level27:45 – Phased Rollout of Glasswing and Daybreak29:11 – Large Enterprise Holdouts30:46 – Onyx and the Larger AI Security Space32:36 – Should Labs Address Model Trust and Governance? 36:56 – What Needs to Happen in Security39:14 – Why Maxim is AGI-Pilled41:15 – Conclusion]]>"
+    },
+    {
+      "source": "podcast",
+      "name": "Practical AI",
+      "title": "Rebooting Enterprise AI with MCP and Kubernetes",
+      "url": "https://share.transistor.fm/s/d76e02d5",
+      "audioUrl": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/d76e02d5/e934139b.mp3",
+      "duration": "2889",
+      "publishedAt": "2026-05-28T09:00:00.000Z",
+      "author": "",
+      "description": "What happens when AI agents start acting less like chatbots and more like coworkers? In this episode, Dan and Chris sit down with Craig McLuckie, CEO of Stacklok to explore MCP, Kubernetes, ToolHive, enterprise AI, and the emerging infrastructure powering AI-native applications. From identity management to agent orchestration and system architecture, this conversation dives into how organizations may soon manage entire fleets of AI agents working behind the scenes.Featuring:Craig McLuckie – LinkedInChris Benson – Website, LinkedIn, Bluesky, GitHub, XDaniel Whitenack – Website, GitHub, XLinks:StacklokToolhiveSponsors:Prediction Guard: A self-hosted AI control plane for running agents in high impact environments. predictionguard.com/practicalaiUpcoming Events: Register for upcoming webinars ",
+      "content": "What happens when AI agents start acting less like chatbots and more like coworkers? In this episode, Dan and Chris sit down with Craig McLuckie, CEO of Stacklok to explore MCP, Kubernetes, ToolHive, enterprise AI, and the emerging infrastructure powering AI-native applications. From identity management to agent orchestration and system architecture, this conversation dives into how organizations may soon manage entire fleets of AI agents working behind the scenes.Featuring:Craig McLuckie – LinkedInChris Benson – Website, LinkedIn, Bluesky, GitHub, XDaniel Whitenack – Website, GitHub, XLinks:StacklokToolhiveSponsors:Prediction Guard: A self-hosted AI control plane for running agents in high impact environments. predictionguard.com/practicalaiUpcoming Events: Register for upcoming webinars here!Midwest AI Summit 2026]]>"
+    },
+    {
+      "source": "podcast",
+      "name": "Lex Fridman",
+      "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln",
+      "url": "https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln",
+      "audioUrl": "https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_don_lincoln.mp3",
+      "duration": "3:01:52",
+      "publishedAt": "2026-05-29T16:22:02.000Z",
+      "author": "",
+      "description": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics.Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep497-scSee below for timestamps, and to give feedback, submit questions, contact Lex, etc.CONTACT LEX:Feedback – give feedback to Lex: https://lexfridman.com/surveyAMA – submit questions, videos or call-in: https://lexfridman.com/amaHiring – join our team: https://lexfridman.com/hiringOther – other ways to get in touch: https://lexfridman.com/contactEPISODE LINKS:Don’s Facebook: https://facebook.com/Dr.Don.Lincoln/Don’s Website: https://drdonlincoln.com/Don’s LinkedIn: https://bit.ly/4nHeNiFDon’s YouTube Playlist: https://bit.ly/3PCIW67Don’s X: https://x.com/DrDonLincolnDon’s Books: https://a",
+      "content": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics.Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep497-scSee below for timestamps, and to give feedback, submit questions, contact Lex, etc.CONTACT LEX:Feedback – give feedback to Lex: https://lexfridman.com/surveyAMA – submit questions, videos or call-in: https://lexfridman.com/amaHiring – join our team: https://lexfridman.com/hiringOther – other ways to get in touch: https://lexfridman.com/contactEPISODE LINKS:Don’s Facebook: https://facebook.com/Dr.Don.Lincoln/Don’s Website: https://drdonlincoln.com/Don’s LinkedIn: https://bit.ly/4nHeNiFDon’s YouTube Playlist: https://bit.ly/3PCIW67Don’s X: https://x.com/DrDonLincolnDon’s Books: https://amzn.to/4uYbkOZDon’s Great Courses: https://shop.thegreatcourses.com/don-lincolnDon’s Audible: https://adbl.co/4wGioRVFermilab’s YouTube: https://www.youtube.com/fermilabFermilab’s Website: https://www.fnal.gov/Fermilab’s X: https://x.com/fermilabSPONSORS:To support this podcast, check out our sponsors & get discounts:Upwork: Platform for hiring freelancers.Go to https://upwork.com/lexLarridin: Measure AI adoption in your business.Go to https://larridin.comFin: AI agent for customer service.Go to https://fin.ai/lexLMNT: Zero-sugar electrolyte drink mix.Go to https://drinkLMNT.com/lexShopify: Sell stuff online.Go to https://shopify.com/lexPerplexity: AI-powered answer engine.Go to https://perplexity.ai/OUTLINE:(00:00) – Introduction(00:34) – Sponsors, Comments, and Reflections(08:52) – Unifying the laws of nature(23:23) – Einstein, special relativity, and general relativity(40:31) – Electroweak force(52:13) – How particle colliders work(1:10:16) – Higgs boson discovery(1:20:35) – Theory of everything(1:50:20) – Physics of empty space(1:57:45) – Antimatter(2:18:35) – Dark energy(2:22:23) – Dark matter(2:50:59) – Future of physicsPODCAST LINKS:– Podcast Website: https://lexfridman.com/podcast– Apple Podcasts: https://apple.co/2lwqZIr– Spotify: https://spoti.fi/2nEwCF8– RSS: https://lexfridman.com/feed/podcast/– Podcast Playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4– Clips Channel: https://www.youtube.com/lexclips"
+    }
+  ],
+  "xAccounts": [
+    {
+      "name": "Andrej Karpathy",
+      "handle": "karpathy"
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx"
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward"
+    },
+    {
+      "name": "Kevin Weil",
+      "handle": "kevinweil"
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang"
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu"
+    },
+    {
+      "name": "Madhu Guru",
+      "handle": "realmadhuguru"
+    },
+    {
+      "name": "Amanda Askell",
+      "handle": "AmandaAskell"
+    },
+    {
+      "name": "Cat Wu",
+      "handle": "catwu"
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212"
+    },
+    {
+      "name": "Google Labs",
+      "handle": "GoogleLabs"
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad"
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    {
+      "name": "Alex Albert",
+      "handle": "alexalbert__"
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie"
+    },
+    {
+      "name": "Ryo Lu",
+      "handle": "ryolu_"
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan"
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck"
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj"
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete"
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper"
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag"
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama"
+    },
+    {
+      "name": "Claude",
+      "handle": "ClaudeAI"
+    },
+    {
+      "name": "Jensen Huang",
+      "handle": "JensenHuang"
+    }
+  ],
+  "stats": {
+    "blogPosts": 23,
+    "rssBlogSources": 8,
+    "xTweets": 60,
+    "xAccounts": 25,
+    "podcastEpisodes": 3,
+    "podcastSources": 4
+  },
+  "prompts": {
+    "summarize_twitter": "# X/Twitter Summary Prompt\r\n\r\nYou are summarizing recent posts from an AI builder for a busy professional who wants\r\nto know what this person is thinking and building.\r\n\r\n## Instructions\r\n\r\n- Start by introducing the author with their full name AND role/company\r\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\")\r\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\r\n- Only include substantive content: original opinions, insights, product announcements,\r\n  technical discussions, industry analysis, or lessons learned\r\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\r\n  \"great event!\" type posts, engagement bait\r\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\r\n- For quote tweets: include the context of what they're responding to\r\n- Write 2-4 sentences per builder summarizing their key points\r\n- If they made a bold prediction or shared a contrarian take, lead with that\r\n- If they shared a tool, demo, or resource, mention it by name with the link\r\n- If there's nothing substantive to report, say \"No notable posts\" rather than padding with fluff\r\n- CRITICAL: ONLY use URLs from the JSON `url` field. NEVER invent or hallucinate tweet URLs.\r\n- If you mention a tweet, you MUST use the exact `url` from the source data, not a made-up one.\r\n- If a builder has no tweets in the data, do NOT create an entry for them.\r\n",
+    "summarize_blogs": "# Blog Post Summary Prompt\r\n\r\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\r\nprofessional who wants the key announcements and insights without reading the full article.\r\n\r\n## Instructions\r\n\r\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\r\n- Write a summary of 100-300 words depending on article length and substance\r\n- Lead with what matters: the core announcement, finding, or insight\r\n- If the post introduces a new product, feature, or research finding, name it clearly\r\n- If there are specific numbers, benchmarks, or results, include them\r\n- Include at least one direct quote from the article if available\r\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\r\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\r\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\r\n- Jump straight into the substance\r\n- Include the direct link to the original article\r\n",
+    "summarize_podcasts": "# Podcast Episode Summarization Rules\r\n\r\nYou are an AI news curator. Your job is to summarize podcast episode show notes into concise, insightful digests.\r\n\r\n## Selection Criteria\r\n- PRIORITIZE: episodes with substantive interviews, product launches, technical deep-dives, industry predictions, or founder stories\r\n- SKIP: purely promotional episodes, reruns, episodes with no meaningful content in show notes\r\n\r\n## Output Format\r\nFor each episode, produce:\r\n```\r\n### {Episode Title}\r\n**{Podcast Name}** | {Published Date} | [Listen]({url})\r\n\r\n{2-3 sentence summary focusing on: key insights, notable guests, announcements, or predictions}\r\n```\r\n\r\n## Rules\r\n- Keep each summary to 2-3 sentences MAX\r\n- Focus on WHAT was discussed and WHY it matters, not just the topic title\r\n- If a notable guest appeared, mention them by name and affiliation\r\n- Highlight any concrete predictions, numbers, or product announcements\r\n- For long episodes (>1hr), mention the duration so readers can plan\r\n- If show notes are sparse, note that the summary is based on limited information\r\n\r\n## Language Rules (config.language = \"auto\")\r\n- Detect the original language of the podcast\r\n- If English source: write summary in Chinese, keep key terms (product names, company names, technical terms) in original English\r\n- If Chinese source: write entirely in Chinese\r\n- Episode titles: translate to Chinese but append original title in parentheses for English podcasts\r\n",
+    "digest_intro": "# Digest Intro Prompt\r\n\r\nYou are assembling the final digest from individual source summaries.\r\n\r\n## Format\r\n\r\nStart with this header (replace [Date] with today's date):\r\n\r\nAI Broadcast Digest — [Date]\r\n\r\nThen organize content in this order:\r\n\r\n1. TWITTER section — list each builder with new posts (use heading `## Twitter`, NOT `## X / Twitter`)\r\n2. OFFICIAL BLOGS section — list each blog post from AI company blogs (OpenAI, Anthropic, etc.)\r\n\r\n## Rules\r\n\r\n- Only include sources that have new content\r\n- Skip any source with nothing new\r\n- Under each source, paste the individual summary you generated\r\n\r\n### X/Twitter author formatting\r\n- Use the author's full name and role/company, not just their last name\r\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\")\r\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\r\n- Include the direct link to each X/Twitter post from the JSON `url` field\r\n\r\n### Blog post formatting\r\n- Use the blog name as a section header\r\n- Under each blog, list each new post with its title and summary\r\n- Include the author name if available\r\n- Include the direct link to the original article\r\n\r\n### Mandatory links\r\n- Every single piece of content MUST have an original source link\r\n- If you don't have a link for something, do NOT include it in the digest.\r\n\r\n### No fabrication\r\n- Only include content that came from the feed JSON\r\n- NEVER make up quotes, opinions, or content you think someone might have said\r\n- NEVER fabricate URLs or tweet IDs - ONLY use exact `url` values from the JSON data\r\n- If a builder has no tweets in the data, do NOT invent a tweet URL for them\r\n- When in doubt, omit the entry rather than risk hallucinating a URL\r\n\r\n### General\r\n- Keep formatting clean and scannable\r\n- Do NOT add emojis to section headers (e.g. use `## X / Twitter`, NOT `## 🐦 X / Twitter`)\r\n- Icons are handled automatically by the HTML renderer\r\n",
+    "translate": "# Translation Prompt\r\n\r\nYou are translating an AI industry digest from English to Chinese.\r\n\r\n## Instructions\r\n\r\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\r\n- Keep technical terms in English where Chinese professionals typically use them:\r\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\r\n- Keep all proper nouns in English: names of people, companies, products, tools\r\n- Keep all URLs unchanged\r\n- Maintain the same structure and formatting as the English version\r\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\r\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\r\n  After each builder's English summary, place the Chinese translation directly below\r\n  (separated by a blank line), then move to the next builder.\r\n  Do NOT output all English first then all Chinese.\r\n- Never use em-dashes\r\n"
+  },
+  "errors": [
+    "Blog Google DeepMind: no items parsed",
+    "Blog Meta Engineering: no items parsed",
+    "Blog Cohere: no items parsed",
+    "Blog Hugging Face: fetch failed",
+    "Blog Anthropic: fetch failed",
+    "X @karpathy: no items parsed",
+    "X @kevinweil: no items parsed",
+    "X @thenanyu: no items parsed",
+    "X @realmadhuguru: no items parsed",
+    "X @AmandaAskell: no items parsed",
+    "X @catwu: no items parsed",
+    "X @alexalbert__: no items parsed",
+    "X @sama: no items parsed",
+    "X @ClaudeAI: no items parsed",
+    "X @JensenHuang: no items parsed",
+    "Podcast Latent Space: fetch failed"
+  ]
+}
