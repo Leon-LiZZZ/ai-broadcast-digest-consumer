@@ -1,0 +1,517 @@
+{
+  "status": "ok",
+  "generatedAt": "2026-06-08T02:06:23.676Z",
+  "date": "2026-06-08",
+  "config": {
+    "language": "auto"
+  },
+  "blogs": [
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
+      "publishedAt": "2026-06-07T23:00:36.000Z",
+      "category": "international",
+      "author": "",
+      "description": "NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Corporation Electro-Materials BG. The collaboration will bring together NVIDIA’s full-stack accelerated computing platforms with Doosan Group’s capabilities in industrial automation, power generation and advanced electronics materials […]",
+      "content": "NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Corporation Electro-Materials BG.The collaboration will bring together NVIDIA’s full-stack accelerated computing platforms with Doosan Group’s capabilities in industrial automation, power generation and advanced electronics materials to support next-generation AI infrastructure.Doosan Group’s businesses span several layers of the AI factory ecosystem, from intelligent robotics systems to the full spectrum of large-scale power solutions and advanced electronics materials for AI data center equipment. NVIDIA and Doosan will explore how NVIDIA’s physical AI stack, NVIDIA DSX AI factory platform, NVIDIA MGX and accelerated computing platforms can support these areas.Advancing Physical AI and RoboticsDoosan Robotics is integrating NVIDIA Isaac Sim and NVIDIA Isaac Lab open robotics frameworks, NVIDIA Cosmos open world foundation models, the open source Newton physics engine and NVIDIA Jetson Thor to advance its Agentic Robot OS — an AI-powered platform connecting perception, reasoning, simulation, learning and on-device inference. By integrating NVIDIA’s physical AI technologies, Doosan Robotics aims to help industrial robots better perceive, reason and act in complex and dynamic environments. Simulation-to-real workflows, physics calibration and AI reasoning will make collaborative robots more adaptable, task-specialized and ready for scalable deployment. The companies are also looking to develop reference use cases for high-value industrial tasks such as depalletizing and sanding, as well as new robot form factors including dual-arm and humanoid platforms.Built on Agentic Robot OS, these capabilities aim to help Doosan Robotics evolve from a robot arm provider into a full-stack AI-first robotics solution company. The work is part of a broader, Doosan Group-wide direction for physical AI that extends beyond robotics into areas such as construction machinery and power equipment.Doosan Bobcat also plans to explore integrating NVIDIA physical AI technologies into equipment used across construction, landscaping, agriculture and material handling applications. This work will help accelerate the development of specialized world models that enable Doosan Bobcat’s equipment to perceive diverse operating environments, reason about changing conditions and perform tasks more autonomously. The companies also aim to help establish an industry-standard ecosystem for compact autonomous equipment.Exploring AI Factory Power SolutionsDoosan Enerbility is exploring opportunities to support NVIDIA AI factories and the NVIDIA DSX AI factory platform through its large-scale power infrastructure portfolio, including gas turbines, steam turbines and small modular reactors, together with Doosan Fuel Cell’s hydrogen fuel-cell systems. These technologies are relevant to AI data centers that require reliable, high efficiency and continuously available power.Future collaboration could include power supply design for AI factory deployments, optimization of generation equipment and evaluation of low-carbon power sources such as small modular reactors. By aligning AI infrastructure requirements with energy system expertise, Doosan Enerbility could help address the growing power demands of accelerated computing.Supporting the NVIDIA MGX Ecosystem With Advanced PCB MaterialsDoosan Corporation Electro-Materials BG is supporting next-generation AI data center infrastructure through copper clad laminate, or CCL, a key foundational material for printed circuit boards. High-performance CCLs are used in printed circuit boards (PCBs) for networking equipment, AI accelerators and AI server motherboards, where low signal loss and high reliability are critical.NVIDIA MGX provides a modular reference architecture for accelerated systems, helping system manufacturers and ecosystem partners build servers and rack-scale AI factory infrastructure. As AI servers and networking systems increase in performance and bandwidth, advanced PCB materials such as CCL can play an important role in enabling high-speed signal integrity across the data center equipment ecosystem.Learn more about NVIDIA DSX and MGX.Featured image courtesy of Doosan Group."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
+      "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
+      "publishedAt": "2026-06-07T07:00:15.000Z",
+      "category": "international",
+      "author": "",
+      "description": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea, where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — […]",
+      "content": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea, where he introduced RTX Spark to the nation’s passionate gaming community.Leading game developers — including Korea’s KRAFTON and NC — are already working to bring their titles to RTX Spark-powered systems. Designed for local AI, creating and gaming, RTX Spark brings together 30 years of NVIDIA innovation to slim Windows laptops with all-day battery life and small, ultraefficient desktop PCs. With the superchip, gamers can play AAA games at 1440p resolution and over 100 frames per second with NVIDIA ray tracing, DLSS and Reflex technologies. In addition, RTX Spark supports all NVIDIA RTX technologies, including the recently announced DLSS 4.5 Ray Reconstruction, which features a second-generation transformer model for realistic image quality. RTX Spark Ignites Korea’s Gaming CommunityKorea has played a major role in spearheading esports and driving the boom in PC bangs, or internet and gaming cafes. With longstanding collaborations rooted in the country, NVIDIA in October celebrated 25 years of GeForce in Korea with a free festival for gamers, highlighting the rich gaming ecosystem that has been built over decades.   On Friday, Huang headed to T1 Base Camp — a PC bang owned by T1, one of Korea’s top esports teams. There, he met with T1’s reigning League of Legends World Champion team, including six-time World Champion Lee “Faker” Sang-hyeok to unveil RTX Spark. NVIDIA and Riot Games — developer of League of Legends — are collaborating to bring the title as well as VALORANT to RTX Spark, expanding gamers’ access to high-performance gaming on slim laptops. To mark the occasion, T1 Base Camp attendees had the chance to win RTX Spark laptops, League of Legends and T1 merch signed by Huang and Faker, as well as GeForce RTX 5090 GPUs. Surprising PC-Bang Gamers Later, Huang headed to Seoul’s Gangnam district, where he surprised PC-bang gamers with a first look at RTX Spark with KRAFTON and NC. At the first stop, Optimum Zone PC, Huang and KRAFTON Chairman Byung-gyu Chang showcased PUBG: BATTLEGROUNDS and Subnautica 2 on RTX Spark to a captivated crowd of gamers. Gamers then got the surprise chance to play with the unreleased PUBG Ally, a co-playable character built with NVIDIA ACE technologies on RTX Spark laptops. PUBG Ally resulted from AI research and development at KRAFTON and NVIDIA, part of an initiative to create next-generation game characters that act like teammates and enable more meaningful, immersive engagements with players.Next, Huang stopped at another PC bang, Portal PC, where he showcased NC’s CINDER CITY and AION 2 on RTX Spark, with support from Taekjin Kim, co-CEO of NC. NC and NVIDIA began working together in the early 2000s on the Lineage franchise and have since collaborated to integrate RTX technology into many of NC’s flagship games, including Lineage 2, AION, Blade & Soul, AION 2 and CINDER CITY. Gamers at Portal PC were given the chance to play a demo of NC’s highly anticipated open-world massively multiplayer online tactical shooter CINDER CITY on GeForce RTX-powered PCs.  CINDER CITY will support the DLSS 4.5 Dynamic Multi Frame Generation and Super Resolution features at launch. Plus, gamers will be able to experience the title on slim RTX Spark laptops and compact desktops when the game is released later this year. In addition to KRAFTON, NC, and Riot Games, 100+ Windows software providers and game developers are embracing RTX Spark. These partners include NetEase, Remedy Entertainment and XBOX. Learn more about RTX Spark and its launch partners."
+    },
+    {
+      "source": "blog",
+      "name": "NVIDIA",
+      "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+      "publishedAt": "2026-06-05T05:38:37.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live […]",
+      "content": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live updates.Sunday, June 6, 10 a.m. PTFirst Pitch for the Doosan BearsSunday at Jamsil Stadium in Seoul, NVIDIA founder and CEO Jensen Huang threw out the first pitch for the mighty Doosan Bears, joined by Doosan Group chairman Park Jeong-won on the field.&nbsp;Saturday, June 6, 11 p.m. PTNVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC BangsOn Friday in Seoul, Huang headed to T1 Base Camp — a PC bang owned by T1, one of Korea’s top esports teams. There, he met with T1’s reigning League of Legends World Champion team, including six-time World Champion Lee “Faker” Sang-hyeok to unveil RTX Spark.Today, Huang headed to Seoul’s Gangnam district, where he surprised PC-bang gamers with a first look at RTX Spark with KRAFTON and NC.At the first stop, Optimum Zone PC, Huang and KRAFTON Chairman Byung-gyu Chang showcased PUBG: BATTLEGROUNDS and Subnautica 2 on RTX Spark to a captivated crowd of gamers.Next, Huang stopped at another PC bang, Portal PC, where he showcased NC’s CINDER CITY and AION 2 on RTX Spark, with support from Taekjin Kim, co-CEO of NC.Read more. Thursday, June 4, 10:30 p.m. PT Touchdown in SeoulOn the heels of GTC Taipei at COMPUTEX, NVIDIA founder and CEO Jensen Huang touched down in Seoul Friday afternoon, greeted by fans and media as his visit got underway.A key focus of the trip, Huang said: to align the AI supply chain ahead of a busy second half of the year.“We have a very significant, very large AI infrastructure buildout — already a very successful first half,” Huang told media. “Grace Blackwell, our system, is doing very well, and Vera Rubin is in full production — so we are going to be very busy the second half [of the year].”Huang also touched on the huge potential for robotics and physical AI in Korea.“Robotics is going to be the next major sector here in Korea — this is a great opportunity for Korea to invest in AI,” he said.From memory manufacturing to robotics and gaming, Huang is off to a packed schedule with partners — but not without leaving time to enjoy some Korean fried chicken and BBQ. “It’s all delicious,” Huang said."
+    }
+  ],
+  "x": [
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "RT Kun Chen: i just had the pleasure of going on @petergyang's latest podcast episode and sharing how i use agents productively we touched on a lot of...",
+      "url": "https://x.com/petergyang/status/2063761891617607683",
+      "publishedAt": "2026-06-07T21:20:08.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Kun Cheni just had the pleasure of going on @petergyang's latest podcast episode and sharing how i use agents productivelywe touched on a lot of practical tips of how i tackle the bottlenecks in planning, review and validation and achieve a constant flow statecheck it out!Peter Yang: \"If you're still manually reviewing every line of code, you're the bottleneck.\"Here's my new episode with @kunchenguid, an ex-Meta L8 engineer who now ships up to 40 PRs a day with AI agents. Instead of manually ",
+      "content": "RT Kun Cheni just had the pleasure of going on @petergyang's latest podcast episode and sharing how i use agents productivelywe touched on a lot of practical tips of how i tackle the bottlenecks in planning, review and validation and achieve a constant flow statecheck it out!Peter Yang: \"If you're still manually reviewing every line of code, you're the bottleneck.\"Here's my new episode with @kunchenguid, an ex-Meta L8 engineer who now ships up to 40 PRs a day with AI agents. Instead of manually reviewing code, he built an agentic engineering system that",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "Most engineering processes were built for teams shipping 10 to 15 PRs a month. @kunchenguid, ex-Meta L8 engineer, is now shipping 40+ PRs a day with a...",
+      "url": "https://x.com/petergyang/status/2063682464921604189",
+      "publishedAt": "2026-06-07T18:00:15.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Most engineering processes were built for teams shipping 10 to 15 PRs a month.@kunchenguid, ex-Meta L8 engineer, is now shipping 40+ PRs a day with agents. That breaks a lot of existing processes behind:→ Code review &amp; QA→ Merge gates and team handoffsWhen output jumps 10x, the old workflows starts to crack.The answer is to build systems that streamline planning, validation, review, and merging as much as possible.📌 Watch him talk more about it here:https://www.youtube.com/watch?v=88B6DimMD",
+      "content": "Most engineering processes were built for teams shipping 10 to 15 PRs a month.@kunchenguid, ex-Meta L8 engineer, is now shipping 40+ PRs a day with agents. That breaks a lot of existing processes behind:→ Code review &amp; QA→ Merge gates and team handoffsWhen output jumps 10x, the old workflows starts to crack.The answer is to build systems that streamline planning, validation, review, and merging as much as possible.📌 Watch him talk more about it here:https://www.youtube.com/watch?v=88B6DimMD2g&amp;t=2626sPeter Yang: \"If you're still manually reviewing every line of code, you're the bottleneck.\"Here's my new episode with @kunchenguid, an ex-Meta L8 engineer who now ships up to 40 PRs a day with AI agents. Instead of manually reviewing code, he built an agentic engineering system that",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "Good night",
+      "url": "https://x.com/petergyang/status/2063491534339936584",
+      "publishedAt": "2026-06-07T05:21:34.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Good night",
+      "content": "Good night",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "RT Peter Yang: this agentic coding crack is more addictive than video games smh",
+      "url": "https://x.com/petergyang/status/2063670075077673380",
+      "publishedAt": "2026-06-07T05:03:02.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Peter Yangthis agentic coding crack is more addictive than video games smh",
+      "content": "RT Peter Yangthis agentic coding crack is more addictive than video games smh",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "There should be a way to filter or sort all my Codex threads in different ways vs. only by project. Like filter or sort by: - All waiting for approval...",
+      "url": "https://x.com/petergyang/status/2063475353335869922",
+      "publishedAt": "2026-06-07T04:17:16.000Z",
+      "category": "international",
+      "author": "",
+      "description": "There should be a way to filter or sort all my Codex threads in different ways vs. only by project. Like filter or sort by:- All waiting for approval- All currently workingI'm trying to keep it to 10 threads but it's already getting unwieldly.  wdyt @ajambrosino ?",
+      "content": "There should be a way to filter or sort all my Codex threads in different ways vs. only by project. Like filter or sort by:- All waiting for approval- All currently workingI'm trying to keep it to 10 threads but it's already getting unwieldly.  wdyt @ajambrosino ?",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Madhu Guru",
+      "title": "A common misconception is that training data is low skill, grunt work - scan some notebooks, mine the internet, create labeled samples. The data requi...",
+      "url": "https://x.com/realmadhuguru/status/2063704354910347520",
+      "publishedAt": "2026-06-07T19:27:14.000Z",
+      "category": "international",
+      "author": "",
+      "description": "A common misconception is that training data is low skill, grunt work - scan some notebooks, mine the internet, create labeled samples.The data required to advance the model frontier is the opposite. Labs need training data for high-economic-value tasks. And most of these tasks outside of SWE have little documentation - it is complex, domain-specific knowledge built over the  years, spanning legacy tools that don’t talk to each other.That's why we have SWE agents and not knowledge work agents ye",
+      "content": "A common misconception is that training data is low skill, grunt work - scan some notebooks, mine the internet, create labeled samples.The data required to advance the model frontier is the opposite. Labs need training data for high-economic-value tasks. And most of these tasks outside of SWE have little documentation - it is complex, domain-specific knowledge built over the  years, spanning legacy tools that don’t talk to each other.That's why we have SWE agents and not knowledge work agents yet.The companies creating this training data, such as Mercor, are doing extremely high-leverage, high-skill work. Critical to moving AI forward. And deeply underappreciated.Brendan (can/do): AI progress requires (1) compute, (2) algorithms, and (3) data.- The leading compute company is worth $5 trillion.- The leading model company is worth $1 trillion.- @mercor_ai is the leading data company and is currently valued orders of magnitude lower.There's an",
+      "handle": "realmadhuguru"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Congrats!",
+      "url": "https://x.com/amasad/status/2063744208587125142",
+      "publishedAt": "2026-06-07T22:05:36.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Congrats!theartofbace: Just hit 10K MRR in 90 DaysThese are 3 things that got us there1. Get to market ASAP. 60% ready means you're ready2. Post EVERY DAY on social. No exceptions3. Build/hire out a team to grow &amp; test quickly@speaksilq Big thank you to @Replit @amasad",
+      "content": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Congrats!theartofbace: Just hit 10K MRR in 90 DaysThese are 3 things that got us there1. Get to market ASAP. 60% ready means you're ready2. Post EVERY DAY on social. No exceptions3. Build/hire out a team to grow &amp; test quickly@speaksilq Big thank you to @Replit @amasad",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT Jason ✨👾SaaStr.Ai✨ Lemkin: At SaaStr AI 2026, @amasad CEO @Replit and I did an incredible deep dive A top 0.1% power user + the CEO on stage t...",
+      "url": "https://x.com/amasad/status/2063690106008145942",
+      "publishedAt": "2026-06-07T17:14:00.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Jason ✨👾SaaStr.Ai✨ LemkinAt SaaStr AI 2026, @amasad CEO @Replit and I did an incredible deep diveA top 0.1% power user + the CEO on stage together!- Why our AI Agents really work so well- When an AI Agent can beat a human, and why- How Replit combines models - Why your second and third AI Agent will be better- Why every company will end up with internal AI \"Oracles\"- How monorepos are a secret unlock to agent performanceand so much more!",
+      "content": "RT Jason ✨👾SaaStr.Ai✨ LemkinAt SaaStr AI 2026, @amasad CEO @Replit and I did an incredible deep diveA top 0.1% power user + the CEO on stage together!- Why our AI Agents really work so well- When an AI Agent can beat a human, and why- How Replit combines models - Why your second and third AI Agent will be better- Why every company will end up with internal AI \"Oracles\"- How monorepos are a secret unlock to agent performanceand so much more!",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Amjad Masad",
+      "title": "RT etn.: \"AGI for vibe-coding is coming earlier than 2028\" says Michele Catasta (@pirroh) President of Replit (@Replit): \"I would expect by the end of...",
+      "url": "https://x.com/amasad/status/2063695165915820084",
+      "publishedAt": "2026-06-07T10:55:03.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT etn.\"AGI for vibe-coding is coming earlier than 2028\" says Michele Catasta (@pirroh) President of Replit (@Replit):\"I would expect by the end of 2026, a lot of the core functionalities that models and agents have to have, in order to become very good vibe coding workhorses, will be there\".\"Literally the bottleneck would become grit, determination, if you want to take the time and, you know, invest a bit of money to make it happen\".\"No vibe coding tool today is absolutely perfect... but the am",
+      "content": "RT etn.\"AGI for vibe-coding is coming earlier than 2028\" says Michele Catasta (@pirroh) President of Replit (@Replit):\"I would expect by the end of 2026, a lot of the core functionalities that models and agents have to have, in order to become very good vibe coding workhorses, will be there\".\"Literally the bottleneck would become grit, determination, if you want to take the time and, you know, invest a bit of money to make it happen\".\"No vibe coding tool today is absolutely perfect... but the amount of creativity that they unleash is second to none.\"From @pirroh appearance in March.Forbes: Amjad Masad’s Replit allows users to build apps together like they’re doodling on a white board. It also made the Jordanian immigrant a billionaire along the way. Read more: https://www.forbes.com/sites/richardnieva/2026/03/11/meet-the-9-billion-ai-company-reimagining-vibe-coding-replit-amjad-masad/?utm_source=ForbesMainTwitter&amp;utm_medium=social&amp;utm_campaign=ForbesMainTwitter 📸: Cody Pickens for Forbes",
+      "handle": "amasad"
+    },
+    {
+      "source": "x",
+      "name": "Guillermo Rauch",
+      "title": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 Much like Stripe recovers revenue with smart retries on failed payments or credit ca...",
+      "url": "https://x.com/rauchg/status/2063714700618334260",
+      "publishedAt": "2026-06-07T20:08:21.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 Much like Stripe recovers revenue with smart retries on failed payments or credit card updates.And we do it with 0️⃣ zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps, …http://vercel.com/ai-gateway",
+      "content": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 Much like Stripe recovers revenue with smart retries on failed payments or credit card updates.And we do it with 0️⃣ zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps, …http://vercel.com/ai-gateway",
+      "handle": "rauchg"
+    },
+    {
+      "source": "x",
+      "name": "Aaron Levie",
+      "title": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard. Yes, AI has made that a bit e...",
+      "url": "https://x.com/levie/status/2063756386572681606",
+      "publishedAt": "2026-06-07T22:53:59.000Z",
+      "category": "international",
+      "author": "",
+      "description": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard. Yes, AI has made that a bit easier, though it’s still hard to build something that’s got good taste, differentiated, high quality, secure, and so on.But nevertheless, that’s only one component of building a platform that enterprises rely on. The plurality of costs in most enterprise software companies is actually on GTM, because at scale most enterprise software categories are",
+      "content": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard. Yes, AI has made that a bit easier, though it’s still hard to build something that’s got good taste, differentiated, high quality, secure, and so on.But nevertheless, that’s only one component of building a platform that enterprises rely on. The plurality of costs in most enterprise software companies is actually on GTM, because at scale most enterprise software categories are tough to break into and need a heavy amount of consultative selling and support for implementation and integration of solutions.  AI hasn’t reduced the need for that, and in many cases requires it even more now, as landscapes get even more busy and complicated for buyers to navigate through. If you make one thing cheaper and more abundant (development of software) then the new problem of discoverability and market differentiation (GTM) becomes the hardest part.Boring_Business: This is the tough lesson that a lot of people are learning the hard wayAI might have made building apps a lot easier, but it also set the barrier to entry at zeroBecause anyone can do it, there is no moat leftThe only edge left in the future will be sales and marketing",
+      "handle": "levie"
+    },
+    {
+      "source": "x",
+      "name": "Aaron Levie",
+      "title": "Box now has a markdown editor on the web. Full CLI support. Commenting. Full version history. Box Drive also lets you connect to any desktop client as...",
+      "url": "https://x.com/levie/status/2063649508681224367",
+      "publishedAt": "2026-06-07T15:49:18.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Box now has a markdown editor on the web. Full CLI support. Commenting. Full version history. Box Drive also lets you connect to any desktop client as a mounted drive, so you instantly work with all your files in Claude Cowork, Codex, Obsidian, Cursor, or any other app.jason: I need Google Docs but just for markdown files. Multiplayer comments. Syncing resolving comments.Suggestion mode Edit mode Edit history Maybe some sense of multi edits.Easy cli access.",
+      "content": "Box now has a markdown editor on the web. Full CLI support. Commenting. Full version history. Box Drive also lets you connect to any desktop client as a mounted drive, so you instantly work with all your files in Claude Cowork, Codex, Obsidian, Cursor, or any other app.jason: I need Google Docs but just for markdown files. Multiplayer comments. Syncing resolving comments.Suggestion mode Edit mode Edit history Maybe some sense of multi edits.Easy cli access.",
+      "handle": "levie"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "GBrain v0.42.30 can now give you a detailed summary of how your thinking has changed over time.",
+      "url": "https://x.com/garrytan/status/2063785286367392095",
+      "publishedAt": "2026-06-08T00:48:50.000Z",
+      "category": "international",
+      "author": "",
+      "description": "GBrain v0.42.30 can now give you a detailed summary of how your thinking has changed over time.",
+      "content": "GBrain v0.42.30 can now give you a detailed summary of how your thinking has changed over time.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "Centrist common sense local politics is the only way you can have a city that works We have to keep it this way",
+      "url": "https://x.com/garrytan/status/2063782236068151305",
+      "publishedAt": "2026-06-08T00:36:42.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Centrist common sense local politics is the only way you can have a city that worksWe have to keep it this waySandeep Kaushik: Center left candidates basically swept the San Francisco races in Tuesday’s primary, the latest glaring sign that San Francisco’s politics are headed in a different direction than Seattle’s. I’d suggest two reasons for this: San Francisco in the last six years has developed an",
+      "content": "Centrist common sense local politics is the only way you can have a city that worksWe have to keep it this waySandeep Kaushik: Center left candidates basically swept the San Francisco races in Tuesday’s primary, the latest glaring sign that San Francisco’s politics are headed in a different direction than Seattle’s. I’d suggest two reasons for this: San Francisco in the last six years has developed an",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "Don’t build Foxconn factories that make agents do the same thing over and over Agents by and large are smart, thoughtful, and not dangerous, so you s...",
+      "url": "https://x.com/garrytan/status/2063782001518489675",
+      "publishedAt": "2026-06-08T00:35:47.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Don’t build Foxconn factories that make agents do the same thing over and overAgents by and large are smart, thoughtful, and not dangerous, so you should let them do more, not lessPeter Steinberger 🦞: Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.You should be designing loops that prompt your agents.",
+      "content": "Don’t build Foxconn factories that make agents do the same thing over and overAgents by and large are smart, thoughtful, and not dangerous, so you should let them do more, not lessPeter Steinberger 🦞: Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.You should be designing loops that prompt your agents.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Paul Graham: Ideally you want to be dismissed as being on the right by people on the far left and dismissed as being on the left by people on the f...",
+      "url": "https://x.com/garrytan/status/2063782068195336639",
+      "publishedAt": "2026-06-07T15:23:06.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Paul GrahamIdeally you want to be dismissed as being on the right by people on the far left and dismissed as being on the left by people on the far right. This is not a sufficient condition for getting things right (choosing positions randomly would achieve it too) but it's a necessary one.",
+      "content": "RT Paul GrahamIdeally you want to be dismissed as being on the right by people on the far left and dismissed as being on the left by people on the far right. This is not a sufficient condition for getting things right (choosing positions randomly would achieve it too) but it's a necessary one.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "Yes, if you build a foxconn factory for intelligence, the workers can't do smart things Reusable intelligence means the agents are not boxed. Somethin...",
+      "url": "https://x.com/garrytan/status/2063618656622547241",
+      "publishedAt": "2026-06-07T13:46:42.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Yes, if you build a foxconn factory for intelligence, the workers can't do smart thingsReusable intelligence means the agents are not boxed. Something bad happens? it's not hemmed in by code. It can just do the right thing.Spock Woz: @alphabatcher i mostly agree.the bigger shift isn't markdown skills replacing code. it's moving from hardcoded workflows and UIs to reusable intelligence.the agent should be able to generate the logic and interface it needs at runtime, while infrastructure stays det",
+      "content": "Yes, if you build a foxconn factory for intelligence, the workers can't do smart thingsReusable intelligence means the agents are not boxed. Something bad happens? it's not hemmed in by code. It can just do the right thing.Spock Woz: @alphabatcher i mostly agree.the bigger shift isn't markdown skills replacing code. it's moving from hardcoded workflows and UIs to reusable intelligence.the agent should be able to generate the logic and interface it needs at runtime, while infrastructure stays deterministic underneath.",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Ronin: okay i'm just gonna share this.. *that's part of workflow how i automated my solo marketing agency been using this free repo for a few weeks...",
+      "url": "https://x.com/garrytan/status/2063619178624659788",
+      "publishedAt": "2026-06-07T10:48:39.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Roninokay i'm just gonna share this..*that's part of workflow how i automated my solo marketing agencybeen using this free repo for a few weeks. ships in hours what used to take days23 ready skills. product → design → QA → docsan 18-year-old won a hackathon with this repo last month. in 2 hourswhile 80 others were still figuring out what to build (cheat code for planning)made by @garrytan (president of YC). 108k stars. you probably haven't found it[ what blew my mind ]:the setup takes 3 comma",
+      "content": "RT Roninokay i'm just gonna share this..*that's part of workflow how i automated my solo marketing agencybeen using this free repo for a few weeks. ships in hours what used to take days23 ready skills. product → design → QA → docsan 18-year-old won a hackathon with this repo last month. in 2 hourswhile 80 others were still figuring out what to build (cheat code for planning)made by @garrytan (president of YC). 108k stars. you probably haven't found it[ what blew my mind ]:the setup takes 3 commands.. not 3 days> 23 structured skills covering every phase: think → plan → build → ship> /office-hours - YC-style review before you write a line of code> /plan-eng-review - full architecture from one product decision> /design-shotgun - 4-6 design variants in parallel, opens in your browser> /qa - opens a real browser and clicks through your flows. finds bugs in the running product> GBrain - persistent memory between sessions. the agent never forgets again[ how i'm using it ]:i run a fully automated marketing agency. solo. zero employeesgstack handles a lot of what used to need 5 hires:> /office-hours scopes client launches in 5 min instead of 30> /design-shotgun ships 6 landing page variants in one session> /qa catches broken automation flows before clients see them> /document-release keeps client deliverables updated automatically> GBrain remembers every client's voice + history across sessionswhat used to eat my mornings now finishes in an hour[ the part nobody's talking about ]:most developers using Claude Code are leaving 80% of its potential on the table.. they treat it like autocompletegstack treats it like a development system. product thinking, architecture, design, QA, docs - all passed between phases automaticallyyou stop re-explaining context every step[ and the craziest part ]:Rakhatbek (the kid who won) said it would have been \"practically impossible to build a game like this in 1 hour 45 minutes manually\"3 commands. 1 markdown file. 23 skillsmost developers will never install it.. not because it's hard, but because they think it's just another tutorialRepo: https://github.com/garrytan/gstack100% FREE, OPEN-SOURCED full breakdown here ↓Noisy: http://x.com/i/article/2063288163141828608",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "title": "RT Mirko Monti: I have to admit that Gstack by @garrytan is really cool (https://github.com/garrytan/gstack) loving the /office-hours skill very usefu...",
+      "url": "https://x.com/garrytan/status/2063619211973583161",
+      "publishedAt": "2026-06-07T09:36:36.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Mirko MontiI have to admit that Gstack by @garrytan  is really cool (https://github.com/garrytan/gstack) loving the /office-hours skillvery useful to test your business ideas",
+      "content": "RT Mirko MontiI have to admit that Gstack by @garrytan  is really cool (https://github.com/garrytan/gstack) loving the /office-hours skillvery useful to test your business ideas",
+      "handle": "garrytan"
+    },
+    {
+      "source": "x",
+      "name": "Nikunj Kothari",
+      "title": "The vibe shift from tokenmaxxing and token anxiety to tokenoptimizing in just a few weeks is wild 😅 Might be a hot take but I still believe compani...",
+      "url": "https://x.com/nikunj/status/2063630238123483195",
+      "publishedAt": "2026-06-07T14:32:43.000Z",
+      "category": "international",
+      "author": "",
+      "description": "The vibe shift from tokenmaxxing and token anxiety to tokenoptimizing in just a few weeks is wild 😅Might be a hot take but I still believe companies should give copious amounts of token budget to employees to stay at the frontier and explore all the edges. Otherwise, it’s way too easy to fall back to “doing the things how they have always been done”.",
+      "content": "The vibe shift from tokenmaxxing and token anxiety to tokenoptimizing in just a few weeks is wild 😅Might be a hot take but I still believe companies should give copious amounts of token budget to employees to stay at the frontier and explore all the edges. Otherwise, it’s way too easy to fall back to “doing the things how they have always been done”.",
+      "handle": "nikunj"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "RT Tibo: I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or ...",
+      "url": "https://x.com/steipete/status/2063781015970292067",
+      "publishedAt": "2026-06-07T22:21:38.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT TiboI have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.First one tomorrow.",
+      "content": "RT TiboI have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.First one tomorrow.",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Peter Steinberger",
+      "title": "Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.",
+      "url": "https://x.com/steipete/status/2063697162748260627",
+      "publishedAt": "2026-06-07T18:58:39.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.You should be designing loops that prompt your agents.",
+      "content": "Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.You should be designing loops that prompt your agents.",
+      "handle": "steipete"
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "title": "RT Justin Obney: \"Bring your agents to the app\" is going to be such a vibe... I always want to see my schedule on these calendar pickers, but I don't ...",
+      "url": "https://x.com/danshipper/status/2063788531458146797",
+      "publishedAt": "2026-06-08T00:26:03.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Justin Obney\"Bring your agents to the app\" is going to be such a vibe...  I always want to see my schedule on these calendar pickers, but I don't want to give access to them... 😅def inspired by @danshipper  &amp; @every",
+      "content": "RT Justin Obney\"Bring your agents to the app\" is going to be such a vibe...  I always want to see my schedule on these calendar pickers, but I don't want to give access to them... 😅def inspired by @danshipper  &amp; @every",
+      "handle": "danshipper"
+    },
+    {
+      "source": "x",
+      "name": "Dan Shipper",
+      "title": "RT Every 📧: Weekends at the Every office",
+      "url": "https://x.com/danshipper/status/2063739350802735448",
+      "publishedAt": "2026-06-07T21:45:11.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Every 📧Weekends at the Every office",
+      "content": "RT Every 📧: Weekends at the Every office",
+      "handle": "danshipper"
+    },
+    {
+      "source": "x",
+      "name": "Aditya Agarwal",
+      "title": "I have had the chance to go through two IPOs (Meta and Dropbox). Fabulous wealth tends to amplify deeper desires, not create new ones. The mainstream ...",
+      "url": "https://x.com/adityaag/status/2063731771284619521",
+      "publishedAt": "2026-06-07T21:16:11.000Z",
+      "category": "international",
+      "author": "",
+      "description": "I have had the chance to go through two IPOs (Meta and Dropbox).Fabulous wealth tends to amplify deeper desires, not create new ones.The mainstream narrative is: \"Early Employees make lots of money and buy mansions and go to the beach\".For some: Yes, they want to chill. That is great. I am happy for them.But for a lot of folks, it is a chance to do even crazier and wackier stuff. Start new things. Fund new things. Keep the crazy loop of Silicon Valley going.It's going to be awesome to have a lot",
+      "content": "I have had the chance to go through two IPOs (Meta and Dropbox).Fabulous wealth tends to amplify deeper desires, not create new ones.The mainstream narrative is: \"Early Employees make lots of money and buy mansions and go to the beach\".For some: Yes, they want to chill. That is great. I am happy for them.But for a lot of folks, it is a chance to do even crazier and wackier stuff. Start new things. Fund new things. Keep the crazy loop of Silicon Valley going.It's going to be awesome to have a lot of folks with liquidity in the coming months. Onwards!.",
+      "handle": "adityaag"
+    },
+    {
+      "source": "x",
+      "name": "Sam Altman",
+      "title": "interesting recursive loop here maybe",
+      "url": "https://x.com/sama/status/2063779477419901071",
+      "publishedAt": "2026-06-08T00:25:45.000Z",
+      "category": "international",
+      "author": "",
+      "description": "interesting recursive loop here maybeTibo: I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.First one tomorrow.",
+      "content": "interesting recursive loop here maybeTibo: I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.First one tomorrow.",
+      "handle": "sama"
+    }
+  ],
+  "podcasts": [
+    {
+      "source": "podcast",
+      "name": "Practical AI",
+      "title": "Breaking down the 2026 Stanford AI Index Report",
+      "url": "https://share.transistor.fm/s/302b36f8",
+      "audioUrl": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/302b36f8/d474795e.mp3",
+      "duration": "2833",
+      "publishedAt": "2026-06-04T09:00:00.000Z",
+      "author": "",
+      "description": "AI models can win math olympiads… but still struggle to read an analog clock. In this fully connected episode, Dan and Chris break down the latest Stanford AI Index Report and explore what it reveals about the current state of AI. They discuss AI adoption and safety, disappearing junior tech jobs, robotics, AI’s “jagged frontier” of intelligence, and the growing race between the U.S. and China. Along the way, they debate whether AI should optimize everything, or if some things are better left human. Featuring:Chris Benson – Website, LinkedIn, Bluesky, GitHub, XDaniel Whitenack – Website, GitHub, XLinks:The 2026 AI Index ReportSponsors:Prediction Guard: A self-hosted AI control plane for running agents in high impact environments. predictionguard.com/practicalaiUpcoming Events: Register for",
+      "content": "AI models can win math olympiads… but still struggle to read an analog clock. In this fully connected episode, Dan and Chris break down the latest Stanford AI Index Report and explore what it reveals about the current state of AI. They discuss AI adoption and safety, disappearing junior tech jobs, robotics, AI’s “jagged frontier” of intelligence, and the growing race between the U.S. and China. Along the way, they debate whether AI should optimize everything, or if some things are better left human. Featuring:Chris Benson – Website, LinkedIn, Bluesky, GitHub, XDaniel Whitenack – Website, GitHub, XLinks:The 2026 AI Index ReportSponsors:Prediction Guard: A self-hosted AI control plane for running agents in high impact environments. predictionguard.com/practicalaiUpcoming Events: Register for upcoming webinars here!Midwest AI Summit 2026]]>"
+    }
+  ],
+  "xAccounts": [
+    {
+      "name": "Andrej Karpathy",
+      "handle": "karpathy"
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx"
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward"
+    },
+    {
+      "name": "Kevin Weil",
+      "handle": "kevinweil"
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang"
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu"
+    },
+    {
+      "name": "Madhu Guru",
+      "handle": "realmadhuguru"
+    },
+    {
+      "name": "Amanda Askell",
+      "handle": "AmandaAskell"
+    },
+    {
+      "name": "Cat Wu",
+      "handle": "catwu"
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212"
+    },
+    {
+      "name": "Google Labs",
+      "handle": "GoogleLabs"
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad"
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg"
+    },
+    {
+      "name": "Alex Albert",
+      "handle": "alexalbert__"
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie"
+    },
+    {
+      "name": "Ryo Lu",
+      "handle": "ryolu_"
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan"
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck"
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj"
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete"
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper"
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag"
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama"
+    },
+    {
+      "name": "Claude",
+      "handle": "ClaudeAI"
+    },
+    {
+      "name": "Jensen Huang",
+      "handle": "JensenHuang"
+    }
+  ],
+  "stats": {
+    "blogPosts": 3,
+    "domesticBlogPosts": 0,
+    "internationalBlogPosts": 3,
+    "rssBlogSources": 9,
+    "xTweets": 26,
+    "xAccounts": 25,
+    "podcastEpisodes": 1,
+    "podcastSources": 4
+  },
+  "prompts": {
+    "summarize_twitter": "# X/Twitter Summary Prompt\r\n\r\nYou are summarizing recent posts from an AI builder for a busy professional who wants\r\nto know what this person is thinking and building.\r\n\r\n## Instructions\r\n\r\n- Start by introducing the author with their full name AND role/company\r\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\")\r\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\r\n- Only include substantive content: original opinions, insights, product announcements,\r\n  technical discussions, industry analysis, or lessons learned\r\n- SKIP: mundane personal tweets, retweets without commentary, promotional content,\r\n  \"great event!\" type posts, engagement bait\r\n- For threads: summarize the full thread as one cohesive piece, not individual tweets\r\n- For quote tweets: include the context of what they're responding to\r\n- Write 2-4 sentences per builder summarizing their key points\r\n- If they made a bold prediction or shared a contrarian take, lead with that\r\n- If they shared a tool, demo, or resource, mention it by name with the link\r\n- If there's nothing substantive to report, say \"No notable posts\" rather than padding with fluff\r\n- CRITICAL: ONLY use URLs from the JSON `url` field. NEVER invent or hallucinate tweet URLs.\r\n- If you mention a tweet, you MUST use the exact `url` from the source data, not a made-up one.\r\n- If a builder has no tweets in the data, do NOT create an entry for them.\r\n",
+    "summarize_blogs": "# Blog Post Summary Prompt\r\n\r\nYou are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy\r\nprofessional who wants the key announcements and insights without reading the full article.\r\n\r\n## Instructions\r\n\r\n- Start with the blog name and article title (e.g. \"Anthropic Engineering: Harness Design for Long-Running Apps\")\r\n- Write a summary of 100-300 words depending on article length and substance\r\n- Lead with what matters: the core announcement, finding, or insight\r\n- If the post introduces a new product, feature, or research finding, name it clearly\r\n- If there are specific numbers, benchmarks, or results, include them\r\n- Include at least one direct quote from the article if available\r\n- If the post has practical implications (e.g. new API, new capability, policy change), call them out explicitly\r\n- Keep the tone sharp and informative — like a smart colleague forwarding you the key points\r\n- Do NOT include filler like \"In this blog post...\" or \"The author discusses...\"\r\n- Jump straight into the substance\r\n- Include the direct link to the original article\r\n",
+    "summarize_podcasts": "# Podcast Episode Summarization Rules\r\n\r\nYou are an AI news curator. Your job is to summarize podcast episode show notes into concise, insightful digests.\r\n\r\n## Selection Criteria\r\n- PRIORITIZE: episodes with substantive interviews, product launches, technical deep-dives, industry predictions, or founder stories\r\n- SKIP: purely promotional episodes, reruns, episodes with no meaningful content in show notes\r\n\r\n## Output Format\r\nFor each episode, produce:\r\n```\r\n### {Episode Title}\r\n**{Podcast Name}** | {Published Date} | [Listen]({url})\r\n\r\n{2-3 sentence summary focusing on: key insights, notable guests, announcements, or predictions}\r\n```\r\n\r\n## Rules\r\n- Keep each summary to 2-3 sentences MAX\r\n- Focus on WHAT was discussed and WHY it matters, not just the topic title\r\n- If a notable guest appeared, mention them by name and affiliation\r\n- Highlight any concrete predictions, numbers, or product announcements\r\n- For long episodes (>1hr), mention the duration so readers can plan\r\n- If show notes are sparse, note that the summary is based on limited information\r\n\r\n## Language Rules (config.language = \"auto\")\r\n- Detect the original language of the podcast\r\n- If English source: write summary in Chinese, keep key terms (product names, company names, technical terms) in original English\r\n- If Chinese source: write entirely in Chinese\r\n- Episode titles: translate to Chinese but append original title in parentheses for English podcasts\r\n",
+    "digest_intro": "# Digest Intro Prompt\r\n\r\nYou are assembling the final digest from individual source summaries.\r\n\r\n## Format\r\n\r\nStart with this header (replace [Date] with today's date):\r\n\r\nAI Broadcast Digest — [Date]\r\n\r\nThen organize content in this order:\r\n\r\n1. **X/Twitter** section — list each builder with new posts (use heading `## X / Twitter`)\r\n2. **国内新闻源** section — list Chinese domestic news sources (机器之心 etc., use heading `## 国内新闻源`)\r\n3. **Official Blogs** section — list each blog post from international AI company blogs (OpenAI, Anthropic, etc.)\r\n\r\n## Rules\r\n\r\n- Only include sources that have new content\r\n- Skip any source with nothing new\r\n- Under each source, paste the individual summary you generated\r\n\r\n### X/Twitter author formatting\r\n- Use the author's full name and role/company, not just their last name\r\n  (e.g. \"Replit CEO Amjad Masad\", \"Box CEO Aaron Levie\")\r\n  Do NOT use just their last name. Do NOT use their Twitter handle with @.\r\n- Include the direct link to each X/Twitter post from the JSON `url` field\r\n\r\n### 国内新闻源 formatting\r\n- Sources are Chinese domestic AI news outlets (e.g. 机器之心 via WeChat public accounts)\r\n- Use the source name as a section header\r\n- Under each source, list each new article with its title and summary\r\n- Include the direct link to the original article\r\n- Apply smart bilingual rule: keep original Chinese text in blockquotes\r\n\r\n### Blog post formatting\r\n- Use the blog name as a section header\r\n- Under each blog, list each new post with its title and summary\r\n- Include the author name if available\r\n- Include the direct link to the original article\r\n\r\n### Mandatory links\r\n- Every single piece of content MUST have an original source link\r\n- If you don't have a link for something, do NOT include it in the digest.\r\n\r\n### No fabrication\r\n- Only include content that came from the feed JSON\r\n- NEVER make up quotes, opinions, or content you think someone might have said\r\n- NEVER fabricate URLs or tweet IDs - ONLY use exact `url` values from the JSON data\r\n- If a builder has no tweets in the data, do NOT invent a tweet URL for them\r\n- When in doubt, omit the entry rather than risk hallucinating a URL\r\n\r\n### General\r\n- Keep formatting clean and scannable\r\n- Do NOT add emojis to section headers (e.g. use `## X / Twitter`, NOT `## 🐦 X / Twitter`)\r\n- Icons are handled automatically by the HTML renderer\r\n",
+    "translate": "# Translation Prompt\r\n\r\nYou are translating an AI industry digest from English to Chinese.\r\n\r\n## Instructions\r\n\r\n- Translate the full digest into natural, fluent Mandarin Chinese (simplified characters). The translated version must sound like it was originally written in Chinese, instead of translated\r\n- Keep technical terms in English where Chinese professionals typically use them:\r\n  AI, LLM, GPU, API, fine-tuning, RAG, token, prompt, agent, transformer, etc.\r\n- Keep all proper nouns in English: names of people, companies, products, tools\r\n- Keep all URLs unchanged\r\n- Maintain the same structure and formatting as the English version\r\n- The tone should be professional but conversational — 像是一位懂行的朋友在跟你聊天\r\n- For bilingual mode: interleave English and Chinese paragraph by paragraph.\r\n  After each builder's English summary, place the Chinese translation directly below\r\n  (separated by a blank line), then move to the next builder.\r\n  Do NOT output all English first then all Chinese.\r\n- Never use em-dashes\r\n"
+  },
+  "errors": [
+    "Blog OpenAI: no items parsed",
+    "Blog Google AI Blog: fetch failed",
+    "Blog Google DeepMind: fetch failed",
+    "Blog Meta Engineering: no items parsed",
+    "Blog Cohere: no items parsed",
+    "Blog Hugging Face: fetch failed",
+    "Blog Anthropic: fetch failed",
+    "Blog 机器之心: no items parsed",
+    "X @karpathy: no items parsed",
+    "X @swyx: no items parsed",
+    "X @joshwoodward: no items parsed",
+    "X @kevinweil: no items parsed",
+    "X @thenanyu: no items parsed",
+    "X @AmandaAskell: no items parsed",
+    "X @catwu: no items parsed",
+    "X @trq212: no items parsed",
+    "X @GoogleLabs: no items parsed",
+    "X @alexalbert__: no items parsed",
+    "X @ryolu_: no items parsed",
+    "X @mattturck: no items parsed",
+    "X @ClaudeAI: no items parsed",
+    "X @JensenHuang: no items parsed",
+    "Podcast Latent Space: fetch failed",
+    "Podcast No Priors: fetch failed",
+    "Podcast Lex Fridman: no episodes parsed"
+  ]
+}

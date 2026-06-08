@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Broadcast Digest — 2026年6月8日</title>
+<style>
+:root { --bg: #0c0c10; --surface: #15151c; --card: #1a1a24; --card-hover: #1e1e2a; --border: #2a2a3a; --border-light: #333346; --accent: #818cf8; --accent-dim: #6366f1; --green: #34d399; --amber: #fbbf24; --rose: #fb7185; --text: #d4d4d8; --text-dim: #71717a; --text-bright: #fafafa; --text-body: #b4b4bc; --radius: 12px; --max-w: 780px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+#sci-fi-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
+.hero, .layout, .report-footer, .to-top { position: relative; z-index: 1; }
+.hero { padding: 80px 24px 48px; text-align: center; background: linear-gradient(180deg, #13131a 0%, var(--bg) 100%); border-bottom: 1px solid var(--border); }
+.hero-badge { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); background: rgba(129,140,248,0.1); padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; }
+.hero h1 { font-size: clamp(28px, 5vw, 44px); font-weight: 800; color: var(--text-bright); letter-spacing: -0.5px; margin-bottom: 8px; }
+.hero .date { font-size: 16px; color: var(--text-dim); }
+.hero .actions { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
+.btn-download { display: inline-flex; align-items: center; gap: 6px; padding: 10px 22px; background: var(--accent-dim); color: white; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s; text-decoration: none; box-shadow: 0 2px 12px rgba(99,102,241,0.25); }
+.btn-download:hover { background: var(--accent); box-shadow: 0 4px 20px rgba(99,102,241,0.4); transform: translateY(-1px); }
+.hero .stats { display: flex; justify-content: center; gap: 16px; margin-top: 24px; flex-wrap: wrap; }
+.stat-group { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px 20px 14px; text-align: center; min-width: 160px; }
+.stat-group-title { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); }
+.stat-group-window { font-size: 10px; color: var(--text-dim); margin-top: 2px; padding-bottom: 8px; margin-bottom: 12px; border-bottom: 1px solid var(--border); }
+.stat-group-items { display: flex; gap: 16px; justify-content: center; }
+.hero .stat { text-align: center; }
+.hero .stat-num { font-size: 26px; font-weight: 700; color: var(--text-bright); }
+.hero .stat-label { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+.layout { max-width: 1100px; margin: 0 auto; display: flex; gap: 40px; padding: 40px 24px 120px; }
+.sidebar { position: sticky; top: 24px; width: 240px; flex-shrink: 0; align-self: flex-start; max-height: calc(100vh - 48px); overflow-y: auto; }
+.sidebar::-webkit-scrollbar { width: 3px; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+.toc-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-dim); margin-bottom: 16px; padding-left: 12px; }
+.toc { list-style: none; }
+.toc-section { margin-bottom: 16px; }
+.toc-label { font-size: 13px; font-weight: 600; color: var(--text); display: block; padding: 4px 12px; margin-bottom: 4px; }
+.toc ul { list-style: none; padding-left: 0; }
+.toc ul li a { display: block; font-size: 12px; color: var(--text-dim); text-decoration: none; padding: 3px 12px 3px 24px; border-left: 2px solid transparent; transition: all 0.2s; line-height: 1.5; }
+.toc ul li a:hover, .toc ul li a.active { color: var(--accent); border-left-color: var(--accent); background: rgba(129,140,248,0.05); }
+.main { flex: 1; min-width: 0; max-width: var(--max-w); }
+.section-header { display: flex; align-items: center; gap: 10px; margin: 48px 0 24px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+.section-header:first-child { margin-top: 0; }
+.section-icon { font-size: 20px; }
+.section-header h2 { font-size: 20px; font-weight: 700; color: var(--text-bright); flex: 1; }
+.section-count { font-size: 12px; color: var(--text-dim); background: var(--card); border: 1px solid var(--border); padding: 3px 10px; border-radius: 12px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 20px; overflow: hidden; transition: border-color 0.2s, background 0.2s; }
+.card:hover { border-color: var(--border-light); background: var(--card-hover); }
+.card-header { padding: 24px 28px 0; }
+.badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; padding: 3px 10px; border-radius: 6px; margin-bottom: 8px; }
+.badge.tweets { background: rgba(129,140,248,0.12); color: var(--accent); }
+.badge.blogs { background: rgba(251,191,36,0.12); color: var(--amber); }
+.badge.podcasts { background: rgba(52,211,153,0.12); color: var(--green); }
+.badge.domestic { background: rgba(251,113,133,0.12); color: var(--rose); }
+.card-header h3 { font-size: 19px; font-weight: 700; color: var(--text-bright); line-height: 1.4; margin-bottom: 2px; }
+.card-subtitle { font-size: 14px; color: var(--accent); margin-bottom: 4px; font-weight: 500; }
+.card-body { padding: 12px 28px 20px; font-size: 15px; line-height: 1.8; color: var(--text-body); }
+.card-body p { margin: 8px 0; }
+.card-body p:first-child { margin-top: 0; }
+.card-body blockquote { border-left: 3px solid var(--accent-dim); padding: 10px 16px; margin: 14px 0; background: rgba(129,140,248,0.04); border-radius: 0 8px 8px 0; font-style: italic; color: var(--text); font-size: 14.5px; line-height: 1.7; }
+.card-body ul, .card-body ol { padding-left: 20px; margin: 10px 0; }
+.card-body li { margin: 5px 0; line-height: 1.7; }
+.card-body strong { color: var(--text-bright); font-weight: 600; }
+.card-body em { color: var(--text-dim); }
+.card-body a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(129,140,248,0.25); transition: border-color 0.15s; }
+.card-body a:hover { border-bottom-color: var(--accent); }
+.card-footer { padding: 12px 28px; border-top: 1px solid var(--border); display: flex; align-items: center; gap: 8px; }
+.source-link { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; color: var(--accent); text-decoration: none; opacity: 0.7; transition: opacity 0.2s; }
+.source-link:hover { opacity: 1; }
+.to-top { position: fixed; bottom: 28px; right: 28px; width: 44px; height: 44px; background: var(--accent-dim); color: white; border: none; border-radius: 50%; cursor: pointer; font-size: 20px; display: flex; align-items: center; justify-content: center; opacity: 0; transform: translateY(10px); transition: all 0.3s; z-index: 50; box-shadow: 0 4px 16px rgba(99,102,241,0.3); }
+.to-top.visible { opacity: 1; transform: translateY(0); }
+.report-footer { text-align: center; padding: 40px 24px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 13px; }
+@media (max-width: 860px) { .layout { flex-direction: column; gap: 0; } .sidebar { display: none; } .main { max-width: 100%; } .card-header { padding: 20px 20px 0; } .card-body { padding: 10px 20px 16px; } .card-footer { padding: 10px 20px; } .hero { padding: 60px 20px 36px; } }
+</style>
+</head>
+<body>
+<canvas id="sci-fi-bg"></canvas>
+<header class="hero">
+  <div class="hero-badge">AI Broadcast Digest</div>
+  <h1>获取官方第一手信息，不要第三方解读信息</h1>
+  <p class="date">2026年6月8日</p>
+  <div class="stats">
+    <div class="stat-group">
+      <div class="stat-group-title">X / Twitter</div>
+      <div class="stat-group-window">过去 24 小时</div>
+      <div class="stat-group-items">
+        <div class="stat"><div class="stat-num">10</div><div class="stat-label">位作者</div></div>
+      </div>
+    </div>
+    <div class="stat-group">
+      <div class="stat-group-title">Blog</div>
+      <div class="stat-group-window">过去 3 天</div>
+      <div class="stat-group-items">
+        <div class="stat"><div class="stat-num">3</div><div class="stat-label">个来源</div></div>
+        <div class="stat"><div class="stat-num">3</div><div class="stat-label">篇文章</div></div>
+      </div>
+    </div>
+    <div class="stat-group">
+      <div class="stat-group-title">Podcast</div>
+      <div class="stat-group-window">过去 7 天</div>
+      <div class="stat-group-items">
+        <div class="stat"><div class="stat-num">1</div><div class="stat-label">个播客</div></div>
+        <div class="stat"><div class="stat-num">1</div><div class="stat-label">期节目</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="actions">
+    <button class="btn-download" onclick="downloadReport()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      下载本报告
+    </button>
+  </div>
+</header>
+<div class="layout">
+  <nav class="sidebar">
+    <div class="toc-title">Contents</div>
+    <ul class="toc"></ul></nav><main class="main"></main></div>
+<footer class="report-footer">AI 前沿广播 — 追踪实干家，不追流量网红</footer>
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr;</button>
+<script>
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => { toTop.classList.toggle('visible', window.scrollY > 400); });
+const tocLinks = document.querySelectorAll('.toc ul li a');
+const articles = document.querySelectorAll('.card[id]');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      tocLinks.forEach(l => l.classList.remove('active'));
+      const link = document.querySelector('.toc a[href="#' + e.target.id + '"]');
+      if (link) link.classList.add('active');
+    }
+  });
+}, { rootMargin: '-20% 0px -60% 0px' });
+articles.forEach(a => observer.observe(a));
+(function() {
+  const canvas = document.getElementById('sci-fi-bg');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles = [], mouse = { x: -9999, y: -9999 };
+  const PARTICLE_COUNT = 80;
+  const MAX_DIST = 150;
+  const COLORS = ['#818cf8','#6366f1','#34d399','#fbbf24','#a78bfa'];
+  function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
+  window.addEventListener('resize', resize);
+  resize();
+  document.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+  document.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
+  class Particle {
+    constructor() { this.reset(); }
+    reset() { this.x = Math.random() * W; this.y = Math.random() * H; this.vx = (Math.random() - 0.5) * 0.4; this.vy = (Math.random() - 0.5) * 0.4; this.r = Math.random() * 2 + 0.5; this.color = COLORS[Math.floor(Math.random() * COLORS.length)]; this.pulse = Math.random() * Math.PI * 2; this.pulseSpeed = 0.01 + Math.random() * 0.02; }
+    update() { this.x += this.vx; this.y += this.vy; this.pulse += this.pulseSpeed; const dx = this.x - mouse.x, dy = this.y - mouse.y; const dist = Math.sqrt(dx*dx + dy*dy); if (dist < 120) { const force = (120 - dist) / 120 * 0.5; this.vx += (dx / dist) * force; this.vy += (dy / dist) * force; } this.vx *= 0.99; this.vy *= 0.99; if (this.x < -20) this.x = W + 20; if (this.x > W + 20) this.x = -20; if (this.y < -20) this.y = H + 20; if (this.y > H + 20) this.y = -20; }
+    draw() { const glow = Math.sin(this.pulse) * 0.3 + 0.7; const r = this.r * glow; const grad = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, r * 4); grad.addColorStop(0, this.color + '40'); grad.addColorStop(1, this.color + '00'); ctx.beginPath(); ctx.arc(this.x, this.y, r * 4, 0, Math.PI * 2); ctx.fillStyle = grad; ctx.fill(); ctx.beginPath(); ctx.arc(this.x, this.y, r, 0, Math.PI * 2); ctx.fillStyle = this.color; ctx.fill(); }
+  }
+  for (let i = 0; i < PARTICLE_COUNT; i++) particles.push(new Particle());
+  function drawLines() { for (let i = 0; i < particles.length; i++) { for (let j = i + 1; j < particles.length; j++) { const dx = particles[i].x - particles[j].x; const dy = particles[i].y - particles[j].y; const dist = Math.sqrt(dx*dx + dy*dy); if (dist < MAX_DIST) { const alpha = (1 - dist / MAX_DIST) * 0.15; ctx.beginPath(); ctx.moveTo(particles[i].x, particles[i].y); ctx.lineTo(particles[j].x, particles[j].y); ctx.strokeStyle = 'rgba(129,140,248,' + alpha + ')'; ctx.lineWidth = 0.5; ctx.stroke(); } } } if (mouse.x > 0) { for (const p of particles) { const dx = p.x - mouse.x, dy = p.y - mouse.y; const dist = Math.sqrt(dx*dx + dy*dy); if (dist < 200) { const alpha = (1 - dist / 200) * 0.3; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(mouse.x, mouse.y); ctx.strokeStyle = 'rgba(129,140,248,' + alpha + ')'; ctx.lineWidth = 0.8; ctx.stroke(); } } } }
+  let scanY = 0;
+  function drawScanLine() { scanY += 0.5; if (scanY > H) scanY = 0; const grad = ctx.createLinearGradient(0, scanY - 30, 0, scanY + 30); grad.addColorStop(0, 'rgba(129,140,248,0)'); grad.addColorStop(0.5, 'rgba(129,140,248,0.03)'); grad.addColorStop(1, 'rgba(129,140,248,0)'); ctx.fillStyle = grad; ctx.fillRect(0, scanY - 30, W, 60); }
+  function animate() { ctx.clearRect(0, 0, W, H); drawScanLine(); particles.forEach(p => { p.update(); p.draw(); }); drawLines(); requestAnimationFrame(animate); }
+  animate();
+})();
+function downloadReport() {
+  const h = '<!DOCTYPE html>' + document.documentElement.innerHTML;
+  const blob = new Blob([h], {type: 'text/html;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'AI-Builders-Digest-2026-06-08.html';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+</script>
+</body>
+</html>
