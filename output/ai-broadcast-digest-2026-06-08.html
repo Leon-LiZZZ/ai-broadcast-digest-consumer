@@ -11,9 +11,9 @@ html { scroll-behavior: smooth; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
 #sci-fi-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
 .hero, .layout, .report-footer, .to-top { position: relative; z-index: 1; }
-.hero { padding: 80px 24px 48px; text-align: center; background: linear-gradient(180deg, #13131a 0%, var(--bg) 100%); border-bottom: 1px solid var(--border); }
+.hero { padding: 80px 24px 48px; text-align: center; background: linear-gradient(180deg,#13131a 0%,var(--bg) 100%); border-bottom: 1px solid var(--border); }
 .hero-badge { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); background: rgba(129,140,248,0.1); padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; }
-.hero h1 { font-size: clamp(28px, 5vw, 44px); font-weight: 800; color: var(--text-bright); letter-spacing: -0.5px; margin-bottom: 8px; }
+.hero h1 { font-size: clamp(28px,5vw,44px); font-weight: 800; color: var(--text-bright); letter-spacing: -0.5px; margin-bottom: 8px; }
 .hero .date { font-size: 16px; color: var(--text-dim); }
 .hero .actions { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
 .btn-download { display: inline-flex; align-items: center; gap: 6px; padding: 10px 22px; background: var(--accent-dim); color: white; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s; text-decoration: none; box-shadow: 0 2px 12px rgba(99,102,241,0.25); }
@@ -63,13 +63,17 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC
 .card-body em { color: var(--text-dim); }
 .card-body a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(129,140,248,0.25); transition: border-color 0.15s; }
 .card-body a:hover { border-bottom-color: var(--accent); }
+.card-body table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; }
+.card-body th { background: rgba(129,140,248,0.1); color: var(--text-bright); font-weight: 600; text-align: left; padding: 10px 12px; border-bottom: 2px solid var(--border); }
+.card-body td { padding: 8px 12px; border-bottom: 1px solid var(--border); }
+.card-body code { background: rgba(255,255,255,0.06); padding: 1px 6px; border-radius: 4px; font-size: 0.9em; }
 .card-footer { padding: 12px 28px; border-top: 1px solid var(--border); display: flex; align-items: center; gap: 8px; }
 .source-link { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; color: var(--accent); text-decoration: none; opacity: 0.7; transition: opacity 0.2s; }
 .source-link:hover { opacity: 1; }
 .to-top { position: fixed; bottom: 28px; right: 28px; width: 44px; height: 44px; background: var(--accent-dim); color: white; border: none; border-radius: 50%; cursor: pointer; font-size: 20px; display: flex; align-items: center; justify-content: center; opacity: 0; transform: translateY(10px); transition: all 0.3s; z-index: 50; box-shadow: 0 4px 16px rgba(99,102,241,0.3); }
 .to-top.visible { opacity: 1; transform: translateY(0); }
 .report-footer { text-align: center; padding: 40px 24px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 13px; }
-@media (max-width: 860px) { .layout { flex-direction: column; gap: 0; } .sidebar { display: none; } .main { max-width: 100%; } .card-header { padding: 20px 20px 0; } .card-body { padding: 10px 20px 16px; } .card-footer { padding: 10px 20px; } .hero { padding: 60px 20px 36px; } }
+@media (max-width:860px) { .layout { flex-direction: column; gap: 0; } .sidebar { display: none; } .main { max-width: 100%; } .card-header { padding: 20px 20px 0; } .card-body { padding: 10px 20px 16px; } .card-footer { padding: 10px 20px; } .hero { padding: 60px 20px 36px; } }
 </style>
 </head>
 <body>
@@ -78,93 +82,55 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC
   <div class="hero-badge">AI Broadcast Digest</div>
   <h1>获取官方第一手信息，不要第三方解读信息</h1>
   <p class="date">2026年6月8日</p>
-  <div class="stats">
-    <div class="stat-group">
-      <div class="stat-group-title">X / Twitter</div>
-      <div class="stat-group-window">过去 24 小时</div>
-      <div class="stat-group-items">
-        <div class="stat"><div class="stat-num">10</div><div class="stat-label">位作者</div></div>
-      </div>
-    </div>
-    <div class="stat-group">
-      <div class="stat-group-title">Blog</div>
-      <div class="stat-group-window">过去 3 天</div>
-      <div class="stat-group-items">
-        <div class="stat"><div class="stat-num">3</div><div class="stat-label">个来源</div></div>
-        <div class="stat"><div class="stat-num">3</div><div class="stat-label">篇文章</div></div>
-      </div>
-    </div>
-    <div class="stat-group">
-      <div class="stat-group-title">Podcast</div>
-      <div class="stat-group-window">过去 7 天</div>
-      <div class="stat-group-items">
-        <div class="stat"><div class="stat-num">1</div><div class="stat-label">个播客</div></div>
-        <div class="stat"><div class="stat-num">1</div><div class="stat-label">期节目</div></div>
-      </div>
-    </div>
-  </div>
+  <div class="stats"><div class="stat-group"><div class="stat-group-title">X / Twitter</div><div class="stat-group-window">过去 24 小时</div><div class="stat-group-items"><div class="stat"><div class="stat-num">11</div><div class="stat-label">位作者</div></div></div></div>
+    <div class="stat-group"><div class="stat-group-title">Blog</div><div class="stat-group-window">过去 3 天</div><div class="stat-group-items"><div class="stat"><div class="stat-num">3</div><div class="stat-label">个来源</div></div></div></div>
+    <div class="stat-group"><div class="stat-group-title">Podcast</div><div class="stat-group-window">过去 7 天</div><div class="stat-group-items"><div class="stat"><div class="stat-num">1</div><div class="stat-label">个播客</div></div></div></div></div>
   <div class="actions">
     <button class="btn-download" onclick="downloadReport()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      下载本报告
-    </button>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>下载本报告</button>
   </div>
 </header>
 <div class="layout">
-  <nav class="sidebar">
-    <div class="toc-title">Contents</div>
-    <ul class="toc"></ul></nav><main class="main"></main></div>
+  <nav class="sidebar"><div class="toc-title">Contents</div><ul class="toc"><li class="toc-section"><span class="toc-label">&#x1D54F; X / Twitter</span><ul><li><a href="#item-0">Peter Yang</a></li><li><a href="#item-1">Madhu Guru</a></li><li><a href="#item-2">Replit CEO Amjad Masad</a></li><li><a href="#item-3">Vercel CEO Guillermo Rauch</a></li><li><a href="#item-4">Box CEO Aaron Levie</a></li><li><a href="#item-5">YC President Garry Tan</a></li><li><a href="#item-6">Nikunj Kothari</a></li><li><a href="#item-7">Peter Steinberger</a></li><li><a href="#item-8">Sam Altman</a></li><li><a href="#item-9">Aditya Agarwal</a></li><li><a href="#item-10">Dan Shipper</a></li></ul></li><li class="toc-section"><span class="toc-label">&#x1F4DD; Official Blogs</span><ul><li><a href="#item-11">NVIDIA &amp; Doosan Group: Advancing Physical AI and AI Factory Infrastructure</a></li><li><a href="#item-12">NVIDIA RTX Spark Ignites Korea's Gaming Community</a></li><li><a href="#item-13">Seoul Purpose: NVIDIA and South Korea Building the Future of AI</a></li></ul></li><li class="toc-section"><span class="toc-label">&#x1F3A7; Podcasts</span><ul><li><a href="#item-14">Breaking down the 2026 Stanford AI Index Report</a></li></ul></li></ul></nav>
+  <main class="main"><section class="report-section"><div class="section-header"><span class="section-icon">&#x1D54F;</span><h2>X / Twitter</h2><span class="section-count">11 items</span></div><article class="card tweets" id="item-0"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Peter Yang</h3></div><div class="card-body"><p>"If you're still manually reviewing every line of code, you're the bottleneck." Peter Yang's latest podcast features Kun Chen, an ex-Meta L8 engineer who now ships up to 40 PRs per day with AI agents. Chen built an agentic engineering system that streamlines planning, validation, review, and merging — breaking the old workflows built for 10–15 PRs/month. Peter also shared a feature request for Codex: filter/sort threads by status (waiting for approval, currently working), as his thread count is growing unwieldy.</p>
+<blockquote>"如果你还在手动审查每一行代码，你就是瓶颈。"Peter Yang 的最新播客邀请到前 Meta L8 工程师 Kun Chen，他如今每天用 AI agent 提交 40+ 个 PR。Chen 构建了一套 agentic engineering 系统，将规划、验证、审查和合并流程全面自动化，打破了原来每月 10-15 个 PR 的旧工作流。</blockquote></div></article><article class="card tweets" id="item-1"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Madhu Guru</h3></div><div class="card-body"><p>A common misconception is that training data is low-skill grunt work. Madhu Guru argues the opposite: frontier model training data requires complex, domain-specific knowledge with little documentation — spanning legacy tools that don't interoperate. This is why we have SWE agents but not knowledge work agents yet. He highlights Mercor as the leading data company doing this high-leverage work, noting the huge valuation gap vs compute ($5T) and model companies ($1T).</p>
+<blockquote>训练数据常被误认为是低技能苦力活，但 Madhu Guru 认为恰恰相反：前沿模型训练需要复杂、领域特定且文档稀少的知识，横跨多个互不兼容的遗留工具。这就是为什么我们有 SWE agent 却没有知识工作 agent。他点名 Mercor 是领先的数据公司，其估值与计算公司（$5T）和模型公司（$1T）之间存在巨大鸿沟。</blockquote></div></article><article class="card tweets" id="item-2"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Replit CEO Amjad Masad</h3></div><div class="card-body"><p>Amjad celebrated a user hitting $10K MRR in 90 days on Replit, reinforcing the platform's philosophy of removing distractions to focus on getting to market. At SaaStr AI 2026, he shared a deep dive on why AI agents work so well, how Replit combines models, and why monorepos are a secret unlock for agent performance. Meanwhile, Replit President Michele Catasta predicts AGI for vibe-coding by end of 2026: "the bottleneck would become grit, determination."</p>
+<blockquote>Amjad 庆祝用户在 Replit 上 90 天达到 $10K MRR，强调平台"去除干扰、专注交付"的理念。在 SaaStr AI 2026 上，他深入分享了 AI agent 为何有效、Replit 如何组合模型等洞见。Replit 总裁 Michele Catasta 预测 vibe-coding 的 AGI 将在 2026 年底到来："瓶颈将变成毅力和决心。"</blockquote></div></article><article class="card tweets" id="item-3"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Vercel CEO Guillermo Rauch</h3></div><div class="card-body"><p>Vercel AI Gateway now recovers over <strong>1 trillion tokens per month</strong> on average. Rauch draws the parallel to Stripe recovering revenue through smart retries on failed payments — Vercel does the same for AI tokens with zero markup over the labs, adding redundancy, observability, and usage controls.</p>
+<blockquote>Vercel AI Gateway 每月平均恢复超过 <strong>1 万亿 token</strong>。Rauch 将其类比为 Stripe 通过智能重试恢复失败支付——Vercel 以零加价提供冗余、可观测性和用量控制。</blockquote></div></article><article class="card tweets" id="item-4"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Box CEO Aaron Levie</h3></div><div class="card-body"><p>The market got it wrong about AI eating enterprise software, says Aaron Levie. While AI makes building software easier, the real cost in enterprise software is <strong>GTM (go-to-market)</strong> — consultative selling, implementation, and integration haven't gotten cheaper. If you make development abundant, discoverability and differentiation become the new bottleneck. Separately, Box now has a web markdown editor with full CLI, commenting, version history, and Box Drive support for Claude Cowork, Codex, Obsidian, Cursor, etc.</p>
+<blockquote>Aaron Levie 认为市场对 AI 颠覆企业软件的理解有偏差。AI 让构建软件更容易，但企业软件的真实成本在 <strong>GTM（市场进入）</strong>——咨询式销售、实施和集成并未因此变便宜。同时，Box 推出了 web 版 Markdown 编辑器，支持 CLI、评论、版本历史，并通过 Box Drive 连接 Claude Cowork、Codex、Obsidian 等工具。</blockquote></div></article><article class="card tweets" id="item-5"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>YC President Garry Tan</h3></div><div class="card-body"><p>Garry Tan's GBrain v0.42.30 now summarizes how your thinking has changed over time. His open-source gstack repo (108K stars) continues to gain traction — with 23 structured skills covering product → design → QA → docs in 3 commands. An 18-year-old won a hackathon with it in under 2 hours. His philosophy: "Don't build Foxconn factories that make agents do the same thing over and over. Agents are smart, thoughtful, and not dangerous — let them do more, not less."</p>
+<blockquote>Garry Tan 的 GBrain v0.42.30 新增了思维变化追踪功能。他的开源项目 gstack（108K 星标）持续走红——23 个结构化技能覆盖从产品到文档的全流程，3 条命令即可启动。一名 18 岁少年用它不到 2 小时就拿下了黑客松冠军。他的理念："不要建让 agent 重复劳动的富士康工厂，agent 聪明、体贴且没有危险——让它们做更多。"</blockquote></div></article><article class="card tweets" id="item-6"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Nikunj Kothari</h3></div><div class="card-body"><p>The vibe shift from "tokenmaxxing and token anxiety" to "tokenoptimizing" in just a few weeks is wild. Nikunj believes companies should give employees generous token budgets to stay at the frontier — otherwise it's too easy to fall back to "how things have always been done."</p>
+<blockquote>短短几周内从"token 焦虑"到"token 优化"的氛围转换令人惊叹。Nikunj 认为公司应给员工充裕的 token 预算来保持前沿探索，否则很容易退回"过去一直这样做"的惯性。</blockquote></div></article><article class="card tweets" id="item-7"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Peter Steinberger</h3></div><div class="card-body"><p>His monthly reminder: "You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents." Also, Codex is launching a "big button" program — one person per day for 100 days gets 10X usage limits to see what they can achieve.</p>
+<blockquote>月度提醒："别再手动给 coding agent 写 prompt 了，你应该设计让 agent 自己 prompt 自己的循环。"Codex 还推出了"大按钮"计划——连续 100 天每天选一人获得 10 倍用量限额。</blockquote></div></article><article class="card tweets" id="item-8"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Sam Altman</h3></div><div class="card-body"><p>Sam Altman dropped a cryptic one-liner on Codex's new "big button" program: "interesting recursive loop here maybe" — hinting at meta-level agentic loops where usage limits themselves become part of the optimization game.</p>
+<blockquote>Sam Altman 对 Codex 的"大按钮"计划留下一条耐人寻味的评论："也许这里有个有趣的递归循环"——暗示用量限额本身可能成为 agentic loop 优化的一部分。</blockquote></div></article><article class="card tweets" id="item-9"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Aditya Agarwal</h3></div><div class="card-body"><p>Having been through two IPOs (Meta and Dropbox), Aditya reflects that fabulous wealth amplifies deeper desires rather than creating new ones. While some want to chill, many use liquidity to start new things and keep Silicon Valley's crazy loop going.</p>
+<blockquote>经历过 Meta 和 Dropbox 两次 IPO 的 Aditya Agarwal 分享感悟：巨额财富放大的是深层欲望，而非创造新欲望。有人选择躺平，但更多人用流动性开启新冒险，延续硅谷的疯狂循环。</blockquote></div></article><article class="card tweets" id="item-10"><div class="card-header"><span class="badge tweets">X / Twitter</span><h3>Dan Shipper</h3></div><div class="card-body"><p>"Bring your agents to the app" is going to be the next vibe, as users increasingly want their AI agents to interact directly with apps on their behalf — including scheduling, calendar access, and more.</p>
+<blockquote>"把你的 agent 带到应用里"将成为下一波潮流——用户越来越希望 AI agent 能代表他们直接与 App 交互，包括日程安排、日历访问等。</blockquote></div></article></section><section class="report-section"><div class="section-header"><span class="section-icon">&#x1F4DD;</span><h2>Official Blogs</h2><span class="section-count">3 items</span></div><article class="card blogs" id="item-11"><div class="card-header"><span class="badge blogs">Blog</span><h3>NVIDIA &amp; Doosan Group: Advancing Physical AI and AI Factory Infrastructure</h3></div><div class="card-body"><p>NVIDIA and Doosan Group are expanding their collaboration across physical AI, robotics, and AI factory infrastructure. Doosan Robotics is integrating NVIDIA Isaac Sim, Isaac Lab, Cosmos, and Jetson Thor into its Agentic Robot OS — aiming to evolve from a robot arm provider into a full-stack AI-first robotics company. Doosan Enerbility is exploring power solutions for NVIDIA AI factories (including gas turbines and small modular reactors), while Doosan Electro-Materials supplies advanced PCB materials for the NVIDIA MGX ecosystem.</p>
+<p>> NVIDIA 与韩国 Doosan Group 扩大合作，覆盖物理 AI、机器人及 AI 工厂基础设施。Doosan Robotics 将 NVIDIA Isaac Sim、Cosmos、Jetson Thor 等集成到其 Agentic Robot OS 中，目标是从机械臂供应商转型为全栈 AI 优先的机器人公司。</p>
+<p><a href="https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/" target="_blank" rel="noopener">原文链接</a></p></div></article><article class="card blogs" id="item-12"><div class="card-header"><span class="badge blogs">Blog</span><h3>NVIDIA RTX Spark Ignites Korea's Gaming Community</h3></div><div class="card-body"><p>On the heels of GTC Taipei, Jensen Huang took RTX Spark to South Korea — visiting T1 Base Camp with League of Legends champion Faker, then surprising PC-bang gamers with KRAFTON (PUBG: BATTLEGROUNDS) and NC (CINDER CITY, AION 2) demos. RTX Spark brings AAA 1440p gaming at 100+ fps, all-day battery life, and on-device AI to slim Windows laptops. PUBG Ally, a co-playable AI character built with NVIDIA ACE, was also unveiled. 100+ partners including NetEase, Remedy, and Xbox are on board.</p>
+<p>> 黄仁勋带着 RTX Spark 登陆韩国——先与《英雄联盟》冠军 Faker 在 T1 Base Camp 亮相，再突袭 PC 房与 KRAFTON、NC 联合展示。RTX Spark 以超薄笔记本实现 1440p/100+ fps AAA 游戏体验和全天续航，还发布了基于 NVIDIA ACE 的 AI 队友 PUBG Ally。</p>
+<p><a href="https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/" target="_blank" rel="noopener">原文链接</a></p></div></article><article class="card blogs" id="item-13"><div class="card-header"><span class="badge blogs">Blog</span><h3>Seoul Purpose: NVIDIA and South Korea Building the Future of AI</h3></div><div class="card-body"><p>Jensen Huang's Seoul visit covered sovereign AI infrastructure, robotics, and gaming. Key messages: Grace Blackwell is doing well, Vera Rubin is in full production, and "robotics is going to be the next major sector here in Korea." He also threw the first pitch for the Doosan Bears baseball team.</p>
+<p>> 黄仁勋首尔之行涵盖主权 AI 基础设施、机器人和游戏。核心信息：Grace Blackwell 表现良好，Vera Rubin 已全面投产，"机器人将成为韩国的下一个主要产业"。他还为 Doosan Bears 棒球队开球。</p>
+<p><a href="https://blogs.nvidia.com/blog/korea-ecosystem-2026/" target="_blank" rel="noopener">原文链接</a></p></div></article></section><section class="report-section"><div class="section-header"><span class="section-icon">&#x1F3A7;</span><h2>Podcasts</h2><span class="section-count">1 items</span></div><article class="card podcasts" id="item-14"><div class="card-header"><span class="badge podcasts">Podcast</span><h3>Breaking down the 2026 Stanford AI Index Report</h3></div><div class="card-body"><p><strong>Practical AI</strong> | 2026-06-04 | <a href="https://share.transistor.fm/s/302b36f8" target="_blank" rel="noopener">Listen</a></p>
+<p>Dan and Chris break down the latest Stanford AI Index Report: AI models can win math olympiads but still can't read an analog clock. Topics include AI adoption and safety, disappearing junior tech jobs, robotics, AI's "jagged frontier" of intelligence, and the U.S.-China race. The episode also questions whether AI should optimize everything — or if some things are better left human. (~47 min)</p>
+<blockquote>Practical AI 解读 2026 Stanford AI Index Report：AI 能赢数学奥赛却看不懂模拟时钟。涵盖 AI 采用率与安全、初级技术岗位消失、机器人、智能的"锯齿状前沿"及中美竞赛。节目还探讨了是否所有事情都该被 AI 优化。</blockquote></div></article></section></main>
+</div>
 <footer class="report-footer">AI 前沿广播 — 追踪实干家，不追流量网红</footer>
 <button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">&uarr;</button>
 <script>
 const toTop = document.getElementById('toTop');
-window.addEventListener('scroll', () => { toTop.classList.toggle('visible', window.scrollY > 400); });
+window.addEventListener('scroll',()=>{toTop.classList.toggle('visible',window.scrollY>400);});
 const tocLinks = document.querySelectorAll('.toc ul li a');
 const articles = document.querySelectorAll('.card[id]');
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      tocLinks.forEach(l => l.classList.remove('active'));
-      const link = document.querySelector('.toc a[href="#' + e.target.id + '"]');
-      if (link) link.classList.add('active');
-    }
-  });
-}, { rootMargin: '-20% 0px -60% 0px' });
-articles.forEach(a => observer.observe(a));
-(function() {
-  const canvas = document.getElementById('sci-fi-bg');
-  const ctx = canvas.getContext('2d');
-  let W, H, particles = [], mouse = { x: -9999, y: -9999 };
-  const PARTICLE_COUNT = 80;
-  const MAX_DIST = 150;
-  const COLORS = ['#818cf8','#6366f1','#34d399','#fbbf24','#a78bfa'];
-  function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
-  window.addEventListener('resize', resize);
-  resize();
-  document.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
-  document.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
-  class Particle {
-    constructor() { this.reset(); }
-    reset() { this.x = Math.random() * W; this.y = Math.random() * H; this.vx = (Math.random() - 0.5) * 0.4; this.vy = (Math.random() - 0.5) * 0.4; this.r = Math.random() * 2 + 0.5; this.color = COLORS[Math.floor(Math.random() * COLORS.length)]; this.pulse = Math.random() * Math.PI * 2; this.pulseSpeed = 0.01 + Math.random() * 0.02; }
-    update() { this.x += this.vx; this.y += this.vy; this.pulse += this.pulseSpeed; const dx = this.x - mouse.x, dy = this.y - mouse.y; const dist = Math.sqrt(dx*dx + dy*dy); if (dist < 120) { const force = (120 - dist) / 120 * 0.5; this.vx += (dx / dist) * force; this.vy += (dy / dist) * force; } this.vx *= 0.99; this.vy *= 0.99; if (this.x < -20) this.x = W + 20; if (this.x > W + 20) this.x = -20; if (this.y < -20) this.y = H + 20; if (this.y > H + 20) this.y = -20; }
-    draw() { const glow = Math.sin(this.pulse) * 0.3 + 0.7; const r = this.r * glow; const grad = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, r * 4); grad.addColorStop(0, this.color + '40'); grad.addColorStop(1, this.color + '00'); ctx.beginPath(); ctx.arc(this.x, this.y, r * 4, 0, Math.PI * 2); ctx.fillStyle = grad; ctx.fill(); ctx.beginPath(); ctx.arc(this.x, this.y, r, 0, Math.PI * 2); ctx.fillStyle = this.color; ctx.fill(); }
-  }
-  for (let i = 0; i < PARTICLE_COUNT; i++) particles.push(new Particle());
-  function drawLines() { for (let i = 0; i < particles.length; i++) { for (let j = i + 1; j < particles.length; j++) { const dx = particles[i].x - particles[j].x; const dy = particles[i].y - particles[j].y; const dist = Math.sqrt(dx*dx + dy*dy); if (dist < MAX_DIST) { const alpha = (1 - dist / MAX_DIST) * 0.15; ctx.beginPath(); ctx.moveTo(particles[i].x, particles[i].y); ctx.lineTo(particles[j].x, particles[j].y); ctx.strokeStyle = 'rgba(129,140,248,' + alpha + ')'; ctx.lineWidth = 0.5; ctx.stroke(); } } } if (mouse.x > 0) { for (const p of particles) { const dx = p.x - mouse.x, dy = p.y - mouse.y; const dist = Math.sqrt(dx*dx + dy*dy); if (dist < 200) { const alpha = (1 - dist / 200) * 0.3; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(mouse.x, mouse.y); ctx.strokeStyle = 'rgba(129,140,248,' + alpha + ')'; ctx.lineWidth = 0.8; ctx.stroke(); } } } }
-  let scanY = 0;
-  function drawScanLine() { scanY += 0.5; if (scanY > H) scanY = 0; const grad = ctx.createLinearGradient(0, scanY - 30, 0, scanY + 30); grad.addColorStop(0, 'rgba(129,140,248,0)'); grad.addColorStop(0.5, 'rgba(129,140,248,0.03)'); grad.addColorStop(1, 'rgba(129,140,248,0)'); ctx.fillStyle = grad; ctx.fillRect(0, scanY - 30, W, 60); }
-  function animate() { ctx.clearRect(0, 0, W, H); drawScanLine(); particles.forEach(p => { p.update(); p.draw(); }); drawLines(); requestAnimationFrame(animate); }
-  animate();
-})();
-function downloadReport() {
-  const h = '<!DOCTYPE html>' + document.documentElement.innerHTML;
-  const blob = new Blob([h], {type: 'text/html;charset=utf-8'});
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'AI-Builders-Digest-2026-06-08.html';
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
+const obs = new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){tocLinks.forEach(l=>l.classList.remove('active'));const link=document.querySelector('.toc a[href="#'+e.target.id+'"]');if(link)link.classList.add('active');}});},{rootMargin:'-20% 0px -60% 0px'});
+articles.forEach(a=>obs.observe(a));
+(function(){const c=document.getElementById('sci-fi-bg'),cx=c.getContext('2d');let W,H,parts=[],mouse={x:-9999,y:-9999};const PC=80,MD=150,CLS=['#818cf8','#6366f1','#34d399','#fbbf24','#a78bfa'];function rs(){W=c.width=innerWidth;H=c.height=innerHeight;}addEventListener('resize',rs);rs();addEventListener('mousemove',e=>{mouse.x=e.clientX;mouse.y=e.clientY;});addEventListener('mouseleave',()=>{mouse.x=-9999;mouse.y=-9999;});
+class P{constructor(){this.rst();}rst(){this.x=Math.random()*W;this.y=Math.random()*H;this.vx=(Math.random()-.5)*.4;this.vy=(Math.random()-.5)*.4;this.r=Math.random()*2+.5;this.cl=CLS[Math.floor(Math.random()*CLS.length)];this.p=Math.random()*Math.PI*2;this.ps=.01+Math.random()*.02;}
+up(){this.x+=this.vx;this.y+=this.vy;this.p+=this.ps;const dx=this.x-mouse.x,dy=this.y-mouse.y,dist=Math.sqrt(dx*dx+dy*dy);if(dist<120){const f=(120-dist)/120*.5;this.vx+=(dx/dist)*f;this.vy+=(dy/dist)*f;}this.vx*=.99;this.vy*=.99;if(this.x<-20)this.x=W+20;if(this.x>W+20)this.x=-20;if(this.y<-20)this.y=H+20;if(this.y>H+20)this.y=-20;}
+dr(){const g=Math.sin(this.p)*.3+.7,r=this.r*g,gr=cx.createRadialGradient(this.x,this.y,0,this.x,this.y,r*4);gr.addColorStop(0,this.cl+'40');gr.addColorStop(1,this.cl+'00');cx.beginPath();cx.arc(this.x,this.y,r*4,0,Math.PI*2);cx.fillStyle=gr;cx.fill();cx.beginPath();cx.arc(this.x,this.y,r,0,Math.PI*2);cx.fillStyle=this.cl;cx.fill();}}
+for(let i=0;i<PC;i++)parts.push(new P());
+function drL(){for(let i=0;i<parts.length;i++){for(let j=i+1;j<parts.length;j++){const dx=parts[i].x-parts[j].x,dy=parts[i].y-parts[j].y,dist=Math.sqrt(dx*dx+dy*dy);if(dist<MD){const a=(1-dist/MD)*.15;cx.beginPath();cx.moveTo(parts[i].x,parts[i].y);cx.lineTo(parts[j].x,parts[j].y);cx.strokeStyle='rgba(129,140,248,'+a+')';cx.lineWidth=.5;cx.stroke();}}}if(mouse.x>0){for(const p of parts){const dx=p.x-mouse.x,dy=p.y-mouse.y,dist=Math.sqrt(dx*dx+dy*dy);if(dist<200){const a=(1-dist/200)*.3;cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(mouse.x,mouse.y);cx.strokeStyle='rgba(129,140,248,'+a+')';cx.lineWidth=.8;cx.stroke();}}}}
+let sY=0;function drS(){sY+=.5;if(sY>H)sY=0;const gr=cx.createLinearGradient(0,sY-30,0,sY+30);gr.addColorStop(0,'rgba(129,140,248,0)');gr.addColorStop(.5,'rgba(129,140,248,0.03)');gr.addColorStop(1,'rgba(129,140,248,0)');cx.fillStyle=gr;cx.fillRect(0,sY-30,W,60);}
+function an(){cx.clearRect(0,0,W,H);drS();parts.forEach(p=>{p.up();p.dr();});drL();requestAnimationFrame(an);}an();})();
+function downloadReport(){const h='<!DOCTYPE html>'+document.documentElement.innerHTML;const b=new Blob([h],{type:'text/html;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='AI-Builders-Digest-2026-06-08.html';a.click();URL.revokeObjectURL(a.href);}
 </script>
 </body>
 </html>
