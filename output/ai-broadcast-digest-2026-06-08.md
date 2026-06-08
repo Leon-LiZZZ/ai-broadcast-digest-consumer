@@ -5,55 +5,77 @@
 ### Peter Yang
 "If you're still manually reviewing every line of code, you're the bottleneck." Peter Yang's latest podcast features Kun Chen, an ex-Meta L8 engineer who now ships up to 40 PRs per day with AI agents. Chen built an agentic engineering system that streamlines planning, validation, review, and merging — breaking the old workflows built for 10–15 PRs/month. Peter also shared a feature request for Codex: filter/sort threads by status (waiting for approval, currently working), as his thread count is growing unwieldy.
 
+[原帖链接](https://x.com/petergyang/status/2063761891617607683)
+
 > "如果你还在手动审查每一行代码，你就是瓶颈。"Peter Yang 的最新播客邀请到前 Meta L8 工程师 Kun Chen，他如今每天用 AI agent 提交 40+ 个 PR。Chen 构建了一套 agentic engineering 系统，将规划、验证、审查和合并流程全面自动化，打破了原来每月 10-15 个 PR 的旧工作流。
 
 ### Madhu Guru
 A common misconception is that training data is low-skill grunt work. Madhu Guru argues the opposite: frontier model training data requires complex, domain-specific knowledge with little documentation — spanning legacy tools that don't interoperate. This is why we have SWE agents but not knowledge work agents yet. He highlights Mercor as the leading data company doing this high-leverage work, noting the huge valuation gap vs compute ($5T) and model companies ($1T).
+
+[原帖链接](https://x.com/realmadhuguru/status/2063704354910347520)
 
 > 训练数据常被误认为是低技能苦力活，但 Madhu Guru 认为恰恰相反：前沿模型训练需要复杂、领域特定且文档稀少的知识，横跨多个互不兼容的遗留工具。这就是为什么我们有 SWE agent 却没有知识工作 agent。他点名 Mercor 是领先的数据公司，其估值与计算公司（$5T）和模型公司（$1T）之间存在巨大鸿沟。
 
 ### Replit CEO Amjad Masad
 Amjad celebrated a user hitting $10K MRR in 90 days on Replit, reinforcing the platform's philosophy of removing distractions to focus on getting to market. At SaaStr AI 2026, he shared a deep dive on why AI agents work so well, how Replit combines models, and why monorepos are a secret unlock for agent performance. Meanwhile, Replit President Michele Catasta predicts AGI for vibe-coding by end of 2026: "the bottleneck would become grit, determination."
 
+[原帖链接](https://x.com/amasad/status/2063744208587125142)
+
 > Amjad 庆祝用户在 Replit 上 90 天达到 $10K MRR，强调平台"去除干扰、专注交付"的理念。在 SaaStr AI 2026 上，他深入分享了 AI agent 为何有效、Replit 如何组合模型等洞见。Replit 总裁 Michele Catasta 预测 vibe-coding 的 AGI 将在 2026 年底到来："瓶颈将变成毅力和决心。"
 
 ### Vercel CEO Guillermo Rauch
 Vercel AI Gateway now recovers over **1 trillion tokens per month** on average. Rauch draws the parallel to Stripe recovering revenue through smart retries on failed payments — Vercel does the same for AI tokens with zero markup over the labs, adding redundancy, observability, and usage controls.
+
+[原帖链接](https://x.com/rauchg/status/2063714700618334260)
 
 > Vercel AI Gateway 每月平均恢复超过 **1 万亿 token**。Rauch 将其类比为 Stripe 通过智能重试恢复失败支付——Vercel 以零加价提供冗余、可观测性和用量控制。
 
 ### Box CEO Aaron Levie
 The market got it wrong about AI eating enterprise software, says Aaron Levie. While AI makes building software easier, the real cost in enterprise software is **GTM (go-to-market)** — consultative selling, implementation, and integration haven't gotten cheaper. If you make development abundant, discoverability and differentiation become the new bottleneck. Separately, Box now has a web markdown editor with full CLI, commenting, version history, and Box Drive support for Claude Cowork, Codex, Obsidian, Cursor, etc.
 
+[原帖链接](https://x.com/levie/status/2063756386572681606)
+
 > Aaron Levie 认为市场对 AI 颠覆企业软件的理解有偏差。AI 让构建软件更容易，但企业软件的真实成本在 **GTM（市场进入）**——咨询式销售、实施和集成并未因此变便宜。同时，Box 推出了 web 版 Markdown 编辑器，支持 CLI、评论、版本历史，并通过 Box Drive 连接 Claude Cowork、Codex、Obsidian 等工具。
 
 ### YC President Garry Tan
 Garry Tan's GBrain v0.42.30 now summarizes how your thinking has changed over time. His open-source gstack repo (108K stars) continues to gain traction — with 23 structured skills covering product → design → QA → docs in 3 commands. An 18-year-old won a hackathon with it in under 2 hours. His philosophy: "Don't build Foxconn factories that make agents do the same thing over and over. Agents are smart, thoughtful, and not dangerous — let them do more, not less."
+
+[原帖链接](https://x.com/garrytan/status/2063785286367392095)
 
 > Garry Tan 的 GBrain v0.42.30 新增了思维变化追踪功能。他的开源项目 gstack（108K 星标）持续走红——23 个结构化技能覆盖从产品到文档的全流程，3 条命令即可启动。一名 18 岁少年用它不到 2 小时就拿下了黑客松冠军。他的理念："不要建让 agent 重复劳动的富士康工厂，agent 聪明、体贴且没有危险——让它们做更多。"
 
 ### Nikunj Kothari
 The vibe shift from "tokenmaxxing and token anxiety" to "tokenoptimizing" in just a few weeks is wild. Nikunj believes companies should give employees generous token budgets to stay at the frontier — otherwise it's too easy to fall back to "how things have always been done."
 
+[原帖链接](https://x.com/nikunj/status/2063630238123483195)
+
 > 短短几周内从"token 焦虑"到"token 优化"的氛围转换令人惊叹。Nikunj 认为公司应给员工充裕的 token 预算来保持前沿探索，否则很容易退回"过去一直这样做"的惯性。
 
 ### Peter Steinberger
 His monthly reminder: "You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents." Also, Codex is launching a "big button" program — one person per day for 100 days gets 10X usage limits to see what they can achieve.
+
+[原帖链接](https://x.com/steipete/status/2063697162748260627)
 
 > 月度提醒："别再手动给 coding agent 写 prompt 了，你应该设计让 agent 自己 prompt 自己的循环。"Codex 还推出了"大按钮"计划——连续 100 天每天选一人获得 10 倍用量限额。
 
 ### Sam Altman
 Sam Altman dropped a cryptic one-liner on Codex's new "big button" program: "interesting recursive loop here maybe" — hinting at meta-level agentic loops where usage limits themselves become part of the optimization game.
 
+[原帖链接](https://x.com/sama/status/2063779477419901071)
+
 > Sam Altman 对 Codex 的"大按钮"计划留下一条耐人寻味的评论："也许这里有个有趣的递归循环"——暗示用量限额本身可能成为 agentic loop 优化的一部分。
 
 ### Aditya Agarwal
 Having been through two IPOs (Meta and Dropbox), Aditya reflects that fabulous wealth amplifies deeper desires rather than creating new ones. While some want to chill, many use liquidity to start new things and keep Silicon Valley's crazy loop going.
 
+[原帖链接](https://x.com/adityaag/status/2063731771284619521)
+
 > 经历过 Meta 和 Dropbox 两次 IPO 的 Aditya Agarwal 分享感悟：巨额财富放大的是深层欲望，而非创造新欲望。有人选择躺平，但更多人用流动性开启新冒险，延续硅谷的疯狂循环。
 
 ### Dan Shipper
 "Bring your agents to the app" is going to be the next vibe, as users increasingly want their AI agents to interact directly with apps on their behalf — including scheduling, calendar access, and more.
+
+[原帖链接](https://x.com/danshipper/status/2063788531458146797)
 
 > "把你的 agent 带到应用里"将成为下一波潮流——用户越来越希望 AI agent 能代表他们直接与 App 交互，包括日程安排、日历访问等。
 
