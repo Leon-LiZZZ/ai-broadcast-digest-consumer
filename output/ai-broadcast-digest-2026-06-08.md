@@ -65,13 +65,6 @@ Sam Altman dropped a cryptic one-liner on Codex's new "big button" program: "int
 
 > Sam Altman 对 Codex 的"大按钮"计划留下一条耐人寻味的评论："也许这里有个有趣的递归循环"——暗示用量限额本身可能成为 agentic loop 优化的一部分。
 
-### Aditya Agarwal
-Having been through two IPOs (Meta and Dropbox), Aditya reflects that fabulous wealth amplifies deeper desires rather than creating new ones. While some want to chill, many use liquidity to start new things and keep Silicon Valley's crazy loop going.
-
-[原帖链接](https://x.com/adityaag/status/2063731771284619521)
-
-> 经历过 Meta 和 Dropbox 两次 IPO 的 Aditya Agarwal 分享感悟：巨额财富放大的是深层欲望，而非创造新欲望。有人选择躺平，但更多人用流动性开启新冒险，延续硅谷的疯狂循环。
-
 ### Dan Shipper
 "Bring your agents to the app" is going to be the next vibe, as users increasingly want their AI agents to interact directly with apps on their behalf — including scheduling, calendar access, and more.
 
@@ -85,48 +78,86 @@ Having been through two IPOs (Meta and Dropbox), Aditya reflects that fabulous w
 
 **阿里RTPurboV2：原生Transformer再次崛起，百步训练实现10倍稀疏注意**
 
-> 阿里提出 RTPurboV2，证明原生 Transformer 在稀疏注意力场景下重新崛起，仅百步训练即可实现 10 倍稀疏注意加速。
+随着 Agent 应用推动长序列需求，Full Attention 的 O(N²) 复杂度正被视为瓶颈。业界分化为两条路线：以 Qwen-Next、Kimi-K2 为代表的 Linear Attention（O(N) 复杂度）和以 DeepSeek-V4 采用的 Sparse Attention（90%+ 稀疏度）。阿里提出 RTPurboV2 证明原生 Transformer 配合 Full Attention + Sliding Window Attention 可在精度无损下实现 10 倍稀疏注意加速，仅需百步训练。
 
 [原文链接](https://mp.weixin.qq.com/s/cx1Mgkp4RJc-kiUuhPNGIg)
 
 **作为一个招蚊体质，这是我第一个真心支持的AI项目**
 
-> 一位招蚊体质的作者分享了对某 AI 驱蚊项目的真心支持，探讨 AI 在日常生活场景中的创新应用。
+计算机视觉工程师 Steven Cheng 开发了一套 AI 驱蚊系统，利用计算机视觉和机器人技术精准定位并驱赶蚊子。该项目在社交媒体引发广泛关注，被认为 AI 在日常生活中的创新应用。
 
 [原文链接](https://mp.weixin.qq.com/s/zteuRpo1nJNxky2ix3Dbag)
 
 **解锁Agent Swarm新潜力，openJiuwen又一力作：多智能体流网络**
 
-> openJiuwen 发布多智能体流网络，解锁 Agent Swarm 新潜力，探索多 agent 协作的流式网络架构。
+openJiuwen 发布多智能体流网络架构，探索 Agent Swarm 的新潜力。该架构支持多个 agent 以流式网络方式协作，为复杂任务的分治和协调提供新思路。
 
 [原文链接](https://mp.weixin.qq.com/s/Eleh8ZlAVYpgV_4MCq_2vQ)
 
 **连续入选ICRA最佳论文，RoboScience机器科学如何突破具身智能泛化瓶颈？**
 
-> RoboScience 连续入选 ICRA 最佳论文，探讨如何突破具身智能的泛化瓶颈，推动机器科学前沿。
+RoboScience 连续入选 ICRA 最佳论文，聚焦具身智能的泛化瓶颈问题。研究探讨如何让机器人从特定环境迁移到未知环境时仍保持稳健性能，推动机器科学前沿。
 
 [原文链接](https://mp.weixin.qq.com/s/DjQL_fBenrHlf_sNGeljzw)
 
 **AI真能学会心算？隐式思维链首次得到理论证明，Stuart Russell参与**
 
-> 隐式思维链（Implicit Chain-of-Thought）首次获得理论证明，AI 能否真正学会"心算"？Stuart Russell 参与此项研究。
+UC Berkeley 和普林斯顿研究团队首次从理论上证明了隐式思维链（Implicit Chain-of-Thought）的可行性——让模型在不输出中间 token 的情况下保留显式推理能力。Stuart Russell 参与此研究，为 AI 推理加速提供了理论基础。
 
 [原文链接](https://mp.weixin.qq.com/s/v7aE9ygPhV_P6nFeZeyp6A)
 
 **ICML 2026｜FusionRoute：从专家路由到自我修正，一种新的多LLM协作范式**
 
-> ICML 2026 收录论文 FusionRoute 提出从专家路由到自我修正的多 LLM 协作新范式。
+ICML 2026 收录论文 FusionRoute（CMU + Meta AI + UMD 合作），提出从专家路由到自我修正的多 LLM 协作新范式，不再依赖更大模型或更多数据，而是通过智能协作提升能力。
 
 [原文链接](https://mp.weixin.qq.com/s/NJMuozbsMgG7vDEX9Nbh9Q)
 
+**视频AI卷向5分钟：全量开源，一次生成，正式告别「盲盒抽卡」**
+
+京东开源长音视频生成框架 JoyAI-Echo，支持一次性生成 2 分半钟以上视频，涵盖十余个镜头切换，角色形象始终保持一致，音画同步。该框架在跨镜头一致性、语音准确率（0.8646）等指标上全面领先，还支持对话式编辑 Agent。
+
+[原文链接](https://mp.weixin.qq.com/s/eEafNaUbnt2mzGTqX4J6cQ)
+
+**DeepSeek V4做数学证明，500倍成本优势：智能体系统刷新多项纪录**
+
+2026 年 5 月，OpenAI 内部推理模型成功推翻保罗·埃尔德什 1946 年的「单位距离猜想」，菲尔兹奖得主 Gowers 称之为"划时代里程碑"。同月陶哲轩宣布数学正从"证明稀缺时代"进入"证明过剩时代"。DeepSeek V4 以 500 倍成本优势在数学证明领域刷新多项纪录。
+
+[原文链接](https://mp.weixin.qq.com/s/DoQa573durBOtVGIthts3A)
+
+**大晓机器人联合南洋理工打通Physical AI全链路！PhysX-Omni补齐物理AI基建**
+
+大晓机器人联合南洋理工大学发布 PhysX-Omni，统一刚体、可形变与关节物体的物理 3D 生成。该研究补齐了 Physical AI 基建中的物理仿真环节，与此前发布的 ACE 具身研发范式形成闭环。
+
+[原文链接](https://mp.weixin.qq.com/s/5rspbiAQ8YWoVIgI97w8Cw)
+
+### 量子位
+
+**5分钟AI长视频不翻车！国产开源框架杀到全球第一梯队**
+
+京东开源 JoyAI-Echo 长音视频生成框架，解决 AI 长视频中角色一致性、音色稳定性等核心痛点。即使是几分钟的多镜头视频，人物形象和声音也能保持一致。支持对话式编辑 Agent，评测显示在跨镜头一致性、语音准确率等指标上全面领先。
+
+[原文链接](https://mp.weixin.qq.com/s/i4X6rTw55E_q4F114jJiPg)
+
+**教你用AI一节课收17万，华尔街精英排着队付费**
+
+两位年轻人创办 Wall Street Prompt，向花旗、美国银行等顶级金融机构收取每节课 2.5 万美元（约 17 万人民币）的 AI 培训费。他们演示如何用 AI 分析创始人路演视频、从财报电话会议中提取关键信息，帮助华尔街精英掌握 AI 工具的实际应用。
+
+[原文链接](https://mp.weixin.qq.com/s/qkT4Alyza-ZayT-CW4aXtg)
+
+**快手可灵提出VLM-as-Teacher：用测试时在线优化，让视频生成模型学会按规则推理**
+
+快手可灵联合城市大学提出 VLM-as-Teacher 方法，让视觉语言模型在测试时充当"老师"，将过程约束和最终目标转化为可优化的监督信号，使视频生成模型学会按规则推理，解决迷宫导航、物体变换等需要中间过程合法性的任务。
+
+[原文链接](https://mp.weixin.qq.com/s/ztKqpjJJKuyDQSA3xRMgOg)
+
 ## Official Blogs
 
-### Google AI Blog: The Latest AI News from May 2026
-Google AI Blog published a roundup of all AI announcements from May 2026, covering the latest updates across Google's AI portfolio.
+### NVIDIA and LG Group: Building an AI Factory for Physical AI and Mobility
+NVIDIA and LG Group are building an AI factory to accelerate LG’s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies, and GPU cloud services. The collaboration brings together NVIDIA’s full-stack AI factory platform with LG Group’s global leadership in consumer electronics and industrial manufacturing.
 
-> Google AI Blog 发布了 2026 年 5 月 AI 公告汇总，涵盖 Google AI 产品线的最新动态。
+> NVIDIA 与 LG Group 合作建设 AI 工厂，加速机器、自动驾驶、数据中心和 GPU 云服务等领域的 AI 应用，将 NVIDIA 全栈 AI 工厂平台与 LG 的全球制造业优势结合。
 
-[原文链接](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/)
+[原文链接](https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/)
 
 ### NVIDIA & Doosan Group: Advancing Physical AI and AI Factory Infrastructure
 NVIDIA and Doosan Group are expanding their collaboration across physical AI, robotics, and AI factory infrastructure. Doosan Robotics is integrating NVIDIA Isaac Sim, Isaac Lab, Cosmos, and Jetson Thor into its Agentic Robot OS — aiming to evolve from a robot arm provider into a full-stack AI-first robotics company. Doosan Enerbility is exploring power solutions for NVIDIA AI factories (including gas turbines and small modular reactors), while Doosan Electro-Materials supplies advanced PCB materials for the NVIDIA MGX ecosystem.
@@ -150,6 +181,13 @@ Jensen Huang's Seoul visit covered sovereign AI infrastructure, robotics, and ga
 [原文链接](https://blogs.nvidia.com/blog/korea-ecosystem-2026/)
 
 ## Podcasts
+
+### The Rise of the Full-Stack Builder and Hyper-Leverage
+**No Priors** | Microsoft Build 特别节目 | [Listen](https://traffic.megaphone.fm/PDP8130248763.mp3)
+
+Sarah Guo 和 Elad Gil 联合 Latent Space 主持人 swyx，在 Microsoft Build 上专访微软 CEO Satya Nadella，深入讨论 AI 平台未来、软件开发变革、全栈构建者的崛起以及超级杠杆效应。
+
+> 微软 CEO Satya Nadella 在 Microsoft Build 上畅谈 AI 平台的未来：全栈构建者正在崛起，AI 正成为软件开发的超级杠杆。
 
 ### Breaking down the 2026 Stanford AI Index Report
 **Practical AI** | 2026-06-04 | [Listen](https://share.transistor.fm/s/302b36f8)
