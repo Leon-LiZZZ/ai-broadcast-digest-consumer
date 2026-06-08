@@ -57,7 +57,54 @@ Having been through two IPOs (Meta and Dropbox), Aditya reflects that fabulous w
 
 > "把你的 agent 带到应用里"将成为下一波潮流——用户越来越希望 AI agent 能代表他们直接与 App 交互，包括日程安排、日历访问等。
 
+## 国内新闻源
+
+### 机器之心
+
+**阿里RTPurboV2：原生Transformer再次崛起，百步训练实现10倍稀疏注意**
+
+> 阿里提出 RTPurboV2，证明原生 Transformer 在稀疏注意力场景下重新崛起，仅百步训练即可实现 10 倍稀疏注意加速。
+
+[原文链接](https://mp.weixin.qq.com/s/cx1Mgkp4RJc-kiUuhPNGIg)
+
+**作为一个招蚊体质，这是我第一个真心支持的AI项目**
+
+> 一位招蚊体质的作者分享了对某 AI 驱蚊项目的真心支持，探讨 AI 在日常生活场景中的创新应用。
+
+[原文链接](https://mp.weixin.qq.com/s/zteuRpo1nJNxky2ix3Dbag)
+
+**解锁Agent Swarm新潜力，openJiuwen又一力作：多智能体流网络**
+
+> openJiuwen 发布多智能体流网络，解锁 Agent Swarm 新潜力，探索多 agent 协作的流式网络架构。
+
+[原文链接](https://mp.weixin.qq.com/s/Eleh8ZlAVYpgV_4MCq_2vQ)
+
+**连续入选ICRA最佳论文，RoboScience机器科学如何突破具身智能泛化瓶颈？**
+
+> RoboScience 连续入选 ICRA 最佳论文，探讨如何突破具身智能的泛化瓶颈，推动机器科学前沿。
+
+[原文链接](https://mp.weixin.qq.com/s/DjQL_fBenrHlf_sNGeljzw)
+
+**AI真能学会心算？隐式思维链首次得到理论证明，Stuart Russell参与**
+
+> 隐式思维链（Implicit Chain-of-Thought）首次获得理论证明，AI 能否真正学会"心算"？Stuart Russell 参与此项研究。
+
+[原文链接](https://mp.weixin.qq.com/s/v7aE9ygPhV_P6nFeZeyp6A)
+
+**ICML 2026｜FusionRoute：从专家路由到自我修正，一种新的多LLM协作范式**
+
+> ICML 2026 收录论文 FusionRoute 提出从专家路由到自我修正的多 LLM 协作新范式。
+
+[原文链接](https://mp.weixin.qq.com/s/NJMuozbsMgG7vDEX9Nbh9Q)
+
 ## Official Blogs
+
+### Google AI Blog: The Latest AI News from May 2026
+Google AI Blog published a roundup of all AI announcements from May 2026, covering the latest updates across Google's AI portfolio.
+
+> Google AI Blog 发布了 2026 年 5 月 AI 公告汇总，涵盖 Google AI 产品线的最新动态。
+
+[原文链接](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/)
 
 ### NVIDIA & Doosan Group: Advancing Physical AI and AI Factory Infrastructure
 NVIDIA and Doosan Group are expanding their collaboration across physical AI, robotics, and AI factory infrastructure. Doosan Robotics is integrating NVIDIA Isaac Sim, Isaac Lab, Cosmos, and Jetson Thor into its Agentic Robot OS — aiming to evolve from a robot arm provider into a full-stack AI-first robotics company. Doosan Enerbility is exploring power solutions for NVIDIA AI factories (including gas turbines and small modular reactors), while Doosan Electro-Materials supplies advanced PCB materials for the NVIDIA MGX ecosystem.

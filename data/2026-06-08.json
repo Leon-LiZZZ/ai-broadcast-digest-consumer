@@ -1,11 +1,22 @@
 {
   "status": "ok",
-  "generatedAt": "2026-06-08T02:06:23.676Z",
+  "generatedAt": "2026-06-08T02:46:02.683Z",
   "date": "2026-06-08",
   "config": {
     "language": "auto"
   },
   "blogs": [
+    {
+      "source": "blog",
+      "name": "Google AI Blog",
+      "title": "The latest AI news we announced in May 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "publishedAt": "2026-06-05T14:45:00.000Z",
+      "category": "international",
+      "author": "",
+      "description": "Here are Google’s latest AI updates from May 2026",
+      "content": "The latest AI news we announced in May 2026"
+    },
     {
       "source": "blog",
       "name": "NVIDIA",
@@ -37,7 +48,73 @@
       "category": "international",
       "author": "",
       "description": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live […]",
-      "content": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live updates.Sunday, June 6, 10 a.m. PTFirst Pitch for the Doosan BearsSunday at Jamsil Stadium in Seoul, NVIDIA founder and CEO Jensen Huang threw out the first pitch for the mighty Doosan Bears, joined by Doosan Group chairman Park Jeong-won on the field.&nbsp;Saturday, June 6, 11 p.m. PTNVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC BangsOn Friday in Seoul, Huang headed to T1 Base Camp — a PC bang owned by T1, one of Korea’s top esports teams. There, he met with T1’s reigning League of Legends World Champion team, including six-time World Champion Lee “Faker” Sang-hyeok to unveil RTX Spark.Today, Huang headed to Seoul’s Gangnam district, where he surprised PC-bang gamers with a first look at RTX Spark with KRAFTON and NC.At the first stop, Optimum Zone PC, Huang and KRAFTON Chairman Byung-gyu Chang showcased PUBG: BATTLEGROUNDS and Subnautica 2 on RTX Spark to a captivated crowd of gamers.Next, Huang stopped at another PC bang, Portal PC, where he showcased NC’s CINDER CITY and AION 2 on RTX Spark, with support from Taekjin Kim, co-CEO of NC.Read more. Thursday, June 4, 10:30 p.m. PT Touchdown in SeoulOn the heels of GTC Taipei at COMPUTEX, NVIDIA founder and CEO Jensen Huang touched down in Seoul Friday afternoon, greeted by fans and media as his visit got underway.A key focus of the trip, Huang said: to align the AI supply chain ahead of a busy second half of the year.“We have a very significant, very large AI infrastructure buildout — already a very successful first half,” Huang told media. “Grace Blackwell, our system, is doing very well, and Vera Rubin is in full production — so we are going to be very busy the second half [of the year].”Huang also touched on the huge potential for robotics and physical AI in Korea.“Robotics is going to be the next major sector here in Korea — this is a great opportunity for Korea to invest in AI,” he said.From memory manufacturing to robotics and gaming, Huang is off to a packed schedule with partners — but not without leaving time to enjoy some Korean fried chicken and BBQ. “It’s all delicious,” Huang said."
+      "content": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Stay tuned here for live updates.Sunday, June 7, 7:30 p.m. PT NVIDIA and SK PartnershipSpeaking with reporters in Seoul, NVIDIA CEO Jensen Huang and SK Group Chairman Chey Tae-won outlined an expanded AI partnership. This builds on a multiyear partnership announced today to codevelop memory for four NVIDIA platforms spanning AI infrastructure, personal AI and physical AI.NVIDIA’s work with SK also extends to AI infrastructure. SK Telecom plans to build a gigawatt-scale AI Cloud in Korea using the NVIDIA DSX platform to support sovereign, physical and agentic AI services.Sunday, June 6, 10 a.m. PTFirst Pitch for the Doosan BearsSunday at Jamsil Stadium in Seoul, NVIDIA founder and CEO Jensen Huang threw out the first pitch for the mighty Doosan Bears, joined by Doosan Group chairman Park Jeong-won on the field.The event underscored the two companies’ collaboration, which is expanding to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Corporation Electro-Materials BG.The collaboration will bring together NVIDIA’s full-stack accelerated computing platforms with Doosan Group’s capabilities in industrial automation, power generation and advanced electronics materials to support next-generation AI infrastructure.Saturday, June 6, 11 p.m. PTNVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC BangsOn Friday in Seoul, Huang headed to T1 Base Camp — a PC bang owned by T1, one of Korea’s top esports teams. There, he met with T1’s reigning League of Legends World Champion team, including six-time World Champion Lee “Faker” Sang-hyeok to unveil RTX Spark.Today, Huang headed to Seoul’s Gangnam district, where he surprised PC-bang gamers with a first look at RTX Spark with KRAFTON and NC.At the first stop, Optimum Zone PC, Huang and KRAFTON Chairman Byung-gyu Chang showcased PUBG: BATTLEGROUNDS and Subnautica 2 on RTX Spark to a captivated crowd of gamers.Next, Huang stopped at another PC bang, Portal PC, where he showcased NC’s CINDER CITY and AION 2 on RTX Spark, with support from Taekjin Kim, co-CEO of NC.Read more. Thursday, June 4, 10:30 p.m. PT Touchdown in SeoulOn the heels of GTC Taipei at COMPUTEX, NVIDIA founder and CEO Jensen Huang touched down in Seoul Friday afternoon, greeted by fans and media as his visit got underway.A key focus of the trip, Huang said: to align the AI supply chain ahead of a busy second half of the year.“We have a very significant, very large AI infrastructure buildout — already a very successful first half,” Huang told media. “Grace Blackwell, our system, is doing very well, and Vera Rubin is in full production — so we are going to be very busy the second half [of the year].”Huang also touched on the huge potential for robotics and physical AI in Korea.“Robotics is going to be the next major sector here in Korea — this is a great opportunity for Korea to invest in AI,” he said.From memory manufacturing to robotics and gaming, Huang is off to a packed schedule with partners — but not without leaving time to enjoy some Korean fried chicken and BBQ. “It’s all delicious,” Huang said."
+    },
+    {
+      "source": "blog",
+      "name": "机器之心",
+      "title": "阿里RTPurboV2：原生Transformer再次崛起，百步训练实现10倍稀疏注意",
+      "url": "https://mp.weixin.qq.com/s/cx1Mgkp4RJc-kiUuhPNGIg",
+      "publishedAt": "2026-06-08T02:07:04.000Z",
+      "category": "domestic",
+      "author": "",
+      "description": "",
+      "content": "阿里RTPurboV2：原生Transformer再次崛起，百步训练实现10倍稀疏注意"
+    },
+    {
+      "source": "blog",
+      "name": "机器之心",
+      "title": "作为一个招蚊体质，这是我第一个真心支持的AI项目",
+      "url": "https://mp.weixin.qq.com/s/zteuRpo1nJNxky2ix3Dbag",
+      "publishedAt": "2026-06-08T02:07:04.000Z",
+      "category": "domestic",
+      "author": "",
+      "description": "",
+      "content": "作为一个招蚊体质，这是我第一个真心支持的AI项目"
+    },
+    {
+      "source": "blog",
+      "name": "机器之心",
+      "title": "解锁Agent Swarm新潜力，openJiuwen又一力作：多智能体流网络",
+      "url": "https://mp.weixin.qq.com/s/Eleh8ZlAVYpgV_4MCq_2vQ",
+      "publishedAt": "2026-06-08T02:07:04.000Z",
+      "category": "domestic",
+      "author": "",
+      "description": "",
+      "content": "解锁Agent Swarm新潜力，openJiuwen又一力作：多智能体流网络"
+    },
+    {
+      "source": "blog",
+      "name": "机器之心",
+      "title": "连续入选ICRA最佳论文，RoboScience机器科学如何突破具身智能泛化瓶颈？",
+      "url": "https://mp.weixin.qq.com/s/DjQL_fBenrHlf_sNGeljzw",
+      "publishedAt": "2026-06-07T03:30:56.000Z",
+      "category": "domestic",
+      "author": "",
+      "description": "",
+      "content": "连续入选ICRA最佳论文，RoboScience机器科学如何突破具身智能泛化瓶颈？"
+    },
+    {
+      "source": "blog",
+      "name": "机器之心",
+      "title": "AI真能学会心算？隐式思维链首次得到理论证明，Stuart Russell参与",
+      "url": "https://mp.weixin.qq.com/s/v7aE9ygPhV_P6nFeZeyp6A",
+      "publishedAt": "2026-06-07T03:30:56.000Z",
+      "category": "domestic",
+      "author": "",
+      "description": "",
+      "content": "AI真能学会心算？隐式思维链首次得到理论证明，Stuart Russell参与"
+    },
+    {
+      "source": "blog",
+      "name": "机器之心",
+      "title": "ICML 2026｜FusionRoute：从专家路由到自我修正，一种新的多LLM协作范式",
+      "url": "https://mp.weixin.qq.com/s/NJMuozbsMgG7vDEX9Nbh9Q",
+      "publishedAt": "2026-06-07T03:30:56.000Z",
+      "category": "domestic",
+      "author": "",
+      "description": "",
+      "content": "ICML 2026｜FusionRoute：从专家路由到自我修正，一种新的多LLM协作范式"
     }
   ],
   "x": [
@@ -63,6 +140,18 @@
       "author": "",
       "description": "Most engineering processes were built for teams shipping 10 to 15 PRs a month.@kunchenguid, ex-Meta L8 engineer, is now shipping 40+ PRs a day with agents. That breaks a lot of existing processes behind:→ Code review &amp; QA→ Merge gates and team handoffsWhen output jumps 10x, the old workflows starts to crack.The answer is to build systems that streamline planning, validation, review, and merging as much as possible.📌 Watch him talk more about it here:https://www.youtube.com/watch?v=88B6DimMD",
       "content": "Most engineering processes were built for teams shipping 10 to 15 PRs a month.@kunchenguid, ex-Meta L8 engineer, is now shipping 40+ PRs a day with agents. That breaks a lot of existing processes behind:→ Code review &amp; QA→ Merge gates and team handoffsWhen output jumps 10x, the old workflows starts to crack.The answer is to build systems that streamline planning, validation, review, and merging as much as possible.📌 Watch him talk more about it here:https://www.youtube.com/watch?v=88B6DimMD2g&amp;t=2626sPeter Yang: \"If you're still manually reviewing every line of code, you're the bottleneck.\"Here's my new episode with @kunchenguid, an ex-Meta L8 engineer who now ships up to 40 PRs a day with AI agents. Instead of manually reviewing code, he built an agentic engineering system that",
+      "handle": "petergyang"
+    },
+    {
+      "source": "x",
+      "name": "Peter Yang",
+      "title": "RT Peter Yang: \"If you're still manually reviewing every line of code, you're the bottleneck.\" Here's my new episode with @kunchenguid, an ex-Meta L8 ...",
+      "url": "https://x.com/petergyang/status/2063808349133799521",
+      "publishedAt": "2026-06-07T14:15:00.000Z",
+      "category": "international",
+      "author": "",
+      "description": "RT Peter Yang\"If you're still manually reviewing every line of code, you're the bottleneck.\"Here's my new episode with @kunchenguid, an ex-Meta L8 engineer who now ships up to 40 PRs a day with AI agents. Instead of manually reviewing code, he built an agentic engineering system that includes:✅ Lavish, his free tool for annotating AI's plans as visual HTML artifacts✅ gnhf or \"good night, have fun,\" his free orchestrator to get agents working towards a goal while you sleep✅ No Mistakes, his free ",
+      "content": "RT Peter Yang\"If you're still manually reviewing every line of code, you're the bottleneck.\"Here's my new episode with @kunchenguid, an ex-Meta L8 engineer who now ships up to 40 PRs a day with AI agents. Instead of manually reviewing code, he built an agentic engineering system that includes:✅ Lavish, his free tool for annotating AI's plans as visual HTML artifacts✅ gnhf or \"good night, have fun,\" his free orchestrator to get agents working towards a goal while you sleep✅ No Mistakes, his free AI code validation pipeline for catching errors before mergeSome quotes from Kun:\"If I spend a lot of time crafting detailed plans, then the agents can work for much longer.\"\"Every time I encounter friction in my workflow and I don't find an existing tool that can solve the problem, I just build something myself.\"\"To really scale how much we can get from the agents, we have to move ourselves out of the loop as much as possible.\"📌 Watch now: https://youtu.be/88B6DimMD2gLinks to Kun's free agentic engineering tools below 👇",
       "handle": "petergyang"
     },
     {
@@ -471,11 +560,11 @@
     }
   ],
   "stats": {
-    "blogPosts": 3,
-    "domesticBlogPosts": 0,
-    "internationalBlogPosts": 3,
+    "blogPosts": 10,
+    "domesticBlogPosts": 6,
+    "internationalBlogPosts": 4,
     "rssBlogSources": 9,
-    "xTweets": 26,
+    "xTweets": 27,
     "xAccounts": 25,
     "podcastEpisodes": 1,
     "podcastSources": 4
@@ -489,13 +578,11 @@
   },
   "errors": [
     "Blog OpenAI: no items parsed",
-    "Blog Google AI Blog: fetch failed",
     "Blog Google DeepMind: fetch failed",
     "Blog Meta Engineering: no items parsed",
     "Blog Cohere: no items parsed",
     "Blog Hugging Face: fetch failed",
     "Blog Anthropic: fetch failed",
-    "Blog 机器之心: no items parsed",
     "X @karpathy: no items parsed",
     "X @swyx: no items parsed",
     "X @joshwoodward: no items parsed",
